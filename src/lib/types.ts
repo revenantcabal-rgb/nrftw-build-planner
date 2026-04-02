@@ -12,7 +12,8 @@ export type EquipSlot =
   | "hands"
   | "legs"
   | "ring1"
-  | "ring2";
+  | "ring2"
+  | "ring3";
 
 export interface GameItem {
   id: string;

@@ -55,9 +55,9 @@ async function main() {
     const HAND_TYPES = {1:'one-handed',2:'two-handed',4:'dual-wielding',5:'two-handed'};
     const RARITY = {0:'common',1:'uncommon',2:'rare',3:'epic',4:'exalted'};
     const DAMAGE_SCHOOLS = {0:'physical',1:'fire',2:'ice',3:'lightning',4:'holy',5:'plague',9:'physical',10:'mixed'};
-    const ARMOR_SLOTS = {1:'head',2:'chest',4:'hands',8:'legs'};
-    const ARMOR_MATERIALS = {1:'cloth',2:'leather',4:'mesh',8:'plate'};
-    const SHIELD_TYPES = {1:'light',2:'medium',4:'great'};
+    const ARMOR_SLOTS = {1:'head',2:'chest',3:'legs',4:'hands'};
+    const ARMOR_MATERIALS = {1:'cloth',2:'leather',3:'mesh',4:'plate'};
+    const SHIELD_TYPES = {31:'light',33:'medium',34:'great'};
 
     // Weapons
     const weapons = Object.entries(db.weapons).map(([id, w]) => {
@@ -80,8 +80,8 @@ async function main() {
       const d = a.data;
       return {
         id: d.identifier, name: t(a.name), description: t(a.description), icon: a.icon,
-        armorSlot: ARMOR_SLOTS[d.itemType?.armorSlot] || 'unknown',
-        material: ARMOR_MATERIALS[d.itemType?.armorMaterial] || 'unknown',
+        armorSlot: ARMOR_SLOTS[d.itemType?.armorType] || 'unknown',
+        material: ARMOR_MATERIALS[d.itemType?.materialType] || 'unknown',
         rarity: d.uniqueItemConfig ? RARITY[d.uniqueItemConfig.rarity] || 'common' : 'common',
         isUnique: !!d.uniqueItemConfig, dropLevel: d.dropLevel, sellValue: d.baseItemValue,
         baseAttributes: d.baseAttributes,

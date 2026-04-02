@@ -22,6 +22,7 @@ interface PickerItem {
 interface ItemPickerModalProps {
   items: PickerItem[];
   title: string;
+  typeOptions?: string[];
   onSelect: (item: PickerItem) => void;
   onClose: () => void;
 }
@@ -29,20 +30,36 @@ interface ItemPickerModalProps {
 export default function ItemPickerModal({
   items,
   title,
+  typeOptions = [],
   onSelect,
   onClose,
 }: ItemPickerModalProps) {
   const [search, setSearch] = useState("");
+  const [typeFilter, setTypeFilter] = useState("all");
 
   const filtered = useMemo(() => {
-    if (!search) return items;
-    const q = search.toLowerCase();
-    return items.filter(
-      (i) =>
-        i.name?.toLowerCase().includes(q) ||
-        i.description?.toLowerCase().includes(q)
-    );
-  }, [items, search]);
+    return items.filter((i) => {
+      // Search filter
+      if (search) {
+        const q = search.toLowerCase();
+        if (
+          !i.name?.toLowerCase().includes(q) &&
+          !i.description?.toLowerCase().includes(q)
+        )
+          return false;
+      }
+      // Type filter
+      if (typeFilter !== "all") {
+        if (typeFilter.endsWith("_shield")) {
+          if (i.shieldType !== typeFilter.replace("_shield", "")) return false;
+        } else {
+          const itemType = i.weaponType || i.material || "";
+          if (itemType !== typeFilter) return false;
+        }
+      }
+      return true;
+    });
+  }, [items, search, typeFilter]);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -66,6 +83,35 @@ export default function ItemPickerModal({
             autoFocus
             className="w-full px-3 py-2 bg-bg-card border border-border-subtle rounded text-sm text-text-primary placeholder:text-text-secondary/50 focus:outline-none focus:border-accent-gold/60"
           />
+          {typeOptions.length > 1 && (
+            <div className="flex flex-wrap gap-1.5 mt-3">
+              <button
+                onClick={() => setTypeFilter("all")}
+                className={`px-2.5 py-1 rounded text-xs transition-colors ${
+                  typeFilter === "all"
+                    ? "bg-accent-gold/20 text-text-gold border border-accent-gold/40"
+                    : "bg-bg-card text-text-secondary border border-border-subtle hover:text-text-primary"
+                }`}
+              >
+                All
+              </button>
+              {typeOptions.map((t) => (
+                <button
+                  key={t}
+                  onClick={() => setTypeFilter(t)}
+                  className={`px-2.5 py-1 rounded text-xs transition-colors ${
+                    typeFilter === t
+                      ? "bg-accent-gold/20 text-text-gold border border-accent-gold/40"
+                      : "bg-bg-card text-text-secondary border border-border-subtle hover:text-text-primary"
+                  }`}
+                >
+                  {t.endsWith("_shield")
+                    ? formatWeaponType(t.replace("_shield", "")) + " Shield"
+                    : formatWeaponType(t)}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         <div className="flex-1 overflow-y-auto p-2">

@@ -1,4 +1,7 @@
-import { SPRITE_URL, getIconPosition } from "@/lib/icons";
+"use client";
+
+import { useEffect, useState } from "react";
+import { getIconInfo, preloadIcons, ICON_CELL_SIZE } from "@/lib/icons";
 
 interface ItemIconProps {
   icon?: string;
@@ -6,13 +9,48 @@ interface ItemIconProps {
   className?: string;
 }
 
-export default function ItemIcon({ icon, size = 48, className = "" }: ItemIconProps) {
-  const pos = getIconPosition(icon);
+let iconsLoaded = false;
+let loadPromise: Promise<void> | null = null;
 
-  if (!pos) {
+function ensureIcons(): Promise<void> {
+  if (iconsLoaded) return Promise.resolve();
+  if (!loadPromise) {
+    loadPromise = preloadIcons().then(() => {
+      iconsLoaded = true;
+    });
+  }
+  return loadPromise;
+}
+
+export default function ItemIcon({
+  icon,
+  size = 48,
+  className = "",
+}: ItemIconProps) {
+  const [ready, setReady] = useState(iconsLoaded);
+
+  useEffect(() => {
+    if (!iconsLoaded) {
+      ensureIcons().then(() => setReady(true));
+    }
+  }, []);
+
+  if (!ready || !icon) {
     return (
       <div
-        className={`bg-bg-secondary rounded border border-border-subtle flex items-center justify-center text-text-secondary/30 ${className}`}
+        className={`bg-bg-secondary rounded border border-border-subtle flex items-center justify-center text-text-secondary/30 shrink-0 ${className}`}
+        style={{ width: size, height: size }}
+      >
+        {icon ? "" : "?"}
+      </div>
+    );
+  }
+
+  const info = getIconInfo(icon);
+  if (!info) {
+    return (
+      <div
+        className={`bg-bg-secondary rounded border border-border-subtle flex items-center justify-center text-text-secondary/30 shrink-0 ${className}`}
         style={{ width: size, height: size }}
       >
         ?
@@ -20,8 +58,7 @@ export default function ItemIcon({ icon, size = 48, className = "" }: ItemIconPr
     );
   }
 
-  const [x, y, w, h] = pos;
-  const scale = size / w;
+  const scale = size / ICON_CELL_SIZE;
 
   return (
     <div
@@ -30,12 +67,11 @@ export default function ItemIcon({ icon, size = 48, className = "" }: ItemIconPr
     >
       <div
         style={{
-          backgroundImage: `url(${SPRITE_URL})`,
-          backgroundPosition: `${x * scale}px ${y * scale}px`,
-          backgroundSize: `${1934 * scale}px ${2450 * scale}px`,
+          backgroundImage: `url(${info.spriteUrl})`,
+          backgroundPosition: `${info.x * scale}px ${info.y * scale}px`,
+          backgroundSize: `${info.spriteWidth * scale}px ${info.spriteHeight * scale}px`,
           width: size,
           height: size,
-          imageRendering: "auto",
         }}
       />
     </div>

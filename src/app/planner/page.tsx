@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { getWeapons, getArmors, getShields, getTrinkets } from "@/lib/data";
+import { getWeapons, getArmors, getShields, getTrinkets, formatWeaponType } from "@/lib/data";
 import { EQUIP_SLOT_LABELS } from "@/lib/constants";
 import { RARITY_TEXT } from "@/lib/constants";
 import { getBuildFromUrl, setBuildInUrl, type BuildState } from "@/lib/codec";
@@ -33,6 +33,7 @@ const SLOT_CATEGORIES: Record<EquipSlot, string[]> = {
   legs: ["armors"],
   ring1: ["trinkets"],
   ring2: ["trinkets"],
+  ring3: ["trinkets"],
 };
 
 const SLOT_ORDER: EquipSlot[] = [
@@ -44,6 +45,7 @@ const SLOT_ORDER: EquipSlot[] = [
   "legs",
   "ring1",
   "ring2",
+  "ring3",
 ];
 
 export default function PlannerPage() {
@@ -57,6 +59,7 @@ export default function PlannerPage() {
     legs: null,
     ring1: null,
     ring2: null,
+    ring3: null,
   });
   const [itemPools, setItemPools] = useState<ItemPool>({});
   const [activeSlot, setActiveSlot] = useState<EquipSlot | null>(null);
@@ -113,7 +116,7 @@ export default function PlannerPage() {
     if (!loading) saveBuild();
   }, [saveBuild, loading]);
 
-  // Get items for a slot (filter armors by slot)
+  // Get items for a slot
   function getItemsForSlot(slot: EquipSlot): SlotItem[] {
     const categories = SLOT_CATEGORIES[slot];
     const items: SlotItem[] = [];
@@ -130,11 +133,40 @@ export default function PlannerPage() {
         if (armorSlot) {
           items.push(...pool.filter((i) => i.armorSlot === armorSlot));
         }
+      } else if (cat === "weapons" && slot === "offhand") {
+        // Off-hand: only one-handed weapons and dual-wielding
+        items.push(
+          ...pool.filter(
+            (i) => i.handling === "one-handed" || i.handling === "dual-wielding"
+          )
+        );
       } else {
         items.push(...pool);
       }
     }
     return items;
+  }
+
+  // Get unique weapon types for the picker filter
+  function getTypesForSlot(slot: EquipSlot): string[] {
+    if (slot === "weapon" || slot === "offhand") {
+      const items = getItemsForSlot(slot);
+      const types = new Set<string>();
+      items.forEach((i) => {
+        if (i.weaponType) types.add(i.weaponType);
+        if (i.shieldType) types.add(i.shieldType + "_shield");
+      });
+      return Array.from(types).sort();
+    }
+    if (["head", "chest", "hands", "legs"].includes(slot)) {
+      const items = getItemsForSlot(slot);
+      const mats = new Set<string>();
+      items.forEach((i) => {
+        if (i.material) mats.add(i.material);
+      });
+      return Array.from(mats).sort();
+    }
+    return [];
   }
 
   function handleSelect(item: SlotItem) {
@@ -159,8 +191,8 @@ export default function PlannerPage() {
       <div className="p-6 md:p-10">
         <div className="animate-pulse space-y-4">
           <div className="h-10 bg-bg-card rounded w-64" />
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {Array.from({ length: 8 }).map((_, i) => (
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {Array.from({ length: 9 }).map((_, i) => (
               <div key={i} className="h-32 bg-bg-card rounded-lg" />
             ))}
           </div>
@@ -170,7 +202,7 @@ export default function PlannerPage() {
   }
 
   return (
-    <div className="p-6 md:p-10 max-w-4xl mx-auto">
+    <div className="p-6 md:p-10 max-w-5xl mx-auto">
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-3xl font-bold text-text-gold mb-2">
@@ -193,7 +225,7 @@ export default function PlannerPage() {
       </div>
 
       {/* Equipment Slots Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
         {SLOT_ORDER.map((slot) => {
           const item = slots[slot];
           return (
@@ -263,7 +295,7 @@ export default function PlannerPage() {
           })}
         </div>
         <div className="mt-4 pt-4 border-t border-border-subtle text-xs text-text-secondary">
-          Items equipped: {SLOT_ORDER.filter((s) => slots[s]).length} / 8
+          Items equipped: {SLOT_ORDER.filter((s) => slots[s]).length} / {SLOT_ORDER.length}
         </div>
       </div>
 
@@ -272,6 +304,7 @@ export default function PlannerPage() {
         <ItemPickerModal
           items={getItemsForSlot(activeSlot)}
           title={`Select ${EQUIP_SLOT_LABELS[activeSlot]}`}
+          typeOptions={getTypesForSlot(activeSlot)}
           onSelect={handleSelect}
           onClose={() => setActiveSlot(null)}
         />

@@ -10,6 +10,7 @@ export interface BuildState {
   legs?: string;
   ring1?: string;
   ring2?: string;
+  ring3?: string;
 }
 
 export function encodeBuild(build: BuildState): string {

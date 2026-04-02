@@ -44,4 +44,5 @@ export const EQUIP_SLOT_LABELS: Record<string, string> = {
   legs: "Legs",
   ring1: "Ring 1",
   ring2: "Ring 2",
+  ring3: "Ring 3",
 };
