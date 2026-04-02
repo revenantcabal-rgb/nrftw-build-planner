@@ -15,10 +15,13 @@ interface SlotItem {
   icon?: string;
   rarity?: Rarity;
   weaponType?: string;
+  weaponClass?: number;
   handling?: string;
   material?: string;
   armorSlot?: string;
   shieldType?: string;
+  damageType?: string;
+  dropLevel?: number;
   description?: string;
 }
 
@@ -66,11 +69,15 @@ export default function PlannerPage() {
     intelligence: 10, faith: 10, focus: 10, equipLoad: 10,
   });
   const [itemPools, setItemPools] = useState<ItemPool>({});
-  const [runePool, setRunePool] = useState<{ id: string; name: string; icon?: string }[]>([]);
+  const [runePool, setRunePool] = useState<{ id: string; name: string; icon?: string; isUtility?: boolean; compatibleClasses?: number[] }[]>([]);
   const [gemPool, setGemPool] = useState<{ id: string; name: string; icon?: string }[]>([]);
+  const [utilityRunes, setUtilityRunes] = useState<(null | { id: string; name: string; icon?: string })[]>([null, null, null, null]);
+  const [activeUtilitySlot, setActiveUtilitySlot] = useState<number | null>(null);
+  const [utilitySearch, setUtilitySearch] = useState("");
   const [activeSlot, setActiveSlot] = useState<EquipSlot | null>(null);
   const [configSlot, setConfigSlot] = useState<EquipSlot | null>(null);
-  const [slotConfigs, setSlotConfigs] = useState<Record<string, { runes: (null | { id: string; name: string; icon?: string })[]; facet: string | null; gem: null | { id: string; name: string; icon?: string }; enchantments: (string | null)[] }>>({});
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [slotConfigs, setSlotConfigs] = useState<Record<string, any>>({});
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
 
@@ -100,7 +107,7 @@ export default function PlannerPage() {
           shields: shields as SlotItem[],
           trinkets: trinkets as SlotItem[],
         });
-        setRunePool((runes as { id: string; name: string; icon?: string }[]).filter(r => r.name).sort((a, b) => a.name.localeCompare(b.name)));
+        setRunePool((runes as { id: string; name: string; icon?: string; isUtility?: boolean; compatibleClasses?: number[] }[]).filter(r => r.name).sort((a, b) => a.name.localeCompare(b.name)));
         setGemPool((gems as { id: string; name: string; icon?: string }[]).filter(g => g.name).sort((a, b) => a.name.localeCompare(b.name)));
         setLoading(false);
       }
@@ -145,7 +152,7 @@ export default function PlannerPage() {
 
   function getItemsForSlot(slot: EquipSlot): SlotItem[] {
     const categories = SLOT_CATEGORIES[slot];
-    const items: SlotItem[] = [];
+    let items: SlotItem[] = [];
     for (const cat of categories) {
       const pool = itemPools[cat] || [];
       if (cat === "armors") {
@@ -157,6 +164,14 @@ export default function PlannerPage() {
       } else {
         items.push(...pool);
       }
+    }
+    // Prevent duplicate rings - filter out rings already equipped in other ring slots
+    if (slot.startsWith("ring")) {
+      const otherRingSlots = SLOT_ORDER.filter((s) => s.startsWith("ring") && s !== slot);
+      const equippedRingIds = new Set(
+        otherRingSlots.map((s) => slots[s]?.id).filter(Boolean)
+      );
+      items = items.filter((i) => !equippedRingIds.has(i.id));
     }
     return items;
   }
@@ -348,10 +363,59 @@ export default function PlannerPage() {
               );
             })}
           </div>
+
+          {/* Utility Runes */}
+          <div className="mt-4 pt-4 border-t border-border-subtle">
+            <h2 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Utility Runes (Max: 4)</h2>
+            <div className="grid grid-cols-2 gap-2">
+              {utilityRunes.map((rune, i) => {
+                const isActive = activeUtilitySlot === i;
+                const utilityPool = runePool.filter(r => r.isUtility).filter(r =>
+                  utilitySearch ? r.name.toLowerCase().includes(utilitySearch.toLowerCase()) : true
+                );
+                return (
+                  <div key={i}>
+                    {isActive ? (
+                      <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-40 overflow-y-auto">
+                        <input type="text" placeholder="Search..." value={utilitySearch}
+                          onChange={(e) => setUtilitySearch(e.target.value)} autoFocus
+                          className="w-full px-2 py-1 bg-bg-primary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
+                        <button onClick={() => { setUtilityRunes(prev => { const n = [...prev]; n[i] = null; return n; }); setActiveUtilitySlot(null); }}
+                          className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">Clear</button>
+                        {utilityPool.map(r => (
+                          <button key={r.id} onClick={() => { setUtilityRunes(prev => { const n = [...prev]; n[i] = r; return n; }); setActiveUtilitySlot(null); }}
+                            className="w-full text-left px-2 py-1 text-xs text-text-primary hover:bg-bg-card-hover rounded flex items-center gap-2">
+                            <ItemIcon icon={r.icon} size={18} /><span className="truncate">{r.name}</span>
+                          </button>
+                        ))}
+                      </div>
+                    ) : (
+                      <button onClick={() => { setActiveUtilitySlot(i); setUtilitySearch(""); }}
+                        className={`w-full text-left p-2 rounded-lg border text-sm transition-colors ${
+                          rune ? "bg-bg-secondary border-border-subtle hover:border-accent-gold/40" : "bg-bg-secondary/50 border-border-subtle border-dashed hover:border-accent-gold/40"
+                        }`}>
+                        {rune ? (
+                          <div className="flex items-center gap-2">
+                            <ItemIcon icon={rune.icon} size={20} />
+                            <span className="text-xs text-text-primary truncate">{rune.name}</span>
+                          </div>
+                        ) : (
+                          <span className="text-xs text-text-secondary/50">+ Add Rune</span>
+                        )}
+                      </button>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
 
         {/* Right: Stat Summary */}
         <div className="space-y-4">
+          <div className="text-xs text-text-secondary/60 italic px-1">
+            Stats from attributes only. Equipment modifiers coming soon.
+          </div>
           {/* General */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">General</h3>
@@ -403,9 +467,12 @@ export default function PlannerPage() {
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Miscellaneous</h3>
             <StatRow label="Critical Damage Chance" value="0%" />
-            <StatRow label="Critical Damage" value="100%" valueColor="text-accent-gold" />
+            <StatRow label="Critical Damage" value="0%" />
             <StatRow label="Lifesteal" value="0%" />
             <StatRow label="Armor Penetration" value="0%" />
+            <StatRow label="Thorns" value="0%" />
+            <StatRow label="Regainable Health" value="0%" />
+            <StatRow label="Barrier Gain" value="0%" />
           </div>
         </div>
       </div>
@@ -424,14 +491,20 @@ export default function PlannerPage() {
       {/* Item Config Panel */}
       {configSlot && slots[configSlot] && (
         <ItemConfigPanel
-          item={slots[configSlot] as SlotItem & { damageType?: string; dropLevel?: number; baseAttributes?: number }}
+          item={slots[configSlot]!}
+          slotKey={configSlot}
           slotLabel={EQUIP_SLOT_LABELS[configSlot]}
-          config={slotConfigs[configSlot] || { runes: [null, null, null, null], facet: null, gem: null, enchantments: [null, null, null, null, null] }}
-          availableRunes={runePool}
-          availableGems={gemPool}
+          config={slotConfigs[configSlot] || { runes: [null, null, null, null], facet: null, gem: null }}
+          allRunes={runePool as { id: string; name: string; icon?: string; isUtility: boolean; compatibleClasses: number[] }[]}
+          allGems={gemPool}
           onConfigChange={(cfg) => setSlotConfigs((prev) => ({ ...prev, [configSlot]: cfg }))}
+          onChangeItem={() => {
+            setConfigSlot(null);
+            setActiveSlot(configSlot);
+          }}
           onRemoveItem={() => {
             setSlots((prev) => ({ ...prev, [configSlot]: null }));
+            setSlotConfigs((prev) => { const n = { ...prev }; delete n[configSlot]; return n; });
             setConfigSlot(null);
           }}
           onClose={() => setConfigSlot(null)}

@@ -1,4533 +1,5627 @@
 [
   {
     "id": "68574579388500304",
-    "name": "Enchant 500304",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "68574579388500304",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "254886316378824452"
+    }
   },
   {
     "id": "4197161442801355316",
-    "name": "Enchant 355316",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 11,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4197161442801355316",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 11,
+      "type": 1,
+      "modifierData": "4434421304653196034"
+    }
   },
   {
     "id": "160448717566816643",
-    "name": "Enchant 816643",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 11,
-    "itemType": 126,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "160448717566816643",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 126,
+      "twoHandedDoubleScaling": true,
+      "groupType": 11,
+      "type": 1,
+      "modifierData": "720094775915069755"
+    }
   },
   {
     "id": "2580275221136219804",
-    "name": "Enchant 219804",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 11,
-    "itemType": 126,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2580275221136219804",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 126,
+      "twoHandedDoubleScaling": true,
+      "groupType": 11,
+      "type": 1,
+      "modifierData": "3175340243274484125"
+    }
   },
   {
     "id": "2458951805918601679",
-    "name": "Enchant 601679",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2458951805918601679",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "1778270449091422436"
+    }
   },
   {
     "id": "1176118714536129781",
-    "name": "+(25% - 88%) Poise Damage",
-    "description": "+(25% - 88%) Poise Damage",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "25%",
-        "max": "88%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1176118714536129781",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "4533681228925838399"
+    }
   },
   {
     "id": "2602393728273342303",
-    "name": "Enchant 342303",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2602393728273342303",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "3338688761207228515"
+    }
   },
   {
     "id": "3769181694883021124",
-    "name": "+(15% - 53%) Poise Damage",
-    "description": "+(15% - 53%) Poise Damage",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "15%",
-        "max": "53%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3769181694883021124",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "4022066259701059351"
+    }
   },
   {
     "id": "3322205449414106395",
-    "name": "+(15% - 53%) Poise Damage",
-    "description": "+(15% - 53%) Poise Damage",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "15%",
-        "max": "53%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3322205449414106395",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "4251095092334721162"
+    }
   },
   {
     "id": "1390434211933069628",
-    "name": "Enchant 069628",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 4,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1390434211933069628",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 4,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "3821340889518435989"
+    }
   },
   {
     "id": "123149820754631326",
-    "name": "Enchant 631326",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "123149820754631326",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "4564723540426181619"
+    }
   },
   {
     "id": "3219363674119420800",
-    "name": "Enchant 420800",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3219363674119420800",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "1392684885496235408"
+    }
   },
   {
     "id": "1860457630110484608",
-    "name": "Enchant 484608",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 376,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1860457630110484608",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 376,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "1828012363203563324"
+    }
   },
   {
     "id": "3319992270820783659",
-    "name": "+(25% - 88%) Poise Damage",
-    "description": "+(25% - 88%) Poise Damage",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 320,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "25%",
-        "max": "88%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3319992270820783659",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 320,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "2283375128566806291"
+    }
   },
   {
     "id": "141786846719563829",
-    "name": "+(5% - 11%) Lightning Resistance",
-    "description": "+(5% - 11%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "5%",
-        "max": "11%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "141786846719563829",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "157657392366534013"
+    }
   },
   {
     "id": "2898190779762652338",
-    "name": "+(10% - 35%) Lightning Resistance",
-    "description": "+(10% - 35%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 320,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "10%",
-        "max": "35%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "2898190779762652338",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 320,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "509745211383594559"
+    }
   },
   {
     "id": "905438410423544804",
-    "name": "+(15% - 53%) Lightning Resistance",
-    "description": "+(15% - 53%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 70,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "15%",
-        "max": "53%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "905438410423544804",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 70,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "995987368074190233"
+    }
   },
   {
     "id": "3259975334745661055",
-    "name": "Enchant 661055",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3259975334745661055",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "1904628437640299124"
+    }
   },
   {
     "id": "275155830474365450",
-    "name": "+(10% - 35%) Lightning Resistance",
-    "description": "+(10% - 35%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 70,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "10%",
-        "max": "35%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "275155830474365450",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 70,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "2455661427275323767"
+    }
   },
   {
     "id": "4117922325176107746",
-    "name": "+(15% - 53%) Lightning Resistance",
-    "description": "+(15% - 53%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "15%",
-        "max": "53%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "4117922325176107746",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "1548269244612836108"
+    }
   },
   {
     "id": "652276808608685082",
-    "name": "+(10% - 35%) Lightning Resistance",
-    "description": "+(10% - 35%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "10%",
-        "max": "35%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "652276808608685082",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "4481350070601189494"
+    }
   },
   {
     "id": "3802283787789144467",
-    "name": "Enchant 144467",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3802283787789144467",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "4006649683106298992"
+    }
   },
   {
     "id": "1374164542058258853",
-    "name": "+(2% - 7%) Lightning Resistance",
-    "description": "+(2% - 7%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "2%",
-        "max": "7%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1374164542058258853",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "2774301970932565106"
+    }
   },
   {
     "id": "2787445361760649579",
-    "name": "Enchant 649579",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2787445361760649579",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "1737833519476275856"
+    }
   },
   {
     "id": "336874208890240808",
-    "name": "+(20% - 70%) Lightning Resistance",
-    "description": "+(20% - 70%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "20%",
-        "max": "70%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "336874208890240808",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "3458751452724076222"
+    }
   },
   {
     "id": "1171821572034496964",
-    "name": "+(4% - 14%) Lightning Resistance",
-    "description": "+(4% - 14%) Lightning Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "4%",
-        "max": "14%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1171821572034496964",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "1600127745574628084"
+    }
   },
   {
     "id": "1375090701219126801",
-    "name": "Enchant 126801",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1375090701219126801",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": false,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "43797146358623892"
+    }
   },
   {
     "id": "2976707567572710979",
-    "name": "Enchant 710979",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2976707567572710979",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "2136760795628824069"
+    }
   },
   {
     "id": "3622158574119851468",
-    "name": "Enchant 851468",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3622158574119851468",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "1743746354436780488"
+    }
   },
   {
     "id": "2156773335248526288",
-    "name": "Enchant 526288",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2156773335248526288",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "4037216488777213429"
+    }
   },
   {
     "id": "3561275186286800314",
-    "name": "Enchant 800314",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3561275186286800314",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "1442752353650159104"
+    }
   },
   {
     "id": "2429804356240963964",
-    "name": "Enchant 963964",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2429804356240963964",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "2521481600406087180"
+    }
   },
   {
     "id": "3975887487719119343",
-    "name": "Enchant 119343",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3975887487719119343",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "374689875754622522"
+    }
   },
   {
     "id": "3260532900391428185",
-    "name": "Enchant 428185",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3260532900391428185",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "4320285092204428898"
+    }
   },
   {
     "id": "310832720065259674",
-    "name": "Enchant 259674",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "310832720065259674",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "1982679856780921601"
+    }
   },
   {
     "id": "1291806590456789328",
-    "name": "Enchant 789328",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1291806590456789328",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "4450941816458906454"
+    }
   },
   {
     "id": "3783343248390287567",
-    "name": "Enchant 287567",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3783343248390287567",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "2409050942102580173"
+    }
   },
   {
     "id": "2487876705044619708",
-    "name": "Enchant 619708",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 5,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2487876705044619708",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 1,
+      "modifierData": "1853430730099396983"
+    }
   },
   {
     "id": "2474576236591434420",
-    "name": "Enchant 434420",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2474576236591434420",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "3248586854253347258"
+    }
   },
   {
     "id": "4102281642607810449",
-    "name": "+(40.0 - 140.0) Plague Resistance",
-    "description": "+(40.0 - 140.0) Plague Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 3,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "40.0",
-        "max": "140.0",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "4102281642607810449",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 1,
+      "modifierData": "3323155624213977241"
+    }
   },
   {
     "id": "781213389468198449",
-    "name": "Enchant 198449",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 3,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "781213389468198449",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 1,
+      "modifierData": "1050682707643136332"
+    }
   },
   {
     "id": "4469464698417662851",
-    "name": "Enchant 662851",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 8,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4469464698417662851",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 1,
+      "modifierData": "4289330044387861753"
+    }
   },
   {
     "id": "2760465371861477670",
-    "name": "Enchant 477670",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2760465371861477670",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "1500932760837935669"
+    }
   },
   {
     "id": "3263348051084684673",
-    "name": "Enchant 684673",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3263348051084684673",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 1,
+      "modifierData": "113416272790134171"
+    }
   },
   {
     "id": "4478134673948103019",
-    "name": "Enchant 103019",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4478134673948103019",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "3549403468993081849"
+    }
   },
   {
     "id": "4572200147298705481",
-    "name": "Enchant 705481",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 3,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4572200147298705481",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 1,
+      "modifierData": "2246947026305564296"
+    }
   },
   {
     "id": "866035120284851468",
-    "name": "Enchant 851468",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "866035120284851468",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "1751774072312109056"
+    }
   },
   {
     "id": "1401901151635670210",
-    "name": "Enchant 670210",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1401901151635670210",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "3295194747905369160"
+    }
   },
   {
     "id": "3685041529538720495",
-    "name": "Enchant 720495",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 12,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3685041529538720495",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 1,
+      "modifierData": "3830388770819873110"
+    }
   },
   {
     "id": "3989643241417372011",
-    "name": "+(15.0 - 77.5) Holy Resistance",
-    "description": "+(15.0 - 77.5) Holy Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 2,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "15.0",
-        "max": "77.5",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3989643241417372011",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 1,
+      "modifierData": "3479704145555075092"
+    }
   },
   {
     "id": "4252349245933246244",
-    "name": "Enchant 246244",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4252349245933246244",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 1,
+      "modifierData": "3166680609794470989"
+    }
   },
   {
     "id": "85587928017130460",
-    "name": "Enchant 130460",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "85587928017130460",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 1,
+      "modifierData": "2290445430357904192"
+    }
   },
   {
     "id": "3973775122351129201",
-    "name": "+(10.0 - 47.5) Holy Resistance",
-    "description": "+(10.0 - 47.5) Holy Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 2,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "10.0",
-        "max": "47.5",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3973775122351129201",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 1,
+      "modifierData": "674985732123374390"
+    }
   },
   {
     "id": "825688558733120311",
-    "name": "+(10.0 - 35.0) Holy Resistance",
-    "description": "+(10.0 - 35.0) Holy Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "10.0",
-        "max": "35.0",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "825688558733120311",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "3431384221997746992"
+    }
   },
   {
     "id": "676591323787550149",
-    "name": "+(15.0 - 52.5) Holy Resistance",
-    "description": "+(15.0 - 52.5) Holy Resistance",
-    "icon": "",
-    "type": "blue",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "15.0",
-        "max": "52.5",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "676591323787550149",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 1,
+      "modifierData": "1444140429078053643"
+    }
   },
   {
     "id": "3393755342878360114",
-    "name": "Enchant 360114",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3393755342878360114",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "1076952217325191066"
+    }
   },
   {
     "id": "695314268425002143",
-    "name": "Enchant 002143",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 3,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "695314268425002143",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 1,
+      "modifierData": "4347326315239874910"
+    }
   },
   {
     "id": "2079366201192790028",
-    "name": "Enchant 790028",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2079366201192790028",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "3465921474837131759"
+    }
   },
   {
     "id": "2665038271435744485",
-    "name": "Enchant 744485",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2665038271435744485",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "48355662361205353"
+    }
   },
   {
     "id": "1448570779839550122",
-    "name": "Enchant 550122",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1448570779839550122",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "3180401818752945694"
+    }
   },
   {
     "id": "4566438342392948994",
-    "name": "+100% Poise Damage",
-    "description": "+100% Poise Damage",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "100%",
-        "max": "100%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "4566438342392948994",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "3429473495716095146"
+    }
   },
   {
     "id": "2890083443687127095",
-    "name": "Enchant 127095",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2890083443687127095",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "2356996165550921328"
+    }
   },
   {
     "id": "4315814314206142739",
-    "name": "Enchant 142739",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 2,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4315814314206142739",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 1,
+      "modifierData": "3844564327406180612"
+    }
   },
   {
     "id": "4480402739810190886",
-    "name": "Enchant 190886",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4480402739810190886",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "3080192459738212416"
+    }
   },
   {
     "id": "1412362066535397316",
-    "name": "Enchant 397316",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1412362066535397316",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "2071152539715250256"
+    }
   },
   {
     "id": "2891026101781037310",
-    "name": "Enchant 037310",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2891026101781037310",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "1960983171466821761"
+    }
   },
   {
     "id": "2963387487935980473",
-    "name": "Enchant 980473",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 3,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2963387487935980473",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 1,
+      "modifierData": "4393160314640293367"
+    }
   },
   {
     "id": "351584701998127405",
-    "name": "Enchant 127405",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "351584701998127405",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "4287833698727673975"
+    }
   },
   {
     "id": "908351775523200153",
-    "name": "Enchant 200153",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 12,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "908351775523200153",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 1,
+      "modifierData": "3496319539834456107"
+    }
   },
   {
     "id": "795425922432727768",
-    "name": "Enchant 727768",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 10,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "795425922432727768",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 10,
+      "type": 1,
+      "modifierData": "3462071714840493400"
+    }
   },
   {
     "id": "580737158925793596",
-    "name": "Enchant 793596",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "580737158925793596",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "1476577584782055902"
+    }
   },
   {
     "id": "350843491077891269",
-    "name": "Enchant 891269",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 10,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "350843491077891269",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 10,
+      "type": 1,
+      "modifierData": "2402789435180819502"
+    }
   },
   {
     "id": "3865599436897390395",
-    "name": "Enchant 390395",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3865599436897390395",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "104642797398584075"
+    }
   },
   {
     "id": "3910861880894447226",
-    "name": "Enchant 447226",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 1,
-    "itemType": 320,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3910861880894447226",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 320,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 1,
+      "modifierData": "4167747024611348594"
+    }
   },
   {
     "id": "4521082719293325675",
-    "name": "Enchant 325675",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 10,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4521082719293325675",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 10,
+      "type": 1,
+      "modifierData": "4186903141919031153"
+    }
   },
   {
     "id": "3977148540992761521",
-    "name": "Enchant 761521",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 12,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3977148540992761521",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 1,
+      "modifierData": "200356203108035744"
+    }
   },
   {
     "id": "4168562726136317421",
-    "name": "Enchant 317421",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 12,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4168562726136317421",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 1,
+      "modifierData": "4420904134369390037"
+    }
   },
   {
     "id": "1740699079747012649",
-    "name": "Enchant 012649",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 12,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1740699079747012649",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 1,
+      "modifierData": "2052608976141107353"
+    }
   },
   {
     "id": "3560868551642280085",
-    "name": "Enchant 280085",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3560868551642280085",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "1445653781771571801"
+    }
   },
   {
     "id": "372516271536653220",
-    "name": "Enchant 653220",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 12,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "372516271536653220",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 1,
+      "modifierData": "4166560410282112119"
+    }
   },
   {
     "id": "4203443524252540757",
-    "name": "Enchant 540757",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 12,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4203443524252540757",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 1,
+      "modifierData": "1352473917139403381"
+    }
   },
   {
     "id": "2803956231088179748",
-    "name": "Enchant 179748",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 40,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2803956231088179748",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 40,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "1915539000056414892"
+    }
   },
   {
     "id": "504640765995381585",
-    "name": "Enchant 381585",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 9,
-    "itemType": 4,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "504640765995381585",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 4,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 3,
+      "modifierData": "2455392327101821882"
+    }
   },
   {
     "id": "828187784328617063",
-    "name": "Enchant 617063",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 4,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "828187784328617063",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 4,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "611129610776560105"
+    }
   },
   {
     "id": "3455169888559379068",
-    "name": "Enchant 379068",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 4,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3455169888559379068",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 4,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2753048139823716506"
+    }
   },
   {
     "id": "379191337720818174",
-    "name": "Enchant 818174",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 4,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "379191337720818174",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 4,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1964610621711022566"
+    }
   },
   {
     "id": "4082101561168456968",
-    "name": "Enchant 456968",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4082101561168456968",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "616911149867891546"
+    }
   },
   {
     "id": "1594296767558736031",
-    "name": "Enchant 736031",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1594296767558736031",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "101454282012168691"
+    }
   },
   {
     "id": "2018581599633516237",
-    "name": "Enchant 516237",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2018581599633516237",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "397401493372290869"
+    }
   },
   {
     "id": "502646495457951611",
-    "name": "+10% Holy Resistance",
-    "description": "+10% Holy Resistance",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "10%",
-        "max": "10%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "502646495457951611",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2493943794746688613"
+    }
   },
   {
     "id": "4270378076816309887",
-    "name": "Enchant 309887",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4270378076816309887",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "975579130750035263"
+    }
   },
   {
     "id": "4598076707073696963",
-    "name": "+25% Poise Damage",
-    "description": "+25% Poise Damage",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "25%",
-        "max": "25%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "4598076707073696963",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2770619959480268770"
+    }
   },
   {
     "id": "1233996235030818505",
-    "name": "Enchant 818505",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1233996235030818505",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2653212885006553301"
+    }
   },
   {
     "id": "3310036235981640990",
-    "name": "Enchant 640990",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3310036235981640990",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1674817966475295606"
+    }
   },
   {
     "id": "250595692052523374",
-    "name": "Enchant 523374",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "250595692052523374",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "196398252461306771"
+    }
   },
   {
     "id": "4126704300374748556",
-    "name": "Enchant 748556",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4126704300374748556",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "87467499153949119"
+    }
   },
   {
     "id": "652244846934901916",
-    "name": "Enchant 901916",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "652244846934901916",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3635277490527946683"
+    }
   },
   {
     "id": "1314248457088770189",
-    "name": "Enchant 770189",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1314248457088770189",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "603803736054333377"
+    }
   },
   {
     "id": "1907886169833982554",
-    "name": "Enchant 982554",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1907886169833982554",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2743785816700880905"
+    }
   },
   {
     "id": "3599337120815036476",
-    "name": "Enchant 036476",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3599337120815036476",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "192018418894432301"
+    }
   },
   {
     "id": "1144557706625752161",
-    "name": "+100% Plague Resistance",
-    "description": "+100% Plague Resistance",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "100%",
-        "max": "100%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1144557706625752161",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "144669303580973595"
+    }
   },
   {
     "id": "4352250772589094353",
-    "name": "Enchant 094353",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4352250772589094353",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3124772902466670987"
+    }
   },
   {
     "id": "3925844837724159742",
-    "name": "Enchant 159742",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3925844837724159742",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2509737138060211344"
+    }
   },
   {
     "id": "1197761804335634687",
-    "name": "Enchant 634687",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1197761804335634687",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "616024841976444503"
+    }
   },
   {
     "id": "1780272192943354246",
-    "name": "+30% Poise Damage",
-    "description": "+30% Poise Damage",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "30%",
-        "max": "30%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1780272192943354246",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3117743616792014131"
+    }
   },
   {
     "id": "678290240872653236",
-    "name": "+30% Holy Resistance",
-    "description": "+30% Holy Resistance",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "30%",
-        "max": "30%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "678290240872653236",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1764730393858853050"
+    }
   },
   {
     "id": "691658876148210236",
-    "name": "+100% Holy Resistance",
-    "description": "+100% Holy Resistance",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "100%",
-        "max": "100%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "691658876148210236",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "4402943308748014503"
+    }
   },
   {
     "id": "1758728209324592189",
-    "name": "Enchant 592189",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 9,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1758728209324592189",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 3,
+      "modifierData": "729740381850849709"
+    }
   },
   {
     "id": "4534719092779308413",
-    "name": "Enchant 308413",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4534719092779308413",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3114303917765820155"
+    }
   },
   {
     "id": "1878978975835914024",
-    "name": "Enchant 914024",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1878978975835914024",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1313300739970554341"
+    }
   },
   {
     "id": "3012188376542765429",
-    "name": "Enchant 765429",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3012188376542765429",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3480081524663775598"
+    }
   },
   {
     "id": "1812072478131321654",
-    "name": "Enchant 321654",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1812072478131321654",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1818163181232158019"
+    }
   },
   {
     "id": "781525658515054458",
-    "name": "Enchant 054458",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "781525658515054458",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2921964963880756085"
+    }
   },
   {
     "id": "2177891059001774888",
-    "name": "+50% Plague Resistance",
-    "description": "+50% Plague Resistance",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "50%",
-        "max": "50%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "2177891059001774888",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "842989128950017003"
+    }
   },
   {
     "id": "3249968609093512040",
-    "name": "Enchant 512040",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3249968609093512040",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1081274660526576067"
+    }
   },
   {
     "id": "1401393681202917524",
-    "name": "Enchant 917524",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1401393681202917524",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3225951830794825720"
+    }
   },
   {
     "id": "3070661345559043283",
-    "name": "Enchant 043283",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3070661345559043283",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1423387897498515258"
+    }
   },
   {
     "id": "3975442481698060442",
-    "name": "Enchant 060442",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3975442481698060442",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "801553402433720860"
+    }
   },
   {
     "id": "2318817657582959080",
-    "name": "+100% Plague Resistance",
-    "description": "+100% Plague Resistance",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "100%",
-        "max": "100%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "2318817657582959080",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3377735642779720870"
+    }
   },
   {
     "id": "4179412382798171250",
-    "name": "Enchant 171250",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4179412382798171250",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "938872339557029939"
+    }
   },
   {
     "id": "2144056827446874320",
-    "name": "Enchant 874320",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2144056827446874320",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1507986969591617197"
+    }
   },
   {
     "id": "1478738670889393067",
-    "name": "+5% Poise Damage",
-    "description": "+5% Poise Damage",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "5%",
-        "max": "5%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1478738670889393067",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1003735336779687379"
+    }
   },
   {
     "id": "3523944895583576333",
-    "name": "Enchant 576333",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3523944895583576333",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2385151781556629554"
+    }
   },
   {
     "id": "2112281776579248946",
-    "name": "Enchant 248946",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2112281776579248946",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1688653630492350149"
+    }
   },
   {
     "id": "1852489147583360519",
-    "name": "Enchant 360519",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1852489147583360519",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3170242200011720310"
+    }
   },
   {
     "id": "3763790543182652507",
-    "name": "Enchant 652507",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3763790543182652507",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2199157853099320803"
+    }
   },
   {
     "id": "720048228785541884",
-    "name": "Enchant 541884",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "720048228785541884",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "806646276552858881"
+    }
   },
   {
     "id": "4029455093925925465",
-    "name": "Enchant 925465",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4029455093925925465",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "4093805129408770725"
+    }
   },
   {
     "id": "1542865266355096283",
-    "name": "Enchant 096283",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1542865266355096283",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "712069768612111734"
+    }
   },
   {
     "id": "431738835416662630",
-    "name": "Enchant 662630",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "431738835416662630",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2895547168219412253"
+    }
   },
   {
     "id": "4233651011173565891",
-    "name": "Enchant 565891",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 9,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4233651011173565891",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 3,
+      "modifierData": "2458921656176757062"
+    }
   },
   {
     "id": "2597202697227730387",
-    "name": "Enchant 730387",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2597202697227730387",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2826963027681700388"
+    }
   },
   {
     "id": "1091295867930102213",
-    "name": "Enchant 102213",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1091295867930102213",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2797728610403769769"
+    }
   },
   {
     "id": "2382215682306832277",
-    "name": "Enchant 832277",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2382215682306832277",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2579048156824262908"
+    }
   },
   {
     "id": "3326538519142724032",
-    "name": "Enchant 724032",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3326538519142724032",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "3783889844981064150"
+    }
   },
   {
     "id": "2420619496941552306",
-    "name": "Enchant 552306",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2420619496941552306",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "3851017315435356401"
+    }
   },
   {
     "id": "72764995111685221",
-    "name": "Enchant 685221",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "72764995111685221",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "748827664124610958"
+    }
   },
   {
     "id": "1700378892026403354",
-    "name": "Enchant 403354",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 11,
-    "itemType": 126,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1700378892026403354",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 126,
+      "twoHandedDoubleScaling": true,
+      "groupType": 11,
+      "type": 0,
+      "modifierData": "1363199591403762626"
+    }
   },
   {
     "id": "646682319474952629",
-    "name": "Enchant 952629",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 11,
-    "itemType": 126,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "646682319474952629",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 126,
+      "twoHandedDoubleScaling": true,
+      "groupType": 11,
+      "type": 0,
+      "modifierData": "939266039577316788"
+    }
   },
   {
     "id": "731479587204246679",
-    "name": "+(25% - 88%) Poise Damage",
-    "description": "+(25% - 88%) Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "25%",
-        "max": "88%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "731479587204246679",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "1463598233056465165"
+    }
   },
   {
     "id": "2876905323560435701",
-    "name": "Enchant 435701",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2876905323560435701",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "4548727150420774998"
+    }
   },
   {
     "id": "2653802063750688792",
-    "name": "+(15% - 53%) Poise Damage",
-    "description": "+(15% - 53%) Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "15%",
-        "max": "53%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "2653802063750688792",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "532117507698203658"
+    }
   },
   {
     "id": "2378543419610256662",
-    "name": "+(15% - 53%) Poise Damage",
-    "description": "+(15% - 53%) Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "15%",
-        "max": "53%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "2378543419610256662",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "2216131909520506848"
+    }
   },
   {
     "id": "39962472272662461",
-    "name": "Enchant 662461",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 4,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "39962472272662461",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 4,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "3104748320420818537"
+    }
   },
   {
     "id": "3492237639222721057",
-    "name": "Enchant 721057",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3492237639222721057",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "3346957777261081106"
+    }
   },
   {
     "id": "4129145915823256658",
-    "name": "Enchant 256658",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4129145915823256658",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "4086199358799220617"
+    }
   },
   {
     "id": "617359649706248082",
-    "name": "Enchant 248082",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 376,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "617359649706248082",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 376,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "3304991981557967098"
+    }
   },
   {
     "id": "631941325914883056",
-    "name": "+(25% - 88%) Poise Damage",
-    "description": "+(25% - 88%) Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 320,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "25%",
-        "max": "88%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "631941325914883056",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 320,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "2661155019913921649"
+    }
   },
   {
     "id": "2598890740730112435",
-    "name": "Enchant 112435",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 8,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2598890740730112435",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 0,
+      "modifierData": "3682418927920560555"
+    }
   },
   {
     "id": "863953444223831122",
-    "name": "+(10% - 35%) Lightning Resistance",
-    "description": "+(10% - 35%) Lightning Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 8,
-    "itemType": 70,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Lightning Resistance",
-        "min": "10%",
-        "max": "35%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "863953444223831122",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 70,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 0,
+      "modifierData": "1806210944207632412"
+    }
   },
   {
     "id": "3715619667668972140",
-    "name": "Enchant 972140",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 8,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3715619667668972140",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 0,
+      "modifierData": "1491713126999808161"
+    }
   },
   {
     "id": "1207911981130543352",
-    "name": "Enchant 543352",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 8,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1207911981130543352",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 0,
+      "modifierData": "4101149857550747042"
+    }
   },
   {
     "id": "563826911691519242",
-    "name": "Enchant 519242",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "563826911691519242",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 0,
+      "modifierData": "3203065235883320344"
+    }
   },
   {
     "id": "1790904451068766171",
-    "name": "Enchant 766171",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1790904451068766171",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 0,
+      "modifierData": "2490908193464781564"
+    }
   },
   {
     "id": "2678278228963787535",
-    "name": "Enchant 787535",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2678278228963787535",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 0,
+      "modifierData": "1301471215252024696"
+    }
   },
   {
     "id": "1559287613257208805",
-    "name": "Enchant 208805",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1559287613257208805",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 0,
+      "modifierData": "1831153732712839832"
+    }
   },
   {
     "id": "2824610576232940589",
-    "name": "Enchant 940589",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 5,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2824610576232940589",
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 5,
+      "type": 0,
+      "modifierData": "2390866946212203544"
+    }
   },
   {
     "id": "2234997734381874343",
-    "name": "+(15.0 - 52.5) Plague Resistance",
-    "description": "+(15.0 - 52.5) Plague Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 3,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "15.0",
-        "max": "52.5",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "2234997734381874343",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 0,
+      "modifierData": "4145029597528167331"
+    }
   },
   {
     "id": "3703293281050187045",
-    "name": "+(30.0 - 105.0) Plague Resistance",
-    "description": "+(30.0 - 105.0) Plague Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 3,
-    "itemType": 320,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "30.0",
-        "max": "105.0",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3703293281050187045",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 320,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 0,
+      "modifierData": "1807278961822080669"
+    }
   },
   {
     "id": "1065403551111491088",
-    "name": "Enchant 491088",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 3,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1065403551111491088",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 0,
+      "modifierData": "3314367212488377939"
+    }
   },
   {
     "id": "995876106305032123",
-    "name": "Enchant 032123",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "995876106305032123",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "1605326825107938880"
+    }
   },
   {
     "id": "3221914730249180615",
-    "name": "Enchant 180615",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 3,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3221914730249180615",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 0,
+      "modifierData": "3535249713620023960"
+    }
   },
   {
     "id": "3756151431117430255",
-    "name": "Enchant 430255",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 3,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3756151431117430255",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 0,
+      "modifierData": "1608431491940373110"
+    }
   },
   {
     "id": "1804144951939733599",
-    "name": "Enchant 733599",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 10,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1804144951939733599",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 10,
+      "type": 0,
+      "modifierData": "3418462549206876434"
+    }
   },
   {
     "id": "661741272630070803",
-    "name": "+(15.0 - 52.5) Plague Resistance",
-    "description": "+(15.0 - 52.5) Plague Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 3,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "15.0",
-        "max": "52.5",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "661741272630070803",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 0,
+      "modifierData": "2048864888354002085"
+    }
   },
   {
     "id": "331520696300918692",
-    "name": "Enchant 918692",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 8,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "331520696300918692",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 8,
+      "type": 0,
+      "modifierData": "1929115808639490014"
+    }
   },
   {
     "id": "4144932402406017435",
-    "name": "Enchant 017435",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4144932402406017435",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3190815923937332968"
+    }
   },
   {
     "id": "785390273301157724",
-    "name": "Enchant 157724",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "785390273301157724",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "2904297444778526171"
+    }
   },
   {
     "id": "1969194365903400777",
-    "name": "Enchant 400777",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1969194365903400777",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "637265002016200341"
+    }
   },
   {
     "id": "2081475146608457224",
-    "name": "Enchant 457224",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 3,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2081475146608457224",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 0,
+      "modifierData": "1628090986644942631"
+    }
   },
   {
     "id": "3159017638557868782",
-    "name": "Enchant 868782",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3159017638557868782",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3789489632351783414"
+    }
   },
   {
     "id": "359902121408487577",
-    "name": "Enchant 487577",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "359902121408487577",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "3614653839121084220"
+    }
   },
   {
     "id": "1397391991421002928",
-    "name": "Enchant 002928",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1397391991421002928",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "403562078333596709"
+    }
   },
   {
     "id": "3632732961996203909",
-    "name": "Enchant 203909",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3632732961996203909",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "1714910461823271967"
+    }
   },
   {
     "id": "300984085881209381",
-    "name": "+(5.0 - 11.2) Holy Resistance",
-    "description": "+(5.0 - 11.2) Holy Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "5.0",
-        "max": "11.2",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "300984085881209381",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "1842458906452537052"
+    }
   },
   {
     "id": "4069395749558495118",
-    "name": "Enchant 495118",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4069395749558495118",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "4259897824110369360"
+    }
   },
   {
     "id": "3531183966348599037",
-    "name": "Enchant 599037",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3531183966348599037",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "1662828707055970625"
+    }
   },
   {
     "id": "1490692820606340150",
-    "name": "+(15.0 - 52.5) Holy Resistance",
-    "description": "+(15.0 - 52.5) Holy Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "15.0",
-        "max": "52.5",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1490692820606340150",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "3901585043041525207"
+    }
   },
   {
     "id": "901823276845201078",
-    "name": "Enchant 201078",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "901823276845201078",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "373938574454323317"
+    }
   },
   {
     "id": "387622082330862678",
-    "name": "+(15.0 - 52.5) Holy Resistance",
-    "description": "+(15.0 - 52.5) Holy Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 320,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "15.0",
-        "max": "52.5",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "387622082330862678",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 320,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "4098239199964785355"
+    }
   },
   {
     "id": "4587798698704146111",
-    "name": "+(10.0 - 35.0) Holy Resistance",
-    "description": "+(10.0 - 35.0) Holy Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "10.0",
-        "max": "35.0",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "4587798698704146111",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "1312656545656509302"
+    }
   },
   {
     "id": "3173484473376524543",
-    "name": "Enchant 524543",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3173484473376524543",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "4423909325143561261"
+    }
   },
   {
     "id": "3265388731153371397",
-    "name": "+(15.0 - 52.5) Holy Resistance",
-    "description": "+(15.0 - 52.5) Holy Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "15.0",
-        "max": "52.5",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3265388731153371397",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "3245814332185106125"
+    }
   },
   {
     "id": "843822965019122014",
-    "name": "Enchant 122014",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "843822965019122014",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "1169326762663247375"
+    }
   },
   {
     "id": "404071346141380817",
-    "name": "Enchant 380817",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "404071346141380817",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "2809074043126000624"
+    }
   },
   {
     "id": "4320802595976513543",
-    "name": "Enchant 513543",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4320802595976513543",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "4362179852729781316"
+    }
   },
   {
     "id": "141758664080488604",
-    "name": "Enchant 488604",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "141758664080488604",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "921665731126729092"
+    }
   },
   {
     "id": "3174998314532447938",
-    "name": "Enchant 447938",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3174998314532447938",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "4319025261626893263"
+    }
   },
   {
     "id": "4020486372537380339",
-    "name": "Enchant 380339",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4020486372537380339",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "1344379197180115769"
+    }
   },
   {
     "id": "1985946995058826097",
-    "name": "Enchant 826097",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 2,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1985946995058826097",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 2,
+      "type": 0,
+      "modifierData": "2616901345888664212"
+    }
   },
   {
     "id": "3360271089475270318",
-    "name": "Enchant 270318",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3360271089475270318",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "634194452568739804"
+    }
   },
   {
     "id": "2699748085720039490",
-    "name": "Enchant 039490",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2699748085720039490",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1745551059138782297"
+    }
   },
   {
     "id": "2542033067608128030",
-    "name": "Enchant 128030",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2542033067608128030",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3935472850051695907"
+    }
   },
   {
     "id": "4125869589384352122",
-    "name": "Enchant 352122",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4125869589384352122",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1111865397398386574"
+    }
   },
   {
     "id": "1676050254608727258",
-    "name": "Enchant 727258",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1676050254608727258",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "949337617321837555"
+    }
   },
   {
     "id": "990562407137103508",
-    "name": "Enchant 103508",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "990562407137103508",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "358403163767640450"
+    }
   },
   {
     "id": "4548856966128158592",
-    "name": "Enchant 158592",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 3,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4548856966128158592",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 3,
+      "type": 0,
+      "modifierData": "2411257154942663052"
+    }
   },
   {
     "id": "4125349338389302559",
-    "name": "Enchant 302559",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4125349338389302559",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "959123173386456965"
+    }
   },
   {
     "id": "860342554514309524",
-    "name": "Enchant 309524",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 320,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "860342554514309524",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 320,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "4471902426929634337"
+    }
   },
   {
     "id": "2440226067350146686",
-    "name": "Enchant 146686",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 1,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2440226067350146686",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 1,
+      "type": 0,
+      "modifierData": "1341057204108012290"
+    }
   },
   {
     "id": "3202028461714202202",
-    "name": "Enchant 202202",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 10,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3202028461714202202",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 10,
+      "type": 0,
+      "modifierData": "1262468333028202464"
+    }
   },
   {
     "id": "3429199778689561283",
-    "name": "Enchant 561283",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3429199778689561283",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "2448592106369206642"
+    }
   },
   {
     "id": "1120477933689118233",
-    "name": "Enchant 118233",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1120477933689118233",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "197407742620414248"
+    }
   },
   {
     "id": "3114682526151285429",
-    "name": "Enchant 285429",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3114682526151285429",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "386415528359303267"
+    }
   },
   {
     "id": "4049688401293033420",
-    "name": "Enchant 033420",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4049688401293033420",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "716737450918635205"
+    }
   },
   {
     "id": "2308783804310213470",
-    "name": "Enchant 213470",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2308783804310213470",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "2934116986303331330"
+    }
   },
   {
     "id": "2018937610978688498",
-    "name": "Enchant 688498",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2018937610978688498",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2989356364205632807"
+    }
   },
   {
     "id": "972873567230501813",
-    "name": "Enchant 501813",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 12,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "972873567230501813",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 12,
+      "type": 0,
+      "modifierData": "730698850391513988"
+    }
   },
   {
     "id": "1745552719024992460",
-    "name": "Enchant 992460",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "1745552719024992460",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "1863647180391741931"
+    }
   },
   {
     "id": "1146754637677867856",
-    "name": "Enchant 867856",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "1146754637677867856",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2856193710245432035"
+    }
   },
   {
     "id": "1618873829375559162",
-    "name": "Enchant 559162",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "1618873829375559162",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "40232839455106349"
+    }
   },
   {
     "id": "1638682530560630737",
-    "name": "Enchant 630737",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "1638682530560630737",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2296780207846310635"
+    }
   },
   {
     "id": "2470641771128048748",
-    "name": "Enchant 048748",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "2470641771128048748",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "4525874248768480683"
+    }
   },
   {
     "id": "2087954978993903293",
-    "name": "Enchant 903293",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "2087954978993903293",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "3253926497227101716"
+    }
   },
   {
     "id": "3037117123823235349",
-    "name": "Enchant 235349",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 9,
-    "itemType": 6,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "3037117123823235349",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 4,
+      "modifierData": "3226308412121536630"
+    }
   },
   {
     "id": "1919851925546599487",
-    "name": "Enchant 599487",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "1919851925546599487",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2403337525868383672"
+    }
   },
   {
     "id": "1824667445712197927",
-    "name": "Enchant 197927",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "1824667445712197927",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "1923927800642950035"
+    }
   },
   {
     "id": "759202433192314993",
-    "name": "Enchant 314993",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "759202433192314993",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "4362148905590041291"
+    }
   },
   {
     "id": "425923744847742542",
-    "name": "Enchant 742542",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "425923744847742542",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "1249169426299814804"
+    }
   },
   {
     "id": "3765839940840653212",
-    "name": "Enchant 653212",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 9,
-    "itemType": 6,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "3765839940840653212",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 4,
+      "modifierData": "4576956020219558630"
+    }
   },
   {
     "id": "4038168344780145317",
-    "name": "Enchant 145317",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "4038168344780145317",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2683918828957591339"
+    }
   },
   {
     "id": "3270114140567084175",
-    "name": "Enchant 084175",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "3270114140567084175",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "3512088081383910940"
+    }
   },
   {
     "id": "3026035419278636069",
-    "name": "Enchant 636069",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "3026035419278636069",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "3509095795900594170"
+    }
   },
   {
     "id": "213103507660190589",
-    "name": "Enchant 190589",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "213103507660190589",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "1016965102725855948"
+    }
   },
   {
     "id": "3253185616675831692",
-    "name": "Enchant 831692",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 9,
-    "itemType": 6,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "3253185616675831692",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 4,
+      "modifierData": "18705169007958481"
+    }
   },
   {
     "id": "4127922862909301122",
-    "name": "Enchant 301122",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 9,
-    "itemType": 6,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "4127922862909301122",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 4,
+      "modifierData": "1437221339864582042"
+    }
   },
   {
     "id": "4443071493822099350",
-    "name": "Enchant 099350",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "4443071493822099350",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "1355508978549913581"
+    }
   },
   {
     "id": "3879859513429049943",
-    "name": "Enchant 049943",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "3879859513429049943",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2009554865810745633"
+    }
   },
   {
     "id": "4009468279043861905",
-    "name": "Enchant 861905",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "4009468279043861905",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "4316216838511381250"
+    }
   },
   {
     "id": "3408904683559455568",
-    "name": "Enchant 455568",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "3408904683559455568",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "614295944013415389"
+    }
   },
   {
     "id": "452761800225991906",
-    "name": "Enchant 991906",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "452761800225991906",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "646745188924991546"
+    }
   },
   {
     "id": "3173732659630335090",
-    "name": "Enchant 335090",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "3173732659630335090",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2819656534765307774"
+    }
   },
   {
     "id": "2180956059984907157",
-    "name": "Enchant 907157",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "2180956059984907157",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "3024249138683397300"
+    }
   },
   {
     "id": "3276821796793843478",
-    "name": "Enchant 843478",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "3276821796793843478",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "363249556127563069"
+    }
   },
   {
     "id": "1102309698859058380",
-    "name": "Enchant 058380",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "1102309698859058380",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2234143123632498951"
+    }
   },
   {
     "id": "4045943912541614041",
-    "name": "Enchant 614041",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 64,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "4045943912541614041",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "3363884356993838871"
+    }
   },
   {
     "id": "2298739900502367995",
-    "name": "Enchant 367995",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "2298739900502367995",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "83803491231561288"
+    }
   },
   {
     "id": "2891078558790587984",
-    "name": "Enchant 587984",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "2891078558790587984",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "3603525905791437241"
+    }
   },
   {
     "id": "883143453796899271",
-    "name": "Enchant 899271",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "883143453796899271",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2353638742724784023"
+    }
   },
   {
     "id": "1672697496126407906",
-    "name": "Enchant 407906",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 4,
-    "effects": []
+    "data": {
+      "identifier": "1672697496126407906",
+      "dropLevel": 4,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "1740228091428617161"
+    }
   },
   {
     "id": "183979881138522049",
-    "name": "Enchant 522049",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "exalted",
-    "groupType": 0,
-    "itemType": 32,
-    "dropLevel": 2,
-    "effects": []
+    "data": {
+      "identifier": "183979881138522049",
+      "dropLevel": 2,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 4,
+      "modifierData": "2955726977764692197"
+    }
   },
   {
     "id": "4534029886273177393",
-    "name": "Enchant 177393",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 8,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4534029886273177393",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 8,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "966570382749317673"
+    }
   },
   {
     "id": "4457724951719220483",
-    "name": "Enchant 220483",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4457724951719220483",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1726354075791203049"
+    }
   },
   {
     "id": "1514468140608070179",
-    "name": "Enchant 070179",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 4,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1514468140608070179",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 4,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1540110092569445911"
+    }
   },
   {
     "id": "140036234320324298",
-    "name": "Enchant 324298",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 2,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "140036234320324298",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 2,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "4278421622542642918"
+    }
   },
   {
     "id": "2433096108805173853",
-    "name": "Enchant 173853",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2433096108805173853",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "4269986691187889845"
+    }
   },
   {
     "id": "2371031389621930749",
-    "name": "Enchant 930749",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2371031389621930749",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "2241952415374815147"
+    }
   },
   {
     "id": "1063102363989198578",
-    "name": "Enchant 198578",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 70,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1063102363989198578",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 70,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "672769207478623661"
+    }
   },
   {
     "id": "381525905125939546",
-    "name": "Enchant 939546",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 36,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "381525905125939546",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 36,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "2701602863698085744"
+    }
   },
   {
     "id": "4469263310077776113",
-    "name": "Enchant 776113",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4469263310077776113",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1244347428567497846"
+    }
   },
   {
     "id": "752957942886605127",
-    "name": "Enchant 605127",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "752957942886605127",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "2950484539054964455"
+    }
   },
   {
     "id": "606519564956522128",
-    "name": "Enchant 522128",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 32,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "606519564956522128",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 32,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1130682675643012769"
+    }
   },
   {
     "id": "1831396359532911533",
-    "name": "Enchant 911533",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1831396359532911533",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1305981767125226375"
+    }
   },
   {
     "id": "2275650169889889478",
-    "name": "Enchant 889478",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2275650169889889478",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "4220552818064463352"
+    }
   },
   {
     "id": "2395799970947837915",
-    "name": "-15.0 Holy Resistance",
-    "description": "-15.0 Holy Resistance",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Holy Resistance",
-        "min": "-15.0",
-        "max": "-15.0",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "2395799970947837915",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "3220483589631263710"
+    }
   },
   {
     "id": "196219962807670217",
-    "name": "Enchant 670217",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "196219962807670217",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "4000633162983213962"
+    }
   },
   {
     "id": "2118690577057038512",
-    "name": "Enchant 038512",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2118690577057038512",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "3612058217292347160"
+    }
   },
   {
     "id": "87294062165085640",
-    "name": "Enchant 085640",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "87294062165085640",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "2013236957514089588"
+    }
   },
   {
     "id": "611530641342827062",
-    "name": "+30% Poise Damage",
-    "description": "+30% Poise Damage",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 6,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "30%",
-        "max": "30%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "611530641342827062",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 6,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "699633444069840869"
+    }
   },
   {
     "id": "1647438910782009930",
-    "name": "Enchant 009930",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 382,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1647438910782009930",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 382,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "3443372697127894592"
+    }
   },
   {
     "id": "720401795856800664",
-    "name": "Enchant 800664",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 64,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "720401795856800664",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 64,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1262602099670348375"
+    }
   },
   {
     "id": "3677142867599688022",
-    "name": "Enchant 688022",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3677142867599688022",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1819762624339086104"
+    }
   },
   {
     "id": "242824793693763522",
-    "name": "Enchant 763522",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "242824793693763522",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "31718240125298617"
+    }
   },
   {
     "id": "2002709229315878741",
-    "name": "Enchant 878741",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2002709229315878741",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "3990349736813375764"
+    }
   },
   {
     "id": "912788852160539195",
-    "name": "Enchant 539195",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 16,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "912788852160539195",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 16,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1509745184977768654"
+    }
   },
   {
     "id": "1116604598319298356",
-    "name": "Enchant 298356",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 120,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1116604598319298356",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 120,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "2501640863339793338"
+    }
   },
   {
     "id": "3525432916301885073",
-    "name": "Enchant 885073",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 256,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3525432916301885073",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 256,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "2364767189346288964"
+    }
   },
   {
     "id": "3005086903943386227",
-    "name": "Enchant 386227",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3005086903943386227",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "3031827491905381872"
+    }
   },
   {
     "id": "1225420521171645749",
-    "name": "Enchant 645749",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1225420521171645749",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "4165270327513732867"
+    }
   },
   {
     "id": "144520586260710420",
-    "name": "-10.0 Plague Resistance",
-    "description": "-10.0 Plague Resistance",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "-10.0",
-        "max": "-10.0",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "144520586260710420",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "3963314429352357453"
+    }
   },
   {
     "id": "1437002922600698587",
-    "name": "+25% Poise Damage",
-    "description": "+25% Poise Damage",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "25%",
-        "max": "25%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1437002922600698587",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "129315908198133006"
+    }
   },
   {
     "id": "1169318684031014373",
-    "name": "Enchant 014373",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1169318684031014373",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "2995238576048252783"
+    }
   },
   {
     "id": "3089145977904661255",
-    "name": "Enchant 661255",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3089145977904661255",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "3950063892459531293"
+    }
   },
   {
     "id": "613832344400432410",
-    "name": "-10.0 Plague Resistance",
-    "description": "-10.0 Plague Resistance",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "-10.0",
-        "max": "-10.0",
-        "isPercent": false
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "613832344400432410",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "2949899478731772897"
+    }
   },
   {
     "id": "2156761885929370889",
-    "name": "+25% Poise Damage",
-    "description": "+25% Poise Damage",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "25%",
-        "max": "25%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "2156761885929370889",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "1747357025080127225"
+    }
   },
   {
     "id": "3639435031035321322",
-    "name": "Enchant 321322",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3639435031035321322",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "3210391780591153478"
+    }
   },
   {
     "id": "3985815034907475169",
-    "name": "Enchant 475169",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3985815034907475169",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1671605653145408987"
+    }
   },
   {
     "id": "1944887193176240738",
-    "name": "Enchant 240738",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "blue",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1944887193176240738",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 1,
+      "modifierData": "226994568784244179"
+    }
   },
   {
     "id": "103523015400679369",
-    "name": "Enchant 679369",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "purple",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "103523015400679369",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 2,
+      "modifierData": "1146580637530475498"
+    }
   },
   {
     "id": "2109608512654201310",
-    "name": "Enchant 201310",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2109608512654201310",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2969102315584321438"
+    }
   },
   {
     "id": "2473415399176050862",
-    "name": "Enchant 050862",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2473415399176050862",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "1768000621285013161"
+    }
   },
   {
     "id": "3602506192533382613",
-    "name": "Enchant 382613",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3602506192533382613",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3211924836533894917"
+    }
   },
   {
     "id": "2213595072136682186",
-    "name": "Enchant 682186",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2213595072136682186",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2329090053415925154"
+    }
   },
   {
     "id": "1992428959754387642",
-    "name": "Enchant 387642",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1992428959754387642",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "374210804141838980"
+    }
   },
   {
     "id": "2966434728002973997",
-    "name": "Enchant 973997",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2966434728002973997",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "2379025210971703569"
+    }
   },
   {
     "id": "367505262251769955",
-    "name": "Enchant 769955",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "golden",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "367505262251769955",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 3,
+      "modifierData": "3054760654430802224"
+    }
   },
   {
     "id": "3346190685641899973",
-    "name": "+35% Poise Damage",
-    "description": "+35% Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "35%",
-        "max": "35%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3346190685641899973",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2234511444790190490"
+    }
   },
   {
     "id": "1991173340355096708",
-    "name": "Enchant 096708",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1991173340355096708",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "267399036018088661"
+    }
   },
   {
     "id": "3421004081916462005",
-    "name": "Enchant 462005",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3421004081916462005",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "709288871135746359"
+    }
   },
   {
     "id": "1289431769612918585",
-    "name": "Enchant 918585",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1289431769612918585",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3570319067143277529"
+    }
   },
   {
     "id": "1244315408055653346",
-    "name": "Enchant 653346",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1244315408055653346",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "810861967774753703"
+    }
   },
   {
     "id": "4577071161778875774",
-    "name": "Enchant 875774",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4577071161778875774",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3252983826393549739"
+    }
   },
   {
     "id": "3247934734848497443",
-    "name": "Enchant 497443",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3247934734848497443",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1853887011247505542"
+    }
   },
   {
     "id": "4504116776231616619",
-    "name": "+6% Plague Resistance",
-    "description": "+6% Plague Resistance",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Plague Resistance",
-        "min": "6%",
-        "max": "6%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "4504116776231616619",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3231474195294167298"
+    }
   },
   {
     "id": "3591911619662366882",
-    "name": "Enchant 366882",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3591911619662366882",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1428536710550969154"
+    }
   },
   {
     "id": "629509184190028520",
-    "name": "Enchant 028520",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "629509184190028520",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "280043279496999051"
+    }
   },
   {
     "id": "2669337813448015320",
-    "name": "Enchant 015320",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2669337813448015320",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "848904913728741348"
+    }
   },
   {
     "id": "135348884307853084",
-    "name": "Enchant 853084",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "135348884307853084",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4308683070585636680"
+    }
   },
   {
     "id": "661899410690664436",
-    "name": "Enchant 664436",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "661899410690664436",
+      "dropLevel": 1,
+      "dropFrequency": 0,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1125994414876490854"
+    }
   },
   {
     "id": "1358986323032771250",
-    "name": "Enchant 771250",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1358986323032771250",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1021577902996209157"
+    }
   },
   {
     "id": "1175918695847621229",
-    "name": "Enchant 621229",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 128,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1175918695847621229",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 128,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3098505999842031837"
+    }
   },
   {
     "id": "2247133727068197081",
-    "name": "Enchant 197081",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2247133727068197081",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3064878672634451067"
+    }
   },
   {
     "id": "1121648387127634804",
-    "name": "Enchant 634804",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1121648387127634804",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "764627631626933588"
+    }
   },
   {
     "id": "337476847488735766",
-    "name": "Enchant 735766",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "337476847488735766",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3598740485742012141"
+    }
   },
   {
     "id": "1125639580804904042",
-    "name": "Enchant 904042",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1125639580804904042",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1315893303665621459"
+    }
   },
   {
     "id": "1874699671268833666",
-    "name": "Enchant 833666",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1874699671268833666",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4402359847238590472"
+    }
   },
   {
     "id": "1274070251180748980",
-    "name": "Enchant 748980",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1274070251180748980",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1812113354301139138"
+    }
   },
   {
     "id": "3676983941679291528",
-    "name": "Enchant 291528",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3676983941679291528",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3063164346225736193"
+    }
   },
   {
     "id": "9930725373416616",
-    "name": "Enchant 416616",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "9930725373416616",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "923302397090134406"
+    }
   },
   {
     "id": "3689830175119767194",
-    "name": "Enchant 767194",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3689830175119767194",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4582024352221892668"
+    }
   },
   {
     "id": "49558745709773689",
-    "name": "Enchant 773689",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "49558745709773689",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1855940966695848390"
+    }
   },
   {
     "id": "3599359587648096035",
-    "name": "Enchant 096035",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3599359587648096035",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "236697304388618015"
+    }
   },
   {
     "id": "1439740688250158181",
-    "name": "Enchant 158181",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1439740688250158181",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2266671202933200933"
+    }
   },
   {
     "id": "1915001635346233037",
-    "name": "Enchant 233037",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1915001635346233037",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1867231613101643808"
+    }
   },
   {
     "id": "4578283463182792740",
-    "name": "Enchant 792740",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4578283463182792740",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1461534767113220512"
+    }
   },
   {
     "id": "1173745950902868527",
-    "name": "Enchant 868527",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1173745950902868527",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1520272277991473608"
+    }
   },
   {
     "id": "4064042914101598279",
-    "name": "Enchant 598279",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4064042914101598279",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3797116993428017880"
+    }
   },
   {
     "id": "74314237919928740",
-    "name": "Enchant 928740",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "74314237919928740",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1453728388062391587"
+    }
   },
   {
     "id": "3545896868517042186",
-    "name": "Enchant 042186",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3545896868517042186",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3812659259288884170"
+    }
   },
   {
     "id": "3655014645967254895",
-    "name": "Enchant 254895",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3655014645967254895",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2083162969025768163"
+    }
   },
   {
     "id": "2735306534724025277",
-    "name": "Enchant 025277",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2735306534724025277",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3484028160571742299"
+    }
   },
   {
     "id": "1435910309100801628",
-    "name": "Enchant 801628",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1435910309100801628",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "579420510482111587"
+    }
   },
   {
     "id": "2340993636036301148",
-    "name": "Enchant 301148",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2340993636036301148",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1781487091749240739"
+    }
   },
   {
     "id": "3457606341590477794",
-    "name": "Enchant 477794",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3457606341590477794",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1772488248050026050"
+    }
   },
   {
     "id": "2090953674301954044",
-    "name": "Enchant 954044",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2090953674301954044",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2856667758651277256"
+    }
   },
   {
     "id": "1141389167595271538",
-    "name": "Enchant 271538",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1141389167595271538",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4082716456537939267"
+    }
   },
   {
     "id": "1297914843960347180",
-    "name": "Enchant 347180",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1297914843960347180",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4493515648273758255"
+    }
   },
   {
     "id": "3079243856794051314",
-    "name": "Enchant 051314",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3079243856794051314",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1487416781218249331"
+    }
   },
   {
     "id": "3818445764039468268",
-    "name": "Enchant 468268",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3818445764039468268",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2763165552515101373"
+    }
   },
   {
     "id": "4545406493566748791",
-    "name": "Enchant 748791",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4545406493566748791",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "318728574791407005"
+    }
   },
   {
     "id": "1431792755394550540",
-    "name": "Enchant 550540",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1431792755394550540",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2307217270603661358"
+    }
   },
   {
     "id": "1046422207328876475",
-    "name": "Enchant 876475",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1046422207328876475",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3076701014941149833"
+    }
   },
   {
     "id": "3348759187656724593",
-    "name": "+25% Critical Damage",
-    "description": "+25% Critical Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Critical Damage",
-        "min": "25%",
-        "max": "25%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3348759187656724593",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "2255671001348526088"
+    }
   },
   {
     "id": "2389622807391823076",
-    "name": "Enchant 823076",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2389622807391823076",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "303915174610747981"
+    }
   },
   {
     "id": "3475536855328976301",
-    "name": "+15% Poise Damage",
-    "description": "+15% Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "15%",
-        "max": "15%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "3475536855328976301",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "2956892999839908571"
+    }
   },
   {
     "id": "1038318842883064669",
-    "name": "Enchant 064669",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1038318842883064669",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3704882412046353002"
+    }
   },
   {
     "id": "2091534897245084860",
-    "name": "Enchant 084860",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2091534897245084860",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3224481154388974961"
+    }
   },
   {
     "id": "3359087384858115676",
-    "name": "Enchant 115676",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3359087384858115676",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "411861304405370001"
+    }
   },
   {
     "id": "1763454423031203549",
-    "name": "+25% Critical Damage",
-    "description": "+25% Critical Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Critical Damage",
-        "min": "25%",
-        "max": "25%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1763454423031203549",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "2001253824374064515"
+    }
   },
   {
     "id": "1790049317315530954",
-    "name": "+15% Poise Damage",
-    "description": "+15% Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "15%",
-        "max": "15%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1790049317315530954",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "771459088037979538"
+    }
   },
   {
     "id": "1477548381088324716",
-    "name": "Enchant 324716",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1477548381088324716",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "633888268691946286"
+    }
   },
   {
     "id": "4074816158466299401",
-    "name": "Enchant 299401",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4074816158466299401",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "3093126767516405947"
+    }
   },
   {
     "id": "742416911401832078",
-    "name": "+25% Critical Damage",
-    "description": "+25% Critical Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Critical Damage",
-        "min": "25%",
-        "max": "25%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "742416911401832078",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "373970765085640755"
+    }
   },
   {
     "id": "4154808074297318252",
-    "name": "Enchant 318252",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4154808074297318252",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "4488377291456526513"
+    }
   },
   {
     "id": "4363562460617397712",
-    "name": "Enchant 397712",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4363562460617397712",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2077849660193761088"
+    }
   },
   {
     "id": "1793646466781434001",
-    "name": "+15% Poise Damage",
-    "description": "+15% Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "15%",
-        "max": "15%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "1793646466781434001",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "3977770958738026859"
+    }
   },
   {
     "id": "536126983830663137",
-    "name": "Enchant 663137",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "536126983830663137",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "875790821622655627"
+    }
   },
   {
     "id": "654755416116549678",
-    "name": "+25% Critical Damage",
-    "description": "+25% Critical Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Critical Damage",
-        "min": "25%",
-        "max": "25%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "654755416116549678",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "2099158194399803672"
+    }
   },
   {
     "id": "2323036255649335814",
-    "name": "Enchant 335814",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2323036255649335814",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "2162402970275793070"
+    }
   },
   {
     "id": "546695072135079219",
-    "name": "+25% Critical Damage",
-    "description": "+25% Critical Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Critical Damage",
-        "min": "25%",
-        "max": "25%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "546695072135079219",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "311083008192065710"
+    }
   },
   {
     "id": "596641507773510828",
-    "name": "Enchant 510828",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "596641507773510828",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "3270398645500993892"
+    }
   },
   {
     "id": "4472237260774245512",
-    "name": "Enchant 245512",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4472237260774245512",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1209806515976014622"
+    }
   },
   {
     "id": "174261871946572326",
-    "name": "+15% Poise Damage",
-    "description": "+15% Poise Damage",
-    "icon": "",
-    "type": "facet",
-    "groupType": 9,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": [
-      {
-        "stat": "Poise Damage",
-        "min": "15%",
-        "max": "15%",
-        "isPercent": true
-      }
-    ]
+    "name": "",
+    "description": "",
+    "data": {
+      "identifier": "174261871946572326",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 9,
+      "type": 0,
+      "modifierData": "919495425017162024"
+    }
   },
   {
     "id": "1997202918960286385",
-    "name": "Enchant 286385",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1997202918960286385",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "280745642002455513"
+    }
   },
   {
     "id": "1110788100132013154",
-    "name": "Enchant 013154",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1110788100132013154",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3971159348789541934"
+    }
   },
   {
     "id": "3731017145319087982",
-    "name": "Enchant 087982",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3731017145319087982",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2732374932607083891"
+    }
   },
   {
     "id": "1733046958358872953",
-    "name": "Enchant 872953",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1733046958358872953",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1165184865232903386"
+    }
   },
   {
     "id": "972756766235993043",
-    "name": "Enchant 993043",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "972756766235993043",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2401453509119351262"
+    }
   },
   {
     "id": "3511611537346881323",
-    "name": "Enchant 881323",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3511611537346881323",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4552037895208265426"
+    }
   },
   {
     "id": "1511154579953585516",
-    "name": "Enchant 585516",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1511154579953585516",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1673934081067954807"
+    }
   },
   {
     "id": "1569898591165626790",
-    "name": "Enchant 626790",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1569898591165626790",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1212891352702371840"
+    }
   },
   {
     "id": "479887487489196355",
-    "name": "Enchant 196355",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "479887487489196355",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1535064613489877341"
+    }
   },
   {
     "id": "1270293444013409421",
-    "name": "Enchant 409421",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1270293444013409421",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3723068747217849319"
+    }
   },
   {
     "id": "3930870237015749752",
-    "name": "Enchant 749752",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3930870237015749752",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4500079572947633390"
+    }
   },
   {
     "id": "2000506160948367045",
-    "name": "Enchant 367045",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2000506160948367045",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1816453692246019172"
+    }
   },
   {
     "id": "4076967634318356712",
-    "name": "Enchant 356712",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4076967634318356712",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "740589775019339530"
+    }
   },
   {
     "id": "2326449438211439013",
-    "name": "Enchant 439013",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2326449438211439013",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2939753428190469227"
+    }
   },
   {
     "id": "1674176066816614107",
-    "name": "Enchant 614107",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "1674176066816614107",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1649190929180300501"
+    }
   },
   {
     "id": "3329347161150970013",
-    "name": "Enchant 970013",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3329347161150970013",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "224602159771133219"
+    }
   },
   {
     "id": "2594763959582191725",
-    "name": "Enchant 191725",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2594763959582191725",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3603395908595835614"
+    }
   },
   {
     "id": "380697729978635727",
-    "name": "Enchant 635727",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "380697729978635727",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4021605682784883051"
+    }
   },
   {
     "id": "3830955738832120428",
-    "name": "Enchant 120428",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3830955738832120428",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "3548574440232713320"
+    }
   },
   {
     "id": "3776847081993806289",
-    "name": "Enchant 806289",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "3776847081993806289",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "4273185391317261467"
+    }
   },
   {
     "id": "4445711252824926999",
-    "name": "Enchant 926999",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "4445711252824926999",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "2990605679291042538"
+    }
   },
   {
     "id": "2740075038160134504",
-    "name": "Enchant 134504",
+    "name": "",
     "description": "",
-    "icon": "",
-    "type": "facet",
-    "groupType": 0,
-    "itemType": 0,
-    "dropLevel": 1,
-    "effects": []
+    "data": {
+      "identifier": "2740075038160134504",
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "itemType": 0,
+      "twoHandedDoubleScaling": true,
+      "groupType": 0,
+      "type": 0,
+      "modifierData": "1589891360912917163"
+    }
   }
 ]

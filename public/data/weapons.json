@@ -11,6 +11,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -168,6 +169,7 @@
     "dropLevel": 21,
     "sellValue": 21,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 8,
     "enchantmentIds": [
       "504640765995381585",
@@ -330,6 +332,7 @@
     "dropLevel": 21,
     "sellValue": 94,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -487,6 +490,7 @@
     "dropLevel": 21,
     "sellValue": 45,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -644,6 +648,7 @@
     "dropLevel": 21,
     "sellValue": 87,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -801,6 +806,7 @@
     "dropLevel": 11,
     "sellValue": 31,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -958,6 +964,7 @@
     "dropLevel": 21,
     "sellValue": 54,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 40,
     "enchantmentIds": [],
     "stats": {
@@ -1115,6 +1122,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -1272,6 +1280,7 @@
     "dropLevel": 11,
     "sellValue": 62,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -1429,6 +1438,7 @@
     "dropLevel": 1,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -1586,6 +1596,7 @@
     "dropLevel": 21,
     "sellValue": 78,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 40,
     "enchantmentIds": [],
     "stats": {
@@ -1743,6 +1754,7 @@
     "dropLevel": 11,
     "sellValue": 42,
     "damageType": "physical",
+    "weaponClass": 21,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -1900,6 +1912,7 @@
     "dropLevel": 11,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 10,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -2057,6 +2070,7 @@
     "dropLevel": 1,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 10,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -2214,6 +2228,7 @@
     "dropLevel": 21,
     "sellValue": 133,
     "damageType": "holy",
+    "weaponClass": 24,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -2371,6 +2386,7 @@
     "dropLevel": 21,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 24,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -2528,6 +2544,7 @@
     "dropLevel": 11,
     "sellValue": 133,
     "damageType": "plague",
+    "weaponClass": 24,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -2685,6 +2702,7 @@
     "dropLevel": 11,
     "sellValue": 98,
     "damageType": "holy",
+    "weaponClass": 24,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -2842,6 +2860,7 @@
     "dropLevel": 1,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 24,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -2999,6 +3018,7 @@
     "dropLevel": 1,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 24,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -3156,6 +3176,7 @@
     "dropLevel": 11,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 24,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -3313,6 +3334,7 @@
     "dropLevel": 1,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 24,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -3470,6 +3492,7 @@
     "dropLevel": 21,
     "sellValue": 58,
     "damageType": "plague",
+    "weaponClass": 24,
     "baseAttributes": 32,
     "enchantmentIds": [
       "781525658515054458",
@@ -3630,6 +3653,7 @@
     "dropLevel": 1,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 24,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -3787,6 +3811,7 @@
     "dropLevel": 11,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 24,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -3944,6 +3969,7 @@
     "dropLevel": 1,
     "sellValue": 95,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -4101,6 +4127,7 @@
     "dropLevel": 21,
     "sellValue": 31,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -4258,6 +4285,7 @@
     "dropLevel": 21,
     "sellValue": 95,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -4415,6 +4443,7 @@
     "dropLevel": 11,
     "sellValue": 95,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -4572,6 +4601,7 @@
     "dropLevel": 21,
     "sellValue": 95,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -4729,6 +4759,7 @@
     "dropLevel": 21,
     "sellValue": 95,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -4886,6 +4917,7 @@
     "dropLevel": 1,
     "sellValue": 69,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 4,
     "enchantmentIds": [
       "1812072478131321654",
@@ -5048,6 +5080,7 @@
     "dropLevel": 21,
     "sellValue": 127,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -5205,6 +5238,7 @@
     "dropLevel": 21,
     "sellValue": 31,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -5362,6 +5396,7 @@
     "dropLevel": 21,
     "sellValue": 95,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -5519,6 +5554,7 @@
     "dropLevel": 21,
     "sellValue": 31,
     "damageType": "physical",
+    "weaponClass": 14,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -5676,6 +5712,7 @@
     "dropLevel": 1,
     "sellValue": 113,
     "damageType": "physical",
+    "weaponClass": 15,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -5833,6 +5870,7 @@
     "dropLevel": 21,
     "sellValue": 113,
     "damageType": "physical",
+    "weaponClass": 15,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -5990,6 +6028,7 @@
     "dropLevel": 1,
     "sellValue": 500,
     "damageType": "physical",
+    "weaponClass": 9,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -6147,6 +6186,7 @@
     "dropLevel": 11,
     "sellValue": 500,
     "damageType": "physical",
+    "weaponClass": 9,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -6304,6 +6344,7 @@
     "dropLevel": 21,
     "sellValue": 500,
     "damageType": "physical",
+    "weaponClass": 9,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -6461,6 +6502,7 @@
     "dropLevel": 21,
     "sellValue": 74,
     "damageType": "physical",
+    "weaponClass": 16,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -6618,6 +6660,7 @@
     "dropLevel": 11,
     "sellValue": 74,
     "damageType": "physical",
+    "weaponClass": 16,
     "baseAttributes": 16,
     "enchantmentIds": [
       "3599337120815036476",
@@ -6779,6 +6822,7 @@
     "dropLevel": 1,
     "sellValue": 74,
     "damageType": "physical",
+    "weaponClass": 16,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -6936,6 +6980,7 @@
     "dropLevel": 21,
     "sellValue": 74,
     "damageType": "physical",
+    "weaponClass": 16,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -7093,6 +7138,7 @@
     "dropLevel": 21,
     "sellValue": 67,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -7250,6 +7296,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -7407,6 +7454,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -7564,6 +7612,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -7721,6 +7770,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -7878,6 +7928,7 @@
     "dropLevel": 1,
     "sellValue": 42,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -8035,6 +8086,7 @@
     "dropLevel": 21,
     "sellValue": 103,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -8192,6 +8244,7 @@
     "dropLevel": 21,
     "sellValue": 55,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -8349,6 +8402,7 @@
     "dropLevel": 21,
     "sellValue": 41,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -8506,6 +8560,7 @@
     "dropLevel": 11,
     "sellValue": 42,
     "damageType": "physical",
+    "weaponClass": 13,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -8663,6 +8718,7 @@
     "dropLevel": 21,
     "sellValue": 54,
     "damageType": "physical",
+    "weaponClass": 12,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -8820,6 +8876,7 @@
     "dropLevel": 21,
     "sellValue": 146,
     "damageType": "physical",
+    "weaponClass": 12,
     "baseAttributes": 48,
     "enchantmentIds": [],
     "stats": {
@@ -8977,6 +9034,7 @@
     "dropLevel": 21,
     "sellValue": 94,
     "damageType": "physical",
+    "weaponClass": 12,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -9134,6 +9192,7 @@
     "dropLevel": 11,
     "sellValue": 67,
     "damageType": "physical",
+    "weaponClass": 12,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -9291,6 +9350,7 @@
     "dropLevel": 1,
     "sellValue": 89,
     "damageType": "physical",
+    "weaponClass": 12,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -9448,6 +9508,7 @@
     "dropLevel": 11,
     "sellValue": 54,
     "damageType": "holy",
+    "weaponClass": 12,
     "baseAttributes": 36,
     "enchantmentIds": [
       "2112281776579248946",
@@ -9609,6 +9670,7 @@
     "dropLevel": 21,
     "sellValue": 98,
     "damageType": "physical",
+    "weaponClass": 12,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -9766,6 +9828,7 @@
     "dropLevel": 1,
     "sellValue": 12,
     "damageType": "physical",
+    "weaponClass": 26,
     "baseAttributes": 0,
     "enchantmentIds": [],
     "stats": {
@@ -9923,6 +9986,7 @@
     "dropLevel": 21,
     "sellValue": 27,
     "damageType": "physical",
+    "weaponClass": 6,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -10080,6 +10144,7 @@
     "dropLevel": 11,
     "sellValue": 27,
     "damageType": "physical",
+    "weaponClass": 6,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -10237,6 +10302,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "holy",
+    "weaponClass": 6,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -10394,6 +10460,7 @@
     "dropLevel": 1,
     "sellValue": 27,
     "damageType": "physical",
+    "weaponClass": 6,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -10551,6 +10618,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 6,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -10708,6 +10776,7 @@
     "dropLevel": 21,
     "sellValue": 54,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -10865,6 +10934,7 @@
     "dropLevel": 21,
     "sellValue": 124,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -11022,6 +11092,7 @@
     "dropLevel": 11,
     "sellValue": 124,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -11179,6 +11250,7 @@
     "dropLevel": 21,
     "sellValue": 124,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -11336,6 +11408,7 @@
     "dropLevel": 11,
     "sellValue": 124,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -11493,6 +11566,7 @@
     "dropLevel": 21,
     "sellValue": 124,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 48,
     "enchantmentIds": [],
     "stats": {
@@ -11650,6 +11724,7 @@
     "dropLevel": 21,
     "sellValue": 124,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -11807,6 +11882,7 @@
     "dropLevel": 21,
     "sellValue": 124,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -11964,6 +12040,7 @@
     "dropLevel": 1,
     "sellValue": 124,
     "damageType": "physical",
+    "weaponClass": 2,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -12121,6 +12198,7 @@
     "dropLevel": 1,
     "sellValue": 87,
     "damageType": "physical",
+    "weaponClass": 23,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -12278,6 +12356,7 @@
     "dropLevel": 21,
     "sellValue": 87,
     "damageType": "physical",
+    "weaponClass": 23,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -12435,6 +12514,7 @@
     "dropLevel": 11,
     "sellValue": 87,
     "damageType": "physical",
+    "weaponClass": 23,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -12592,6 +12672,7 @@
     "dropLevel": 21,
     "sellValue": 87,
     "damageType": "physical",
+    "weaponClass": 23,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -12749,6 +12830,7 @@
     "dropLevel": 11,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 7,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -12906,6 +12988,7 @@
     "dropLevel": 21,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 7,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -13063,6 +13146,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 7,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -13220,6 +13304,7 @@
     "dropLevel": 1,
     "sellValue": 24,
     "damageType": "physical",
+    "weaponClass": 7,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -13377,6 +13462,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 7,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -13534,6 +13620,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 7,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -13691,6 +13778,7 @@
     "dropLevel": 11,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 7,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -13848,6 +13936,7 @@
     "dropLevel": 21,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 7,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -14005,6 +14094,7 @@
     "dropLevel": 21,
     "sellValue": 15,
     "damageType": "physical",
+    "weaponClass": 22,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -14162,6 +14252,7 @@
     "dropLevel": 1,
     "sellValue": 50,
     "damageType": "physical",
+    "weaponClass": 22,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -14319,6 +14410,7 @@
     "dropLevel": 11,
     "sellValue": 50,
     "damageType": "physical",
+    "weaponClass": 22,
     "baseAttributes": 40,
     "enchantmentIds": [
       "1758728209324592189",
@@ -14480,6 +14572,7 @@
     "dropLevel": 21,
     "sellValue": 50,
     "damageType": "physical",
+    "weaponClass": 22,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -14637,6 +14730,7 @@
     "dropLevel": 11,
     "sellValue": 15,
     "damageType": "physical",
+    "weaponClass": 22,
     "baseAttributes": 40,
     "enchantmentIds": [],
     "stats": {
@@ -14794,6 +14888,7 @@
     "dropLevel": 11,
     "sellValue": 31,
     "damageType": "physical",
+    "weaponClass": 5,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -14951,6 +15046,7 @@
     "dropLevel": 11,
     "sellValue": 103,
     "damageType": "physical",
+    "weaponClass": 5,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -15108,6 +15204,7 @@
     "dropLevel": 21,
     "sellValue": 42,
     "damageType": "physical",
+    "weaponClass": 5,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -15265,6 +15362,7 @@
     "dropLevel": 1,
     "sellValue": 75,
     "damageType": "physical",
+    "weaponClass": 5,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -15422,6 +15520,7 @@
     "dropLevel": 21,
     "sellValue": 70,
     "damageType": "physical",
+    "weaponClass": 5,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -15579,6 +15678,7 @@
     "dropLevel": 21,
     "sellValue": 29,
     "damageType": "physical",
+    "weaponClass": 5,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -15736,6 +15836,7 @@
     "dropLevel": 21,
     "sellValue": 65,
     "damageType": "physical",
+    "weaponClass": 5,
     "baseAttributes": 12,
     "enchantmentIds": [
       "4233651011173565891",
@@ -15898,6 +15999,7 @@
     "dropLevel": 11,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 8,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -16055,6 +16157,7 @@
     "dropLevel": 21,
     "sellValue": 40,
     "damageType": "physical",
+    "weaponClass": 8,
     "baseAttributes": 40,
     "enchantmentIds": [],
     "stats": {
@@ -16212,6 +16315,7 @@
     "dropLevel": 11,
     "sellValue": 40,
     "damageType": "physical",
+    "weaponClass": 8,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -16369,6 +16473,7 @@
     "dropLevel": 21,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 8,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -16526,6 +16631,7 @@
     "dropLevel": 11,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 8,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -16683,6 +16789,7 @@
     "dropLevel": 1,
     "sellValue": 40,
     "damageType": "physical",
+    "weaponClass": 8,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -16840,6 +16947,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -16997,6 +17105,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "holy",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -17154,6 +17263,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -17311,6 +17421,7 @@
     "dropLevel": 1,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -17468,6 +17579,7 @@
     "dropLevel": 21,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -17625,6 +17737,7 @@
     "dropLevel": 21,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -17782,6 +17895,7 @@
     "dropLevel": 11,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -17939,6 +18053,7 @@
     "dropLevel": 1,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -18096,6 +18211,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 16,
     "enchantmentIds": [
       "3249968609093512040",
@@ -18257,6 +18373,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -18414,6 +18531,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "holy",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -18571,6 +18689,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -18728,6 +18847,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -18885,6 +19005,7 @@
     "dropLevel": 1,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -19042,6 +19163,7 @@
     "dropLevel": 1,
     "sellValue": 58,
     "damageType": "physical",
+    "weaponClass": 25,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -19199,6 +19321,7 @@
     "dropLevel": 11,
     "sellValue": 56,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 32,
     "enchantmentIds": [],
     "stats": {
@@ -19356,6 +19479,7 @@
     "dropLevel": 1,
     "sellValue": 56,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -19513,6 +19637,7 @@
     "dropLevel": 21,
     "sellValue": 56,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 4,
     "enchantmentIds": [],
     "stats": {
@@ -19670,6 +19795,7 @@
     "dropLevel": 11,
     "sellValue": 56,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 20,
     "enchantmentIds": [
       "3925844837724159742",
@@ -19832,6 +19958,7 @@
     "dropLevel": 21,
     "sellValue": 56,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -19989,6 +20116,7 @@
     "dropLevel": 11,
     "sellValue": 9,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -20146,6 +20274,7 @@
     "dropLevel": 21,
     "sellValue": 56,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -20303,6 +20432,7 @@
     "dropLevel": 21,
     "sellValue": 56,
     "damageType": "plague",
+    "weaponClass": 1,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -20460,6 +20590,7 @@
     "dropLevel": 11,
     "sellValue": 56,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -20617,6 +20748,7 @@
     "dropLevel": 11,
     "sellValue": 31,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 36,
     "enchantmentIds": [],
     "stats": {
@@ -20774,6 +20906,7 @@
     "dropLevel": 21,
     "sellValue": 56,
     "damageType": "physical",
+    "weaponClass": 1,
     "baseAttributes": 20,
     "enchantmentIds": [],
     "stats": {
@@ -20931,6 +21064,7 @@
     "dropLevel": 21,
     "sellValue": 45,
     "damageType": "physical",
+    "weaponClass": 4,
     "baseAttributes": 40,
     "enchantmentIds": [],
     "stats": {
@@ -21088,6 +21222,7 @@
     "dropLevel": 11,
     "sellValue": 18,
     "damageType": "physical",
+    "weaponClass": 4,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -21245,6 +21380,7 @@
     "dropLevel": 21,
     "sellValue": 45,
     "damageType": "plague",
+    "weaponClass": 4,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -21402,6 +21538,7 @@
     "dropLevel": 21,
     "sellValue": 45,
     "damageType": "physical",
+    "weaponClass": 4,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -21559,6 +21696,7 @@
     "dropLevel": 11,
     "sellValue": 45,
     "damageType": "physical",
+    "weaponClass": 4,
     "baseAttributes": 48,
     "enchantmentIds": [
       "4179412382798171250",
@@ -21720,6 +21858,7 @@
     "dropLevel": 1,
     "sellValue": 45,
     "damageType": "physical",
+    "weaponClass": 4,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -21877,6 +22016,7 @@
     "dropLevel": 21,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 3,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -22034,6 +22174,7 @@
     "dropLevel": 11,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 3,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -22191,6 +22332,7 @@
     "dropLevel": 1,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 3,
     "baseAttributes": 40,
     "enchantmentIds": [],
     "stats": {
@@ -22348,6 +22490,7 @@
     "dropLevel": 21,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 3,
     "baseAttributes": 24,
     "enchantmentIds": [
       "2144056827446874320",
@@ -22509,6 +22652,7 @@
     "dropLevel": 1,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 19,
     "baseAttributes": 0,
     "enchantmentIds": [],
     "stats": {
@@ -22666,6 +22810,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -22823,6 +22968,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -22980,6 +23126,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -23137,6 +23284,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -23294,6 +23442,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -23451,6 +23600,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -23608,6 +23758,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -23765,6 +23916,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 16,
     "enchantmentIds": [],
     "stats": {
@@ -23922,6 +24074,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -24079,6 +24232,7 @@
     "dropLevel": 11,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 24,
     "enchantmentIds": [],
     "stats": {
@@ -24236,6 +24390,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -24393,6 +24548,7 @@
     "dropLevel": 21,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 8,
     "enchantmentIds": [
       "4029455093925925465",
@@ -24555,6 +24711,7 @@
     "dropLevel": 1,
     "sellValue": 0,
     "damageType": "physical",
+    "weaponClass": 18,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -24712,6 +24869,7 @@
     "dropLevel": 21,
     "sellValue": 133,
     "damageType": "fire",
+    "weaponClass": 17,
     "baseAttributes": 8,
     "enchantmentIds": [
       "1314248457088770189",
@@ -24873,6 +25031,7 @@
     "dropLevel": 11,
     "sellValue": 115,
     "damageType": "physical",
+    "weaponClass": 17,
     "baseAttributes": 12,
     "enchantmentIds": [],
     "stats": {
@@ -25030,6 +25189,7 @@
     "dropLevel": 1,
     "sellValue": 67,
     "damageType": "physical",
+    "weaponClass": 17,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -25187,6 +25347,7 @@
     "dropLevel": 11,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 17,
     "baseAttributes": 8,
     "enchantmentIds": [],
     "stats": {
@@ -25344,6 +25505,7 @@
     "dropLevel": 21,
     "sellValue": 133,
     "damageType": "physical",
+    "weaponClass": 17,
     "baseAttributes": 40,
     "enchantmentIds": [],
     "stats": {

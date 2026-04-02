@@ -69,6 +69,7 @@ async function main() {
         rarity: d.uniqueItemConfig ? RARITY[d.uniqueItemConfig.rarity] || 'common' : 'common',
         isUnique: !!d.uniqueItemConfig, dropLevel: d.dropLevel, sellValue: d.baseItemValue,
         damageType: DAMAGE_SCHOOLS[d.damageSchool] || 'physical',
+        weaponClass: d.weaponClass,
         baseAttributes: d.baseAttributes,
         enchantmentIds: d.uniqueItemConfig?.enchantments || [],
         stats: d.itemCoreStatsModifiers || {}
