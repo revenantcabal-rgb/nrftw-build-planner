@@ -1,0 +1,2060 @@
+[
+  {
+    "id": "1332005863549342815",
+    "name": "Mottled Shield Emblem",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r855",
+    "data": {
+      "identifier": "1332005863549342815",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 245,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 262144,
+      "enchants": {
+        "0": "2740075038160134504",
+        "1": "2740075038160134504",
+        "2": null,
+        "3": "3830955738832120428",
+        "4": "3830955738832120428",
+        "5": "3830955738832120428",
+        "6": "3830955738832120428"
+      }
+    }
+  },
+  {
+    "id": "2945949552161393074",
+    "name": "Chipped Shield Emblem",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r856",
+    "data": {
+      "identifier": "2945949552161393074",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 262144,
+      "enchants": {
+        "0": "4445711252824926999",
+        "1": "4445711252824926999",
+        "2": null,
+        "3": "3776847081993806289",
+        "4": "3776847081993806289",
+        "5": "3776847081993806289",
+        "6": "3776847081993806289"
+      }
+    }
+  },
+  {
+    "id": "114142808936367436",
+    "name": "Chipped Topaz",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r857",
+    "data": {
+      "identifier": "114142808936367436",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 1048576,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "1274070251180748980",
+        "4": "1874699671268833666",
+        "5": "1274070251180748980",
+        "6": "1274070251180748980"
+      }
+    }
+  },
+  {
+    "id": "2585957416119043746",
+    "name": "Mottled Topaz",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r858",
+    "data": {
+      "identifier": "2585957416119043746",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 273,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 1048576,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "1874699671268833666",
+        "4": "3676983941679291528",
+        "5": "1874699671268833666",
+        "6": "1874699671268833666"
+      }
+    }
+  },
+  {
+    "id": "2862022067196058174",
+    "name": "Chipped Moon Stone",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r859",
+    "data": {
+      "identifier": "2862022067196058174",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 131072,
+      "enchants": {
+        "0": "9930725373416616",
+        "1": "9930725373416616",
+        "2": null,
+        "3": "9930725373416616",
+        "4": "9930725373416616",
+        "5": "9930725373416616",
+        "6": "9930725373416616"
+      }
+    }
+  },
+  {
+    "id": "4046087583196257739",
+    "name": "Mottled Moon Stone",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r860",
+    "data": {
+      "identifier": "4046087583196257739",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 273,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 131072,
+      "enchants": {
+        "0": "3689830175119767194",
+        "1": "3689830175119767194",
+        "2": null,
+        "3": "3689830175119767194",
+        "4": "3689830175119767194",
+        "5": "3689830175119767194",
+        "6": "3689830175119767194"
+      }
+    }
+  },
+  {
+    "id": "3757540824998934065",
+    "name": "Mottled Feather",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r861",
+    "data": {
+      "identifier": "3757540824998934065",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 273,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 2048,
+      "enchants": {
+        "0": "1915001635346233037",
+        "1": "1915001635346233037",
+        "2": null,
+        "3": "1915001635346233037",
+        "4": "1915001635346233037",
+        "5": "1915001635346233037",
+        "6": "1915001635346233037"
+      }
+    }
+  },
+  {
+    "id": "2973054046766731971",
+    "name": "Tiny Feather",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r862",
+    "data": {
+      "identifier": "2973054046766731971",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 2048,
+      "enchants": {
+        "0": "1439740688250158181",
+        "1": "1439740688250158181",
+        "2": null,
+        "3": "1439740688250158181",
+        "4": "1439740688250158181",
+        "5": "1439740688250158181",
+        "6": "1439740688250158181"
+      }
+    }
+  },
+  {
+    "id": "1115869939666077150",
+    "name": "Mottled Fang",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r863",
+    "data": {
+      "identifier": "1115869939666077150",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 273,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 1024,
+      "enchants": {
+        "0": "3511611537346881323",
+        "1": "479887487489196355",
+        "2": null,
+        "3": "1270293444013409421",
+        "4": "1270293444013409421",
+        "5": "1569898591165626790",
+        "6": "1733046958358872953"
+      }
+    }
+  },
+  {
+    "id": "61995666478825046",
+    "name": "Tiny Fang",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r864",
+    "data": {
+      "identifier": "61995666478825046",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 162,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 1024,
+      "enchants": {
+        "0": "3930870237015749752",
+        "1": "1511154579953585516",
+        "2": null,
+        "3": "972756766235993043",
+        "4": "972756766235993043",
+        "5": "2000506160948367045",
+        "6": "1270293444013409421"
+      }
+    }
+  },
+  {
+    "id": "615858493199977727",
+    "name": "Mottled Black Pearl",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r865",
+    "data": {
+      "identifier": "615858493199977727",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 267,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 32,
+      "enchants": {
+        "0": "1431792755394550540",
+        "1": "1431792755394550540",
+        "2": null,
+        "3": "1431792755394550540",
+        "4": "1431792755394550540",
+        "5": "1431792755394550540",
+        "6": "1431792755394550540"
+      }
+    }
+  },
+  {
+    "id": "3468961015894704486",
+    "name": "Chipped Black Pearl",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r866",
+    "data": {
+      "identifier": "3468961015894704486",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 142,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 32,
+      "enchants": {
+        "0": "1046422207328876475",
+        "1": "1046422207328876475",
+        "2": null,
+        "3": "1046422207328876475",
+        "4": "1046422207328876475",
+        "5": "1046422207328876475",
+        "6": "1046422207328876475"
+      }
+    }
+  },
+  {
+    "id": "2880778102785673664",
+    "name": "Mottled Granite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r867",
+    "data": {
+      "identifier": "2880778102785673664",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 245,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 4096,
+      "enchants": {
+        "0": "2735306534724025277",
+        "1": "1435910309100801628",
+        "2": null,
+        "3": "4064042914101598279",
+        "4": "4064042914101598279",
+        "5": "4064042914101598279",
+        "6": "4064042914101598279"
+      }
+    }
+  },
+  {
+    "id": "2707064685416276085",
+    "name": "Chipped Granite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r868",
+    "data": {
+      "identifier": "2707064685416276085",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 4096,
+      "enchants": {
+        "0": "3545896868517042186",
+        "1": "74314237919928740",
+        "2": null,
+        "3": "3655014645967254895",
+        "4": "3655014645967254895",
+        "5": "3655014645967254895",
+        "6": "3655014645967254895"
+      }
+    }
+  },
+  {
+    "id": "2640926775338220803",
+    "name": "Mottled Emerald",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r869",
+    "data": {
+      "identifier": "2640926775338220803",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 232,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 512,
+      "enchants": {
+        "0": "2594763959582191725",
+        "1": "3329347161150970013",
+        "2": null,
+        "3": "2594763959582191725",
+        "4": "3329347161150970013",
+        "5": "3329347161150970013",
+        "6": "3329347161150970013"
+      }
+    }
+  },
+  {
+    "id": "3681256810326729351",
+    "name": "Chipped Emerald",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r870",
+    "data": {
+      "identifier": "3681256810326729351",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 144,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 512,
+      "enchants": {
+        "0": "3329347161150970013",
+        "1": "380697729978635727",
+        "2": null,
+        "3": "3329347161150970013",
+        "4": "380697729978635727",
+        "5": "380697729978635727",
+        "6": "380697729978635727"
+      }
+    }
+  },
+  {
+    "id": "4420616226298857783",
+    "name": "Mottled Jade",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r871",
+    "data": {
+      "identifier": "4420616226298857783",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 267,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 8192,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "1674176066816614107",
+        "4": "1674176066816614107",
+        "5": "1674176066816614107",
+        "6": "2326449438211439013"
+      }
+    }
+  },
+  {
+    "id": "994150335710522137",
+    "name": "Chipped Jade",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r872",
+    "data": {
+      "identifier": "994150335710522137",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 142,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 8192,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "4076967634318356712",
+        "4": "4076967634318356712",
+        "5": "4076967634318356712",
+        "6": "1674176066816614107"
+      }
+    }
+  },
+  {
+    "id": "2330777079347888372",
+    "name": "Chipped Marble",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r873",
+    "data": {
+      "identifier": "2330777079347888372",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 32768,
+      "enchants": {
+        "0": "3599359587648096035",
+        "1": "3599359587648096035",
+        "2": null,
+        "3": "3599359587648096035",
+        "4": "3599359587648096035",
+        "5": "3599359587648096035",
+        "6": "3599359587648096035"
+      }
+    }
+  },
+  {
+    "id": "1326706488000359489",
+    "name": "Mottled Marble",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r874",
+    "data": {
+      "identifier": "1326706488000359489",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 262,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 32768,
+      "enchants": {
+        "0": "49558745709773689",
+        "1": "49558745709773689",
+        "2": null,
+        "3": "49558745709773689",
+        "4": "49558745709773689",
+        "5": "49558745709773689",
+        "6": "49558745709773689"
+      }
+    }
+  },
+  {
+    "id": "3280555658014278183",
+    "name": "Mottled Diamond",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r875",
+    "data": {
+      "identifier": "3280555658014278183",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 245,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 128,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "2247133727068197081",
+        "4": "2247133727068197081",
+        "5": "2247133727068197081",
+        "6": "2247133727068197081"
+      }
+    }
+  },
+  {
+    "id": "2825364970668741043",
+    "name": "Chipped Diamond",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r876",
+    "data": {
+      "identifier": "2825364970668741043",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 128,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "1121648387127634804",
+        "4": "1121648387127634804",
+        "5": "1121648387127634804",
+        "6": "1121648387127634804"
+      }
+    }
+  },
+  {
+    "id": "2291772681299188761",
+    "name": "Mottled Meteorite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r877",
+    "data": {
+      "identifier": "2291772681299188761",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 274,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 65536,
+      "enchants": {
+        "0": "4545406493566748791",
+        "1": "4545406493566748791",
+        "2": null,
+        "3": "4545406493566748791",
+        "4": "4545406493566748791",
+        "5": "4545406493566748791",
+        "6": "4545406493566748791"
+      }
+    }
+  },
+  {
+    "id": "402303035105344293",
+    "name": "Chipped Meteorite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r878",
+    "data": {
+      "identifier": "402303035105344293",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 139,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 65536,
+      "enchants": {
+        "0": "3818445764039468268",
+        "1": "3818445764039468268",
+        "2": null,
+        "3": "3818445764039468268",
+        "4": "3818445764039468268",
+        "5": "3818445764039468268",
+        "6": "3818445764039468268"
+      }
+    }
+  },
+  {
+    "id": "533322098818691501",
+    "name": "Mottled Jewel",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r879",
+    "data": {
+      "identifier": "533322098818691501",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 269,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 16384,
+      "enchants": {
+        "0": "4578283463182792740",
+        "1": "4578283463182792740",
+        "2": null,
+        "3": "4578283463182792740",
+        "4": "4578283463182792740",
+        "5": "4578283463182792740",
+        "6": "4578283463182792740"
+      }
+    }
+  },
+  {
+    "id": "79543393030588856",
+    "name": "Chipped Jewel",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r880",
+    "data": {
+      "identifier": "79543393030588856",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 146,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 16384,
+      "enchants": {
+        "0": "1173745950902868527",
+        "1": "1173745950902868527",
+        "2": null,
+        "3": "1173745950902868527",
+        "4": "1173745950902868527",
+        "5": "1173745950902868527",
+        "6": "1173745950902868527"
+      }
+    }
+  },
+  {
+    "id": "4534125204586717504",
+    "name": "Mottled Blood Stone",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r881",
+    "data": {
+      "identifier": "4534125204586717504",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 245,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 64,
+      "enchants": {
+        "0": "1141389167595271538",
+        "1": "2340993636036301148",
+        "2": null,
+        "3": "1297914843960347180",
+        "4": "1297914843960347180",
+        "5": "1297914843960347180",
+        "6": "2090953674301954044"
+      }
+    }
+  },
+  {
+    "id": "2723586631354824235",
+    "name": "Chipped Blood Stone",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r882",
+    "data": {
+      "identifier": "2723586631354824235",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 64,
+      "enchants": {
+        "0": "2340993636036301148",
+        "1": "3079243856794051314",
+        "2": null,
+        "3": "3457606341590477794",
+        "4": "3457606341590477794",
+        "5": "3457606341590477794",
+        "6": "1297914843960347180"
+      }
+    }
+  },
+  {
+    "id": "2773338231326825262",
+    "name": "Medium Skull",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r883",
+    "data": {
+      "identifier": "2773338231326825262",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 273,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 524288,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "337476847488735766",
+        "4": "337476847488735766",
+        "5": "337476847488735766",
+        "6": "337476847488735766"
+      }
+    }
+  },
+  {
+    "id": "1295494016809672370",
+    "name": "Small Skull",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r884",
+    "data": {
+      "identifier": "1295494016809672370",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 524288,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "1125639580804904042",
+        "4": "1125639580804904042",
+        "5": "1125639580804904042",
+        "6": "1125639580804904042"
+      }
+    }
+  },
+  {
+    "id": "454208163797452614",
+    "name": "Mottled Dianite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r885",
+    "data": {
+      "identifier": "454208163797452614",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.19999695,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 267,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 256,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "1110788100132013154",
+        "4": "1110788100132013154",
+        "5": "1110788100132013154",
+        "6": "3731017145319087982"
+      }
+    }
+  },
+  {
+    "id": "2048554267325085923",
+    "name": "Chipped Dianite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r886",
+    "data": {
+      "identifier": "2048554267325085923",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.5,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 142,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 256,
+      "enchants": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": "1997202918960286385",
+        "4": "1997202918960286385",
+        "5": "1997202918960286385",
+        "6": "1110788100132013154"
+      }
+    }
+  },
+  {
+    "id": "2222609349130386545",
+    "name": "Mottled Sapphire",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r887",
+    "data": {
+      "identifier": "2222609349130386545",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.099990845,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 235,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 8,
+      "enchants": {
+        "0": "1038318842883064669",
+        "1": "3348759187656724593",
+        "2": null,
+        "3": "4074816158466299401",
+        "4": "4074816158466299401",
+        "5": "4074816158466299401",
+        "6": "4074816158466299401"
+      }
+    }
+  },
+  {
+    "id": "1269306428342547616",
+    "name": "Chipped Sapphire",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r888",
+    "data": {
+      "identifier": "1269306428342547616",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.25,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 147,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 8,
+      "enchants": {
+        "0": "2389622807391823076",
+        "1": "3475536855328976301",
+        "2": null,
+        "3": "1477548381088324716",
+        "4": "1477548381088324716",
+        "5": "1477548381088324716",
+        "6": "1477548381088324716"
+      }
+    }
+  },
+  {
+    "id": "4080977350168865337",
+    "name": "Chipped Spike",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r889",
+    "data": {
+      "identifier": "4080977350168865337",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.25,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 16,
+      "enchants": {
+        "0": "4154808074297318252",
+        "1": "4363562460617397712",
+        "2": null,
+        "3": "1477548381088324716",
+        "4": "1477548381088324716",
+        "5": "1477548381088324716",
+        "6": "1477548381088324716"
+      }
+    }
+  },
+  {
+    "id": "3416366013415042330",
+    "name": "Mottled Spike",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r890",
+    "data": {
+      "identifier": "3416366013415042330",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.099990845,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 245,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 16,
+      "enchants": {
+        "0": "4363562460617397712",
+        "1": "742416911401832078",
+        "2": null,
+        "3": "4074816158466299401",
+        "4": "4074816158466299401",
+        "5": "4074816158466299401",
+        "6": "4074816158466299401"
+      }
+    }
+  },
+  {
+    "id": "3187871656023379566",
+    "name": "Chipped Ruby",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r891",
+    "data": {
+      "identifier": "3187871656023379566",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.25,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 145,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 4,
+      "enchants": {
+        "0": "596641507773510828",
+        "1": "174261871946572326",
+        "2": null,
+        "3": "1477548381088324716",
+        "4": "1477548381088324716",
+        "5": "1477548381088324716",
+        "6": "1477548381088324716"
+      }
+    }
+  },
+  {
+    "id": "2071496264251315353",
+    "name": "Mottled Ruby",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r892",
+    "data": {
+      "identifier": "2071496264251315353",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.099990845,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 238,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 4,
+      "enchants": {
+        "0": "4472237260774245512",
+        "1": "546695072135079219",
+        "2": null,
+        "3": "4074816158466299401",
+        "4": "4074816158466299401",
+        "5": "4074816158466299401",
+        "6": "4074816158466299401"
+      }
+    }
+  },
+  {
+    "id": "3309518401243604794",
+    "name": "Chipped Amethyst",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r893",
+    "data": {
+      "identifier": "3309518401243604794",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.25,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 142,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 1,
+      "enchants": {
+        "0": "3359087384858115676",
+        "1": "1790049317315530954",
+        "2": null,
+        "3": "1477548381088324716",
+        "4": "1477548381088324716",
+        "5": "1477548381088324716",
+        "6": "1477548381088324716"
+      }
+    }
+  },
+  {
+    "id": "206083998685700718",
+    "name": "Mottled Amethyst",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r894",
+    "data": {
+      "identifier": "206083998685700718",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.099990845,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 239,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 1,
+      "enchants": {
+        "0": "2091534897245084860",
+        "1": "1763454423031203549",
+        "2": null,
+        "3": "4074816158466299401",
+        "4": "4074816158466299401",
+        "5": "4074816158466299401",
+        "6": "4074816158466299401"
+      }
+    }
+  },
+  {
+    "id": "2735561799846330604",
+    "name": "Chipped Quartz",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r895",
+    "data": {
+      "identifier": "2735561799846330604",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.25,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 146,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 2,
+      "enchants": {
+        "0": "2323036255649335814",
+        "1": "1793646466781434001",
+        "2": null,
+        "3": "1477548381088324716",
+        "4": "1477548381088324716",
+        "5": "1477548381088324716",
+        "6": "1477548381088324716"
+      }
+    }
+  },
+  {
+    "id": "2128332953717762977",
+    "name": "Mottled Quartz",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r896",
+    "data": {
+      "identifier": "2128332953717762977",
+      "itemType": {
+        "customItemType": 7
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.099990845,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 233,
+      "plagueValue": 2,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": {
+        "unique": true,
+        "rarity": 1,
+        "enchantments": []
+      },
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 31,
+      "familyType": 2,
+      "enchants": {
+        "0": "536126983830663137",
+        "1": "654755416116549678",
+        "2": null,
+        "3": "4074816158466299401",
+        "4": "4074816158466299401",
+        "5": "4074816158466299401",
+        "6": "4074816158466299401"
+      }
+    }
+  }
+]

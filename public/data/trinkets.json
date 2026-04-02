@@ -1,0 +1,288 @@
+[
+  {
+    "id": "806096773973871765",
+    "name": "Thistle Ring",
+    "description": "\"You have been wronged. You have been curdled. They must hurt for it.\" - Prayer of Agony",
+    "icon": "w194",
+    "rarity": "rare",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 568,
+    "enchantmentIds": [
+      "2156761885929370889",
+      "613832344400432410"
+    ]
+  },
+  {
+    "id": "3837145536784651150",
+    "name": "Ring of Broken Promises",
+    "description": "\"We are mother to the plague and child to it. We eat our young. We eat our old.\" - Elegy of the Empty",
+    "icon": "w195",
+    "rarity": "rare",
+    "isUnique": true,
+    "dropLevel": 11,
+    "sellValue": 441,
+    "enchantmentIds": [
+      "3005086903943386227",
+      "1225420521171645749"
+    ]
+  },
+  {
+    "id": "725026499279919716",
+    "name": "Snake Ring",
+    "description": "\"Eat the moving. Feast upon the still. All is hunger.\" - Prayer of Appetite ",
+    "icon": "w196",
+    "rarity": "rare",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 564,
+    "enchantmentIds": [
+      "1437002922600698587",
+      "144520586260710420"
+    ]
+  },
+  {
+    "id": "1570082056291742367",
+    "name": "Rune Ring",
+    "description": "\"The Sayer speaks for us. So we cloak ourselves in silence.\" - Elegy of the None",
+    "icon": "w197",
+    "rarity": "rare",
+    "isUnique": true,
+    "dropLevel": 1,
+    "sellValue": 216,
+    "enchantmentIds": [
+      "3089145977904661255",
+      "1169318684031014373"
+    ]
+  },
+  {
+    "id": "4571481019185401465",
+    "name": "Plagued Ring",
+    "description": "\"Feel unwell. Feel nothing. Feel this blessing of decay.\" - Prayer of Sickness",
+    "icon": "w198",
+    "rarity": "rare",
+    "isUnique": true,
+    "dropLevel": 11,
+    "sellValue": 427,
+    "enchantmentIds": [
+      "3639435031035321322",
+      "3985815034907475169"
+    ]
+  },
+  {
+    "id": "1279494691571233538",
+    "name": "Crow Ring",
+    "description": "\"All things fester. Flesh to fluid. Bone to dust. You to this. To us.\" - Prayer of Rot",
+    "icon": "w199",
+    "rarity": "rare",
+    "isUnique": true,
+    "dropLevel": 1,
+    "sellValue": 242,
+    "enchantmentIds": [
+      "1944887193176240738",
+      "103523015400679369"
+    ]
+  },
+  {
+    "id": "4058128398977305389",
+    "name": "Scarlet Ring",
+    "description": "\"They want what you have. They are what you want. Take.\" -  Prayer of Betrayal",
+    "icon": "w200",
+    "rarity": "epic",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 609,
+    "enchantmentIds": [
+      "367505262251769955"
+    ]
+  },
+  {
+    "id": "751271724735675494",
+    "name": "Battlecry Ring",
+    "description": "\"Let their screams be our battle cry. Let their whimpers be our last words.\" - Elegy of the Unspoken",
+    "icon": "w201",
+    "rarity": "epic",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 603,
+    "enchantmentIds": [
+      "3602506192533382613",
+      "2213595072136682186"
+    ]
+  },
+  {
+    "id": "1364019954330509277",
+    "name": "Ring of Determination",
+    "description": "\"The Born God knew you in the beforelife, as he will again in the afterlife. Are you worth knowing?\" -  Litany of Fealty",
+    "icon": "w202",
+    "rarity": "epic",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 606,
+    "enchantmentIds": [
+      "2966434728002973997",
+      "1992428959754387642"
+    ]
+  },
+  {
+    "id": "1529508880200853573",
+    "name": "Serendipity Ring",
+    "description": "\"We grow, we build, we search, we pass. But only with all four do we live.\" - Hymn of Four",
+    "icon": "w203",
+    "rarity": "epic",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 612,
+    "enchantmentIds": [
+      "2473415399176050862",
+      "2109608512654201310"
+    ]
+  },
+  {
+    "id": "922913861072906047",
+    "name": "Solace Ring",
+    "description": "\"Look away, oh Forsaken, I am not ready.\" - Hymn of Loss ",
+    "icon": "w204",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 1,
+    "sellValue": 432,
+    "enchantmentIds": [
+      "1991173340355096708"
+    ]
+  },
+  {
+    "id": "1422090269706676108",
+    "name": "Silver Ring",
+    "description": "\"A name is a weakness. A voice is a vice. We have neither.\" - Elegy of the Hushed",
+    "icon": "w205",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 512,
+    "enchantmentIds": [
+      "3346190685641899973"
+    ]
+  },
+  {
+    "id": "354700320897262116",
+    "name": "Band of Calmness",
+    "description": "\"The eternal gods know only the world as it was, the Born God sees the world as it could be.\" - Litany of Hope",
+    "icon": "w206",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 11,
+    "sellValue": 412,
+    "enchantmentIds": [
+      "3247934734848497443",
+      "4577071161778875774"
+    ]
+  },
+  {
+    "id": "794941576187610883",
+    "name": "Woven Ring",
+    "description": "\"Thread your fingers through my own, oh Maker, and shape the clay of my becoming.\" - Hymn of Form ",
+    "icon": "w207",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 1,
+    "sellValue": 512,
+    "enchantmentIds": [
+      "1358986323032771250",
+      "1175918695847621229"
+    ]
+  },
+  {
+    "id": "3780885416964457595",
+    "name": "Willow Cap Ring",
+    "description": "\"Place your lips to the earth, oh Mother, and breathe warmth into my harvest.\" - Hymn of Growth",
+    "icon": "w208",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 551,
+    "enchantmentIds": [
+      "3591911619662366882"
+    ]
+  },
+  {
+    "id": "121817498378425601",
+    "name": "Feather Ring",
+    "description": "\"Part the branches and steady the wind, oh Seeker, so that I may take flight.\" - Hymn of Freedom ",
+    "icon": "w209",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 1,
+    "sellValue": 212,
+    "enchantmentIds": [
+      "3421004081916462005"
+    ]
+  },
+  {
+    "id": "3622468325985030811",
+    "name": "Fierce Ring",
+    "description": "\"The Born God sees through our eyes, acts through our hands. He is countless, he is legion.\" - Litany of Union",
+    "icon": "w210",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 21,
+    "sellValue": 532,
+    "enchantmentIds": [
+      "661899410690664436"
+    ]
+  },
+  {
+    "id": "2889382988068016241",
+    "name": "Golden Band",
+    "description": "\"Our god is the Born God. Not the first god, but the last. Not the question, but the answer.\" - Litany of Origin",
+    "icon": "w211",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 11,
+    "sellValue": 439,
+    "enchantmentIds": [
+      "1289431769612918585"
+    ]
+  },
+  {
+    "id": "1256686299249783277",
+    "name": "Agility Ring",
+    "description": "\"Our final death is a debt owed. Each small death is a payment toward it.\" - Elegy of the Silent",
+    "icon": "w212",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 11,
+    "sellValue": 221,
+    "enchantmentIds": [
+      "135348884307853084",
+      "629509184190028520",
+      "2669337813448015320"
+    ]
+  },
+  {
+    "id": "709525575274685534",
+    "name": "Stone Tusk Ring",
+    "description": "\"All practice our faith, even if they do not know its name. There are no infidels, only heretics.\" - Litany of Embrace",
+    "icon": "w213",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 1,
+    "sellValue": 224,
+    "enchantmentIds": [
+      "1244315408055653346"
+    ]
+  },
+  {
+    "id": "607709695343287400",
+    "name": "Jade Ring",
+    "description": "\"The Born God subsumed the kingdom of gods, now our duty is to subsume the kingdom of men.\" - Litany of Duty",
+    "icon": "w214",
+    "rarity": "uncommon",
+    "isUnique": true,
+    "dropLevel": 11,
+    "sellValue": 422,
+    "enchantmentIds": [
+      "4504116776231616619"
+    ]
+  }
+]

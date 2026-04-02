@@ -1,0 +1,5900 @@
+[
+  {
+    "id": "334358031176021315",
+    "name": "Mushroom",
+    "description": "Restores <span style=\"color:#5B9968\">{1}</span> health over <span style=\"color:#F2E6BD\">{0} Seconds</span>.\n\nCan be eaten in a pinch, but is more effective when used as an <span style=\"color:#F2E6BD\">ingredient</span> in cooking.",
+    "icon": "m1020",
+    "data": {
+      "identifier": "334358031176021315",
+      "itemType": {
+        "ingredientType": 3,
+        "usableType": 3
+      },
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 10,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 26,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "1312612944242825165"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4122645235203468911",
+    "name": "Tomato",
+    "description": "Restores <span style=\"color:#5B9968\">{1}</span> health over <span style=\"color:#F2E6BD\">{0} Seconds</span>.\n\nCan be eaten in a pinch, but is more effective when used as an <span style=\"color:#F2E6BD\">ingredient</span> in cooking.",
+    "icon": "m1021",
+    "data": {
+      "identifier": "4122645235203468911",
+      "itemType": {
+        "ingredientType": 3,
+        "usableType": 3
+      },
+      "dropLevel": 21,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 30,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 26,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "1419283521187012853"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2021943158973951263",
+    "name": "Potato",
+    "description": "Restores <span style=\"color:#5B9968\">{1}</span> health over <span style=\"color:#F2E6BD\">{0} Seconds</span>.\n\nCan be eaten in a pinch, but is more effective when used as an <span style=\"color:#F2E6BD\">ingredient</span> in cooking.",
+    "icon": "m1022",
+    "data": {
+      "identifier": "2021943158973951263",
+      "itemType": {
+        "ingredientType": 3,
+        "usableType": 3
+      },
+      "dropLevel": 11,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 20,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 26,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "676045537477786558"
+        }
+      ]
+    }
+  },
+  {
+    "id": "529511889418667429",
+    "name": "Blueberries",
+    "description": "Tasty but meager, they restore <span style=\"color:#5B9968\">{1}</span> health over <span style=\"color:#F2E6BD\">{0} Seconds</span>.\n\nCan be eaten in a pinch, but is more effective when used as an <span style=\"color:#F2E6BD\">ingredient</span> in cooking.",
+    "icon": "m1023",
+    "data": {
+      "identifier": "529511889418667429",
+      "itemType": {
+        "ingredientType": 4,
+        "usableType": 3
+      },
+      "dropLevel": 21,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 30,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 26,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "3080613331615668634"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1696602935383325774",
+    "name": "Apple",
+    "description": "A common fruit that restores <span style=\"color:#5B9968\">{1}</span> health over <span style=\"color:#F2E6BD\">{0} Seconds</span>.\n\nCan be eaten in a pinch, but is more effective when used as an <span style=\"color:#F2E6BD\">ingredient</span> in cooking.",
+    "icon": "m1024",
+    "data": {
+      "identifier": "1696602935383325774",
+      "itemType": {
+        "ingredientType": 4,
+        "usableType": 3
+      },
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 10,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 26,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "2797698867446418448"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180833899404673680",
+    "name": "Firebrand Berries",
+    "description": "An invigorating snack that restores <span style=\"color:#5B9968\">{1}</span> health over <span style=\"color:#F2E6BD\">{0} Seconds</span>.\n\nCan be eaten in a pinch, but is more effective when used as an <span style=\"color:#F2E6BD\">ingredient</span> in cooking.",
+    "icon": "m1025",
+    "data": {
+      "identifier": "180833899404673680",
+      "itemType": {
+        "ingredientType": 4,
+        "usableType": 3
+      },
+      "dropLevel": 11,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 20,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 0,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 26,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "3623407997902620791"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3440714870661367474",
+    "name": "Dracaena Dumpling",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.",
+    "icon": "m1026",
+    "data": {
+      "identifier": "3440714870661367474",
+      "itemType": {
+        "usableType": 4
+      },
+      "dropLevel": 11,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 33,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "2021943158973951263",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "3492249412788768703",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2114457280190520708",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 54,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 1,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    120
+                  ],
+                  [
+                    1,
+                    120
+                  ],
+                  [
+                    2,
+                    120
+                  ],
+                  [
+                    3,
+                    120
+                  ],
+                  [
+                    4,
+                    120
+                  ],
+                  [
+                    5,
+                    120
+                  ],
+                  [
+                    6,
+                    120
+                  ],
+                  [
+                    7,
+                    120
+                  ],
+                  [
+                    8,
+                    120
+                  ],
+                  [
+                    9,
+                    120
+                  ],
+                  [
+                    10,
+                    120
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 120
+                }
+              }
+            },
+            "type": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "3294054853765699296",
+    "name": "Tomato Bisque",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.",
+    "icon": "m1027",
+    "data": {
+      "identifier": "3294054853765699296",
+      "itemType": {
+        "usableType": 4
+      },
+      "dropLevel": 21,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 14,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "4122645235203468911",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2460116408179348514",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "1272112590661636509",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 54,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 2,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    170
+                  ],
+                  [
+                    1,
+                    170
+                  ],
+                  [
+                    2,
+                    170
+                  ],
+                  [
+                    3,
+                    170
+                  ],
+                  [
+                    4,
+                    170
+                  ],
+                  [
+                    5,
+                    170
+                  ],
+                  [
+                    6,
+                    170
+                  ],
+                  [
+                    7,
+                    170
+                  ],
+                  [
+                    8,
+                    170
+                  ],
+                  [
+                    9,
+                    170
+                  ],
+                  [
+                    10,
+                    170
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 170
+                }
+              }
+            },
+            "type": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "1105444068888595260",
+    "name": "Mushroom Soup",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.",
+    "icon": "m1028",
+    "data": {
+      "identifier": "1105444068888595260",
+      "itemType": {
+        "usableType": 4
+      },
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 20,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "334358031176021315",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2271648021907577248",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": null,
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 54,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 2,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    70
+                  ],
+                  [
+                    1,
+                    70
+                  ],
+                  [
+                    2,
+                    70
+                  ],
+                  [
+                    3,
+                    70
+                  ],
+                  [
+                    4,
+                    70
+                  ],
+                  [
+                    5,
+                    70
+                  ],
+                  [
+                    6,
+                    70
+                  ],
+                  [
+                    7,
+                    70
+                  ],
+                  [
+                    8,
+                    70
+                  ],
+                  [
+                    9,
+                    70
+                  ],
+                  [
+                    10,
+                    70
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 70
+                }
+              }
+            },
+            "type": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "1358621909091719640",
+    "name": "Crab Chowder",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.",
+    "icon": "m1029",
+    "data": {
+      "identifier": "1358621909091719640",
+      "itemType": {
+        "usableType": 4
+      },
+      "dropLevel": 1,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 18,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "3471571811583308745",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2271648021907577248",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2410784549547249467",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 54,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 2,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    70
+                  ],
+                  [
+                    1,
+                    70
+                  ],
+                  [
+                    2,
+                    70
+                  ],
+                  [
+                    3,
+                    70
+                  ],
+                  [
+                    4,
+                    70
+                  ],
+                  [
+                    5,
+                    70
+                  ],
+                  [
+                    6,
+                    70
+                  ],
+                  [
+                    7,
+                    70
+                  ],
+                  [
+                    8,
+                    70
+                  ],
+                  [
+                    9,
+                    70
+                  ],
+                  [
+                    10,
+                    70
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 70
+                }
+              }
+            },
+            "type": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "150896205695926594",
+    "name": "Chewy Steak",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.",
+    "icon": "m1030",
+    "data": {
+      "identifier": "150896205695926594",
+      "itemType": {
+        "usableType": 4
+      },
+      "dropLevel": 11,
+      "dropFrequency": 1,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 32,
+      "plagueValue": 0.5,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "314605905974498520",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "3492249412788768703",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "3376333458399025116",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 54,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 1,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    120
+                  ],
+                  [
+                    1,
+                    120
+                  ],
+                  [
+                    2,
+                    120
+                  ],
+                  [
+                    3,
+                    120
+                  ],
+                  [
+                    4,
+                    120
+                  ],
+                  [
+                    5,
+                    120
+                  ],
+                  [
+                    6,
+                    120
+                  ],
+                  [
+                    7,
+                    120
+                  ],
+                  [
+                    8,
+                    120
+                  ],
+                  [
+                    9,
+                    120
+                  ],
+                  [
+                    10,
+                    120
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 120
+                }
+              }
+            },
+            "type": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "704272609292167431",
+    "name": "Mushroom and Meat Curry",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.\nIncreases Stamina by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1031",
+    "data": {
+      "identifier": "704272609292167431",
+      "itemType": {
+        "usableType": 5
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.59999084,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 10,
+      "plagueValue": 0.75,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "72424614438319687",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "334358031176021315",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2271648021907577248",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2458712288024338773",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 55,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 2,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    100
+                  ],
+                  [
+                    1,
+                    100
+                  ],
+                  [
+                    2,
+                    100
+                  ],
+                  [
+                    3,
+                    100
+                  ],
+                  [
+                    4,
+                    100
+                  ],
+                  [
+                    5,
+                    100
+                  ],
+                  [
+                    6,
+                    100
+                  ],
+                  [
+                    7,
+                    100
+                  ],
+                  [
+                    8,
+                    100
+                  ],
+                  [
+                    9,
+                    100
+                  ],
+                  [
+                    10,
+                    100
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 100
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "520592273045202531"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3336660737610139922",
+    "name": "Herder''s Hearth Stew",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.\nIncreases Stamina by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1032",
+    "data": {
+      "identifier": "3336660737610139922",
+      "itemType": {
+        "usableType": 5
+      },
+      "dropLevel": 11,
+      "dropFrequency": 0.59999084,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 15,
+      "plagueValue": 0.75,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "314605905974498520",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2021943158973951263",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "3492249412788768703",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2490948259044373527",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 55,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 2,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    150
+                  ],
+                  [
+                    1,
+                    150
+                  ],
+                  [
+                    2,
+                    150
+                  ],
+                  [
+                    3,
+                    150
+                  ],
+                  [
+                    4,
+                    150
+                  ],
+                  [
+                    5,
+                    150
+                  ],
+                  [
+                    6,
+                    150
+                  ],
+                  [
+                    7,
+                    150
+                  ],
+                  [
+                    8,
+                    150
+                  ],
+                  [
+                    9,
+                    150
+                  ],
+                  [
+                    10,
+                    150
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 150
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "3026257804511398309"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3637637919906124893",
+    "name": "Fish Salad",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health and <span style=\"color:#5B9968\">{1}</span> Focus.",
+    "icon": "m1033",
+    "data": {
+      "identifier": "3637637919906124893",
+      "itemType": {
+        "usableType": 5
+      },
+      "dropLevel": 11,
+      "dropFrequency": 0.59999084,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 14,
+      "plagueValue": 0.75,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "402846414938053789",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "334358031176021315",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "3492249412788768703",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2162401153131756112",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 55,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 1,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    150
+                  ],
+                  [
+                    1,
+                    150
+                  ],
+                  [
+                    2,
+                    150
+                  ],
+                  [
+                    3,
+                    150
+                  ],
+                  [
+                    4,
+                    150
+                  ],
+                  [
+                    5,
+                    150
+                  ],
+                  [
+                    6,
+                    150
+                  ],
+                  [
+                    7,
+                    150
+                  ],
+                  [
+                    8,
+                    150
+                  ],
+                  [
+                    9,
+                    150
+                  ],
+                  [
+                    10,
+                    150
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 150
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 12,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    50
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 0
+                }
+              }
+            },
+            "type": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "3855237525021588938",
+    "name": "Hearty Harvest Ragout",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.\nIncreases Stamina by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1034",
+    "data": {
+      "identifier": "3855237525021588938",
+      "itemType": {
+        "usableType": 5
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.59999084,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 14,
+      "plagueValue": 0.75,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "48661838060441891",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "4122645235203468911",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2460116408179348514",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2801193589248827368",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 55,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 2,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    200
+                  ],
+                  [
+                    1,
+                    200
+                  ],
+                  [
+                    2,
+                    200
+                  ],
+                  [
+                    3,
+                    200
+                  ],
+                  [
+                    4,
+                    200
+                  ],
+                  [
+                    5,
+                    200
+                  ],
+                  [
+                    6,
+                    200
+                  ],
+                  [
+                    7,
+                    200
+                  ],
+                  [
+                    8,
+                    200
+                  ],
+                  [
+                    9,
+                    200
+                  ],
+                  [
+                    10,
+                    200
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 200
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "838084490061167653"
+        }
+      ]
+    }
+  },
+  {
+    "id": "353541225253630406",
+    "name": "Angler''s Delight Chowder",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health and <span style=\"color:#5B9968\">{1}</span> Focus.",
+    "icon": "m1035",
+    "data": {
+      "identifier": "353541225253630406",
+      "itemType": {
+        "usableType": 5
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.59999084,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 12,
+      "plagueValue": 0.75,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "2894787350020426640",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "2021943158973951263",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2460116408179348514",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "1983635021892882532",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 55,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 2,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    200
+                  ],
+                  [
+                    1,
+                    200
+                  ],
+                  [
+                    2,
+                    200
+                  ],
+                  [
+                    3,
+                    200
+                  ],
+                  [
+                    4,
+                    200
+                  ],
+                  [
+                    5,
+                    200
+                  ],
+                  [
+                    6,
+                    200
+                  ],
+                  [
+                    7,
+                    200
+                  ],
+                  [
+                    8,
+                    200
+                  ],
+                  [
+                    9,
+                    200
+                  ],
+                  [
+                    10,
+                    200
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 200
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 12,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    50
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 0
+                }
+              }
+            },
+            "type": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "2934060602618091218",
+    "name": "Fish Skewer",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health and <span style=\"color:#5B9968\">{1}</span> Focus.",
+    "icon": "m1036",
+    "data": {
+      "identifier": "2934060602618091218",
+      "itemType": {
+        "usableType": 5
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.59999084,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 6,
+      "plagueValue": 0.75,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "3974289298266048918",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "2271648021907577248",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "3471535428736184891",
+      "craftingStations": 3,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 55,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    100
+                  ],
+                  [
+                    1,
+                    100
+                  ],
+                  [
+                    2,
+                    100
+                  ],
+                  [
+                    3,
+                    100
+                  ],
+                  [
+                    4,
+                    100
+                  ],
+                  [
+                    5,
+                    100
+                  ],
+                  [
+                    6,
+                    100
+                  ],
+                  [
+                    7,
+                    100
+                  ],
+                  [
+                    8,
+                    100
+                  ],
+                  [
+                    9,
+                    100
+                  ],
+                  [
+                    10,
+                    100
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 100
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 12,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    50
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 0
+                }
+              }
+            },
+            "type": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "4114347225717792375",
+    "name": "Apple Pie",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health. Increases Focus by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1037",
+    "data": {
+      "identifier": "4114347225717792375",
+      "itemType": {
+        "usableType": 6
+      },
+      "dropLevel": 11,
+      "dropFrequency": 0.2999878,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 14,
+      "plagueValue": 1,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "1696602935383325774",
+          "requiredItemCount": 6
+        },
+        {
+          "requiredItem": "3492249412788768703",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2111383177462043554",
+      "craftingStations": 2,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 56,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    200
+                  ],
+                  [
+                    1,
+                    200
+                  ],
+                  [
+                    2,
+                    200
+                  ],
+                  [
+                    3,
+                    200
+                  ],
+                  [
+                    4,
+                    200
+                  ],
+                  [
+                    5,
+                    200
+                  ],
+                  [
+                    6,
+                    200
+                  ],
+                  [
+                    7,
+                    200
+                  ],
+                  [
+                    8,
+                    200
+                  ],
+                  [
+                    9,
+                    200
+                  ],
+                  [
+                    10,
+                    200
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 200
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "1129673261120179318"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2562531642418810528",
+    "name": "Sirloin Platter",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health. Increases Health by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1038",
+    "data": {
+      "identifier": "2562531642418810528",
+      "itemType": {
+        "usableType": 6
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.2999878,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 15,
+      "plagueValue": 1,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "48661838060441891",
+          "requiredItemCount": 3
+        },
+        {
+          "requiredItem": "2460116408179348514",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "1239920364505632150",
+      "craftingStations": 2,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 56,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    270
+                  ],
+                  [
+                    1,
+                    270
+                  ],
+                  [
+                    2,
+                    270
+                  ],
+                  [
+                    3,
+                    270
+                  ],
+                  [
+                    4,
+                    270
+                  ],
+                  [
+                    5,
+                    270
+                  ],
+                  [
+                    6,
+                    270
+                  ],
+                  [
+                    7,
+                    270
+                  ],
+                  [
+                    8,
+                    270
+                  ],
+                  [
+                    9,
+                    270
+                  ],
+                  [
+                    10,
+                    270
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 270
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "3614356802017070133"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213711989507426087",
+    "name": "Vegetable Cake",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health. Increases Damage Dealt by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1039",
+    "data": {
+      "identifier": "213711989507426087",
+      "itemType": {
+        "usableType": 6
+      },
+      "dropLevel": 21,
+      "dropFrequency": 0.2999878,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 39,
+      "plagueValue": 1,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "334358031176021315",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "2021943158973951263",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "4122645235203468911",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2460116408179348514",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "1188382140541293862",
+      "craftingStations": 2,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 56,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    270
+                  ],
+                  [
+                    1,
+                    270
+                  ],
+                  [
+                    2,
+                    270
+                  ],
+                  [
+                    3,
+                    270
+                  ],
+                  [
+                    4,
+                    270
+                  ],
+                  [
+                    5,
+                    270
+                  ],
+                  [
+                    6,
+                    270
+                  ],
+                  [
+                    7,
+                    270
+                  ],
+                  [
+                    8,
+                    270
+                  ],
+                  [
+                    9,
+                    270
+                  ],
+                  [
+                    10,
+                    270
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 270
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "3941419041347221898"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1098080065557451446",
+    "name": "Crab Stuffed Mushroom",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health. Increases Health by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1040",
+    "data": {
+      "identifier": "1098080065557451446",
+      "itemType": {
+        "usableType": 6
+      },
+      "dropLevel": 1,
+      "dropFrequency": 0.2999878,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 14,
+      "plagueValue": 1,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "3471571811583308745",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "334358031176021315",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "2271648021907577248",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2598521242104064766",
+      "craftingStations": 2,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 56,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    130
+                  ],
+                  [
+                    1,
+                    130
+                  ],
+                  [
+                    2,
+                    130
+                  ],
+                  [
+                    3,
+                    130
+                  ],
+                  [
+                    4,
+                    130
+                  ],
+                  [
+                    5,
+                    130
+                  ],
+                  [
+                    6,
+                    130
+                  ],
+                  [
+                    7,
+                    130
+                  ],
+                  [
+                    8,
+                    130
+                  ],
+                  [
+                    9,
+                    130
+                  ],
+                  [
+                    10,
+                    130
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 130
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "3657759998528981138"
+        }
+      ]
+    }
+  },
+  {
+    "id": "156892976276365389",
+    "name": "Herb-Infused Riverfeast",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health. Increases Health by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1041",
+    "data": {
+      "identifier": "156892976276365389",
+      "itemType": {
+        "usableType": 6
+      },
+      "dropLevel": 11,
+      "dropFrequency": 0.2999878,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 47,
+      "plagueValue": 1,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "402846414938053789",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "3471571811583308745",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "3492249412788768703",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "128883153937109079",
+      "craftingStations": 2,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 56,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    200
+                  ],
+                  [
+                    1,
+                    200
+                  ],
+                  [
+                    2,
+                    200
+                  ],
+                  [
+                    3,
+                    200
+                  ],
+                  [
+                    4,
+                    200
+                  ],
+                  [
+                    5,
+                    200
+                  ],
+                  [
+                    6,
+                    200
+                  ],
+                  [
+                    7,
+                    200
+                  ],
+                  [
+                    8,
+                    200
+                  ],
+                  [
+                    9,
+                    200
+                  ],
+                  [
+                    10,
+                    200
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 200
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "1856917668947333801"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1380746487929687290",
+    "name": "Fruit Pie",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health. Increases Stamina by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1042",
+    "data": {
+      "identifier": "1380746487929687290",
+      "itemType": {
+        "usableType": 6
+      },
+      "dropLevel": 11,
+      "dropFrequency": 0.2999878,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 14,
+      "plagueValue": 1,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "1696602935383325774",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "180833899404673680",
+          "requiredItemCount": 2
+        },
+        {
+          "requiredItem": "3492249412788768703",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "2248079962025483167",
+      "craftingStations": 2,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 56,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    200
+                  ],
+                  [
+                    1,
+                    200
+                  ],
+                  [
+                    2,
+                    200
+                  ],
+                  [
+                    3,
+                    200
+                  ],
+                  [
+                    4,
+                    200
+                  ],
+                  [
+                    5,
+                    200
+                  ],
+                  [
+                    6,
+                    200
+                  ],
+                  [
+                    7,
+                    200
+                  ],
+                  [
+                    8,
+                    200
+                  ],
+                  [
+                    9,
+                    200
+                  ],
+                  [
+                    10,
+                    200
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 200
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "2108706945511144950"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1899876663013134767",
+    "name": "Shepherd''s Pie",
+    "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health. Increases Damage Dealt by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
+    "icon": "m1043",
+    "data": {
+      "identifier": "1899876663013134767",
+      "itemType": {
+        "usableType": 6
+      },
+      "dropLevel": 11,
+      "dropFrequency": 0.2999878,
+      "maxItemsInStack": 99,
+      "equipmentOnly": false,
+      "canBeSold": true,
+      "canBeDestroyed": true,
+      "canBeDropped": true,
+      "canBeDroppedOnDeath": true,
+      "baseItemValue": 14,
+      "plagueValue": 1,
+      "distributeWhenLooted": false,
+      "uniqueItemConfig": null,
+      "handType": 0,
+      "upgradeTemplate": null,
+      "craftingIngredients": [
+        {
+          "requiredItem": "314605905974498520",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "565357762170226748",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "2021943158973951263",
+          "requiredItemCount": 1
+        },
+        {
+          "requiredItem": "3492249412788768703",
+          "requiredItemCount": 1
+        }
+      ],
+      "craftedQuantityOverride": 0,
+      "requiredLearnedRecipe": "653776062020222454",
+      "craftingStations": 2,
+      "plagueAmplifier": {
+        "ignore": false,
+        "poolOverride": []
+      },
+      "filterType": 56,
+      "itemCoreStatsModifiers": {
+        "0": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "6": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "7": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "8": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "9": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "10": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "11": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "12": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "13": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "18": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "19": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "20": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "21": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "22": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "23": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "baseAttributes": 0,
+      "useAction": "1488528741805633815",
+      "bonfireCookStyle": 0,
+      "payloads": [
+        {
+          "clsType": 10,
+          "amount": {
+            "clsType": 0,
+            "scalingData": {
+              "interval": 0,
+              "scaling": {
+                "keys": [
+                  [
+                    0,
+                    200
+                  ],
+                  [
+                    1,
+                    200
+                  ],
+                  [
+                    2,
+                    200
+                  ],
+                  [
+                    3,
+                    200
+                  ],
+                  [
+                    4,
+                    200
+                  ],
+                  [
+                    5,
+                    200
+                  ],
+                  [
+                    6,
+                    200
+                  ],
+                  [
+                    7,
+                    200
+                  ],
+                  [
+                    8,
+                    200
+                  ],
+                  [
+                    9,
+                    200
+                  ],
+                  [
+                    10,
+                    200
+                  ]
+                ],
+                "events": [],
+                "curveLogic": {
+                  "clsType": 1,
+                  "growth": 0,
+                  "baseValue": 200
+                }
+              }
+            },
+            "type": 0
+          }
+        },
+        {
+          "clsType": 0,
+          "bindToItemType": 0,
+          "stackAmount": 0,
+          "modifierRef": "2970006292953936478"
+        }
+      ]
+    }
+  }
+]
