@@ -11,6 +11,7 @@ export interface BuildState {
   ring1?: string;
   ring2?: string;
   ring3?: string;
+  attrs?: Record<string, number>;
 }
 
 export function encodeBuild(build: BuildState): string {
