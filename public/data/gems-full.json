@@ -1,0 +1,296 @@
+[
+  {
+    "id": "1332005863549342815",
+    "name": "Mottled Shield Emblem",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r855",
+    "dropLevel": 21
+  },
+  {
+    "id": "2945949552161393074",
+    "name": "Chipped Shield Emblem",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r856",
+    "dropLevel": 1
+  },
+  {
+    "id": "114142808936367436",
+    "name": "Chipped Topaz",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r857",
+    "dropLevel": 1
+  },
+  {
+    "id": "2585957416119043746",
+    "name": "Mottled Topaz",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r858",
+    "dropLevel": 21
+  },
+  {
+    "id": "2862022067196058174",
+    "name": "Chipped Moon Stone",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r859",
+    "dropLevel": 1
+  },
+  {
+    "id": "4046087583196257739",
+    "name": "Mottled Moon Stone",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r860",
+    "dropLevel": 21
+  },
+  {
+    "id": "3757540824998934065",
+    "name": "Mottled Feather",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r861",
+    "dropLevel": 21
+  },
+  {
+    "id": "2973054046766731971",
+    "name": "Tiny Feather",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r862",
+    "dropLevel": 1
+  },
+  {
+    "id": "1115869939666077150",
+    "name": "Mottled Fang",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r863",
+    "dropLevel": 21
+  },
+  {
+    "id": "61995666478825046",
+    "name": "Tiny Fang",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r864",
+    "dropLevel": 1
+  },
+  {
+    "id": "615858493199977727",
+    "name": "Mottled Black Pearl",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r865",
+    "dropLevel": 21
+  },
+  {
+    "id": "3468961015894704486",
+    "name": "Chipped Black Pearl",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r866",
+    "dropLevel": 1
+  },
+  {
+    "id": "2880778102785673664",
+    "name": "Mottled Granite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r867",
+    "dropLevel": 21
+  },
+  {
+    "id": "2707064685416276085",
+    "name": "Chipped Granite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r868",
+    "dropLevel": 1
+  },
+  {
+    "id": "2640926775338220803",
+    "name": "Mottled Emerald",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r869",
+    "dropLevel": 21
+  },
+  {
+    "id": "3681256810326729351",
+    "name": "Chipped Emerald",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r870",
+    "dropLevel": 1
+  },
+  {
+    "id": "4420616226298857783",
+    "name": "Mottled Jade",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r871",
+    "dropLevel": 21
+  },
+  {
+    "id": "994150335710522137",
+    "name": "Chipped Jade",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r872",
+    "dropLevel": 1
+  },
+  {
+    "id": "2330777079347888372",
+    "name": "Chipped Marble",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r873",
+    "dropLevel": 1
+  },
+  {
+    "id": "1326706488000359489",
+    "name": "Mottled Marble",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r874",
+    "dropLevel": 21
+  },
+  {
+    "id": "3280555658014278183",
+    "name": "Mottled Diamond",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r875",
+    "dropLevel": 21
+  },
+  {
+    "id": "2825364970668741043",
+    "name": "Chipped Diamond",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r876",
+    "dropLevel": 1
+  },
+  {
+    "id": "2291772681299188761",
+    "name": "Mottled Meteorite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r877",
+    "dropLevel": 21
+  },
+  {
+    "id": "402303035105344293",
+    "name": "Chipped Meteorite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r878",
+    "dropLevel": 1
+  },
+  {
+    "id": "533322098818691501",
+    "name": "Mottled Jewel",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r879",
+    "dropLevel": 21
+  },
+  {
+    "id": "79543393030588856",
+    "name": "Chipped Jewel",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r880",
+    "dropLevel": 1
+  },
+  {
+    "id": "4534125204586717504",
+    "name": "Mottled Blood Stone",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r881",
+    "dropLevel": 21
+  },
+  {
+    "id": "2723586631354824235",
+    "name": "Chipped Blood Stone",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r882",
+    "dropLevel": 1
+  },
+  {
+    "id": "2773338231326825262",
+    "name": "Medium Skull",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r883",
+    "dropLevel": 21
+  },
+  {
+    "id": "1295494016809672370",
+    "name": "Small Skull",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r884",
+    "dropLevel": 1
+  },
+  {
+    "id": "454208163797452614",
+    "name": "Mottled Dianite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r885",
+    "dropLevel": 21
+  },
+  {
+    "id": "2048554267325085923",
+    "name": "Chipped Dianite",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r886",
+    "dropLevel": 1
+  },
+  {
+    "id": "2222609349130386545",
+    "name": "Mottled Sapphire",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r887",
+    "dropLevel": 21
+  },
+  {
+    "id": "1269306428342547616",
+    "name": "Chipped Sapphire",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r888",
+    "dropLevel": 1
+  },
+  {
+    "id": "4080977350168865337",
+    "name": "Chipped Spike",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r889",
+    "dropLevel": 1
+  },
+  {
+    "id": "3416366013415042330",
+    "name": "Mottled Spike",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r890",
+    "dropLevel": 21
+  },
+  {
+    "id": "3187871656023379566",
+    "name": "Chipped Ruby",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r891",
+    "dropLevel": 1
+  },
+  {
+    "id": "2071496264251315353",
+    "name": "Mottled Ruby",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r892",
+    "dropLevel": 21
+  },
+  {
+    "id": "3309518401243604794",
+    "name": "Chipped Amethyst",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r893",
+    "dropLevel": 1
+  },
+  {
+    "id": "206083998685700718",
+    "name": "Mottled Amethyst",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r894",
+    "dropLevel": 21
+  },
+  {
+    "id": "2735561799846330604",
+    "name": "Chipped Quartz",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r895",
+    "dropLevel": 1
+  },
+  {
+    "id": "2128332953717762977",
+    "name": "Mottled Quartz",
+    "description": "Can be used to infuse <span style=\"color:#F2E6BD\">weapons</span> and <span style=\"color:#F2E6BD\">armor</span>.",
+    "icon": "r896",
+    "dropLevel": 21
+  }
+]

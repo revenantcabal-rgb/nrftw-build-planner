@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import { getWeapons, getArmors, getShields, getTrinkets, formatWeaponType } from "@/lib/data";
+import { getWeapons, getArmors, getShields, getTrinkets, getRunes, getGems, formatWeaponType } from "@/lib/data";
 import { EQUIP_SLOT_LABELS, RARITY_TEXT } from "@/lib/constants";
 import { getBuildFromUrl, setBuildInUrl, type BuildState } from "@/lib/codec";
 import ItemPickerModal from "@/components/planner/ItemPickerModal";
+import ItemConfigPanel from "@/components/planner/ItemConfigPanel";
 import ItemIcon from "@/components/items/ItemIcon";
 import type { Rarity, EquipSlot } from "@/lib/types";
 
@@ -50,9 +51,9 @@ const ATTRIBUTES = [
   { key: "equipLoad", label: "Equip Load", color: "text-gray-400", icon: "\uD83C\uDFCB" },
 ];
 
-const BASE_ATTRIBUTE_POINTS = 87; // At level 30
+const BASE_ATTRIBUTE_POINTS = 87; // Total points at level 30
 const MIN_ATTR = 1;
-const MAX_ATTR = 30; // Character level cap
+const MAX_ATTR = 50; // Per-stat cap
 
 export default function PlannerPage() {
   const [buildName, setBuildName] = useState("My Build");
@@ -65,7 +66,11 @@ export default function PlannerPage() {
     intelligence: 10, faith: 10, focus: 10, equipLoad: 10,
   });
   const [itemPools, setItemPools] = useState<ItemPool>({});
+  const [runePool, setRunePool] = useState<{ id: string; name: string; icon?: string }[]>([]);
+  const [gemPool, setGemPool] = useState<{ id: string; name: string; icon?: string }[]>([]);
   const [activeSlot, setActiveSlot] = useState<EquipSlot | null>(null);
+  const [configSlot, setConfigSlot] = useState<EquipSlot | null>(null);
+  const [slotConfigs, setSlotConfigs] = useState<Record<string, { runes: (null | { id: string; name: string; icon?: string })[]; facet: string | null; gem: null | { id: string; name: string; icon?: string }; enchantments: (string | null)[] }>>({});
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
 
@@ -87,14 +92,16 @@ export default function PlannerPage() {
 
   // Load all item data
   useEffect(() => {
-    Promise.all([getWeapons(), getArmors(), getShields(), getTrinkets()]).then(
-      ([weapons, armors, shields, trinkets]) => {
+    Promise.all([getWeapons(), getArmors(), getShields(), getTrinkets(), getRunes(), getGems()]).then(
+      ([weapons, armors, shields, trinkets, runes, gems]) => {
         setItemPools({
           weapons: weapons as SlotItem[],
           armors: armors as SlotItem[],
           shields: shields as SlotItem[],
           trinkets: trinkets as SlotItem[],
         });
+        setRunePool((runes as { id: string; name: string; icon?: string }[]).filter(r => r.name).sort((a, b) => a.name.localeCompare(b.name)));
+        setGemPool((gems as { id: string; name: string; icon?: string }[]).filter(g => g.name).sort((a, b) => a.name.localeCompare(b.name)));
         setLoading(false);
       }
     );
@@ -293,7 +300,14 @@ export default function PlannerPage() {
               return (
                 <button
                   key={slot}
-                  onClick={() => !isBlocked && setActiveSlot(slot)}
+                  onClick={() => {
+                    if (isBlocked) return;
+                    if (item) {
+                      setConfigSlot(slot); // Open config for equipped item
+                    } else {
+                      setActiveSlot(slot); // Open picker for empty slot
+                    }
+                  }}
                   disabled={isBlocked}
                   className={`w-full flex items-center gap-3 p-3 rounded-lg border text-left transition-all ${
                     isBlocked
@@ -404,6 +418,23 @@ export default function PlannerPage() {
           typeOptions={getTypesForSlot(activeSlot)}
           onSelect={handleSelect}
           onClose={() => setActiveSlot(null)}
+        />
+      )}
+
+      {/* Item Config Panel */}
+      {configSlot && slots[configSlot] && (
+        <ItemConfigPanel
+          item={slots[configSlot] as SlotItem & { damageType?: string; dropLevel?: number; baseAttributes?: number }}
+          slotLabel={EQUIP_SLOT_LABELS[configSlot]}
+          config={slotConfigs[configSlot] || { runes: [null, null, null, null], facet: null, gem: null, enchantments: [null, null, null, null, null] }}
+          availableRunes={runePool}
+          availableGems={gemPool}
+          onConfigChange={(cfg) => setSlotConfigs((prev) => ({ ...prev, [configSlot]: cfg }))}
+          onRemoveItem={() => {
+            setSlots((prev) => ({ ...prev, [configSlot]: null }));
+            setConfigSlot(null);
+          }}
+          onClose={() => setConfigSlot(null)}
         />
       )}
     </div>

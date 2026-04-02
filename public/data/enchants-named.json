@@ -1,0 +1,1334 @@
+[
+  {
+    "id": "4254505191939584460",
+    "name": "Advancing Flurry",
+    "description": "",
+    "href": "/db/runes/4254505191939584460"
+  },
+  {
+    "id": "3269044447633057371",
+    "name": "Air Dodge",
+    "description": "",
+    "href": "/db/runes/3269044447633057371"
+  },
+  {
+    "id": "3409714389760517357",
+    "name": "Armageddon",
+    "description": "",
+    "href": "/db/runes/3409714389760517357"
+  },
+  {
+    "id": "3050873622196356296",
+    "name": "Armageddon",
+    "description": "",
+    "href": "/db/runes/3050873622196356296"
+  },
+  {
+    "id": "3556948302666992264",
+    "name": "Arrowstorm",
+    "description": "",
+    "href": "/db/runes/3556948302666992264"
+  },
+  {
+    "id": "1824564621170827697",
+    "name": "Balance Smash",
+    "description": "",
+    "href": "/db/runes/1824564621170827697"
+  },
+  {
+    "id": "4086555725753371914",
+    "name": "Bare Knuckle",
+    "description": "",
+    "href": "/db/runes/4086555725753371914"
+  },
+  {
+    "id": "3675049373013426272",
+    "name": "Berserk Flurry",
+    "description": "",
+    "href": "/db/runes/3675049373013426272"
+  },
+  {
+    "id": "2279133602367080094",
+    "name": "Berserk Slam",
+    "description": "",
+    "href": "/db/runes/2279133602367080094"
+  },
+  {
+    "id": "129188487361991509",
+    "name": "Berserk Strike",
+    "description": "",
+    "href": "/db/runes/129188487361991509"
+  },
+  {
+    "id": "1814186842605273977",
+    "name": "Blazing Rupture",
+    "description": "",
+    "href": "/db/runes/1814186842605273977"
+  },
+  {
+    "id": "1742791377702654896",
+    "name": "Blink",
+    "description": "",
+    "href": "/db/runes/1742791377702654896"
+  },
+  {
+    "id": "4036179364219279753",
+    "name": "Breaker Thrust",
+    "description": "",
+    "href": "/db/runes/4036179364219279753"
+  },
+  {
+    "id": "1325603179561069768",
+    "name": "Breakrush",
+    "description": "",
+    "href": "/db/runes/1325603179561069768"
+  },
+  {
+    "id": "1213867791143309470",
+    "name": "Breakstep",
+    "description": "",
+    "href": "/db/runes/1213867791143309470"
+  },
+  {
+    "id": "2363314447143686857",
+    "name": "Brutal Reprise",
+    "description": "",
+    "href": "/db/runes/2363314447143686857"
+  },
+  {
+    "id": "14421685511696412",
+    "name": "Buster Rift",
+    "description": "",
+    "href": "/db/runes/14421685511696412"
+  },
+  {
+    "id": "2074319938338630530",
+    "name": "Chain Lightning",
+    "description": "",
+    "href": "/db/runes/2074319938338630530"
+  },
+  {
+    "id": "2260878218614060253",
+    "name": "Channel",
+    "description": "",
+    "href": "/db/runes/2260878218614060253"
+  },
+  {
+    "id": "2831857259389369472",
+    "name": "Charge Strike",
+    "description": "",
+    "href": "/db/runes/2831857259389369472"
+  },
+  {
+    "id": "842114256804780839",
+    "name": "Charged Bolt",
+    "description": "",
+    "href": "/db/runes/842114256804780839"
+  },
+  {
+    "id": "4307813597606695670",
+    "name": "Circular",
+    "description": "",
+    "href": "/db/runes/4307813597606695670"
+  },
+  {
+    "id": "4157409531145223832",
+    "name": "Cold Enchantment",
+    "description": "",
+    "href": "/db/runes/4157409531145223832"
+  },
+  {
+    "id": "1686901208604993696",
+    "name": "Cold Resistance",
+    "description": "",
+    "href": "/db/runes/1686901208604993696"
+  },
+  {
+    "id": "2500324970914093171",
+    "name": "Cold Sling",
+    "description": "",
+    "href": "/db/runes/2500324970914093171"
+  },
+  {
+    "id": "1099963329955884554",
+    "name": "Cone Shot",
+    "description": "",
+    "href": "/db/runes/1099963329955884554"
+  },
+  {
+    "id": "4444598686857872115",
+    "name": "Converging Flame",
+    "description": "",
+    "href": "/db/runes/4444598686857872115"
+  },
+  {
+    "id": "1008936242857187937",
+    "name": "Crosscut",
+    "description": "",
+    "href": "/db/runes/1008936242857187937"
+  },
+  {
+    "id": "3524997825263527493",
+    "name": "Crush",
+    "description": "",
+    "href": "/db/runes/3524997825263527493"
+  },
+  {
+    "id": "2262150894464831015",
+    "name": "Crushing Flurry",
+    "description": "",
+    "href": "/db/runes/2262150894464831015"
+  },
+  {
+    "id": "1712998916135215305",
+    "name": "Crushing Quad",
+    "description": "",
+    "href": "/db/runes/1712998916135215305"
+  },
+  {
+    "id": "1924769126166654810",
+    "name": "Crushing Slam",
+    "description": "",
+    "href": "/db/runes/1924769126166654810"
+  },
+  {
+    "id": "2626979379833238540",
+    "name": "Crushing Triple",
+    "description": "",
+    "href": "/db/runes/2626979379833238540"
+  },
+  {
+    "id": "3617657274445286388",
+    "name": "Crushing Uppercut",
+    "description": "",
+    "href": "/db/runes/3617657274445286388"
+  },
+  {
+    "id": "1707388295500007111",
+    "name": "Cyclone Kick",
+    "description": "",
+    "href": "/db/runes/1707388295500007111"
+  },
+  {
+    "id": "4222099060750969381",
+    "name": "Cyclone Swipe",
+    "description": "",
+    "href": "/db/runes/4222099060750969381"
+  },
+  {
+    "id": "4541316365676769348",
+    "name": "Damage Surge",
+    "description": "",
+    "href": "/db/runes/4541316365676769348"
+  },
+  {
+    "id": "4322302990844201726",
+    "name": "Dashing Stab",
+    "description": "",
+    "href": "/db/runes/4322302990844201726"
+  },
+  {
+    "id": "4001092589228091029",
+    "name": "Dodge Slamdown",
+    "description": "",
+    "href": "/db/runes/4001092589228091029"
+  },
+  {
+    "id": "3515340168008169334",
+    "name": "Double Crush",
+    "description": "",
+    "href": "/db/runes/3515340168008169334"
+  },
+  {
+    "id": "2308152468943957299",
+    "name": "Double Spin",
+    "description": "",
+    "href": "/db/runes/2308152468943957299"
+  },
+  {
+    "id": "2778896787386664347",
+    "name": "Double Take",
+    "description": "",
+    "href": "/db/runes/2778896787386664347"
+  },
+  {
+    "id": "4440236429854153732",
+    "name": "Dragonfly Kick",
+    "description": "",
+    "href": "/db/runes/4440236429854153732"
+  },
+  {
+    "id": "4370172606529549591",
+    "name": "Drive Break",
+    "description": "",
+    "href": "/db/runes/4370172606529549591"
+  },
+  {
+    "id": "940505683543453145",
+    "name": "Drone Trap",
+    "description": "",
+    "href": "/db/runes/940505683543453145"
+  },
+  {
+    "id": "4108774201610135227",
+    "name": "Dropkick",
+    "description": "",
+    "href": "/db/runes/4108774201610135227"
+  },
+  {
+    "id": "3118406044295730004",
+    "name": "Dual Breaker",
+    "description": "",
+    "href": "/db/runes/3118406044295730004"
+  },
+  {
+    "id": "2131101195751376953",
+    "name": "Dual Flurry",
+    "description": "",
+    "href": "/db/runes/2131101195751376953"
+  },
+  {
+    "id": "843664983293995359",
+    "name": "Dual Slash",
+    "description": "",
+    "href": "/db/runes/843664983293995359"
+  },
+  {
+    "id": "588068954941947977",
+    "name": "Electric Enchantment",
+    "description": "",
+    "href": "/db/runes/588068954941947977"
+  },
+  {
+    "id": "2216413228396767658",
+    "name": "Electric Resistance",
+    "description": "",
+    "href": "/db/runes/2216413228396767658"
+  },
+  {
+    "id": "146444484429326508",
+    "name": "Eruption",
+    "description": "",
+    "href": "/db/runes/146444484429326508"
+  },
+  {
+    "id": "1433654253657884953",
+    "name": "Evasive Pierce",
+    "description": "",
+    "href": "/db/runes/1433654253657884953"
+  },
+  {
+    "id": "617950209181311744",
+    "name": "Evasive Shot",
+    "description": "",
+    "href": "/db/runes/617950209181311744"
+  },
+  {
+    "id": "3804848180700462754",
+    "name": "Evasive Strike",
+    "description": "",
+    "href": "/db/runes/3804848180700462754"
+  },
+  {
+    "id": "1510491183592993679",
+    "name": "Evasive Swing",
+    "description": "",
+    "href": "/db/runes/1510491183592993679"
+  },
+  {
+    "id": "3716769456665212619",
+    "name": "Fierce Dash",
+    "description": "",
+    "href": "/db/runes/3716769456665212619"
+  },
+  {
+    "id": "1481467222710748843",
+    "name": "Fire Arrow",
+    "description": "",
+    "href": "/db/runes/1481467222710748843"
+  },
+  {
+    "id": "572392739616368446",
+    "name": "Fire Blast",
+    "description": "",
+    "href": "/db/runes/572392739616368446"
+  },
+  {
+    "id": "595798154631475079",
+    "name": "Fire Burst",
+    "description": "",
+    "href": "/db/runes/595798154631475079"
+  },
+  {
+    "id": "709973357846815709",
+    "name": "Fire Dart",
+    "description": "",
+    "href": "/db/runes/709973357846815709"
+  },
+  {
+    "id": "282563936940270555",
+    "name": "Fire Dash",
+    "description": "",
+    "href": "/db/runes/282563936940270555"
+  },
+  {
+    "id": "1826788492681128282",
+    "name": "Fire Flurry",
+    "description": "",
+    "href": "/db/runes/1826788492681128282"
+  },
+  {
+    "id": "601475074917651680",
+    "name": "Fire Nova",
+    "description": "",
+    "href": "/db/runes/601475074917651680"
+  },
+  {
+    "id": "4061366242536873511",
+    "name": "Fire Slam",
+    "description": "",
+    "href": "/db/runes/4061366242536873511"
+  },
+  {
+    "id": "4204779299360104716",
+    "name": "Fire Swipe",
+    "description": "",
+    "href": "/db/runes/4204779299360104716"
+  },
+  {
+    "id": "4487192392230842766",
+    "name": "Fire Throw",
+    "description": "",
+    "href": "/db/runes/4487192392230842766"
+  },
+  {
+    "id": "3703645397189368459",
+    "name": "Fire Walk",
+    "description": "",
+    "href": "/db/runes/3703645397189368459"
+  },
+  {
+    "id": "562810352442823424",
+    "name": "Fire Wall",
+    "description": "",
+    "href": "/db/runes/562810352442823424"
+  },
+  {
+    "id": "794310646847301587",
+    "name": "Fire Wave",
+    "description": "",
+    "href": "/db/runes/794310646847301587"
+  },
+  {
+    "id": "3008237909744556927",
+    "name": "Fire Whirl",
+    "description": "",
+    "href": "/db/runes/3008237909744556927"
+  },
+  {
+    "id": "1726463966800115133",
+    "name": "Fire Whirlwind",
+    "description": "",
+    "href": "/db/runes/1726463966800115133"
+  },
+  {
+    "id": "4512811323975887056",
+    "name": "Fireball",
+    "description": "",
+    "href": "/db/runes/4512811323975887056"
+  },
+  {
+    "id": "3618113332175947288",
+    "name": "Firefall",
+    "description": "",
+    "href": "/db/runes/3618113332175947288"
+  },
+  {
+    "id": "4269898584950211047",
+    "name": "Flame Sweep",
+    "description": "",
+    "href": "/db/runes/4269898584950211047"
+  },
+  {
+    "id": "2763692554067775263",
+    "name": "Flipkick Burst",
+    "description": "",
+    "href": "/db/runes/2763692554067775263"
+  },
+  {
+    "id": "969122126482669651",
+    "name": "Focus Halo",
+    "description": "",
+    "href": "/db/runes/969122126482669651"
+  },
+  {
+    "id": "3182104791921662487",
+    "name": "Frenzied Cleave",
+    "description": "",
+    "href": "/db/runes/3182104791921662487"
+  },
+  {
+    "id": "2544515215235534857",
+    "name": "Frigid Arc",
+    "description": "",
+    "href": "/db/runes/2544515215235534857"
+  },
+  {
+    "id": "1496794752253721987",
+    "name": "Frontflip Kick",
+    "description": "",
+    "href": "/db/runes/1496794752253721987"
+  },
+  {
+    "id": "4439453227947616454",
+    "name": "Frost Dash",
+    "description": "",
+    "href": "/db/runes/4439453227947616454"
+  },
+  {
+    "id": "1490193915641213403",
+    "name": "Frost Needles",
+    "description": "",
+    "href": "/db/runes/1490193915641213403"
+  },
+  {
+    "id": "1054724863233781168",
+    "name": "Frost Nova",
+    "description": "",
+    "href": "/db/runes/1054724863233781168"
+  },
+  {
+    "id": "4274751935171471981",
+    "name": "Frost Step",
+    "description": "",
+    "href": "/db/runes/4274751935171471981"
+  },
+  {
+    "id": "374603350845669260",
+    "name": "Frost Stream",
+    "description": "",
+    "href": "/db/runes/374603350845669260"
+  },
+  {
+    "id": "4166545306945562110",
+    "name": "Frost Strike",
+    "description": "",
+    "href": "/db/runes/4166545306945562110"
+  },
+  {
+    "id": "1718634230081929161",
+    "name": "Glacial Spike",
+    "description": "",
+    "href": "/db/runes/1718634230081929161"
+  },
+  {
+    "id": "4456264942046730699",
+    "name": "Glideburst",
+    "description": "",
+    "href": "/db/runes/4456264942046730699"
+  },
+  {
+    "id": "2888749868516503482",
+    "name": "Ground Slam",
+    "description": "",
+    "href": "/db/runes/2888749868516503482"
+  },
+  {
+    "id": "4426701845280104389",
+    "name": "Gyro Slash",
+    "description": "",
+    "href": "/db/runes/4426701845280104389"
+  },
+  {
+    "id": "3986588637982542586",
+    "name": "Hail",
+    "description": "",
+    "href": "/db/runes/3986588637982542586"
+  },
+  {
+    "id": "4384702748080131279",
+    "name": "Heal",
+    "description": "",
+    "href": "/db/runes/4384702748080131279"
+  },
+  {
+    "id": "2252989086070227011",
+    "name": "Heal Aura",
+    "description": "",
+    "href": "/db/runes/2252989086070227011"
+  },
+  {
+    "id": "4367213926817392495",
+    "name": "Heat Enchantment",
+    "description": "",
+    "href": "/db/runes/4367213926817392495"
+  },
+  {
+    "id": "274893645292724916",
+    "name": "Heat Resistance",
+    "description": "",
+    "href": "/db/runes/274893645292724916"
+  },
+  {
+    "id": "3940142870750105669",
+    "name": "Hellfire",
+    "description": "",
+    "href": "/db/runes/3940142870750105669"
+  },
+  {
+    "id": "1019982021738449010",
+    "name": "Homing Frost",
+    "description": "",
+    "href": "/db/runes/1019982021738449010"
+  },
+  {
+    "id": "2853707695375046197",
+    "name": "Ice Arrow",
+    "description": "",
+    "href": "/db/runes/2853707695375046197"
+  },
+  {
+    "id": "2355168337068596188",
+    "name": "Ice Dart",
+    "description": "",
+    "href": "/db/runes/2355168337068596188"
+  },
+  {
+    "id": "2188721048531478025",
+    "name": "Ice Ram",
+    "description": "",
+    "href": "/db/runes/2188721048531478025"
+  },
+  {
+    "id": "2489435915531023210",
+    "name": "Ice Sweep",
+    "description": "",
+    "href": "/db/runes/2489435915531023210"
+  },
+  {
+    "id": "698707283948532789",
+    "name": "Ice Throw",
+    "description": "",
+    "href": "/db/runes/698707283948532789"
+  },
+  {
+    "id": "2864285922429248429",
+    "name": "Ice Whirl",
+    "description": "",
+    "href": "/db/runes/2864285922429248429"
+  },
+  {
+    "id": "3649368061764522275",
+    "name": "Icebolt",
+    "description": "",
+    "href": "/db/runes/3649368061764522275"
+  },
+  {
+    "id": "3128125765326475670",
+    "name": "Illuminate",
+    "description": "",
+    "href": "/db/runes/3128125765326475670"
+  },
+  {
+    "id": "2671463997427338343",
+    "name": "Inferno",
+    "description": "",
+    "href": "/db/runes/2671463997427338343"
+  },
+  {
+    "id": "3726417958434299470",
+    "name": "Juggle Strike",
+    "description": "",
+    "href": "/db/runes/3726417958434299470"
+  },
+  {
+    "id": "1277454977354197546",
+    "name": "Jump Cut",
+    "description": "",
+    "href": "/db/runes/1277454977354197546"
+  },
+  {
+    "id": "1043286239091734599",
+    "name": "Kick Slash",
+    "description": "",
+    "href": "/db/runes/1043286239091734599"
+  },
+  {
+    "id": "929121537033461728",
+    "name": "Knockdown Swirl",
+    "description": "",
+    "href": "/db/runes/929121537033461728"
+  },
+  {
+    "id": "3691420496886696812",
+    "name": "Knockout Shot",
+    "description": "",
+    "href": "/db/runes/3691420496886696812"
+  },
+  {
+    "id": "4567976376074138840",
+    "name": "Leap",
+    "description": "",
+    "href": "/db/runes/4567976376074138840"
+  },
+  {
+    "id": "3836894979821062611",
+    "name": "Lightning Arrow",
+    "description": "",
+    "href": "/db/runes/3836894979821062611"
+  },
+  {
+    "id": "812099702074107846",
+    "name": "Lightning Assault",
+    "description": "",
+    "href": "/db/runes/812099702074107846"
+  },
+  {
+    "id": "200644451955564175",
+    "name": "Lightning Barrage",
+    "description": "",
+    "href": "/db/runes/200644451955564175"
+  },
+  {
+    "id": "2950113389815706885",
+    "name": "Lightning Blast",
+    "description": "",
+    "href": "/db/runes/2950113389815706885"
+  },
+  {
+    "id": "2970991005909960498",
+    "name": "Lightning Bolt",
+    "description": "",
+    "href": "/db/runes/2970991005909960498"
+  },
+  {
+    "id": "3450687068571509517",
+    "name": "Lightning Claw",
+    "description": "",
+    "href": "/db/runes/3450687068571509517"
+  },
+  {
+    "id": "2782121935303112175",
+    "name": "Lightning Dart",
+    "description": "",
+    "href": "/db/runes/2782121935303112175"
+  },
+  {
+    "id": "489401182082572326",
+    "name": "Lightning Dash",
+    "description": "",
+    "href": "/db/runes/489401182082572326"
+  },
+  {
+    "id": "880649867087343128",
+    "name": "Lightning Flash",
+    "description": "",
+    "href": "/db/runes/880649867087343128"
+  },
+  {
+    "id": "1516103055673977465",
+    "name": "Lightning Flurry",
+    "description": "",
+    "href": "/db/runes/1516103055673977465"
+  },
+  {
+    "id": "4602480535412336098",
+    "name": "Lightning Leap",
+    "description": "",
+    "href": "/db/runes/4602480535412336098"
+  },
+  {
+    "id": "607345046513636181",
+    "name": "Lightning Slam",
+    "description": "",
+    "href": "/db/runes/607345046513636181"
+  },
+  {
+    "id": "3473320420304048833",
+    "name": "Lightning Spin",
+    "description": "",
+    "href": "/db/runes/3473320420304048833"
+  },
+  {
+    "id": "2316423121768618750",
+    "name": "Lightning Storm",
+    "description": "",
+    "href": "/db/runes/2316423121768618750"
+  },
+  {
+    "id": "3903849283299422194",
+    "name": "Lightning Sweep",
+    "description": "",
+    "href": "/db/runes/3903849283299422194"
+  },
+  {
+    "id": "4489701882038050855",
+    "name": "Lightning Throw",
+    "description": "",
+    "href": "/db/runes/4489701882038050855"
+  },
+  {
+    "id": "1473467590320876346",
+    "name": "Lightning Whirl",
+    "description": "",
+    "href": "/db/runes/1473467590320876346"
+  },
+  {
+    "id": "841940324454559628",
+    "name": "Limit Break",
+    "description": "",
+    "href": "/db/runes/841940324454559628"
+  },
+  {
+    "id": "3094817568735432197",
+    "name": "Multi Shot",
+    "description": "",
+    "href": "/db/runes/3094817568735432197"
+  },
+  {
+    "id": "1574666801752383586",
+    "name": "Multi Spin",
+    "description": "",
+    "href": "/db/runes/1574666801752383586"
+  },
+  {
+    "id": "2010979579140854357",
+    "name": "Overrun",
+    "description": "",
+    "href": "/db/runes/2010979579140854357"
+  },
+  {
+    "id": "634668158925611751",
+    "name": "Pestilence",
+    "description": "",
+    "href": "/db/runes/634668158925611751"
+  },
+  {
+    "id": "3508484839297653716",
+    "name": "Pestilent Recoil",
+    "description": "",
+    "href": "/db/runes/3508484839297653716"
+  },
+  {
+    "id": "4237850986028055582",
+    "name": "Piercing Dash",
+    "description": "",
+    "href": "/db/runes/4237850986028055582"
+  },
+  {
+    "id": "3710791040413979071",
+    "name": "Piercing Dodge",
+    "description": "",
+    "href": "/db/runes/3710791040413979071"
+  },
+  {
+    "id": "3061021514271308809",
+    "name": "Piercing Flurry",
+    "description": "",
+    "href": "/db/runes/3061021514271308809"
+  },
+  {
+    "id": "3196031151234938533",
+    "name": "Piercing Spin",
+    "description": "",
+    "href": "/db/runes/3196031151234938533"
+  },
+  {
+    "id": "539951032608170406",
+    "name": "Plague Arrow",
+    "description": "",
+    "href": "/db/runes/539951032608170406"
+  },
+  {
+    "id": "1878252786236610881",
+    "name": "Plague Barrage",
+    "description": "",
+    "href": "/db/runes/1878252786236610881"
+  },
+  {
+    "id": "2666546497694042576",
+    "name": "Plague Breath",
+    "description": "",
+    "href": "/db/runes/2666546497694042576"
+  },
+  {
+    "id": "2421605026892017886",
+    "name": "Plague Burst",
+    "description": "",
+    "href": "/db/runes/2421605026892017886"
+  },
+  {
+    "id": "1737564386904892761",
+    "name": "Plague Column",
+    "description": "",
+    "href": "/db/runes/1737564386904892761"
+  },
+  {
+    "id": "2080508781185032061",
+    "name": "Plague Crush",
+    "description": "",
+    "href": "/db/runes/2080508781185032061"
+  },
+  {
+    "id": "1394509430782869597",
+    "name": "Plague Dart",
+    "description": "",
+    "href": "/db/runes/1394509430782869597"
+  },
+  {
+    "id": "1107339288305693906",
+    "name": "Plague Dash",
+    "description": "",
+    "href": "/db/runes/1107339288305693906"
+  },
+  {
+    "id": "930723931439290273",
+    "name": "Plague Enchantment",
+    "description": "",
+    "href": "/db/runes/930723931439290273"
+  },
+  {
+    "id": "2135718195121958454",
+    "name": "Plague Explosion",
+    "description": "",
+    "href": "/db/runes/2135718195121958454"
+  },
+  {
+    "id": "786219389980323126",
+    "name": "Plague Launch",
+    "description": "",
+    "href": "/db/runes/786219389980323126"
+  },
+  {
+    "id": "1664670425809726081",
+    "name": "Plague Nova",
+    "description": "",
+    "href": "/db/runes/1664670425809726081"
+  },
+  {
+    "id": "2090540623822852819",
+    "name": "Plague Resistance",
+    "description": "",
+    "href": "/db/runes/2090540623822852819"
+  },
+  {
+    "id": "2697887544261217621",
+    "name": "Plague Retch",
+    "description": "",
+    "href": "/db/runes/2697887544261217621"
+  },
+  {
+    "id": "948892358145475312",
+    "name": "Plague Smite",
+    "description": "",
+    "href": "/db/runes/948892358145475312"
+  },
+  {
+    "id": "22596299149777396",
+    "name": "Plague Splatter",
+    "description": "",
+    "href": "/db/runes/22596299149777396"
+  },
+  {
+    "id": "1448350270845819527",
+    "name": "Plague Strike",
+    "description": "",
+    "href": "/db/runes/1448350270845819527"
+  },
+  {
+    "id": "1484698989144894896",
+    "name": "Plague Sweep",
+    "description": "",
+    "href": "/db/runes/1484698989144894896"
+  },
+  {
+    "id": "2215298957383522801",
+    "name": "Plague Swirl",
+    "description": "",
+    "href": "/db/runes/2215298957383522801"
+  },
+  {
+    "id": "2764278540284420231",
+    "name": "Plague Throw",
+    "description": "",
+    "href": "/db/runes/2764278540284420231"
+  },
+  {
+    "id": "2455613907772917541",
+    "name": "Plague Wave",
+    "description": "",
+    "href": "/db/runes/2455613907772917541"
+  },
+  {
+    "id": "2505170993073346572",
+    "name": "Plague Whirl",
+    "description": "",
+    "href": "/db/runes/2505170993073346572"
+  },
+  {
+    "id": "3655060827570716740",
+    "name": "Poise Shield",
+    "description": "",
+    "href": "/db/runes/3655060827570716740"
+  },
+  {
+    "id": "2791569348451033727",
+    "name": "Pole Flurry",
+    "description": "",
+    "href": "/db/runes/2791569348451033727"
+  },
+  {
+    "id": "4438847146502021167",
+    "name": "Pulse of Health",
+    "description": "",
+    "href": "/db/runes/4438847146502021167"
+  },
+  {
+    "id": "3029836232358642539",
+    "name": "Raging Spiral",
+    "description": "",
+    "href": "/db/runes/3029836232358642539"
+  },
+  {
+    "id": "3390279225550455836",
+    "name": "Reap",
+    "description": "",
+    "href": "/db/runes/3390279225550455836"
+  },
+  {
+    "id": "1851837574400786201",
+    "name": "Recoil Strike",
+    "description": "",
+    "href": "/db/runes/1851837574400786201"
+  },
+  {
+    "id": "1329874660648888114",
+    "name": "Regurgitate",
+    "description": "",
+    "href": "/db/runes/1329874660648888114"
+  },
+  {
+    "id": "1364834338666705101",
+    "name": "Relentless Cleave",
+    "description": "",
+    "href": "/db/runes/1364834338666705101"
+  },
+  {
+    "id": "2942758767993469102",
+    "name": "Repair",
+    "description": "",
+    "href": "/db/runes/2942758767993469102"
+  },
+  {
+    "id": "138555972444505268",
+    "name": "Retreating Trimshot",
+    "description": "",
+    "href": "/db/runes/138555972444505268"
+  },
+  {
+    "id": "448234635234904088",
+    "name": "Return",
+    "description": "",
+    "href": "/db/runes/448234635234904088"
+  },
+  {
+    "id": "4103902768908944322",
+    "name": "Rip and Tear",
+    "description": "",
+    "href": "/db/runes/4103902768908944322"
+  },
+  {
+    "id": "1125468942664125583",
+    "name": "Rising Fang",
+    "description": "",
+    "href": "/db/runes/1125468942664125583"
+  },
+  {
+    "id": "3702709351022502030",
+    "name": "Rotwheel",
+    "description": "",
+    "href": "/db/runes/3702709351022502030"
+  },
+  {
+    "id": "2917299912740972188",
+    "name": "Scream",
+    "description": "",
+    "href": "/db/runes/2917299912740972188"
+  },
+  {
+    "id": "753408585776860336",
+    "name": "Seismic Crush",
+    "description": "",
+    "href": "/db/runes/753408585776860336"
+  },
+  {
+    "id": "3435652393484893420",
+    "name": "Shock Nova",
+    "description": "",
+    "href": "/db/runes/3435652393484893420"
+  },
+  {
+    "id": "17845796907495789",
+    "name": "Shock Strike",
+    "description": "",
+    "href": "/db/runes/17845796907495789"
+  },
+  {
+    "id": "1090365689567110154",
+    "name": "Skybreaker",
+    "description": "",
+    "href": "/db/runes/1090365689567110154"
+  },
+  {
+    "id": "392280132282628150",
+    "name": "Skyburst Volley",
+    "description": "",
+    "href": "/db/runes/392280132282628150"
+  },
+  {
+    "id": "443391528640002819",
+    "name": "Skyfall Shot",
+    "description": "",
+    "href": "/db/runes/443391528640002819"
+  },
+  {
+    "id": "4209072087672005962",
+    "name": "Skyfall Smash",
+    "description": "",
+    "href": "/db/runes/4209072087672005962"
+  },
+  {
+    "id": "3552281628650500396",
+    "name": "Slamdown",
+    "description": "",
+    "href": "/db/runes/3552281628650500396"
+  },
+  {
+    "id": "2388271367670244372",
+    "name": "Slashing Dash",
+    "description": "",
+    "href": "/db/runes/2388271367670244372"
+  },
+  {
+    "id": "2196518769019081783",
+    "name": "Slashing Dodge",
+    "description": "",
+    "href": "/db/runes/2196518769019081783"
+  },
+  {
+    "id": "2996101457835571940",
+    "name": "Slashing Flurry",
+    "description": "",
+    "href": "/db/runes/2996101457835571940"
+  },
+  {
+    "id": "1860754212066836256",
+    "name": "Slashing Pirouette",
+    "description": "",
+    "href": "/db/runes/1860754212066836256"
+  },
+  {
+    "id": "814650376550364149",
+    "name": "Slashing Spin",
+    "description": "",
+    "href": "/db/runes/814650376550364149"
+  },
+  {
+    "id": "1956971790203917072",
+    "name": "Spark",
+    "description": "",
+    "href": "/db/runes/1956971790203917072"
+  },
+  {
+    "id": "3820994722620289270",
+    "name": "Spin",
+    "description": "",
+    "href": "/db/runes/3820994722620289270"
+  },
+  {
+    "id": "3878500112507168971",
+    "name": "Spin Crush",
+    "description": "",
+    "href": "/db/runes/3878500112507168971"
+  },
+  {
+    "id": "2547111481554953330",
+    "name": "Spin Strike",
+    "description": "",
+    "href": "/db/runes/2547111481554953330"
+  },
+  {
+    "id": "3651878267677701264",
+    "name": "Spiral Crash",
+    "description": "",
+    "href": "/db/runes/3651878267677701264"
+  },
+  {
+    "id": "3209590727690784563",
+    "name": "Spirit Burst",
+    "description": "",
+    "href": "/db/runes/3209590727690784563"
+  },
+  {
+    "id": "3873937807161689394",
+    "name": "Stamina Wellspring",
+    "description": "",
+    "href": "/db/runes/3873937807161689394"
+  },
+  {
+    "id": "2547772680830564449",
+    "name": "Static",
+    "description": "",
+    "href": "/db/runes/2547772680830564449"
+  },
+  {
+    "id": "2935435245331159393",
+    "name": "Stormpiercer",
+    "description": "",
+    "href": "/db/runes/2935435245331159393"
+  },
+  {
+    "id": "65426943683162514",
+    "name": "Surge Slash",
+    "description": "",
+    "href": "/db/runes/65426943683162514"
+  },
+  {
+    "id": "845996656867224042",
+    "name": "Swipe Kick",
+    "description": "",
+    "href": "/db/runes/845996656867224042"
+  },
+  {
+    "id": "1520279887957779325",
+    "name": "Taunt Strike",
+    "description": "",
+    "href": "/db/runes/1520279887957779325"
+  },
+  {
+    "id": "4124272060944119733",
+    "name": "Tempest Kick",
+    "description": "",
+    "href": "/db/runes/4124272060944119733"
+  },
+  {
+    "id": "4227377370616330604",
+    "name": "Thorns",
+    "description": "",
+    "href": "/db/runes/4227377370616330604"
+  },
+  {
+    "id": "4044466393876037244",
+    "name": "Throw",
+    "description": "",
+    "href": "/db/runes/4044466393876037244"
+  },
+  {
+    "id": "1316641276213448040",
+    "name": "Throw Axe",
+    "description": "",
+    "href": "/db/runes/1316641276213448040"
+  },
+  {
+    "id": "1948348564290254801",
+    "name": "Throw Knife",
+    "description": "",
+    "href": "/db/runes/1948348564290254801"
+  },
+  {
+    "id": "4052539030505690582",
+    "name": "Thrust",
+    "description": "",
+    "href": "/db/runes/4052539030505690582"
+  },
+  {
+    "id": "2187886175109117056",
+    "name": "Thunderstrike",
+    "description": "",
+    "href": "/db/runes/2187886175109117056"
+  },
+  {
+    "id": "4427128079373407389",
+    "name": "Tornado Spin",
+    "description": "",
+    "href": "/db/runes/4427128079373407389"
+  },
+  {
+    "id": "2596197552556439934",
+    "name": "Tornado Strike",
+    "description": "",
+    "href": "/db/runes/2596197552556439934"
+  },
+  {
+    "id": "704992378633742206",
+    "name": "Tremor Slam",
+    "description": "",
+    "href": "/db/runes/704992378633742206"
+  },
+  {
+    "id": "616969157055433712",
+    "name": "Tremor Wave",
+    "description": "",
+    "href": "/db/runes/616969157055433712"
+  },
+  {
+    "id": "1810186561623857851",
+    "name": "Trinity Barrage",
+    "description": "",
+    "href": "/db/runes/1810186561623857851"
+  },
+  {
+    "id": "2670213990180711386",
+    "name": "Triple Swipe",
+    "description": "",
+    "href": "/db/runes/2670213990180711386"
+  },
+  {
+    "id": "4514463477850100068",
+    "name": "Turnback Kick",
+    "description": "",
+    "href": "/db/runes/4514463477850100068"
+  },
+  {
+    "id": "1756380779171026231",
+    "name": "Twirl Dash",
+    "description": "",
+    "href": "/db/runes/1756380779171026231"
+  },
+  {
+    "id": "3521637318283462458",
+    "name": "Twirl Spin",
+    "description": "",
+    "href": "/db/runes/3521637318283462458"
+  },
+  {
+    "id": "218542788009739065",
+    "name": "Wallbreaker",
+    "description": "",
+    "href": "/db/runes/218542788009739065"
+  },
+  {
+    "id": "788655136485454550",
+    "name": "Whirl",
+    "description": "",
+    "href": "/db/runes/788655136485454550"
+  },
+  {
+    "id": "2103212074874791279",
+    "name": "Whirlstep Strike",
+    "description": "",
+    "href": "/db/runes/2103212074874791279"
+  },
+  {
+    "id": "1128433911572682166",
+    "name": "Whirlwind",
+    "description": "",
+    "href": "/db/runes/1128433911572682166"
+  },
+  {
+    "id": "4324691228874446864",
+    "name": "Wild Rush",
+    "description": "",
+    "href": "/db/runes/4324691228874446864"
+  }
+]

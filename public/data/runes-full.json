@@ -1,0 +1,2666 @@
+[
+  {
+    "id": "138555972444505268",
+    "name": "Retreating Trimshot",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Retreating Trimshot</span> Rune Attack.\n\nExecute a swift backward somersault while loosing three arrows in rapid succession, maintaining pressure even as you evade danger.",
+    "icon": "r634",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "443391528640002819",
+    "name": "Skyfall Shot",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Skyfall Shot</span> Rune Attack.\n\nLeap high into the air and drive an arrow straight down, unleashing a violent shockwave on impact that ripples outward from the point of impact.",
+    "icon": "r635",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1008936242857187937",
+    "name": "Crosscut",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Crosscut</span> Rune Attack.\n\nSpin through your target with a sweeping strike, reverse the motion for a second cut, then somersault back and fire a parting arrow.",
+    "icon": "r636",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2763692554067775263",
+    "name": "Flipkick Burst",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Flipkick Burst</span> Rune Attack.\n\nLaunch an upward kick to propel yourself into a tight backflip, loosing three rapid arrows mid-rotation to strike your foe as you slip out of reach.",
+    "icon": "r637",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4456264942046730699",
+    "name": "Glideburst",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Glideburst</span> Rune Attack.\n\nGlide forward in a low, controlled slide, loosing three rapid arrows mid-motion to pressure and punish foes in your path.",
+    "icon": "r638",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3094817568735432197",
+    "name": "Multi Shot",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Multi Shot</span> Rune Attack.\n\nUnleash a rapid volley of arrows, striking several foes in a single, breath-taking display of archery prowess.",
+    "icon": "r639",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3556948302666992264",
+    "name": "Arrowstorm",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Arrowstorm</span> Rune Attack.\n\nFire a lone arrow skyward, calling down a punishing rain of arrows that showers the battlefield and overwhelms foes caught beneath it.",
+    "icon": "r640",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "617950209181311744",
+    "name": "Evasive Shot",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Evasive Shot</span> Rune Attack.\n\nLeap back with agile grace, notching and loosing an arrow in one fluid motion to create distance and deal damage simultaneously.",
+    "icon": "r641",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "392280132282628150",
+    "name": "Skyburst Volley",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Skyburst Volley</span> Rune Attack.\n\nLeap into the air and loose five arrows in a brilliant bursting spread, raining destruction across all caught beneath your descent.",
+    "icon": "r642",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3691420496886696812",
+    "name": "Knockout Shot",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Knockout Shot</span> Rune Attack.\n\nA forceful arrow designed to strike with such impact that it can topple foes, leaving them vulnerable on the ground.",
+    "icon": "r643",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1099963329955884554",
+    "name": "Cone Shot",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Cone Shot</span> Rune Attack.\n\nUnleash a concentrated burst of arrows in a narrow cone, overwhelming a single target or any in close proximity with a powerful volley.",
+    "icon": "r644",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1213867791143309470",
+    "name": "Breakstep",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Breakstep</span> Rune Attack.\n\nDrive a sharp kick into your foe, then follow through with three rapid arrows before they can recover.",
+    "icon": "r645",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1090365689567110154",
+    "name": "Skybreaker",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Skybreaker</span> Rune Attack.\n\nLeap skyward and drive an arrow straight down, calling a crackling bolt of lightning to erupt on impact and jolt multiple foes at once.",
+    "icon": "r646",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3618113332175947288",
+    "name": "Firefall",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Firefall</span> Rune Attack.\n\nLeap upward and plunge an arrow into the earth, erupting a roaring blast of flame that engulfs all caught nearby.",
+    "icon": "r647",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "539951032608170406",
+    "name": "Plague Arrow",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Plague Arrow</span> Rune Attack.\n\nCoat your arrow in virulent toxins, causing disease and decay upon impact.",
+    "icon": "r648",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2853707695375046197",
+    "name": "Ice Arrow",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Ice Arrow</span> Rune Attack.\n\nEnchant your arrow with frost, striking your target with a shard that chills to the core.",
+    "icon": "r649",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1481467222710748843",
+    "name": "Fire Arrow",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Fire Arrow</span> Rune Attack.\n\nIgnite your bowstring, transforming your next shot into a blazing arrow to scorch your targets.",
+    "icon": "r650",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3836894979821062611",
+    "name": "Lightning Arrow",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Lightning Arrow</span> Rune Attack.\n\nCharge your arrow with crackling energy, releasing a bolt that seeks your enemy's weaknesses.",
+    "icon": "r651",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "814650376550364149",
+    "name": "Slashing Spin",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Slashing Spin</span> Rune Attack.\n\nCharge and unleash a devastating swinging blow.",
+    "icon": "r652",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1364834338666705101",
+    "name": "Relentless Cleave",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Relentless Cleave</span> Rune Attack.\n\nUnleash three brutal swings in rapid succession, then smash your weapon into the ground with overwhelming force to trigger a fiery explosion that devastates nearby enemies.",
+    "icon": "r653",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3515340168008169334",
+    "name": "Double Crush",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Double Crush</span> Rune Attack.\n\nBounce forward and land two powerful consecutive strikes.",
+    "icon": "r654",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3675049373013426272",
+    "name": "Berserk Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Berserk Flurry</span> Rune Attack.\n\nChannel the fury of a berserker and surge forward, unleashing four rapid, powerful swings to overwhelm your foes.",
+    "icon": "r655",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1043286239091734599",
+    "name": "Kick Slash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Kick Slash</span> Rune Attack.\n\nCombine a spinning leg kick with a slashing strike at the end, stunning enemies before delivering a damaging blow.",
+    "icon": "r656",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3182104791921662487",
+    "name": "Frenzied Cleave",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Frenzied Cleave</span> Rune Attack.\n\nUnleash three rapid, savage swings in quick succession, overwhelming enemies with wild, relentless force.",
+    "icon": "r657",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4001092589228091029",
+    "name": "Dodge Slamdown",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Dodge Slamdown</span> Rune Attack.\n\nBounce forward and land a powerful strike from above.",
+    "icon": "r658",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3029836232358642539",
+    "name": "Raging Spiral",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Raging Spiral</span> Rune Attack.\n\nSpin forward three times with unstoppable momentum, swinging your weapon in wide arcs to shred all enemies in your path.",
+    "icon": "r659",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1924769126166654810",
+    "name": "Crushing Slam",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Crushing Slam</span> Rune Attack.\n\nLeap forward and bring your weapon down with monumental force, slamming into the ground to crush enemies beneath its impact.",
+    "icon": "r660",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "218542788009739065",
+    "name": "Wallbreaker",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Wallbreaker</span> Rune Attack.\n\nPierce through enemy barriers and defenses with a powerful stab, shattering obstacles in your path.",
+    "icon": "r661",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "704992378633742206",
+    "name": "Tremor Slam",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Tremor Slam</span> Rune Attack.\n\nSmash your weapon into the ground with unstoppable force, unleashing a shockwave that shakes the earth and staggers nearby enemies.",
+    "icon": "r662",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2888749868516503482",
+    "name": "Ground Slam",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Ground Slam</span> Rune Attack.\n\nPerform a horizontal sweeping blow and finish the combo with an aerial downward slam.",
+    "icon": "r663",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3651878267677701264",
+    "name": "Spiral Crash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Spiral Crash</span> Rune Attack.\n\nStep forward and spin with crushing momentum, then deliver a devastating blow that knocks nearby enemies to the ground.",
+    "icon": "r664",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3726417958434299470",
+    "name": "Juggle Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Juggle Strike</span> Rune Attack.\n\nCharge and unleash a devastating swinging uppercut.",
+    "icon": "r665",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2626979379833238540",
+    "name": "Crushing Triple",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Crushing Triple</span> Rune Attack.\n\nLaunch into a powerful three-hit combo, each swing heavier and more forceful than the last, to overpower enemies with crushing force.",
+    "icon": "r666",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "841940324454559628",
+    "name": "Limit Break",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Limit Break</span> Rune Attack.\n\nCharge and unleash a 4-hit combo of consecutive slashing strikes with a final overwhelming blow.",
+    "icon": "r667",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4103902768908944322",
+    "name": "Rip and Tear",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Rip and Tear</span> Rune Attack.\n\nSlash forward with brutal force, aiming to inflict massive damage and tear through anything standing in your path.",
+    "icon": "r668",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1574666801752383586",
+    "name": "Multi Spin",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Multi Spin</span> Rune Attack.\n\nSpin slowly six times in a whirlwind powerful attack, striking all nearby enemies with continuous blows.",
+    "icon": "r669",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2791569348451033727",
+    "name": "Pole Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Pole Flurry</span> Rune Attack.\n\nPerform two vertical sweeping blows and finish the combo with a downward slam.",
+    "icon": "r670",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3390279225550455836",
+    "name": "Reap",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Reap</span> Rune Attack.\n\nLand two spinning blows on your foe and finish him with a slam strike.",
+    "icon": "r671",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1712998916135215305",
+    "name": "Crushing Quad",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Crushing Quad</span> Rune Attack.\n\nUnleash a wild barrage of swings with your weapon, executing a rapid four-hit combo that devastates foes with each successive strike.",
+    "icon": "r672",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1824564621170827697",
+    "name": "Balance Smash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Balance Smash</span> Rune Attack.\n\nBalance atop your weapon as you roll over it, then seize it firmly to deliver a ground-shattering smash.",
+    "icon": "r673",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "129188487361991509",
+    "name": "Berserk Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Berserk Strike</span> Rune Attack.\n\nThump your chest to fuel your rage, then deliver a devastating strike that crushes the enemy with brutal force.",
+    "icon": "r674",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3878500112507168971",
+    "name": "Spin Crush",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Spin Crush</span> Rune Attack.\n\nPerform a horizontal sweeping blow and finish the combo with a downward strike.",
+    "icon": "r675",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1128433911572682166",
+    "name": "Whirlwind",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Whirlwind</span> Rune Attack.\n\nSpin rapidly in a whirlwind attack, striking all nearby enemies with continuous blows.",
+    "icon": "r676",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2279133602367080094",
+    "name": "Berserk Slam",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Berserk Slam</span> Rune Attack.\n\nBellow a battle cry and step forward to slam your weapon into the ground, unleashing a devastating impact that rattles nearby foes.",
+    "icon": "r677",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4222099060750969381",
+    "name": "Cyclone Swipe",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Cyclone Swipe</span> Rune Attack.\n\nSwipe your weapon in a circular motion to deal great damage to surrounding enemies.",
+    "icon": "r678",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "929121537033461728",
+    "name": "Knockdown Swirl",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Knockdown Swirl</span> Rune Attack.\n\nGracefully spin your weapon in a devastating whirlwind, smashing and knocking your enemies down with strength, skill and a series of blows.",
+    "icon": "r679",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3617657274445286388",
+    "name": "Crushing Uppercut",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Crushing Uppercut</span> Rune Attack.\n\nTwirl into a spin that gathers momentum and then unleash a devastating uppercut swing, propelling enemies upward with crushing force.",
+    "icon": "r680",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4036179364219279753",
+    "name": "Breaker Thrust",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Breaker Thrust</span> Rune Attack.\n\nLunge forward with overwhelming force, thrusting your weapon into enemies to knock them off their feet.",
+    "icon": "r681",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "753408585776860336",
+    "name": "Seismic Crush",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Seismic Crush</span> Rune Attack.\n\nSmash your weapon into the ground with unstoppable force, unleashing a massive shockwave that knocks down all nearby enemies.",
+    "icon": "r682",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3508484839297653716",
+    "name": "Pestilent Recoil",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Pestilent Recoil</span> Rune Attack.\n\nStrike with two corrupted melee blows, then leap back and unleash a toxic wave of plague energy toward your enemy.",
+    "icon": "r683",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2080508781185032061",
+    "name": "Plague Crush",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Plague Crush</span> Rune Attack.\n\nInfuse your weapon with virulent toxins and unleash a sweeping strike, causing disease and decay upon impact.",
+    "icon": "r684",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "812099702074107846",
+    "name": "Lightning Assault",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Lightning Assault</span> Rune Attack.\n\nInfuse your weapon with lightning and instantly approach a foe with a sweeping strike, electrifying and making vulnerable.",
+    "icon": "r685",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2188721048531478025",
+    "name": "Ice Ram",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Ice Ram</span> Rune Attack.\n\nInfuse your weapon with frost and unleash a sweeping strike, freezing and slowing enemies down.",
+    "icon": "r686",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1726463966800115133",
+    "name": "Fire Whirlwind",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Fire Whirlwind</span> Rune Attack.\n\nSpin in a prolonged fiery whirlwind, engulfing enemies with flames and leaving them burned.",
+    "icon": "r687",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4204779299360104716",
+    "name": "Fire Swipe",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Fire Swipe</span> Rune Attack.\n\nInfuse your weapon with flames and unleash a sweeping strike, engulfing enemies in flames.",
+    "icon": "r688",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "146444484429326508",
+    "name": "Eruption",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Eruption</span> Rune Attack.\n\nJump and land with a ground-shaking slam to trigger volcanic eruption, damaging all surrounding enemies in a large radius around you.",
+    "icon": "r689",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4061366242536873511",
+    "name": "Fire Slam",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Two-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Fire Slam</span> Rune Attack.\n\nJump and land with a devastating slam to set the area on fire, damaging all surrounding enemies in a small radius around you.",
+    "icon": "r690",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1664670425809726081",
+    "name": "Plague Nova",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Plague Nova</span> Rune Attack.\n\nUnleash a burst of plague energy around you, infecting all nearby enemies. Charge it to expand the area of effect and increase its attack power.",
+    "icon": "r691",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2455613907772917541",
+    "name": "Plague Wave",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Plague Wave</span> Rune Attack.\n\nLaunch a wave of virulent curses to plague multiple enemies. Charge it to amplify their damage.",
+    "icon": "r692",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3702709351022502030",
+    "name": "Rotwheel",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Rotwheel</span> Rune Attack.\n\nSummon a massive, rolling mass of plague that barrels forward, infecting and corrupting all enemies in its path.",
+    "icon": "r693",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2666546497694042576",
+    "name": "Plague Breath",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Plague Breath</span> Rune Attack.\n\nCast a virulent plague ball that infects enemies on impact. Charge it to increase its toxic power and deal more damage.",
+    "icon": "r694",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1484698989144894896",
+    "name": "Plague Sweep",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Plague Sweep</span> Rune Attack.\n\nPerform a 360-degree sweep with your staff, laced with toxins, breaking enemy guards and poisoning them.",
+    "icon": "r695",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "634668158925611751",
+    "name": "Pestilence",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Pestilence</span> Rune Attack.\n\nTarget an area, leap into the air, and slam down to create a toxic eruption that damages and poisons all enemies within a large radius.",
+    "icon": "r696",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3435652393484893420",
+    "name": "Shock Nova",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Shock Nova</span> Rune Attack.\n\nUnleash a burst of electric energy around you, shocking all nearby enemies. Charge it to expand the area of effect and increase its attack power.",
+    "icon": "r697",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1956971790203917072",
+    "name": "Spark",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Spark</span> Rune Attack.\n\nLaunch a wave of lightning bolts to shock multiple foes. Charge it to amplify their damage.",
+    "icon": "r698",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3903849283299422194",
+    "name": "Lightning Sweep",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Lightning Sweep</span> Rune Attack.\n\nPerform a 360-degree sweep with your staff, charged with electricity, breaking enemy guards and shocking them.",
+    "icon": "r699",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2074319938338630530",
+    "name": "Chain Lightning",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Chain Lightning</span> Rune Attack.\n\nUnleash a lightning bolt that strikes your target and, when charged, arcs to hit additional nearby enemies, electrifying the battlefield.",
+    "icon": "r700",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2187886175109117056",
+    "name": "Thunderstrike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Thunderstrike</span> Rune Attack.\n\nTarget an area, leap into the air, and slam down to create a thunderous eruption that damages and stuns all enemies within a large radius.",
+    "icon": "r701",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1019982021738449010",
+    "name": "Homing Frost",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Homing Frost</span> Rune Attack.\n\nSummon a ring of icy darts around you. Upon release, the shards home in on your current target, striking them with freezing force.\n",
+    "icon": "r702",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1054724863233781168",
+    "name": "Frost Nova",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Frost Nova</span> Rune Attack.\n\nUnleash a burst of icy energy around you, freezing all nearby enemies. Charge it to expand the area of effect and increase its attack power.",
+    "icon": "r703",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3986588637982542586",
+    "name": "Hail",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Hail</span> Rune Attack.\n\nLaunch a wave of icebolts to freeze multiple foes. Charge it to amplify their damage.",
+    "icon": "r704",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3649368061764522275",
+    "name": "Icebolt",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Icebolt</span> Rune Attack.\n\nCast a chilling iceball that freezes enemies on impact. Charge it to increase its freezing power and deal more damage.",
+    "icon": "r705",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2489435915531023210",
+    "name": "Ice Sweep",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Ice Sweep</span> Rune Attack.\n\nPerform a 360-degree sweep with your staff, encased in ice, breaking enemy guards and freezing them solid.",
+    "icon": "r706",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "374603350845669260",
+    "name": "Frost Stream",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Frost Stream</span> Rune Attack.\n\nUnleash a frost stream, chilling all foes in its path. Active until releasing the Rune button.",
+    "icon": "r707",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1718634230081929161",
+    "name": "Glacial Spike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Glacial Spike</span> Rune Attack.\n\nTarget an area, leap into the air, and slam down to create a frosty eruption that damages and freezes all enemies within a large radius.",
+    "icon": "r708",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "601475074917651680",
+    "name": "Fire Nova",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Fire Nova</span> Rune Attack.\n\nUnleash a fiery explosion around you, damaging all nearby enemies. Charge it to expand the area of effect and increase its attack power.",
+    "icon": "r709",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "794310646847301587",
+    "name": "Fire Wave",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Fire Wave</span> Rune Attack.\n\nLaunch a wave of fireballs to blaze multiple foes. Charge it to amplify their damage.",
+    "icon": "r710",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4512811323975887056",
+    "name": "Fireball",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Fireball</span> Rune Attack.\n\nCast a blazing fireball that incinerates enemies on impact. Charge it to increase its fiery power and deal more damage.",
+    "icon": "r711",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2671463997427338343",
+    "name": "Inferno",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Inferno</span> Rune Attack.\n\nFire a continuous beam of fire, igniting all foes in its path. Active until releasing the Rune button.",
+    "icon": "r712",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4269898584950211047",
+    "name": "Flame Sweep",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Flame Sweep</span> Rune Attack.\n\nPerform a 360-degree flaming sweep with your staff to break enemy guards and set them ablaze.",
+    "icon": "r713",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3940142870750105669",
+    "name": "Hellfire",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Staff</span> or a <span style=\"color:#F2E6BD\">Wand</span> to gain the <span style=\"color:#F2E6BD\">Hellfire</span> Rune Attack.\n\nTarget an area, leap into the air, and slam down to create a fiery eruption that damages all enemies within a large radius.",
+    "icon": "r714",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2135718195121958454",
+    "name": "Plague Explosion",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Plague Explosion</span> Rune Attack.\n\nDetonate festering buboes that poison and corrode everything caught in their vile radius.",
+    "icon": "r715",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2421605026892017886",
+    "name": "Plague Burst",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Plague Burst</span> Rune Attack.\n\nFire four charged plague projectiles that erupt on contact, spreading infection.",
+    "icon": "r716",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1737564386904892761",
+    "name": "Plague Column",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Plague Column</span> Rune Attack.\n\nConjure a vertical torrent of plague energy that spits infectious projectiles outward.",
+    "icon": "r717",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1878252786236610881",
+    "name": "Plague Barrage",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Plague Barrage</span> Rune Attack.\n\nCharge forward and unleash a flurry of plague-ridden projectiles at nearby enemies.",
+    "icon": "r718",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "786219389980323126",
+    "name": "Plague Launch",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Plague Launch</span> Rune Attack.\n\nLeap backward and slam down with a shockwave of plague, infecting all enemies on landing.",
+    "icon": "r719",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1394509430782869597",
+    "name": "Plague Dart",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Plague Dart</span> Rune Attack.\n\nLaunch a diseased dart that infects your target with a slow-acting poison.",
+    "icon": "r720",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "948892358145475312",
+    "name": "Plague Smite",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Plague Smite</span> Rune Attack.\n\nInflict disease beneath your foes, bursting pestilence from underfoot.",
+    "icon": "r721",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "22596299149777396",
+    "name": "Plague Splatter",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Plague Splatter</span> Rune Attack.\n\nSummon a massive plague bubble and hurl it at your enemies, bursting on impact in a pool of corruption.",
+    "icon": "r722",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "880649867087343128",
+    "name": "Lightning Flash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Lightning Flash</span> Rune Attack.\n\nFire concentrated lightning bolts forward, stunning enemies struck by their impact.",
+    "icon": "r723",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2316423121768618750",
+    "name": "Lightning Storm",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Lightning Storm</span> Rune Attack.\n\nSummon multiple bolts of lightning that cascade forward in quick succession, striking anything in their path.",
+    "icon": "r724",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2547772680830564449",
+    "name": "Static",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Static</span> Rune Attack.\n\nCharge your body with static energy, electrocuting enemies who come too close.",
+    "icon": "r725",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4602480535412336098",
+    "name": "Lightning Leap",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Lightning Leap</span> Rune Attack.\n\nLeap high into the air, then plunge downward in a surge of lightning that shocks all enemies below.",
+    "icon": "r726",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "200644451955564175",
+    "name": "Lightning Barrage",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Lightning Barrage</span> Rune Attack.\n\nDash into your enemies and deliver a rapid series of electrified strikes.",
+    "icon": "r727",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "842114256804780839",
+    "name": "Charged Bolt",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Charged Bolt</span> Rune Attack.\n\nRelease bolts of lightning in all directions, shocking nearby enemies with surging energy.",
+    "icon": "r728",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2782121935303112175",
+    "name": "Lightning Dart",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Lightning Dart</span> Rune Attack.\n\nHurl a crackling dart of lightning toward your target, jolting them on impact.",
+    "icon": "r729",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2950113389815706885",
+    "name": "Lightning Blast",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Lightning Blast</span> Rune Attack.\n\nElectrify the ground beneath your enemies, shocking them with a surge of unstable energy.",
+    "icon": "r730",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2970991005909960498",
+    "name": "Lightning Bolt",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Lightning Bolt</span> Rune Attack.\n\nCall down a massive bolt of lightning from the sky, striking your target with thunderous force.",
+    "icon": "r731",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1490193915641213403",
+    "name": "Frost Needles",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Frost Needles</span> Rune Attack.\n\nUnleash a fan of sharp ice shards that pierce and slow your enemies.",
+    "icon": "r732",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2544515215235534857",
+    "name": "Frigid Arc",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Frigid Arc</span> Rune Attack.\n\nLeap into the air and release a sweeping arc of frost energy, freezing enemies caught in its icy beam from above.",
+    "icon": "r733",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2500324970914093171",
+    "name": "Cold Sling",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Cold Sling</span> Rune Attack.\n\nLeap into the air and hurl three icy projectiles in rapid succession toward your target.",
+    "icon": "r734",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4274751935171471981",
+    "name": "Frost Step",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Frost Step</span> Rune Attack.\n\nDodge out of harm’s way, then counter with a chilling stream of frost that freezes enemies in your path.",
+    "icon": "r735",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2355168337068596188",
+    "name": "Ice Dart",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Ice Dart</span> Rune Attack.\n\nFire a chilling dart of ice at your enemy, briefly slowing them with frostbite.",
+    "icon": "r736",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "595798154631475079",
+    "name": "Fire Burst",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Fire Burst</span> Rune Attack.\n\nRelease a fiery burst that lingers briefly before exploding in a powerful blast of flame.",
+    "icon": "r737",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "562810352442823424",
+    "name": "Fire Wall",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Fire Wall</span> Rune Attack.\n\nErect a blazing wall of fire in front of you. Enemies that pass through suffer continuous burning damage.",
+    "icon": "r738",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2547111481554953330",
+    "name": "Spin Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Spin Strike</span> Rune Attack.\n\nSpin into a fiery whirlwind, lashing out in all directions and scorching surrounding enemies.",
+    "icon": "r739",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4444598686857872115",
+    "name": "Converging Flame",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Converging Flame</span> Rune Attack.\n\nSummon six fireballs that hover before you. Charge to increase their damage, then release to fire them forward in a curving path that converges after a distance, striking enemies with focused burning power.",
+    "icon": "r740",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "709973357846815709",
+    "name": "Fire Dart",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Fire Dart</span> Rune Attack.\n\nHurl a searing dart of flame toward your enemy, igniting them with a focused burst of fire.",
+    "icon": "r741",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "572392739616368446",
+    "name": "Fire Blast",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Fire Blast</span> Rune Attack.\n\nSummon a small explosion of fire in front of you, scorching enemies with intense heat.",
+    "icon": "r742",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3703645397189368459",
+    "name": "Fire Walk",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Fire Walk</span> Rune Attack.\n\nEngulf yourself in flames, then leave a trail of fire behind that burns all who follow.",
+    "icon": "r743",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3409714389760517357",
+    "name": "Armageddon",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Armageddon</span> Rune Attack.\n\nCall down a devastating inferno in front of you, engulfing the area in a massive explosion of fire.",
+    "icon": "r744",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3050873622196356296",
+    "name": "Armageddon",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Wand</span> or a <span style=\"color:#F2E6BD\">Staff</span> to gain the <span style=\"color:#F2E6BD\">Armageddon</span> Rune Attack.\n\nCall down a devastating inferno in front of you, engulfing the area in a massive explosion of fire.",
+    "icon": "r744",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "969122126482669651",
+    "name": "Focus Halo",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Focus Halo</span> Spell.\n\nElevate your Focus, enhancing your Cerim abilities by increasing your maximum focus points for 120s.",
+    "icon": "r745",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "3873937807161689394",
+    "name": "Stamina Wellspring",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Stamina Wellspring</span> Spell.\n\nTap into a wellspring of energy, increasing your Stamina and enabling you to perform more actions for 120s.",
+    "icon": "r746",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "3655060827570716740",
+    "name": "Poise Shield",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Poise Shield</span> Spell.\n\nBolster your Poise, increasing your stability and resistance to being staggered by enemy attacks for 120s.",
+    "icon": "r747",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "4438847146502021167",
+    "name": "Pulse of Health",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Pulse of Health</span> Spell.\n\nRestore your Health and increase your maximum health for 120s, ensuring you can withstand more damage in battle.",
+    "icon": "r748",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "4541316365676769348",
+    "name": "Damage Surge",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Damage Surge</span> Spell.\n\nTemporarily boost your Attack, unleashing a surge of strength that increases your damage output for 120s.",
+    "icon": "r749",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "588068954941947977",
+    "name": "Electric Enchantment",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Electric Enchantment</span> Spell.\n\nCharge your weapon with electric power, electrifying each strike to shock and stun your adversaries.",
+    "icon": "r750",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "4157409531145223832",
+    "name": "Cold Enchantment",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Cold Enchantment</span> Spell.\n\nInfuse your weapon with the essence of cold, chilling foes with frosty strikes that slow their advance.",
+    "icon": "r751",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "930723931439290273",
+    "name": "Plague Enchantment",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Plague Enchantment</span> Spell.\n\nCoat your weapon with a virulent plague, enhancing its strikes to rapidly build up plague damage.",
+    "icon": "r752",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "4367213926817392495",
+    "name": "Heat Enchantment",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Heat Enchantment</span> Spell.\n\nImbue your weapon with fiery energy, igniting your strikes to scorch enemies and set the battlefield ablaze.",
+    "icon": "r753",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "3128125765326475670",
+    "name": "Illuminate",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Illuminate</span> Spell.\n\nSummon a radiant light that follows you, illuminating dark areas and revealing hidden paths.",
+    "icon": "r754",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "2252989086070227011",
+    "name": "Heal Aura",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Heal Aura</span> Spell.\n\nCharge this spell to convert focus into health, surrounding yourself with a restorative aura that heals you over time.",
+    "icon": "r755",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "4384702748080131279",
+    "name": "Heal",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Heal</span> Spell.\n\nSpend focus to restore your health, calling on inner power to recover from wounds.",
+    "icon": "r756",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "2917299912740972188",
+    "name": "Scream",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Scream</span> Spell.\n\nLet out a powerful scream that knocks down enemies in front of you, leaving them vulnerable to follow-up attacks.",
+    "icon": "r757",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "4227377370616330604",
+    "name": "Thorns",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Thorns</span> Spell.\n\nChannel sacred energy to get a mark of protection, reflecting damage back to enemies who strike you.",
+    "icon": "r758",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "2942758767993469102",
+    "name": "Repair",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Repair</span> Spell.\n\nChannel sacred energy to repair and restore durability to your equipped items, ensuring they remain battle-ready.",
+    "icon": "r759",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "448234635234904088",
+    "name": "Return",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Return</span> Spell.\n\nFast Travel to any unlocked whisper of your choice.",
+    "icon": "r760",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "2260878218614060253",
+    "name": "Channel",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Channel</span> Spell.\n\nCharge this spell to draw in sacred energy, sacrificing health to gain focus and amplify your mystical power.",
+    "icon": "r761",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "1742791377702654896",
+    "name": "Blink",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Blink</span> Spell.\n\nHarness mystical energy to teleport forward a short distance, even passing through enemies to evade or position strategically.",
+    "icon": "r762",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "274893645292724916",
+    "name": "Heat Resistance",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Heat Resistance</span> Spell.\n\nGain resistance to heat-based attacks, reducing fire damage and improving your survival against fiery blows.",
+    "icon": "r763",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "2216413228396767658",
+    "name": "Electric Resistance",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Electric Resistance</span> Spell.\n\nEnhance your defenses against lightning-based attacks, reducing lightning damage and preventing shock status.",
+    "icon": "r764",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "2090540623822852819",
+    "name": "Plague Resistance",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Plague Resistance</span> Spell.\n\nBuild up immunity to plague-based attacks, reducing toxin damage and mitigating poison effects.",
+    "icon": "r765",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "1686901208604993696",
+    "name": "Cold Resistance",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Utility Slot</span> to gain the <span style=\"color:#F2E6BD\">Cold Resistance</span> Spell.\n\nFortify yourself against cold-based attacks, reducing ice damage and increasing your resilience to freezing effects.",
+    "icon": "r766",
+    "runeType": {
+      "customItemType": 9
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 64
+  },
+  {
+    "id": "4514463477850100068",
+    "name": "Turnback Kick",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Weapon</span> to gain the <span style=\"color:#F2E6BD\">Turnback Kick</span> Technique.\n\nSpin around your axis and deliver a powerful backward kick that knocks enemies away.",
+    "icon": "r767",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "940505683543453145",
+    "name": "Drone Trap",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Weapon</span> to gain the <span style=\"color:#F2E6BD\">Drone Trap</span> Technique.\n\nDeploy a drone that homes in on your target and explodes on impact, leaving behind a trap. If enemies approach, the trap detonates with a second blast.",
+    "icon": "r768",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4108774201610135227",
+    "name": "Dropkick",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Weapon</span> to gain the <span style=\"color:#F2E6BD\">Dropkick</span> Technique.\n\nLaunch yourself feet-first toward your enemy with a brutal dropkick, knocking them back with raw, physical force.",
+    "icon": "r769",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1329874660648888114",
+    "name": "Regurgitate",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Weapon</span> to gain the <span style=\"color:#F2E6BD\">Regurgitate</span> Technique.\n\nVomit a stream of toxic bile at your enemy, dousing them in filth and corruption.\n",
+    "icon": "r770",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1316641276213448040",
+    "name": "Throw Axe",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Weapon</span> to gain the <span style=\"color:#F2E6BD\">Throw Axe</span> Technique.\n\nHurl a spinning axe toward your enemy, dealing heavy damage on impact.",
+    "icon": "r771",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1496794752253721987",
+    "name": "Frontflip Kick",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Weapon</span> to gain the <span style=\"color:#F2E6BD\">Frontflip Kick</span> Technique.\n\nPerform a forward somersault and smash your foot down on the enemy, delivering a powerful, crushing blow.",
+    "icon": "r772",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1948348564290254801",
+    "name": "Throw Knife",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Weapon</span> to gain the <span style=\"color:#F2E6BD\">Throw Knife</span> Technique.\n\nHurl a sharp knife at your enemy with deadly precision.",
+    "icon": "r773",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "845996656867224042",
+    "name": "Swipe Kick",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Weapon</span> to gain the <span style=\"color:#F2E6BD\">Swipe Kick</span> Technique.\n\nSpin into a powerful roundhouse kick, striking enemies with a wide, sweeping arc of force.",
+    "icon": "r774",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2308152468943957299",
+    "name": "Double Spin",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Double Spin</span> Rune Attack.\n\nExecute a rapid spinning attack, striking enemies twice with each rotation.",
+    "icon": "r775",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4307813597606695670",
+    "name": "Circular",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Circular</span> Rune Attack.\n\nExecute a swift spin, striking enemies twice with a powerful circular attack that hits all around you.",
+    "icon": "r776",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3524997825263527493",
+    "name": "Crush",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Crush</span> Rune Attack.\n\nSwing your weapon overhead in a forceful spin and deliver a ground-shaking slam, dealing area of effect damage to all surrounding enemies.",
+    "icon": "r777",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2670213990180711386",
+    "name": "Triple Swipe",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Triple Swipe</span> Rune Attack.\n\nOverwhelm your foes by dealing three consecutive slashes. ",
+    "icon": "r778",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2103212074874791279",
+    "name": "Whirlstep Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Whirlstep Strike</span> Rune Attack.\n\nExecute a tempestuous whirl, striking with two furious blows.",
+    "icon": "r779",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "788655136485454550",
+    "name": "Whirl",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Whirl</span> Rune Attack.\n\nSpin rapidly six times in a whirlwind attack, striking all nearby enemies with continuous blows.",
+    "icon": "r780",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2388271367670244372",
+    "name": "Slashing Dash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Slashing Dash</span> Rune Attack.\n\nDash forward with a heavy slashing strike, cutting through enemies on your way.",
+    "icon": "r781",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3061021514271308809",
+    "name": "Piercing Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Piercing Flurry</span> Rune Attack.\n\nUnleash a flurry of piercing strikes, overwhelming enemies with relentless precision.",
+    "icon": "r782",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1510491183592993679",
+    "name": "Evasive Swing",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Evasive Swing</span> Rune Attack.\n\nSwing your weapon in an evasive arc, stepping to the left while dealing damage.",
+    "icon": "r783",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1810186561623857851",
+    "name": "Trinity Barrage",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Trinity Barrage</span> Rune Attack.\n\nUnleash a barrage of three consecutive strikes.",
+    "icon": "r784",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3716769456665212619",
+    "name": "Fierce Dash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Fierce Dash</span> Rune Attack.\n\nThrow yourself forward with ferocious speed, delivering a single stabbing blow that throws enemies back.",
+    "icon": "r785",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2831857259389369472",
+    "name": "Charge Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Charge Strike</span> Rune Attack.\n\nCharge forward with lethal momentum, culminating in a brutal strike that devastates any foe in your path.",
+    "icon": "r786",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4426701845280104389",
+    "name": "Gyro Slash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Gyro Slash</span> Rune Attack.\n\nSpin forward in a tight, high-speed rotation, turning your weapon into a whirling disc that slices through anything in your path.",
+    "icon": "r787",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1520279887957779325",
+    "name": "Taunt Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Taunt Strike</span> Rune Attack.\n\nTaunt enemies to draw their attention towards you and land a sudden blow.",
+    "icon": "r788",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2996101457835571940",
+    "name": "Slashing Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Slashing Flurry</span> Rune Attack.\n\nUnleash a flurry of slashing strikes, shredding enemies with a relentless assault and finishing with a piercing blow.",
+    "icon": "r789",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4567976376074138840",
+    "name": "Leap",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Leap</span> Rune Attack.\n\nLeap forward with agility and grace, closing the distance to your enemies and crushing them from above.",
+    "icon": "r790",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4237850986028055582",
+    "name": "Piercing Dash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Piercing Dash</span> Rune Attack.\n\nDash forward with piercing momentum, striking enemies with a focused and forceful blow.",
+    "icon": "r791",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1277454977354197546",
+    "name": "Jump Cut",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Jump Cut</span> Rune Attack.\n\nLeap into the air and deliver a downward slashing strike to enemies below.",
+    "icon": "r792",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2010979579140854357",
+    "name": "Overrun",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Overrun</span> Rune Attack.\n\nStrike your enemy with a rapid two-hit combo, then lunge forward with your full body weight to stagger and overwhelm them.",
+    "icon": "r793",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1756380779171026231",
+    "name": "Twirl Dash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Twirl Dash</span> Rune Attack.\n\nDash forward while twirling in a spiral motion, hitting enemies with spinning strikes.",
+    "icon": "r794",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2596197552556439934",
+    "name": "Tornado Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Tornado Strike</span> Rune Attack.\n\nSpin rapidly around your axis, striking enemies with each rotation in a relentless storm of blows.",
+    "icon": "r795",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "65426943683162514",
+    "name": "Surge Slash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Surge Slash</span> Rune Attack.\n\nCharge a powerful spinning strike, unleashing a surge of destructive force.",
+    "icon": "r796",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3552281628650500396",
+    "name": "Slamdown",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Slamdown</span> Rune Attack.\n\nLeap into the air and slam down with crushing force, chopping enemies in a radius upon impact.",
+    "icon": "r797",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2363314447143686857",
+    "name": "Brutal Reprise",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Brutal Reprise</span> Rune Attack.\n\nSwing your weapon in a brutal flourish, then unleash three heavy strikes in rapid succession to overpower your enemy.",
+    "icon": "r798",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3269044447633057371",
+    "name": "Air Dodge",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Air Dodge</span> Rune Attack.\n\nExecute an aerial roll to evade attacks, then immediately counter with a swift, forward stab.",
+    "icon": "r799",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1860754212066836256",
+    "name": "Slashing Pirouette",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Slashing Pirouette</span> Rune Attack.\n\nPerform a graceful double-strike pirouette forward.",
+    "icon": "r800",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1433654253657884953",
+    "name": "Evasive Pierce",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Evasive Pierce</span> Rune Attack.\n\nSwiftly strike your enemy and retreat.",
+    "icon": "r801",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4052539030505690582",
+    "name": "Thrust",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Thrust</span> Rune Attack.\n\nThrust your weapon forward with a focused strike that knocks your enemy down.",
+    "icon": "r802",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4254505191939584460",
+    "name": "Advancing Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Advancing Flurry</span> Rune Attack.\n\nAdvance while unleashing a rapid flurry of strikes, pushing back enemies with each hit.",
+    "icon": "r803",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3521637318283462458",
+    "name": "Twirl Spin",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Twirl Spin</span> Rune Attack.\n\nGracefully spin your weapon in a powerful whirlwind, smashing your enemies with dexterity, skill and a series of blows.",
+    "icon": "r804",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2262150894464831015",
+    "name": "Crushing Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Crushing Flurry</span> Rune Attack.\n\nWield your weapon with relentless force, delivering seven consecutive crushing swings that batter any foe with each powerful hit.",
+    "icon": "r805",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2196518769019081783",
+    "name": "Slashing Dodge",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Slashing Dodge</span> Rune Attack.\n\nTake a step back to evade attacks and then lunge forward with a dissecting strike.",
+    "icon": "r806",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4044466393876037244",
+    "name": "Throw",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Throw</span> Rune Attack.\n\nHurl your weapon with tremendous force, smashing through enemies in its path before returning to your hand.",
+    "icon": "r807",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3804848180700462754",
+    "name": "Evasive Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Evasive Strike</span> Rune Attack.\n\nTake a right step and execute a rapid strike.",
+    "icon": "r808",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3820994722620289270",
+    "name": "Spin",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Spin</span> Rune Attack.\n\nExecute a wheel attack, sweeping all enemies on your way.",
+    "icon": "r809",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3196031151234938533",
+    "name": "Piercing Spin",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Piercing Spin</span> Rune Attack.\n\nUnleash a piercing double-strike whirlwind.",
+    "icon": "r810",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1448350270845819527",
+    "name": "Plague Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Plague Strike</span> Rune Attack.\n\nImbue your weapon with plague power, delivering an infectious strike that poisons foes.",
+    "icon": "r811",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1107339288305693906",
+    "name": "Plague Dash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Plague Dash</span> Rune Attack.\n\nDash toward your foes with a weapon, covered in plague, to land a toxic strike that weakens and poisons.",
+    "icon": "r812",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2764278540284420231",
+    "name": "Plague Throw",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Plague Throw</span> Rune Attack.\n\nImbue your weapon with plague and hurl it, smashing through enemies in its path and infecting them before returning to your hand.",
+    "icon": "r813",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2215298957383522801",
+    "name": "Plague Swirl",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Plague Swirl</span> Rune Attack.\n\nUnleash a swirling vortex of virulent energy, infecting nearby enemies with a debilitating plague.",
+    "icon": "r814",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2505170993073346572",
+    "name": "Plague Whirl",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Plague Whirl</span> Rune Attack.\n\nSpin in a prolonged toxic whirlwind, poisoning enemies to decay.",
+    "icon": "r815",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2935435245331159393",
+    "name": "Stormpiercer",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Stormpiercer</span> Rune Attack.\n\nLunge forward to strike your enemy with a lightning-charged blow, then unleash projectiles from your weapon to electrify surrounding foes.",
+    "icon": "r816",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "489401182082572326",
+    "name": "Lightning Dash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Lightning Dash</span> Rune Attack.\n\nDash toward your foes with a weapon, covered in lightning, to land a shocking strike that staggers.",
+    "icon": "r817",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "607345046513636181",
+    "name": "Lightning Slam",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Lightning Slam</span> Rune Attack.\n\nLeap into the air to evade attacks and bring pain to your opponents.",
+    "icon": "r818",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1516103055673977465",
+    "name": "Lightning Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Lightning Flurry</span> Rune Attack.\n\nUnleash a rapid flurry of lightning strikes, shocking and staggering foes with each electrifying blow.",
+    "icon": "r819",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3473320420304048833",
+    "name": "Lightning Spin",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Lightning Spin</span> Rune Attack.\n\nSpin in a whirlwind of lightning, striking all nearby enemies with electrifying force.",
+    "icon": "r820",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4489701882038050855",
+    "name": "Lightning Throw",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Lightning Throw</span> Rune Attack.\n\nImbue your weapon with lightning and hurl it, smashing through enemies in its path and electrifying them before returning to your hand.",
+    "icon": "r821",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "17845796907495789",
+    "name": "Shock Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Shock Strike</span> Rune Attack.\n\nCharge your weapon with crackling electricity and stun foes by delivering a shocking strike while jumping back from them.",
+    "icon": "r822",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1473467590320876346",
+    "name": "Lightning Whirl",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Lightning Whirl</span> Rune Attack.\n\nSpin in a prolonged electrical whirlwind, stunning and making enemies vulnerable.",
+    "icon": "r823",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4439453227947616454",
+    "name": "Frost Dash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Frost Dash</span> Rune Attack.\n\nDash toward your foes with a weapon, cloaked in frost, to land a chilling strike that freezes them in place.",
+    "icon": "r824",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "698707283948532789",
+    "name": "Ice Throw",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Ice Throw</span> Rune Attack.\n\nImbue your weapon with ice and hurl it, smashing through enemies in its path and freezing them before returning to your hand.",
+    "icon": "r825",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4166545306945562110",
+    "name": "Frost Strike",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Frost Strike</span> Rune Attack.\n\nImbue your weapon with frost power, delivering a chilling strike that freezes foes in their tracks.",
+    "icon": "r826",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2864285922429248429",
+    "name": "Ice Whirl",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Ice Whirl</span> Rune Attack.\n\nSpin in a prolonged icy whirlwind, freezing and slowing down enemies.",
+    "icon": "r827",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "282563936940270555",
+    "name": "Fire Dash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Fire Dash</span> Rune Attack.\n\nDash toward your foes with a weapon, engulfed in flames, to land a scorching strike that ignites on impact.",
+    "icon": "r828",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1814186842605273977",
+    "name": "Blazing Rupture",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Blazing Rupture</span> Rune Attack.\n\nSmash your weapon into the ground to create a fiery explosion, then spin in a searing arc to strike nearby enemies with burning force.",
+    "icon": "r829",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1826788492681128282",
+    "name": "Fire Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Fire Flurry</span> Rune Attack.\n\nUnleash a rapid flurry of fiery strikes, engulfing foes in flames and leaving them scorched.",
+    "icon": "r830",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4487192392230842766",
+    "name": "Fire Throw",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Fire Throw</span> Rune Attack.\n\nImbue your weapon with fire and hurl it, smashing through enemies in its path and igniting them before returning to your hand.",
+    "icon": "r831",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3008237909744556927",
+    "name": "Fire Whirl",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">One-Handed Weapon</span> to gain the <span style=\"color:#F2E6BD\">Fire Whirl</span> Rune Attack.\n\nSpin in a prolonged fiery whirlwind, engulfing enemies with flames and leaving them burned.",
+    "icon": "r832",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4086555725753371914",
+    "name": "Bare Knuckle",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Bare Knuckle</span> Rune Attack.\n\nWind up and lunge forward with explosive force, delivering a powerful punch that knocks enemies clean off their feet.",
+    "icon": "r833",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1325603179561069768",
+    "name": "Breakrush",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Breakrush</span> Rune Attack.\n\nUnleash a barrage of quick strikes in rapid succession, pummeling your opponent with relentless blows.",
+    "icon": "r834",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4440236429854153732",
+    "name": "Dragonfly Kick",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Dragonfly Kick</span> Technique.\n\nAscend in a spinning arc and dive down foot-first, striking with precision and flair.",
+    "icon": "r835",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1851837574400786201",
+    "name": "Recoil Strike",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Recoil Strike</span> Rune Attack.\n\nDash back to avoid danger, then rebound with a lunging uppercut that launches enemies into the air.",
+    "icon": "r836",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4370172606529549591",
+    "name": "Drive Break",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Drive Break</span> Rune Attack.\n\nCharge forward and deliver a crushing punch with unstoppable force, staggering everything in your path.",
+    "icon": "r837",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4124272060944119733",
+    "name": "Tempest Kick",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Tempest Kick</span> Rune Attack.\n\nLaunch into a spinning aerial assault, striking multiple times with a whirlwind of kicks.",
+    "icon": "r838",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1707388295500007111",
+    "name": "Cyclone Kick",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Cyclone Kick</span> Rune Attack.\n\nLeap into the air and spin in a wide arc, delivering a sweeping kick that hits all nearby enemies.",
+    "icon": "r839",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "616969157055433712",
+    "name": "Tremor Wave",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Tremor Wave</span> Rune Attack.\n\nPunch the ground with seismic force, unleashing a shockwave that travels forward and hits enemies from below.",
+    "icon": "r840",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "14421685511696412",
+    "name": "Buster Rift",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Buster Rift</span> Technique.\n\nDeliver a ground-tearing punch that launches a tremor wave forward, then slide back and fire a second explosive strike.",
+    "icon": "r841",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4209072087672005962",
+    "name": "Skyfall Smash",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Skyfall Smash</span> Rune Attack.\n\nLeap into the air and come crashing down with a devastating punch that creates a shockwave on impact.",
+    "icon": "r842",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2697887544261217621",
+    "name": "Plague Retch",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Plague Retch</span> Rune Attack.\n\nEvade backward in a smooth arc, then fire a plague-infused blast to punish your foe from range.",
+    "icon": "r843",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3209590727690784563",
+    "name": "Spirit Burst",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Spirit Burst</span> Rune Attack.\n\nProject a focused blast of inner energy from your fists, striking foes at range with pure force.",
+    "icon": "r844",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "1125468942664125583",
+    "name": "Rising Fang",
+    "description": "Slot this Rune into <span style=\"color:#F2E6BD\">Gauntlets</span> to gain the <span style=\"color:#F2E6BD\">Rising Fang</span> Rune Attack.\n\nLaunch into the air with a blazing uppercut, striking enemies with upward momentum and sending them flying.",
+    "icon": "r845",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4427128079373407389",
+    "name": "Tornado Spin",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Tornado Spin</span> Rune Attack.\n\nSpin in a deadly whirlwind that strikes all nearby enemies.",
+    "icon": "r846",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2778896787386664347",
+    "name": "Double Take",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Double Take</span> Rune Attack.\n\nExecute a lightning-fast double strike with your daggers, catching foes off guard with a swift and deadly assault.",
+    "icon": "r847",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4322302990844201726",
+    "name": "Dashing Stab",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Dashing Stab</span> Rune Attack.\n\nStab your opponent with a powerful, piercing series of attacks.",
+    "icon": "r848",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "4324691228874446864",
+    "name": "Wild Rush",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Wild Rush</span> Rune Attack.\n\nCharge forward, slashing wildly with your daggers to cut your way through foes.",
+    "icon": "r849",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3118406044295730004",
+    "name": "Dual Breaker",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Dual Breaker</span> Rune Attack.\n\nStrike with both daggers in a devastating cross slash, breaking through enemy defenses with sheer force.",
+    "icon": "r850",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 1,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3710791040413979071",
+    "name": "Piercing Dodge",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Piercing Dodge</span> Rune Attack.\n\nDodge swiftly to evade incoming attacks, then pierce through your enemy with a precise, deadly strike from your daggers.",
+    "icon": "r851",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "843664983293995359",
+    "name": "Dual Slash",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Dual Slash</span> Rune Attack.\n\nStrike from above, deeply cleaving your opponent with your daggers.",
+    "icon": "r852",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 11,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "2131101195751376953",
+    "name": "Dual Flurry",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Dual Flurry</span> Rune Attack.\n\nUnleash a barrage of daggers strikes, overwhelming your enemies with rapid, relentless piercing attacks.",
+    "icon": "r853",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  },
+  {
+    "id": "3450687068571509517",
+    "name": "Lightning Claw",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Double Dagger</span> to gain the <span style=\"color:#F2E6BD\">Lightning Claw</span> Rune Attack.\n\nElectrify your daggers and dash forward, delivering two rapid claw strikes to shock your enemies.",
+    "icon": "r854",
+    "runeType": {
+      "customItemType": 5
+    },
+    "dropLevel": 21,
+    "isEquipment": false,
+    "filterType": 60
+  }
+]
