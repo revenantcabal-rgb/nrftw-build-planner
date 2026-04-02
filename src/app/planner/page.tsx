@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { getWeapons, getArmors, getShields, getTrinkets, getRunes, getGems, formatWeaponType } from "@/lib/data";
+import { defaultItemConfig } from "@/components/planner/ItemConfigPanel";
 import { EQUIP_SLOT_LABELS, RARITY_TEXT } from "@/lib/constants";
 import { getBuildFromUrl, setBuildInUrl, type BuildState } from "@/lib/codec";
 import ItemPickerModal from "@/components/planner/ItemPickerModal";
@@ -72,6 +73,8 @@ export default function PlannerPage() {
   const [itemPools, setItemPools] = useState<ItemPool>({});
   const [runePool, setRunePool] = useState<{ id: string; name: string; icon?: string; isUtility?: boolean; compatibleClasses?: number[] }[]>([]);
   const [gemPool, setGemPool] = useState<{ id: string; name: string; icon?: string }[]>([]);
+  const [facetList, setFacetList] = useState<{ name: string; upside: string; downside: string; slot: string }[]>([]);
+  const [enchantList, setEnchantList] = useState<{ rarity: string; slot: string; group: string; description: string }[]>([]);
   const [utilityRunes, setUtilityRunes] = useState<(null | { id: string; name: string; icon?: string })[]>([null, null, null, null]);
   const [activeUtilitySlot, setActiveUtilitySlot] = useState<number | null>(null);
   const [utilitySearch, setUtilitySearch] = useState("");
@@ -100,8 +103,12 @@ export default function PlannerPage() {
 
   // Load all item data
   useEffect(() => {
-    Promise.all([getWeapons(), getArmors(), getShields(), getTrinkets(), getRunes(), getGems()]).then(
-      ([weapons, armors, shields, trinkets, runes, gems]) => {
+    Promise.all([
+      getWeapons(), getArmors(), getShields(), getTrinkets(), getRunes(), getGems(),
+      fetch('/data/facets-list.json').then(r => r.json()),
+      fetch('/data/enchantments-list.json').then(r => r.json()),
+    ]).then(
+      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants]) => {
         setItemPools({
           weapons: weapons as SlotItem[],
           armors: armors as SlotItem[],
@@ -110,6 +117,8 @@ export default function PlannerPage() {
         });
         setRunePool((runes as { id: string; name: string; icon?: string; isUtility?: boolean; compatibleClasses?: number[] }[]).filter(r => r.name).sort((a, b) => a.name.localeCompare(b.name)));
         setGemPool((gems as { id: string; name: string; icon?: string }[]).filter(g => g.name).sort((a, b) => a.name.localeCompare(b.name)));
+        setFacetList(facets);
+        setEnchantList(enchants);
         setLoading(false);
       }
     );
@@ -501,9 +510,11 @@ export default function PlannerPage() {
           item={slots[configSlot]!}
           slotKey={configSlot}
           slotLabel={EQUIP_SLOT_LABELS[configSlot]}
-          config={slotConfigs[configSlot] || { runes: [null, null, null, null], facet: null, gem: null }}
+          config={slotConfigs[configSlot] || defaultItemConfig()}
           allRunes={runePool as { id: string; name: string; icon?: string; isUtility: boolean; compatibleClasses: number[] }[]}
           allGems={gemPool}
+          allFacets={facetList}
+          allEnchantments={enchantList}
           onConfigChange={(cfg) => setSlotConfigs((prev) => ({ ...prev, [configSlot]: cfg }))}
           onChangeItem={() => {
             setConfigSlot(null);

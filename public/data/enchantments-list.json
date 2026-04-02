@@ -1,0 +1,2823 @@
+[
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Stagger Damage increased by 15%-30% for 20 seconds after Kill",
+    "info": "Group (column on the sheet) - An enchantment that shares a group with another enchantment cannot be found together on the same item\n\nFacet - Implicit modifier that items spawn with. Cannot be changed\n\nFatality - Kill an enemy with a charged attack or a rune attack\n\nGems - Do not impact groups. You can have an emerald (Stamina gem) & still roll a \"Stamina\" group enchant\n\nEnchantment Power - Found on gems only. Increases the power of enchantments, only on the specific item that the gem is slotted into.\n\nInfusion - Overwrites the physical damage of a weapon and makes the weapon deal elemental damage instead. Found on Facets & Gems (technically quivers too)\n\nRegainable Health - Gives the player a window of opportunity to regain the health they lose when they are hit by an enemy. Health can be regained by hitting an enemy. Healing scales regainable health.\n\nLegacy Enchants - Some enchantments were removed following the Multiplayer update and are no longer obtainable, so some enchantments may not be on this list, but will appear on older items in-game"
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Stagger Damage increased by 15%-30% for 30 seconds after Backstab",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Durability increased by 30%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Weight reduced by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Damage increased by 15%-30% for 30 seconds after Backstab",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Attack Damage increased by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Attack Damage increased by 6%-20% for 10 seconds after Damage Dealt by Rune Attack",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Damage increased by 2%-5% for each Nearby Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Deal 7%-25% Damage on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Rune Damage increased by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Stagger Damage increased by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Attack Speed increased by 3%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Damage increased by 3%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Attack Stamina Cost reduced by 7%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Stamina",
+    "description": "Attack Stamina Cost reduced by 7%-25% for 10 seconds after Parry",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Health",
+    "description": "Gain 4%-10% Health on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Critical",
+    "description": "Critical Damage increased by 6%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "weapon",
+    "group": "Defence",
+    "description": "Gain 12%-25% Barrier on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Durability increased by 30%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Weight reduced by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Gain 12%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Damage increased by 5%-15% for 10 seconds after Parry",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Deal 7%-25% Damage on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Deal 5%-15% Damage on Block",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Damage increased by 7%-15% for 10 seconds after Block",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Focus",
+    "description": "Gain 2-5 Focus on Block",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Focus",
+    "description": "Gain 5-15 Focus on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Stamina",
+    "description": "Gain 9-30 Stamina on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Stamina",
+    "description": "Gain 5-15 Stamina on Block",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "shield",
+    "group": "Defence",
+    "description": "Damage Resistance increased by 4%-15% while Blocking",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Stagger Damage increased by 15%-30% for 20 seconds after Kill",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Durability increased by 30%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Weight reduced by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Attack Damage increased by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Damage increased by 3%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Damage increased by 4%-15% for 10 seconds after Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Deal 4%-15% Damage on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Rune Damage increased by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Deal 7%-25% Damage on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Stagger Damage increased by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Attack Speed increased by 3%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Attack Stamina Cost reduced by 7%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Attack Damage increased by 6%-20% for 10 seconds after Damage Dealt by Rune Attack",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Deal 4%-15% Damage on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Focus",
+    "description": "Gain 5-15 Focus on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Stamina",
+    "description": "Dodge Stamina Cost reduced by 7%-25%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Stamina",
+    "description": "Gain 5-15 Stamina on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Health",
+    "description": "Gain 4%-10% Health on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Critical",
+    "description": "Critical Damage increased by 6%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "bow",
+    "group": "Defence",
+    "description": "Gain 5-10 Barrier on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Durability increased by 30%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Weight reduced by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Poise Defense increased by 1-3",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Stagger Resistance increased by 7%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Durability Loss ignored with 7%-25% chance",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Offensive",
+    "description": "Gain 12%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Offensive",
+    "description": "Gain 7%-15% Armor Penetration",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Offensive",
+    "description": "Damage increased by 4%-15% for 10 seconds after Consuming Food",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Focus Cost reduced by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Focus Gain increased by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Gain 5-15 Focus on inflicting Any Status",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Max Focus increased by 7%-25%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Regenerate Focus in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Focus Gain increased by 4%-15% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Focus Cost reduced by 6%-20% for 10 seconds after Damage Dealt by Rune Attack",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Ice Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Fire Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Lightning Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Physical Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Plague Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Health",
+    "description": "Gain 10%-25% Regainable Health",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Critical",
+    "description": "Critical Damage increased by 6%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Defence",
+    "description": "Gain 3%-5% Barrier on Consuming Food",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Defence",
+    "description": "Physical Resistance increased by 3%-6%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Defence",
+    "description": "Elemental Resistance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "helmet",
+    "group": "Defence",
+    "description": "Damage Resistance increased by 3%-10% for 10 seconds after Consuming Food",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Durability increased by 30%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Weight reduced by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Poise Defense increased by 1-3",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Stagger Resistance increased by 7%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Durability Loss ignored with 7%-25% chance",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Offensive",
+    "description": "Gain 12%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Offensive",
+    "description": "Gain 7%-15% Armor Penetration",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Focus",
+    "description": "Gain 3-10 Focus on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Ice Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Fire Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Lightning Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Physical Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Plague Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Health",
+    "description": "Gain 10%-25% Regainable Health",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Health",
+    "description": "Healing increased by 6%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Health",
+    "description": "Max Health increased by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Critical",
+    "description": "Critical Damage increased by 6%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Physical Resistance increased by 3%-6%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Elemental Resistance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Damage Resistance increased by 6%-20% at Full Stamina",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Damage Resistance increased by 2%-5% for each Nearby Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Damage Resistance increased by 4%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Durability increased by 30%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Weight reduced by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Poise Defense increased by 1-3",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Stagger Resistance increased by 7%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Durability Loss ignored with 7%-25% chance",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Offensive",
+    "description": "Damage increased by 4%-15% for 10 seconds after Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Offensive",
+    "description": "Gain 12%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Offensive",
+    "description": "Deal 4%-15% Damage on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Offensive",
+    "description": "Gain 7%-15% Armor Penetration",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Focus",
+    "description": "Gain 5-15 Focus on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Stamina",
+    "description": "Stamina Cost reduced by 4%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Stamina",
+    "description": "Dodge Stamina Cost reduced by 7%-25%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Stamina",
+    "description": "Gain 5-15 Stamina on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Stamina",
+    "description": "Stamina Recovery increased by 6%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Stamina",
+    "description": "Stamina Recovery increased by 6%-20% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Ice Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Fire Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Lightning Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Physical Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Health",
+    "description": "Gain 10%-25% Regainable Health",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Movement",
+    "description": "Movement Speed increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Movement",
+    "description": "Movement Speed increased by 7%-15% for 20 seconds after Kill",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Critical",
+    "description": "Critical Damage increased by 6%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Defence",
+    "description": "Physical Resistance increased by 3%-6%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Defence",
+    "description": "Elemental Resistance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "pants",
+    "group": "Defence",
+    "description": "Gain 5-10 Barrier on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Durability increased by 30%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Weight reduced by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Poise Defense increased by 1-3",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Stagger Resistance increased by 7%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Durability Loss ignored with 7%-25% chance",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Gain 12%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Deal 7%-25% Damage on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Normal Attack Damage increased by 4%-15% for 4 seconds after Damage Dealt by Charged Attack",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Stagger Damage increased by 6%-20% for 4 seconds after Damage Dealt by Charged Attack",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Gain 7%-15% Armor Penetration",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Focus",
+    "description": "Gain 5-15 Focus on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Stamina",
+    "description": "Gain 9-30 Stamina on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Ice Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Fire Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Lightning Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Physical Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Plague Damage increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Health",
+    "description": "Gain 4%-10% Health on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Health",
+    "description": "Gain 10%-25% Regainable Health",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Health",
+    "description": "Healing increased by 4%-15% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 3%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Critical",
+    "description": "Critical Damage increased by 6%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Defence",
+    "description": "Physical Resistance increased by 3%-6%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Defence",
+    "description": "Elemental Resistance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "magical",
+    "slot": "gloves",
+    "group": "Defence",
+    "description": "Gain 8-15 Barrier on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Durability increased by 50%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Weight reduced by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Gain 5-10 Focus on Backstab",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Gain 10%-20% Health on Backstab",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Damage increased by 15%-30% for 30 seconds after Backstab",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Damage increased by 15%-30% against Large Enemies",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Damage increased by 5%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Damage increased by 20%-40% for 20 seconds after Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Attack Damage increased by 10%-20% for 10 seconds after Damage Dealt by Rune Attack",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Deal 12%-25% Damage on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Rune Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Attack Speed increased by 5%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Offensive",
+    "description": "Stagger Damage increased by 20%-40% for 20 seconds after Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Focus",
+    "description": "Gain 12-25 Focus on Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Focus",
+    "description": "Gain 8-15 Focus on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Stamina",
+    "description": "Stamina Cost reduced by 15%-30% for 20 seconds after Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Stamina",
+    "description": "Attack Stamina Cost reduced by 12%-25% for 10 seconds after Parry",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Health",
+    "description": "Gain 2%-4% Health on Charged Attack",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Health",
+    "description": "Gain 1%-2% Health on Damage Dealt against Frozen Enemies",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Health",
+    "description": "Gain 7%-15% Health on Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Health",
+    "description": "Gain 5%-10% Health on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Health",
+    "description": "Gain 7%-15% Health on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Movement",
+    "description": "Movement Speed increased by 7%-15% for 10 seconds after Damage Dealt by Rune Attack",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "weapon",
+    "group": "Critical",
+    "description": "Critical Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Durability increased by 50%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Weight reduced by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Poise Defense increased by 5-10 while Blocking",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Gain 20%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Deal 7%-15% Damage on Block",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Damage increased by 7%-15% for 10 seconds after Block",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Deal 12%-25% Damage on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Offensive",
+    "description": "Damage increased by 7%-15% for 10 seconds after Parry",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Health",
+    "description": "Gain 5%-10% Health on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "shield",
+    "group": "Movement",
+    "description": "Damage Resistance increased by 7%-15% while Blocking",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Durability increased by 50%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Weight reduced by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Damage increased by 15%-30% against Large Enemies",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Rune Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Attack Speed increased by 5%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Damage increased by 5%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Damage increased by 7%-15% if no Enemies nearby",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Attack Damage increased by 10%-20% for 10 seconds after Damage Dealt by Rune Attack",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Damage increased by 20%-40% for 20 seconds after Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Deal 12%-25% Damage on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Stagger Damage increased by 20%-40% for 20 seconds after Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Offensive",
+    "description": "Deal 7%-15% Damage on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Focus",
+    "description": "Gain 12-25 Focus on Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Focus",
+    "description": "Gain 8-15 Focus on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Stamina",
+    "description": "Stamina Cost reduced by 15%-30% for 20 seconds after Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Health",
+    "description": "Gain 2%-4% Health on Charged Attack",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Health",
+    "description": "Gain 1%-2% Health on Damage Dealt against Frozen Enemies",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Health",
+    "description": "Gain 7%-15% Health on Fatality",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Health",
+    "description": "Gain 5%-10% Health on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Health",
+    "description": "Gain 7%-15% Health on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Health",
+    "description": "Gain 3%-5% Health on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Movement",
+    "description": "Movement Speed increased by 7%-15% for 10 seconds after Damage Dealt by Rune Attack",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "bow",
+    "group": "Critical",
+    "description": "Critical Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Durability increased by 50%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Weight reduced by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Offensive",
+    "description": "Gain 20%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Offensive",
+    "description": "Gain 7%-15% Armor Penetration",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Focus Cost reduced by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Gain 8-15 Focus on inflicting Any Status",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Focus Gain increased by 7%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Focus",
+    "description": "Focus Gain increased by 7%-15% based on current durability",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Ice Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Fire Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Lightning Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Physical Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Elemental",
+    "description": "Plague Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Health",
+    "description": "Gain Health equal to 5%-10% of Focus Spent",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Health",
+    "description": "Healing increased by 15%-30% at Low Focus",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Critical",
+    "description": "Critical Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Defence",
+    "description": "Elemental Resistance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "helmet",
+    "group": "Defence",
+    "description": "Physical Resistance increased by 3%-6%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Durability increased by 50%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Weight reduced by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Poise Defense increased by 5-10 while Charging",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Offensive",
+    "description": "Gain 20%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Offensive",
+    "description": "Gain 7%-15% Armor Penetration",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Offensive",
+    "description": "Deal 7%-15% Damage on Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Offensive",
+    "description": "Damage increased by 10%-20% for 10 seconds after Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Offensive",
+    "description": "Frozen Enemy Armor reduced by 15%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Offensive",
+    "description": "Infected Enemy Stagger Resistance reduced by 15%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Focus",
+    "description": "Focus Cost reduced by 12%-25% for 10 seconds after Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Ice Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Fire Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Lightning Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Physical Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Plague Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Elemental",
+    "description": "Burn Damage increased by 25%-50%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Health",
+    "description": "Hunger Limit increased by 1",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Health",
+    "description": "Max Health increased by 5-10% of Max Focus",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Health",
+    "description": "Regenerate Health in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Movement",
+    "description": "Overall Speed increased by 7%-15% for 10 seconds after inflicting Shock Status",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Critical",
+    "description": "Critical Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Elemental Resistance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Physical Resistance increased by 3%-6%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Barrier Gain increased by 25%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Damage Resistance increased by 10%-20% while Charging",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Damage Resistance increased by 6%-10% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "armor",
+    "group": "Defence",
+    "description": "Damage Resistance increased by 25%-50% for 10 seconds after being afflicted by Status",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Durability increased by 50%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Weight reduced by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Poise Defense increased by 5-10 while Charging",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Offensive",
+    "description": "Gain 20%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Offensive",
+    "description": "Gain 7%-15% Armor Penetration",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Offensive",
+    "description": "Deal 7%-15% Damage on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Offensive",
+    "description": "Damage increased by 5%-10% after Sprinting for 4 seconds",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Stamina",
+    "description": "Stamina Recovery increased by 10%-20% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Stamina",
+    "description": "Stamina Cost reduced by 10%-20% at Low Focus",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Ice Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Fire Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Lightning Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Physical Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Elemental",
+    "description": "Plague Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Health",
+    "description": "Gain 3%-5% Health on Damage Dodged",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Health",
+    "description": "Max Stamina increased by 2-5% of Max Focus",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Movement",
+    "description": "Movement Speed increased by 7%-15% for 5 seconds after Damage Dealt by Charged Attack",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Critical",
+    "description": "Critical Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Defence",
+    "description": "Elemental Resistance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "pants",
+    "group": "Defence",
+    "description": "Physical Resistance increased by 3%-6%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Durability increased by 50%-100%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Weight reduced by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Gain 20%-40% Thorns",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Gain 7%-15% Armor Penetration",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Charged Attack Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Deal 12%-25% Damage on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Normal Attack Damage increased by 12%-25% for 5 seconds after Damage Dealt by Charged Attack",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Execute Infected Low Health Enemies on Damage Dealt",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Offensive",
+    "description": "Damage increased by 7%-15% for 10 seconds after Parry",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Stamina",
+    "description": "Gain 20-40 Stamina on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Ice Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Fire Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Lightning Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Physical Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Plague Damage increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Burn Buildup increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Frost Buildup increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Infection Buildup increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Elemental",
+    "description": "Shock Buildup increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Health",
+    "description": "Gain 5%-10% Health on Kill",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Health",
+    "description": "Gain 7%-15% Health on Staggering an Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Health",
+    "description": "Healing increased by 7%-15% of Current Durability",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Health",
+    "description": "Gain 10%-20% Lifesteal against Bleeding Enemies",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Health",
+    "description": "Gain 5%-10% Health on Parry",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Critical",
+    "description": "Critical Damage increased by 10%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Critical",
+    "description": "Critical Hit Chance increased by 10%-20% against Burning Enemies",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Defence",
+    "description": "Elemental Resistance increased by 5%-10%",
+    "info": ""
+  },
+  {
+    "rarity": "plagued",
+    "slot": "gloves",
+    "group": "Defence",
+    "description": "Physical Resistance increased by 3%-6%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Equip Load reduced by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Unrepairable",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Drain Focus in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Focus Cost increased by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Lose 10-15 Focus on Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Take 20%-30% Damage on Focus Use",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Drain Health in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Attack Stamina Cost increased by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "weapon",
+    "group": "Misc",
+    "description": "Healing reduced by 15%-25% for each Nearby Enemy",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Equip Load reduced by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Unrepairable",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Drain Focus in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Focus Cost increased by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Lose 10-15 Focus on Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Drain Health in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "shield",
+    "group": "Misc",
+    "description": "Block disabled",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Equip Load reduced by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Unrepairable",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Drain Focus in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Focus Cost increased by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Lose 10-15 Focus on Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Take 20%-30% Damage on Focus Use",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Drain Health in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Attack Stamina Cost increased by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Healing reduced by 25%-40% if no Enemies nearby",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "bow",
+    "group": "Misc",
+    "description": "Dodge Stamina Cost increased by 25%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Unrepairable",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Drain Focus in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Focus Gain reduced by 32%-50%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Focus Cost increased by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Lose 10-15 Focus on Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Drain Health in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 10%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 21%-30% for 6 seconds after Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 26%-40% if not at Full Focus",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 21%-30% for 10 seconds after Consuming Food",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Max Focus reduced by 18%-25%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Max Health reduced by 14%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Max Stamina reduced by 14%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Stamina Cost increased by 13%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "helmet",
+    "group": "Misc",
+    "description": "Stagger Resistance decreased by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Equip Load reduced by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Unrepairable",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Drain Focus in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Focus Cost increased by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Lose 10-15 Focus on Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Drain Health in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 10%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 21%-30% for 6 seconds after Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 26%-40% if not at Full Focus",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Stagger Resistance reduced by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Max Focus reduced by 18%-25%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Max Health reduced by 14%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Max Stamina reduced by 14%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Stamina Cost increased by 13%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "armor",
+    "group": "Misc",
+    "description": "Healing reduced by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Equip Load reduced by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Unrepairable",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 10%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 21%-30% for 6 seconds after Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Drain Focus in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Drain Health in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Lose 10-15 Focus on Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 26%-40% if not at Full Focus",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Stagger Resistance reduced by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Focus Cost increased by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Max Focus reduced by 18%-25%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Max Health reduced by 14%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Max Stamina reduced by 14%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Dodge Stamina Cost increased by 25%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Stamina Cost increased by 13%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Movement Speed reduced by 7%-25%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "pants",
+    "group": "Misc",
+    "description": "Heavy Roll only",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Equip Load reduced by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Unrepairable",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 10%-15%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 21%-30% for 6 seconds after Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Damage Resistance reduced by 26%-40% if not at Full Focus",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Stagger Resistance reduced by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Drain Focus in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Drain Health in Combat",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Lose 10-15 Focus on Damage Taken",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Focus Cost increased by 26%-40%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Max Focus reduced by 18%-25%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Max Health reduced by 14%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Max Stamina reduced by 14%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Stamina Cost increased by 13%-20%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Attack Stamina Cost increased by 20%-30%",
+    "info": ""
+  },
+  {
+    "rarity": "downsides",
+    "slot": "gloves",
+    "group": "Misc",
+    "description": "Parry disabled",
+    "info": ""
+  }
+]

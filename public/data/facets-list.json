@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Quick",
+    "upside": "+Attack Speed",
+    "downside": "-Damage",
+    "slot": "weapons"
+  },
+  {
+    "name": "Nimble",
+    "upside": "-Stamina Cost",
+    "downside": "-Focus Gain",
+    "slot": "weapons"
+  },
+  {
+    "name": "Keen",
+    "upside": "+Crit Chance",
+    "downside": "-Poise Damage",
+    "slot": "weapons"
+  },
+  {
+    "name": "Razor",
+    "upside": "+Crit Chance",
+    "downside": "-Durability",
+    "slot": "weapons"
+  },
+  {
+    "name": "Sharp",
+    "upside": "+Crit Damage",
+    "downside": "-Damage",
+    "slot": "weapons"
+  },
+  {
+    "name": "Reliable",
+    "upside": "+Damage & Poise Damage",
+    "downside": "Crit Chance Removed",
+    "slot": "weapons"
+  },
+  {
+    "name": "Heavy",
+    "upside": "+Damage",
+    "downside": "+Attack Stamina Cost",
+    "slot": "weapons"
+  },
+  {
+    "name": "Mundane",
+    "upside": "+Damage",
+    "downside": "-Focus Gain",
+    "slot": "weapons"
+  },
+  {
+    "name": "Clumsy",
+    "upside": "+Damage",
+    "downside": "-Attack Speed",
+    "slot": "weapons"
+  },
+  {
+    "name": "Durable",
+    "upside": "+Durability",
+    "downside": "-Focus Gain",
+    "slot": "weapons"
+  },
+  {
+    "name": "Ritualistic",
+    "upside": "+Focus Gain",
+    "downside": "+Stamina Cost",
+    "slot": "weapons"
+  },
+  {
+    "name": "Blunt",
+    "upside": "+Poise Damage",
+    "downside": "-Focus Gain",
+    "slot": "weapons"
+  },
+  {
+    "name": "Indestructible",
+    "upside": "Durability Removed",
+    "downside": "",
+    "slot": "weapons"
+  },
+  {
+    "name": "Flaming",
+    "upside": "Fire Infusion",
+    "downside": "-Damage",
+    "slot": "weapons"
+  },
+  {
+    "name": "Frigid",
+    "upside": "Cold Infusion",
+    "downside": "-Damage",
+    "slot": "weapons"
+  },
+  {
+    "name": "Voltaic",
+    "upside": "Lightning Infusion",
+    "downside": "-Damage",
+    "slot": "weapons"
+  },
+  {
+    "name": "Festering",
+    "upside": "Plague Infusion",
+    "downside": "-Damage",
+    "slot": "weapons"
+  },
+  {
+    "name": "Regular",
+    "upside": "No Change",
+    "downside": "",
+    "slot": "weapons"
+  },
+  {
+    "name": "Bulky",
+    "upside": "+Armor",
+    "downside": "-Poise Defense",
+    "slot": "armor"
+  },
+  {
+    "name": "Dense",
+    "upside": "+Armor",
+    "downside": "+Weight",
+    "slot": "armor"
+  },
+  {
+    "name": "Indestructible",
+    "upside": "Durability Removed",
+    "downside": "",
+    "slot": "armor"
+  },
+  {
+    "name": "Durable",
+    "upside": "+Durability Increased",
+    "downside": "-Focus Gain",
+    "slot": "armor"
+  },
+  {
+    "name": "Fireproof",
+    "upside": "+Fire Resistance",
+    "downside": "+Weight",
+    "slot": "armor"
+  },
+  {
+    "name": "Frostwoven",
+    "upside": "+Cold Resistance",
+    "downside": "+Weight",
+    "slot": "armor"
+  },
+  {
+    "name": "Insulated",
+    "upside": "+Lightning Resistance",
+    "downside": "+Weight",
+    "slot": "armor"
+  },
+  {
+    "name": "Purified",
+    "upside": "+Plague Resistance",
+    "downside": "+Weight",
+    "slot": "armor"
+  },
+  {
+    "name": "Mystic",
+    "upside": "+Focus Gain",
+    "downside": "-Stamina Regen",
+    "slot": "armor"
+  },
+  {
+    "name": "Stable",
+    "upside": "+Poise",
+    "downside": "-Focus Gain",
+    "slot": "armor"
+  },
+  {
+    "name": "Agile",
+    "upside": "+Stamina Regen",
+    "downside": "-Focus Gain",
+    "slot": "armor"
+  },
+  {
+    "name": "Frantic (legs)",
+    "upside": "+Movement Speed",
+    "downside": "-Stamina Regen",
+    "slot": "armor"
+  },
+  {
+    "name": "Rapid (gloves)",
+    "upside": "+Attack Speed",
+    "downside": "-Stamina Regen",
+    "slot": "armor"
+  },
+  {
+    "name": "Meditative (shield)",
+    "upside": "+Focus Gain",
+    "downside": "-Poise",
+    "slot": "armor"
+  }
+]

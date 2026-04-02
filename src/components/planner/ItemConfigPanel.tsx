@@ -1,9 +1,11 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import ItemIcon from "@/components/items/ItemIcon";
 import { RARITY_TEXT } from "@/lib/constants";
 import type { Rarity } from "@/lib/types";
+
+// --- Types ---
 
 interface ConfigItem {
   id: string;
@@ -14,6 +16,8 @@ interface ConfigItem {
   weaponClass?: number;
   handling?: string;
   material?: string;
+  armorSlot?: string;
+  shieldType?: string;
   damageType?: string;
   dropLevel?: number;
 }
@@ -24,57 +28,61 @@ interface RuneData {
   icon?: string;
   isUtility: boolean;
   compatibleClasses: number[];
-  description?: string;
 }
 
 interface GemData {
   id: string;
   name: string;
   icon?: string;
-  description?: string;
 }
 
-interface ItemConfig {
+interface FacetData {
+  name: string;
+  upside: string;
+  downside: string;
+  slot: string;
+}
+
+interface EnchantData {
+  rarity: string;
+  slot: string;
+  group: string;
+  description: string;
+}
+
+export interface ItemConfig {
   runes: (RuneData | null)[];
   facet: string | null;
   gem: GemData | null;
+  enchantments: (EnchantData | null)[];
+  upgradeLevel: number;
 }
 
-interface Facet {
-  name: string;
-  key: string;
-}
+// --- Helpers ---
 
-const FACETS: Facet[] = [
-  { name: "Agile", key: "agile" },
-  { name: "Clumsy", key: "clumsy" },
-  { name: "Durable", key: "durable" },
-  { name: "Festering", key: "festering" },
-  { name: "Flaming", key: "flaming" },
-  { name: "Frigid", key: "frigid" },
-  { name: "Heavy", key: "heavy" },
-  { name: "Indestructible", key: "indestructible" },
-  { name: "Insulated", key: "insulated" },
-  { name: "Keen", key: "keen" },
-  { name: "Meditative", key: "meditative" },
-  { name: "Mundane", key: "mundane" },
-  { name: "Mystic", key: "mystic" },
-  { name: "Nimble", key: "nimble" },
-  { name: "Purified", key: "purified" },
-  { name: "Quick", key: "quick" },
-  { name: "Razor", key: "razor" },
-  { name: "Reliable", key: "reliable" },
-  { name: "Ritualistic", key: "ritualistic" },
-  { name: "Sharp", key: "sharp" },
-  { name: "Voltaic", key: "voltaic" },
-];
-
-// Determine if this is a weapon slot (main hand or off-hand weapon, not shield)
 function isWeaponSlot(slotKey: string, item: ConfigItem): boolean {
   if (slotKey === "weapon") return true;
-  if (slotKey === "offhand" && item.weaponType) return true;
+  if (slotKey === "offhand" && item.weaponType && !item.shieldType) return true;
   return false;
 }
+
+function getItemSlotType(slotKey: string, item: ConfigItem): string {
+  if (slotKey === "weapon" || (slotKey === "offhand" && item.weaponType)) {
+    if (item.weaponType === "bow") return "bow";
+    return "weapon";
+  }
+  if (slotKey === "offhand" && item.shieldType) return "shield";
+  if (slotKey === "head") return "helmet";
+  if (slotKey === "chest") return "armor";
+  if (slotKey === "legs") return "pants";
+  if (slotKey === "hands") return "gloves";
+  if (slotKey.startsWith("ring")) return "ring";
+  return "weapon";
+}
+
+const MAX_UPGRADE = 16;
+
+// --- Component ---
 
 interface ItemConfigPanelProps {
   item: ConfigItem;
@@ -83,10 +91,22 @@ interface ItemConfigPanelProps {
   config: ItemConfig;
   allRunes: RuneData[];
   allGems: GemData[];
+  allFacets: FacetData[];
+  allEnchantments: EnchantData[];
   onConfigChange: (config: ItemConfig) => void;
   onChangeItem: () => void;
   onRemoveItem: () => void;
   onClose: () => void;
+}
+
+export function defaultItemConfig(): ItemConfig {
+  return {
+    runes: [null, null, null, null],
+    facet: null,
+    gem: null,
+    enchantments: [null, null, null, null, null],
+    upgradeLevel: 1,
+  };
 }
 
 export default function ItemConfigPanel({
@@ -96,6 +116,8 @@ export default function ItemConfigPanel({
   config,
   allRunes,
   allGems,
+  allFacets,
+  allEnchantments,
   onConfigChange,
   onChangeItem,
   onRemoveItem,
@@ -104,46 +126,91 @@ export default function ItemConfigPanel({
   const [activeRuneSlot, setActiveRuneSlot] = useState<number | null>(null);
   const [activeGemSlot, setActiveGemSlot] = useState(false);
   const [showFacetPicker, setShowFacetPicker] = useState(false);
+  const [activeEnchantSlot, setActiveEnchantSlot] = useState<number | null>(null);
   const [runeSearch, setRuneSearch] = useState("");
   const [gemSearch, setGemSearch] = useState("");
+  const [enchantSearch, setEnchantSearch] = useState("");
 
-  const showWeaponSlots = isWeaponSlot(slotKey, item);
+  const showWeaponRunes = isWeaponSlot(slotKey, item);
+  const itemSlotType = getItemSlotType(slotKey, item);
 
   // Filter runes by weapon compatibility
   const compatibleRunes = useMemo(() => {
-    if (!showWeaponSlots || !item.weaponClass) return [];
+    if (!showWeaponRunes || !item.weaponClass) return [];
     return allRunes
-      .filter((r) => !r.isUtility) // Only equipment runes
+      .filter((r) => !r.isUtility)
       .filter((r) => {
-        if (r.compatibleClasses.length === 0) return true; // Universal rune
+        if (r.compatibleClasses.length === 0) return true;
         return r.compatibleClasses.includes(item.weaponClass!);
       })
       .sort((a, b) => a.name.localeCompare(b.name));
-  }, [allRunes, item.weaponClass, showWeaponSlots]);
+  }, [allRunes, item.weaponClass, showWeaponRunes]);
+
+  // Filter facets by slot type (weapon vs armor)
+  const slotFacets = useMemo(() => {
+    const isWeapon = itemSlotType === "weapon" || itemSlotType === "bow";
+    return allFacets.filter((f) => {
+      if (isWeapon) return f.slot === "weapons";
+      return f.slot === "armor";
+    });
+  }, [allFacets, itemSlotType]);
+
+  // Filter enchantments by slot type
+  const slotEnchantments = useMemo(() => {
+    return allEnchantments.filter((e) => e.slot === itemSlotType);
+  }, [allEnchantments, itemSlotType]);
+
+  // Groups already used by selected enchantments
+  const usedGroups = useMemo(() => {
+    const groups = new Set<string>();
+    config.enchantments.forEach((e) => {
+      if (e?.group) groups.add(e.group);
+    });
+    return groups;
+  }, [config.enchantments]);
+
+  // Enchantments available for a specific slot (excluding used groups)
+  const availableEnchantments = useMemo(() => {
+    const slotIndex = activeEnchantSlot;
+    if (slotIndex === null) return [];
+    const currentEnchant = config.enchantments[slotIndex];
+    const currentGroup = currentEnchant?.group;
+
+    return slotEnchantments.filter((e) => {
+      // Allow the currently selected group
+      if (e.group === currentGroup) return true;
+      // Block groups already used in other slots
+      if (usedGroups.has(e.group)) return false;
+      return true;
+    });
+  }, [slotEnchantments, usedGroups, activeEnchantSlot, config.enchantments]);
 
   const filteredRunes = runeSearch
-    ? compatibleRunes.filter((r) =>
-        r.name.toLowerCase().includes(runeSearch.toLowerCase())
-      )
+    ? compatibleRunes.filter((r) => r.name.toLowerCase().includes(runeSearch.toLowerCase()))
     : compatibleRunes;
 
   const filteredGems = gemSearch
-    ? allGems.filter((g) =>
-        g.name.toLowerCase().includes(gemSearch.toLowerCase())
-      )
+    ? allGems.filter((g) => g.name.toLowerCase().includes(gemSearch.toLowerCase()))
     : allGems;
 
-  const selectedFacet = FACETS.find((f) => f.key === config.facet);
+  const filteredEnchants = enchantSearch
+    ? availableEnchantments.filter((e) => e.description.toLowerCase().includes(enchantSearch.toLowerCase()))
+    : availableEnchantments;
 
-  function setRune(slotIndex: number, rune: RuneData | null) {
-    const newRunes = [...config.runes];
-    newRunes[slotIndex] = rune;
-    onConfigChange({ ...config, runes: newRunes });
+  const selectedFacet = slotFacets.find((f) => f.name.toLowerCase() === config.facet);
+
+  // Count plagued (exalted) enchantments
+  const exaltedCount = config.enchantments.filter((e) => e?.rarity === "plagued").length;
+
+  function setRune(i: number, rune: RuneData | null) {
+    const n = [...config.runes];
+    n[i] = rune;
+    onConfigChange({ ...config, runes: n });
     setActiveRuneSlot(null);
   }
 
-  function setFacet(facetKey: string | null) {
-    onConfigChange({ ...config, facet: facetKey });
+  function setFacet(name: string | null) {
+    onConfigChange({ ...config, facet: name });
     setShowFacetPicker(false);
   }
 
@@ -152,16 +219,25 @@ export default function ItemConfigPanel({
     setActiveGemSlot(false);
   }
 
+  function setEnchantment(i: number, ench: EnchantData | null) {
+    const n = [...config.enchantments];
+    n[i] = ench;
+    onConfigChange({ ...config, enchantments: n });
+    setActiveEnchantSlot(null);
+  }
+
+  function setUpgradeLevel(level: number) {
+    onConfigChange({ ...config, upgradeLevel: Math.max(1, Math.min(MAX_UPGRADE, level)) });
+  }
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       <div className="absolute inset-0 bg-black/70" onClick={onClose} />
-      <div className="relative bg-bg-secondary border border-border-subtle rounded-lg w-full max-w-lg max-h-[90vh] overflow-y-auto">
+      <div className="relative bg-bg-secondary border border-border-subtle rounded-lg w-full max-w-xl max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="sticky top-0 bg-bg-secondary border-b border-border-subtle p-4 flex items-center justify-between z-10">
           <h2 className="text-lg font-bold text-text-gold">{slotLabel}</h2>
-          <button onClick={onClose} className="text-text-secondary hover:text-text-primary text-xl p-1">
-            &#x2715;
-          </button>
+          <button onClick={onClose} className="text-text-secondary hover:text-text-primary text-xl p-1">&#x2715;</button>
         </div>
 
         <div className="p-4 space-y-5">
@@ -170,16 +246,24 @@ export default function ItemConfigPanel({
             <ItemIcon icon={item.icon} size={40} />
             <div className="flex-1 min-w-0">
               <span className="text-sm font-semibold text-text-primary truncate block">{item.name}</span>
-              <span className={`text-xs font-semibold uppercase ${RARITY_TEXT[item.rarity || "common"]}`}>
-                {item.rarity}
-              </span>
+              <span className={`text-xs font-semibold uppercase ${RARITY_TEXT[item.rarity || "common"]}`}>{item.rarity}</span>
             </div>
-            <button onClick={onChangeItem} className="text-xs text-text-secondary hover:text-text-gold px-2 py-1 border border-border-subtle rounded" title="Change item">
-              Swap
-            </button>
-            <button onClick={onRemoveItem} className="text-xs text-red-400/60 hover:text-red-400 px-2 py-1 border border-border-subtle rounded" title="Remove item">
-              Remove
-            </button>
+            <button onClick={onChangeItem} className="text-xs text-text-secondary hover:text-text-gold px-2 py-1 border border-border-subtle rounded">Swap</button>
+            <button onClick={onRemoveItem} className="text-xs text-red-400/60 hover:text-red-400 px-2 py-1 border border-border-subtle rounded">Remove</button>
+          </div>
+
+          {/* Upgrade Level */}
+          <div className="flex items-center justify-between">
+            <span className="text-xs text-text-gold uppercase font-bold">Upgrade Level</span>
+            <div className="flex items-center gap-2">
+              <button onClick={() => setUpgradeLevel(config.upgradeLevel - 1)}
+                className="w-6 h-6 rounded bg-bg-card text-text-secondary hover:text-text-primary text-xs flex items-center justify-center">-</button>
+              <span className="w-8 text-center text-sm font-bold text-text-primary border border-border-subtle rounded px-1">{config.upgradeLevel}</span>
+              <button onClick={() => setUpgradeLevel(config.upgradeLevel + 1)}
+                className="w-6 h-6 rounded bg-bg-card text-text-secondary hover:text-text-primary text-xs flex items-center justify-center">+</button>
+              <button onClick={() => setUpgradeLevel(MAX_UPGRADE)}
+                className="text-xs text-text-secondary hover:text-text-gold px-2 py-0.5 border border-border-subtle rounded">Max</button>
+            </div>
           </div>
 
           {/* Item Details */}
@@ -187,158 +271,156 @@ export default function ItemConfigPanel({
             {item.weaponType && <DetailRow label="Type" value={item.weaponType} />}
             {item.handling && <DetailRow label="Handling" value={item.handling} />}
             {item.material && <DetailRow label="Material" value={item.material} />}
-            {item.damageType && <DetailRow label="Damage" value={item.damageType} />}
-            {item.dropLevel && <DetailRow label="Level" value={String(item.dropLevel)} />}
+            {item.damageType && <DetailRow label="Damage Type" value={item.damageType} />}
+            {item.dropLevel && <DetailRow label="Drop Level" value={String(item.dropLevel)} />}
           </div>
 
           {/* Runes - ONLY for weapons */}
-          {showWeaponSlots && (
-            <div>
-              <div className="text-xs text-text-gold uppercase mb-2 font-bold">
-                Runes (Max: 4)
-                {compatibleRunes.length > 0 && (
-                  <span className="text-text-secondary font-normal ml-2">
-                    {compatibleRunes.length} compatible
-                  </span>
-                )}
-              </div>
+          {showWeaponRunes && (
+            <Section title={`Runes (Max: 4)`} subtitle={`${compatibleRunes.length} compatible`}>
               <div className="grid grid-cols-2 gap-2">
                 {config.runes.map((rune, i) => (
-                  <div key={i}>
-                    {activeRuneSlot === i ? (
-                      <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-48 overflow-y-auto">
-                        <input
-                          type="text"
-                          placeholder="Search runes..."
-                          value={runeSearch}
-                          onChange={(e) => setRuneSearch(e.target.value)}
-                          autoFocus
-                          className="w-full px-2 py-1 bg-bg-secondary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none"
-                        />
-                        <button
-                          onClick={() => setRune(i, null)}
-                          className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic"
-                        >
-                          Clear
-                        </button>
-                        {filteredRunes.map((r) => (
-                          <button
-                            key={r.id}
-                            onClick={() => setRune(i, r)}
-                            className="w-full text-left px-2 py-1 text-xs text-text-primary hover:bg-bg-card-hover rounded flex items-center gap-2"
-                          >
-                            <ItemIcon icon={r.icon} size={20} />
-                            <span className="truncate">{r.name}</span>
-                          </button>
-                        ))}
-                        {filteredRunes.length === 0 && (
-                          <p className="text-xs text-text-secondary text-center py-2">No compatible runes</p>
-                        )}
-                      </div>
-                    ) : (
-                      <button
-                        onClick={() => { setActiveRuneSlot(i); setRuneSearch(""); }}
-                        className={`w-full text-left p-2.5 rounded-lg border text-sm transition-colors ${
-                          rune
-                            ? "bg-bg-card border-border-subtle hover:border-accent-gold/40"
-                            : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"
-                        }`}
-                      >
-                        {rune ? (
-                          <div className="flex items-center gap-2">
-                            <ItemIcon icon={rune.icon} size={20} />
-                            <span className="text-xs text-text-primary truncate">{rune.name}</span>
-                          </div>
-                        ) : (
-                          <span className="text-xs text-text-secondary/50">+ Add Rune</span>
-                        )}
+                  <PickerSlot key={i} label="Add Rune" selected={rune ? rune.name : null} icon={rune?.icon}
+                    isOpen={activeRuneSlot === i}
+                    onOpen={() => { setActiveRuneSlot(i); setRuneSearch(""); }}
+                    onClear={() => setRune(i, null)}
+                    onClose={() => setActiveRuneSlot(null)}>
+                    <input type="text" placeholder="Search runes..." value={runeSearch} onChange={(e) => setRuneSearch(e.target.value)} autoFocus
+                      className="w-full px-2 py-1 bg-bg-primary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
+                    {filteredRunes.map((r) => (
+                      <button key={r.id} onClick={() => setRune(i, r)}
+                        className="w-full text-left px-2 py-1 text-xs text-text-primary hover:bg-bg-card-hover rounded flex items-center gap-2">
+                        <ItemIcon icon={r.icon} size={18} /><span className="truncate">{r.name}</span>
                       </button>
-                    )}
-                  </div>
+                    ))}
+                  </PickerSlot>
                 ))}
               </div>
-            </div>
+            </Section>
           )}
 
           {/* Facet */}
-          <div>
-            <div className="text-xs text-text-gold uppercase mb-2 font-bold">Facet</div>
+          <Section title="Facet">
             {showFacetPicker ? (
-              <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-48 overflow-y-auto">
-                <button onClick={() => setFacet(null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">
-                  None (clear)
-                </button>
-                {FACETS.map((f) => (
-                  <button
-                    key={f.key}
-                    onClick={() => setFacet(f.key)}
-                    className={`w-full text-left px-2 py-1.5 text-sm hover:bg-bg-card-hover rounded ${
-                      config.facet === f.key ? "text-text-gold" : "text-text-primary"
-                    }`}
-                  >
-                    {f.name}
+              <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-60 overflow-y-auto">
+                <button onClick={() => setFacet(null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic mb-1">None (clear)</button>
+                {slotFacets.map((f) => (
+                  <button key={f.name} onClick={() => setFacet(f.name.toLowerCase())}
+                    className={`w-full text-left px-3 py-2 hover:bg-bg-card-hover rounded transition-colors ${config.facet === f.name.toLowerCase() ? "bg-bg-card-hover" : ""}`}>
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-text-primary font-medium">{f.name}</span>
+                    </div>
+                    <div className="text-xs mt-0.5">
+                      <span className="text-green-400">[Stat] {f.upside}</span>
+                      {f.downside && <span className="text-red-400 ml-2">[Stat] {f.downside}</span>}
+                    </div>
                   </button>
                 ))}
               </div>
             ) : (
-              <button
-                onClick={() => setShowFacetPicker(true)}
-                className={`w-full text-left p-3 rounded-lg border text-sm transition-colors ${
-                  selectedFacet
-                    ? "bg-bg-card border-border-subtle hover:border-accent-gold/40"
-                    : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"
-                }`}
-              >
+              <button onClick={() => setShowFacetPicker(true)}
+                className={`w-full text-left p-3 rounded-lg border text-sm transition-colors ${selectedFacet ? "bg-bg-card border-border-subtle hover:border-accent-gold/40" : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"}`}>
                 {selectedFacet ? (
-                  <span className="text-text-gold font-medium">{selectedFacet.name}</span>
+                  <div>
+                    <span className="text-text-primary font-medium">{selectedFacet.name}</span>
+                    <div className="text-xs mt-0.5">
+                      <span className="text-green-400">[Stat] {selectedFacet.upside}</span>
+                      {selectedFacet.downside && <span className="text-red-400 ml-2">[Stat] {selectedFacet.downside}</span>}
+                    </div>
+                  </div>
                 ) : (
                   <span className="text-text-secondary/50">+ Add Facet</span>
                 )}
               </button>
             )}
-          </div>
+          </Section>
 
-          {/* Gems (Max: 1) */}
-          <div>
-            <div className="text-xs text-text-gold uppercase mb-2 font-bold">Gems (Max: 1)</div>
+          {/* Gems */}
+          <Section title="Gems (Max: 1)">
             {activeGemSlot ? (
               <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-48 overflow-y-auto">
-                <input type="text" placeholder="Search gems..." value={gemSearch}
-                  onChange={(e) => setGemSearch(e.target.value)} autoFocus
-                  className="w-full px-2 py-1 bg-bg-secondary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
-                <button onClick={() => setGem(null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">
-                  Clear
-                </button>
+                <input type="text" placeholder="Search gems..." value={gemSearch} onChange={(e) => setGemSearch(e.target.value)} autoFocus
+                  className="w-full px-2 py-1 bg-bg-primary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
+                <button onClick={() => setGem(null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">Clear</button>
                 {filteredGems.map((g) => (
                   <button key={g.id} onClick={() => setGem(g)}
                     className="w-full text-left px-2 py-1 text-xs text-text-primary hover:bg-bg-card-hover rounded flex items-center gap-2">
-                    <ItemIcon icon={g.icon} size={20} />
-                    <span className="truncate">{g.name}</span>
+                    <ItemIcon icon={g.icon} size={18} /><span className="truncate">{g.name}</span>
                   </button>
                 ))}
               </div>
             ) : (
-              <button
-                onClick={() => { setActiveGemSlot(true); setGemSearch(""); }}
-                className={`w-full text-left p-3 rounded-lg border text-sm transition-colors ${
-                  config.gem
-                    ? "bg-bg-card border-border-subtle hover:border-accent-gold/40"
-                    : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"
-                }`}
-              >
+              <button onClick={() => { setActiveGemSlot(true); setGemSearch(""); }}
+                className={`w-full text-left p-3 rounded-lg border text-sm transition-colors ${config.gem ? "bg-bg-card border-border-subtle hover:border-accent-gold/40" : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"}`}>
                 {config.gem ? (
-                  <div className="flex items-center gap-2">
-                    <ItemIcon icon={config.gem.icon} size={20} />
-                    <span className="text-text-primary">{config.gem.name}</span>
-                  </div>
+                  <div className="flex items-center gap-2"><ItemIcon icon={config.gem.icon} size={20} /><span className="text-text-primary">{config.gem.name}</span></div>
                 ) : (
                   <span className="text-text-secondary/50">+ Add Gem</span>
                 )}
               </button>
             )}
-          </div>
+          </Section>
+
+          {/* Enchantments */}
+          <Section title={`Enchantments (Max: 5)`} subtitle={`Exalted (${exaltedCount}/4)`}>
+            <div className="space-y-2">
+              {config.enchantments.map((ench, i) => (
+                <div key={i}>
+                  {activeEnchantSlot === i ? (
+                    <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-60 overflow-y-auto">
+                      <input type="text" placeholder="Search enchantments..." value={enchantSearch} onChange={(e) => setEnchantSearch(e.target.value)} autoFocus
+                        className="w-full px-2 py-1 bg-bg-primary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
+                      <button onClick={() => setEnchantment(i, null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">Clear</button>
+                      {filteredEnchants.map((e, j) => {
+                        const isGroupBlocked = usedGroups.has(e.group) && config.enchantments[i]?.group !== e.group;
+                        const isExaltedBlocked = e.rarity === "plagued" && exaltedCount >= 4 && config.enchantments[i]?.rarity !== "plagued";
+                        const blocked = isGroupBlocked || isExaltedBlocked;
+                        return (
+                          <button key={j} onClick={() => !blocked && setEnchantment(i, e)} disabled={blocked}
+                            className={`w-full text-left px-2 py-1.5 rounded text-xs transition-colors ${blocked ? "opacity-30 cursor-not-allowed" : "hover:bg-bg-card-hover"}`}>
+                            <div className="flex items-center gap-2">
+                              <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${e.rarity === "plagued" ? "bg-rarity-exalted" : "bg-rarity-rare"}`} />
+                              <span className="text-text-primary">{e.description}</span>
+                            </div>
+                            <span className="text-text-secondary/50 ml-4 text-[10px]">[{e.group}]</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <button onClick={() => { setActiveEnchantSlot(i); setEnchantSearch(""); }}
+                      className={`w-full text-left p-2.5 rounded-lg border text-sm transition-colors ${ench ? "bg-bg-card border-border-subtle hover:border-accent-gold/40" : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"}`}>
+                      {ench ? (
+                        <div className="flex items-center gap-2">
+                          <span className={`w-2 h-2 rounded-full shrink-0 ${ench.rarity === "plagued" ? "bg-rarity-exalted" : "bg-rarity-rare"}`} />
+                          <span className="text-xs text-text-primary">{ench.description}</span>
+                          <span className="text-[10px] text-text-secondary/50 ml-auto shrink-0">[{ench.group}]</span>
+                        </div>
+                      ) : (
+                        <span className="text-xs text-text-secondary/50">+ Add Enchantment</span>
+                      )}
+                    </button>
+                  )}
+                </div>
+              ))}
+            </div>
+          </Section>
         </div>
       </div>
+    </div>
+  );
+}
+
+// --- Sub-components ---
+
+function Section({ title, subtitle, children }: { title: string; subtitle?: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-xs text-text-gold uppercase font-bold">{title}</span>
+        {subtitle && <span className="text-xs text-text-secondary">{subtitle}</span>}
+      </div>
+      {children}
     </div>
   );
 }
@@ -349,5 +431,32 @@ function DetailRow({ label, value }: { label: string; value: string }) {
       <span className="text-text-secondary">{label}</span>
       <span className="text-text-primary capitalize">{value}</span>
     </div>
+  );
+}
+
+function PickerSlot({ label, selected, icon, isOpen, onOpen, onClear, onClose, children }: {
+  label: string; selected: string | null; icon?: string; isOpen: boolean;
+  onOpen: () => void; onClear: () => void; onClose: () => void; children: React.ReactNode;
+}) {
+  if (isOpen) {
+    return (
+      <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-48 overflow-y-auto">
+        <button onClick={() => { onClear(); onClose(); }} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">Clear</button>
+        {children}
+      </div>
+    );
+  }
+  return (
+    <button onClick={onOpen}
+      className={`w-full text-left p-2.5 rounded-lg border text-sm transition-colors ${selected ? "bg-bg-card border-border-subtle hover:border-accent-gold/40" : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"}`}>
+      {selected ? (
+        <div className="flex items-center gap-2">
+          {icon && <ItemIcon icon={icon} size={20} />}
+          <span className="text-xs text-text-primary truncate">{selected}</span>
+        </div>
+      ) : (
+        <span className="text-xs text-text-secondary/50">+ {label}</span>
+      )}
+    </button>
   );
 }
