@@ -750,7 +750,7 @@
   {
     "id": "3836894979821062611",
     "name": "Lightning Arrow",
-    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Lightning Arrow</span> Rune Attack.\n\nCharge your arrow with crackling energy, releasing a bolt that seeks your enemy''s weaknesses.",
+    "description": "Slot this Rune into a <span style=\"color:#F2E6BD\">Bow</span> to gain the <span style=\"color:#F2E6BD\">Lightning Arrow</span> Rune Attack.\n\nCharge your arrow with crackling energy, releasing a bolt that seeks your enemy's weaknesses.",
     "icon": "r651",
     "data": {
       "identifier": "3836894979821062611",

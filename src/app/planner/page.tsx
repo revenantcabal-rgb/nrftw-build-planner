@@ -6,11 +6,13 @@ import { EQUIP_SLOT_LABELS } from "@/lib/constants";
 import { RARITY_TEXT } from "@/lib/constants";
 import { getBuildFromUrl, setBuildInUrl, type BuildState } from "@/lib/codec";
 import ItemPickerModal from "@/components/planner/ItemPickerModal";
+import ItemIcon from "@/components/items/ItemIcon";
 import type { Rarity, EquipSlot } from "@/lib/types";
 
 interface SlotItem {
   id: string;
   name: string;
+  icon?: string;
   rarity?: Rarity;
   weaponType?: string;
   handling?: string;
@@ -208,16 +210,19 @@ export default function PlannerPage() {
                 {EQUIP_SLOT_LABELS[slot]}
               </div>
               {item ? (
-                <>
-                  <div className="text-sm font-semibold text-text-primary leading-tight mb-1">
-                    {item.name}
+                <div className="flex items-center gap-2">
+                  <ItemIcon icon={item.icon} size={40} />
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-text-primary leading-tight mb-0.5 truncate">
+                      {item.name}
+                    </div>
+                    <span
+                      className={`text-xs font-semibold uppercase ${RARITY_TEXT[item.rarity || "common"]}`}
+                    >
+                      {item.rarity}
+                    </span>
                   </div>
-                  <span
-                    className={`text-xs font-semibold uppercase ${RARITY_TEXT[item.rarity || "common"]}`}
-                  >
-                    {item.rarity}
-                  </span>
-                </>
+                </div>
               ) : (
                 <div className="text-sm text-text-secondary/50">
                   Click to select

@@ -2675,7 +2675,7 @@
   },
   {
     "id": "3336660737610139922",
-    "name": "Herder''s Hearth Stew",
+    "name": "Herder's Hearth Stew",
     "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health.\nIncreases Stamina by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
     "icon": "m1032",
     "data": {
@@ -3486,7 +3486,7 @@
   },
   {
     "id": "353541225253630406",
-    "name": "Angler''s Delight Chowder",
+    "name": "Angler's Delight Chowder",
     "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health and <span style=\"color:#5B9968\">{1}</span> Focus.",
     "icon": "m1035",
     "data": {
@@ -5630,7 +5630,7 @@
   },
   {
     "id": "1899876663013134767",
-    "name": "Shepherd''s Pie",
+    "name": "Shepherd's Pie",
     "description": "Instantly restores <span style=\"color:#5B9968\">{0}</span> Health. Increases Damage Dealt by <span style=\"color:#5B9968\">{2}</span> for <span style=\"color:#F2E6BD\">{1} Seconds</span>.",
     "icon": "m1043",
     "data": {

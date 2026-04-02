@@ -4,10 +4,12 @@ import { useState, useMemo } from "react";
 import { formatWeaponType } from "@/lib/data";
 import type { Rarity } from "@/lib/types";
 import RarityBadge from "@/components/items/RarityBadge";
+import ItemIcon from "@/components/items/ItemIcon";
 
 interface PickerItem {
   id: string;
   name: string;
+  icon?: string;
   rarity?: Rarity;
   weaponType?: string;
   handling?: string;
@@ -77,20 +79,23 @@ export default function ItemPickerModal({
             <button
               key={item.id}
               onClick={() => onSelect(item)}
-              className="w-full text-left px-3 py-2.5 rounded hover:bg-bg-card-hover transition-colors mb-0.5"
+              className="w-full text-left px-3 py-2.5 rounded hover:bg-bg-card-hover transition-colors mb-0.5 flex items-center gap-3"
             >
-              <div className="flex items-center justify-between">
-                <span className="text-sm font-medium text-text-primary">
-                  {item.name}
-                </span>
-                <RarityBadge rarity={item.rarity || "common"} />
-              </div>
-              <div className="text-xs text-text-secondary mt-0.5">
-                {item.weaponType && formatWeaponType(item.weaponType)}
-                {item.handling && ` \u2022 ${item.handling}`}
-                {item.material && item.material}
-                {item.armorSlot && ` \u2022 ${item.armorSlot}`}
-                {item.shieldType && `${item.shieldType} shield`}
+              <ItemIcon icon={item.icon} size={36} />
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center justify-between">
+                  <span className="text-sm font-medium text-text-primary truncate">
+                    {item.name}
+                  </span>
+                  <RarityBadge rarity={item.rarity || "common"} />
+                </div>
+                <div className="text-xs text-text-secondary mt-0.5">
+                  {item.weaponType && formatWeaponType(item.weaponType)}
+                  {item.handling && ` \u2022 ${item.handling}`}
+                  {item.material && item.material}
+                  {item.armorSlot && ` \u2022 ${item.armorSlot}`}
+                  {item.shieldType && `${item.shieldType} shield`}
+                </div>
               </div>
             </button>
           ))}

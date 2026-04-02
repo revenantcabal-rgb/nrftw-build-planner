@@ -10,12 +10,14 @@ import {
 } from "@/lib/data";
 import { CATEGORIES, RARITY_TEXT } from "@/lib/constants";
 import RarityBadge from "@/components/items/RarityBadge";
+import ItemIcon from "@/components/items/ItemIcon";
 import type { Rarity } from "@/lib/types";
 
 interface AnyItem {
   id: string;
   name: string;
   description?: string;
+  icon?: string;
   rarity?: Rarity;
   weaponType?: string;
   handling?: string;
@@ -194,10 +196,18 @@ function DatabaseContent() {
     const statRows: [string, string][] = [];
     if (item.stats) {
       Object.entries(item.stats).forEach(([key, values]) => {
-        if (Array.isArray(values) && values.some((v) => v !== 0)) {
+        if (Array.isArray(values) && values.length >= 4) {
+          // values format: [unknown, unknown, hasScaling, scalingValue, unknown]
+          // Show scaling value if present, or just indicate presence
+          const scalingVal = values[3];
+          const hasIt = values[2];
+          if (hasIt === 0 && scalingVal === 0) return; // skip zero stats
           const name = STAT_NAMES[key] || `Stat ${key}`;
-          const display = values.filter((v) => v !== 0).join(" / ");
-          statRows.push([name, display]);
+          if (scalingVal > 0) {
+            statRows.push([name, String(scalingVal)]);
+          } else if (hasIt > 0) {
+            statRows.push([name, "Yes"]);
+          }
         }
       });
     }
@@ -212,16 +222,19 @@ function DatabaseContent() {
         </Link>
 
         <div className="bg-bg-card border border-border-subtle rounded-lg p-6">
-          <div className="flex items-start justify-between mb-2">
-            <h1 className="text-2xl font-bold text-text-gold">{item.name}</h1>
-            {item.isUnique && (
-              <span className="text-xs bg-accent-gold/20 text-text-gold px-2 py-0.5 rounded">
-                Unique
-              </span>
-            )}
-          </div>
-          <div className="mb-4">
-            <RarityBadge rarity={item.rarity || "common"} />
+          <div className="flex items-start gap-4 mb-4">
+            <ItemIcon icon={item.icon} size={80} className="rounded" />
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <h1 className="text-2xl font-bold text-text-gold">{item.name}</h1>
+                {item.isUnique && (
+                  <span className="text-xs bg-accent-gold/20 text-text-gold px-2 py-0.5 rounded">
+                    Unique
+                  </span>
+                )}
+              </div>
+              <RarityBadge rarity={item.rarity || "common"} />
+            </div>
           </div>
 
           {item.description && (
@@ -366,17 +379,18 @@ function DatabaseContent() {
           <Link
             key={item.id}
             href={`/db?cat=${category}&item=${item.id}`}
-            className="group block p-4 bg-bg-card border border-border-subtle rounded-lg hover:border-accent-gold/40 hover:bg-bg-card-hover transition-all"
+            className="group flex items-center gap-3 p-3 bg-bg-card border border-border-subtle rounded-lg hover:border-accent-gold/40 hover:bg-bg-card-hover transition-all"
           >
-            <div className="flex items-start justify-between gap-2 mb-1">
-              <h3 className="text-sm font-semibold text-text-primary group-hover:text-text-gold transition-colors leading-tight">
+            <ItemIcon icon={item.icon} size={48} />
+            <div className="min-w-0">
+              <h3 className="text-sm font-semibold text-text-primary group-hover:text-text-gold transition-colors leading-tight truncate">
                 {item.name}
               </h3>
+              <RarityBadge rarity={item.rarity || "common"} />
+              <p className="text-xs text-text-secondary mt-0.5 truncate">
+                {getSubtitle(item)}
+              </p>
             </div>
-            <RarityBadge rarity={item.rarity || "common"} />
-            <p className="text-xs text-text-secondary mt-1">
-              {getSubtitle(item)}
-            </p>
           </Link>
         ))}
       </div>

@@ -937,7 +937,7 @@
   },
   {
     "id": "701264944740776142",
-    "name": "Kindler''s Mantle",
+    "name": "Kindler's Mantle",
     "description": "Leaving so much of the skin exposed while wielding fire might seem odd. But then not all Risen are great forward planners.",
     "icon": "a221",
     "armorSlot": "unknown",
@@ -1093,8 +1093,8 @@
   },
   {
     "id": "2810055803102590825",
-    "name": "Kindler''s Broadcap",
-    "description": "The incandescent helm of a Risen Kindler, one of the outfit''s most volatile warriors.",
+    "name": "Kindler's Broadcap",
+    "description": "The incandescent helm of a Risen Kindler, one of the outfit's most volatile warriors.",
     "icon": "a222",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -1249,7 +1249,7 @@
   },
   {
     "id": "3652255802968968536",
-    "name": "Kindler''s Braes",
+    "name": "Kindler's Braes",
     "description": "Heavy, course trousers soaked in soot and flame oil.",
     "icon": "a223",
     "armorSlot": "unknown",
@@ -1405,7 +1405,7 @@
   },
   {
     "id": "1698349693959893818",
-    "name": "Farmer''s Cords",
+    "name": "Farmer's Cords",
     "description": "A pair of shabby trousers with mud stains on the knees.",
     "icon": "a224",
     "armorSlot": "unknown",
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "1046405399894291651",
-    "name": "Farmer''s Rags",
+    "name": "Farmer's Rags",
     "description": "The simple tunic of one who tills the earth.",
     "icon": "a225",
     "armorSlot": "unknown",
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "2372244824949124789",
-    "name": "Farmer''s Thumb",
+    "name": "Farmer's Thumb",
     "description": "A pair of well-worn gloves, familiar with the dirt.",
     "icon": "a226",
     "armorSlot": "unknown",
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "2936382939271769509",
-    "name": "Farmer''s Cap",
+    "name": "Farmer's Cap",
     "description": "A humble head covering, ideal for blocking the sun while gardening.",
     "icon": "a227",
     "armorSlot": "unknown",
@@ -2966,7 +2966,7 @@
   {
     "id": "3586891500627168427",
     "name": "Wildling Pants",
-    "description": "A pair of drab trousers stitched in Lion''s Mound. Coarse and unwashed.",
+    "description": "A pair of drab trousers stitched in Lion's Mound. Coarse and unwashed.",
     "icon": "a234",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -3278,7 +3278,7 @@
   {
     "id": "2070778066640269942",
     "name": "Thieving Drifter Trousers",
-    "description": "These trousers did not believe in their former owner''s cause.",
+    "description": "These trousers did not believe in their former owner's cause.",
     "icon": "a236",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -3590,7 +3590,7 @@
   {
     "id": "1172937753820093540",
     "name": "Thieving Drifter Mitts",
-    "description": "Gloves that would sooner close around a man''s neck than till a field.",
+    "description": "Gloves that would sooner close around a man's neck than till a field.",
     "icon": "a238",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "1320849294161730835",
-    "name": "Knave''s Gloves",
+    "name": "Knave's Gloves",
     "description": "The lowliest thieves are lucky to even have their hands covered.",
     "icon": "a244",
     "armorSlot": "unknown",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "1037257009206324230",
-    "name": "Knave''s Tunic",
+    "name": "Knave's Tunic",
     "description": "A garment often worn by the lowliest Risen, held together with rage and hubris.",
     "icon": "a245",
     "armorSlot": "unknown",
@@ -4837,8 +4837,8 @@
   },
   {
     "id": "3000066580874253652",
-    "name": "Knave''s Breeches",
-    "description": "A pair of ratty trousers, often worn by the Risen''s most humble soldiers.",
+    "name": "Knave's Breeches",
+    "description": "A pair of ratty trousers, often worn by the Risen's most humble soldiers.",
     "icon": "a246",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -5773,7 +5773,7 @@
   },
   {
     "id": "1133924820256279024",
-    "name": "Helmsman''s Jacket",
+    "name": "Helmsman's Jacket",
     "description": "The faded coat of a middle ranking seaman - likely stolen and traded by pirates.",
     "icon": "a252",
     "armorSlot": "unknown",
@@ -5929,7 +5929,7 @@
   },
   {
     "id": "970635599262000728",
-    "name": "Helmsman''s Pantaloons",
+    "name": "Helmsman's Pantaloons",
     "description": "Trousers made of soft linen. They have seen many harsh days at sea.",
     "icon": "a253",
     "armorSlot": "unknown",
@@ -6398,7 +6398,7 @@
   {
     "id": "1133452599572538910",
     "name": "Path of the Cleanse",
-    "description": "The healer''s work is never done. There is always a next town waiting to be cured.",
+    "description": "The healer's work is never done. There is always a next town waiting to be cured.",
     "icon": "a256",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -7645,7 +7645,7 @@
   },
   {
     "id": "3829181273798625978",
-    "name": "False Remnant''s Helmet",
+    "name": "False Remnant's Helmet",
     "description": "The False Ones do not eat nor drink, sleep nor rest. Their penance is ceaseless and eternal.",
     "icon": "a264",
     "armorSlot": "unknown",
@@ -8426,7 +8426,7 @@
   {
     "id": "3812736157683220980",
     "name": "Black Spark Helmet",
-    "description": "When they first appeared, The Gloam''s iridescent growths caused some to think they had emerged from the sea. But only the blackened earth could dream up something so foul.",
+    "description": "When they first appeared, The Gloam's iridescent growths caused some to think they had emerged from the sea. But only the blackened earth could dream up something so foul.",
     "icon": "a269",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -9049,8 +9049,8 @@
   },
   {
     "id": "873407968693321013",
-    "name": "False Harbinger''s Gauntlets",
-    "description": "They shiver with the energy of the ancient, the Sayer''s words long since twisted into lies.",
+    "name": "False Harbinger's Gauntlets",
+    "description": "They shiver with the energy of the ancient, the Sayer's words long since twisted into lies.",
     "icon": "a273",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -9205,7 +9205,7 @@
   },
   {
     "id": "4425289874428132480",
-    "name": "False Harbinger''s Raiment",
+    "name": "False Harbinger's Raiment",
     "description": "The armor may be ancient Cerim, but the body found within it is somehow both far younger and long dead.",
     "icon": "a274",
     "armorSlot": "unknown",
@@ -9361,7 +9361,7 @@
   },
   {
     "id": "2132617457107100191",
-    "name": "False Harbinger''s Greaves",
+    "name": "False Harbinger's Greaves",
     "description": "The heavy footfalls of graverobbers turned into guardians, scavengers hollowed out into shambling shells.",
     "icon": "a275",
     "armorSlot": "unknown",
@@ -9517,7 +9517,7 @@
   },
   {
     "id": "4326032305457695599",
-    "name": "False Harbinger''s Visage",
+    "name": "False Harbinger's Visage",
     "description": "Empty eyes stare out from its sockets, a silent scream captured forever in its teeth.",
     "icon": "a276",
     "armorSlot": "unknown",
@@ -10298,7 +10298,7 @@
   {
     "id": "632231188652599481",
     "name": "Ashen Knight Armor",
-    "description": "Whether a crusader''s purpose be foul or noble, there will always be black deeds that must be done in the name of victory.",
+    "description": "Whether a crusader's purpose be foul or noble, there will always be black deeds that must be done in the name of victory.",
     "icon": "a281",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -10454,7 +10454,7 @@
   {
     "id": "1301001478223928699",
     "name": "Ashen Knight Claws",
-    "description": "Armored fingers made of toughest iron; it''s no coincidence they resemble the crooked hand of a skeleton.",
+    "description": "Armored fingers made of toughest iron; it's no coincidence they resemble the crooked hand of a skeleton.",
     "icon": "a282",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -10610,7 +10610,7 @@
   {
     "id": "3714902855239902828",
     "name": "Ashen Knight Mask",
-    "description": "\"And the reach of God''s many hands will be like a great golden flame, billowing up into the darkness.\"  - Madrigal Erinth",
+    "description": "\"And the reach of God's many hands will be like a great golden flame, billowing up into the darkness.\"  - Madrigal Erinth",
     "icon": "a283",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -10765,7 +10765,7 @@
   },
   {
     "id": "3388438254583899193",
-    "name": "Bright Walker''s Greaves",
+    "name": "Bright Walker's Greaves",
     "description": "Some say footfalls in the night add twice the height.",
     "icon": "a284",
     "armorSlot": "unknown",
@@ -10921,7 +10921,7 @@
   },
   {
     "id": "2317656899844954028",
-    "name": "Bright Walker''s Barrier",
+    "name": "Bright Walker's Barrier",
     "description": "You are moving through a darkened cavern, touching the wall for guidance. Then your hand lands upon a wall… that moves.",
     "icon": "a285",
     "armorSlot": "unknown",
@@ -11077,7 +11077,7 @@
   },
   {
     "id": "3791199917092218726",
-    "name": "Bright Walker''s Fist",
+    "name": "Bright Walker's Fist",
     "description": "A heavy gauntlet that can squeeze the life out of darkness itself.",
     "icon": "a286",
     "armorSlot": "unknown",
@@ -11233,7 +11233,7 @@
   },
   {
     "id": "3427797587447113287",
-    "name": "Taleweaver''s Legs",
+    "name": "Taleweaver's Legs",
     "description": "Trousers made for a nobleman in the valley beyond the Frozen Peaks.",
     "icon": "a287",
     "armorSlot": "unknown",
@@ -11389,7 +11389,7 @@
   },
   {
     "id": "621273769392684687",
-    "name": "Taleweaver''s Cape",
+    "name": "Taleweaver's Cape",
     "description": "The uniform of a high-born noble of Tir; but it has been stripped of its crest, and worn tired with time.",
     "icon": "a288",
     "armorSlot": "unknown",
@@ -11545,7 +11545,7 @@
   },
   {
     "id": "1403133328980856299",
-    "name": "Taleweaver''s Gloves",
+    "name": "Taleweaver's Gloves",
     "description": "A refined pair of leather gloves, hand-made by one of the elite artisans of Upper Tir.",
     "icon": "a289",
     "armorSlot": "unknown",
@@ -12169,7 +12169,7 @@
   },
   {
     "id": "2937958991906891237",
-    "name": "Twine King''s Armor",
+    "name": "Twine King's Armor",
     "description": "“The world is woven by the wise; only a fool would tug at its seams.” -the Twine King",
     "icon": "a293",
     "armorSlot": "unknown",
@@ -12325,7 +12325,7 @@
   },
   {
     "id": "2612687569601424849",
-    "name": "Twine King''s Stance",
+    "name": "Twine King's Stance",
     "description": "“No tapestry is finished while the weaver still breathes.”-the Twine King",
     "icon": "a294",
     "armorSlot": "unknown",
@@ -12481,7 +12481,7 @@
   },
   {
     "id": "326887835796790539",
-    "name": "Twine King''s Crown",
+    "name": "Twine King's Crown",
     "description": "“Every knot curses the hand that tied it.” -the Twine King",
     "icon": "a295",
     "armorSlot": "unknown",
@@ -12637,7 +12637,7 @@
   },
   {
     "id": "1312540527271925611",
-    "name": "Twine King''s Fingers",
+    "name": "Twine King's Fingers",
     "description": "“Cut the thread early, or watch it strangle you later.” -the Twine King",
     "icon": "a296",
     "armorSlot": "unknown",
@@ -14665,7 +14665,7 @@
   },
   {
     "id": "2985757025777979637",
-    "name": "Blackhewn Mage''s Gloves",
+    "name": "Blackhewn Mage's Gloves",
     "description": "Sewn from a sinister black cloth designed to amplify mystical powers.",
     "icon": "a309",
     "armorSlot": "unknown",
@@ -14821,7 +14821,7 @@
   },
   {
     "id": "3984832389521737304",
-    "name": "Blackhewn Mage''s Breeches",
+    "name": "Blackhewn Mage's Breeches",
     "description": "Although they wear shoes, it is said that the clerics from Blackhewn never touch the ground.",
     "icon": "a310",
     "armorSlot": "unknown",
@@ -14977,7 +14977,7 @@
   },
   {
     "id": "3235016737660962956",
-    "name": "Blackhewn Mage''s Robes",
+    "name": "Blackhewn Mage's Robes",
     "description": "The drapings of a cleric from Blackhewn, on the eastern edge of The Seethe.",
     "icon": "a311",
     "armorSlot": "unknown",
@@ -15446,7 +15446,7 @@
   {
     "id": "1392119953559654638",
     "name": "Ironfur Steps",
-    "description": "When snow falls thickly, so the leather of one''s breeches must thicken as well.",
+    "description": "When snow falls thickly, so the leather of one's breeches must thicken as well.",
     "icon": "a314",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -15757,7 +15757,7 @@
   },
   {
     "id": "3634999027184514080",
-    "name": "Dusk Child''s Flight",
+    "name": "Dusk Child's Flight",
     "description": "Close your eyes and be quick of step, and you may yet escape the darkness; unlike the former owner of these trousers.",
     "icon": "a316",
     "armorSlot": "unknown",
@@ -15913,7 +15913,7 @@
   },
   {
     "id": "2633438426586412399",
-    "name": "Dusk Child''s Trick",
+    "name": "Dusk Child's Trick",
     "description": "Gloves once made of leather, now grown thick with the glinting sinew of The Gloam.",
     "icon": "a317",
     "armorSlot": "unknown",
@@ -16069,7 +16069,7 @@
   },
   {
     "id": "2253828694452803564",
-    "name": "Dusk Child''s Cloak",
+    "name": "Dusk Child's Cloak",
     "description": "The cloak of the forgotten Gloam - this is what becomes of the plague in the dark, wet places beneath our feet.",
     "icon": "a318",
     "armorSlot": "unknown",
@@ -17161,7 +17161,7 @@
   },
   {
     "id": "1006595583198842555",
-    "name": "Scuttler''s Claws",
+    "name": "Scuttler's Claws",
     "description": "Sure to leave your wrinkled fingers with a stench of seaweed.",
     "icon": "a325",
     "armorSlot": "unknown",
@@ -17317,7 +17317,7 @@
   },
   {
     "id": "2984518096302045367",
-    "name": "Scuttler''s Scales",
+    "name": "Scuttler's Scales",
     "description": "Mottled and soggy, this tunic once belonged to a Scuttler from the ragged coasts east of Sacrament.",
     "icon": "a326",
     "armorSlot": "unknown",
@@ -17473,8 +17473,8 @@
   },
   {
     "id": "1291330711431250179",
-    "name": "Scuttler''s Breath",
-    "description": "A hood made of coarse, waterlogged threads plundered from Sacra''s shores.",
+    "name": "Scuttler's Breath",
+    "description": "A hood made of coarse, waterlogged threads plundered from Sacra's shores.",
     "icon": "a327",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -17629,7 +17629,7 @@
   },
   {
     "id": "1845947255989891925",
-    "name": "Scuttler''s Treaders",
+    "name": "Scuttler's Treaders",
     "description": "Wear them for too long and one may find barnacles in unexpected places.",
     "icon": "a328",
     "armorSlot": "unknown",
@@ -17942,7 +17942,7 @@
   {
     "id": "2052948402721467937",
     "name": "Glintfiend Armor",
-    "description": "A noble warrior''s tunic, unbroken by battle, now coated in shimmering filth.",
+    "description": "A noble warrior's tunic, unbroken by battle, now coated in shimmering filth.",
     "icon": "a330",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -18721,8 +18721,8 @@
   },
   {
     "id": "1508143344514075431",
-    "name": "Stalking Jay''s Stride",
-    "description": "Coarse leggings belonging to one of the Balak Taw''s most dangerous assassins.",
+    "name": "Stalking Jay's Stride",
+    "description": "Coarse leggings belonging to one of the Balak Taw's most dangerous assassins.",
     "icon": "a335",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -18877,8 +18877,8 @@
   },
   {
     "id": "1769132490031730255",
-    "name": "Stalking Jay''s Crest",
-    "description": "The crown is rumored to be dyed red from the Great Beak herself placing a bloody hand upon the Jay''s head during its rite of initiation.",
+    "name": "Stalking Jay's Crest",
+    "description": "The crown is rumored to be dyed red from the Great Beak herself placing a bloody hand upon the Jay's head during its rite of initiation.",
     "icon": "a336",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -19033,7 +19033,7 @@
   },
   {
     "id": "1557132791728788144",
-    "name": "Stalking Jay''s Coat",
+    "name": "Stalking Jay's Coat",
     "description": "The feathers of this cloak are said to come from the Kestrels of Waithe - exceedingly rare on Sacra.",
     "icon": "a337",
     "armorSlot": "unknown",
@@ -19189,7 +19189,7 @@
   },
   {
     "id": "36793700634357701",
-    "name": "Stalking Jay''s Hands",
+    "name": "Stalking Jay's Hands",
     "description": "\"Feather before flesh!\" - Balak Taw chant",
     "icon": "a338",
     "armorSlot": "unknown",
@@ -19970,7 +19970,7 @@
   {
     "id": "4011637553521308431",
     "name": "Hive Slinger Mitts",
-    "description": "A pair of feathered gloves, so swift and light they''ll leave your enemies wondering if you ever touched them.",
+    "description": "A pair of feathered gloves, so swift and light they'll leave your enemies wondering if you ever touched them.",
     "icon": "a343",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -20126,7 +20126,7 @@
   {
     "id": "180306825657789238",
     "name": "Hive Slinger Tunic",
-    "description": "A heavy leather coat draped in iridescent feathers. Let others wear the camouflage, while you draw the enemy''s eye.",
+    "description": "A heavy leather coat draped in iridescent feathers. Let others wear the camouflage, while you draw the enemy's eye.",
     "icon": "a344",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -21061,7 +21061,7 @@
   },
   {
     "id": "2521736987371521467",
-    "name": "Umbral Knight''s Poise",
+    "name": "Umbral Knight's Poise",
     "description": "A pair of finely-woven leggings that rustle like parchment pages when the wearer moves.",
     "icon": "a350",
     "armorSlot": "unknown",
@@ -21217,7 +21217,7 @@
   },
   {
     "id": "1955887721578582981",
-    "name": "Umbral Knight''s Clutch",
+    "name": "Umbral Knight's Clutch",
     "description": "Clawed metal gauntlets with lethal hooks forged into the palm.",
     "icon": "a351",
     "armorSlot": "unknown",
@@ -21373,7 +21373,7 @@
   },
   {
     "id": "2692254679483353768",
-    "name": "Umbral Knight''s Cloak",
+    "name": "Umbral Knight's Cloak",
     "description": "The armor of a monk, long dead, who claimed he could hear the earth breathe.",
     "icon": "a352",
     "armorSlot": "unknown",
@@ -21529,8 +21529,8 @@
   },
   {
     "id": "4255718530971351077",
-    "name": "Umbral Knight''s Hollow",
-    "description": "It is said that inside this helm, you can hear the voices of those you''ve slain, whispering incessantly.",
+    "name": "Umbral Knight's Hollow",
+    "description": "It is said that inside this helm, you can hear the voices of those you've slain, whispering incessantly.",
     "icon": "a353",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -21997,8 +21997,8 @@
   },
   {
     "id": "3827886244156916969",
-    "name": "Mudstalker''s Hood",
-    "description": "A crimson cowl, perhaps woven by a thief who abandoned the isle of Tanth but retained the island''s cunning.",
+    "name": "Mudstalker's Hood",
+    "description": "A crimson cowl, perhaps woven by a thief who abandoned the isle of Tanth but retained the island's cunning.",
     "icon": "a356",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -22153,7 +22153,7 @@
   },
   {
     "id": "930172324483957404",
-    "name": "Mudstalker''s Pants",
+    "name": "Mudstalker's Pants",
     "description": "Worn leather leggings, stained by the marshes of Tanth. They bear the marks of one who crept through filth and shadow, unseen yet never unscathed.",
     "icon": "a357",
     "armorSlot": "unknown",
@@ -22309,8 +22309,8 @@
   },
   {
     "id": "2432020666712072210",
-    "name": "Mudstalker''s Jerkin",
-    "description": "The tunic of a wretch, a desperate soul, one who was grateful to be released into God''s Embrace.",
+    "name": "Mudstalker's Jerkin",
+    "description": "The tunic of a wretch, a desperate soul, one who was grateful to be released into God's Embrace.",
     "icon": "a358",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -22465,7 +22465,7 @@
   },
   {
     "id": "1181060582132629090",
-    "name": "Mudstalker''s Gloves",
+    "name": "Mudstalker's Gloves",
     "description": "A pair of simple, tidy leather gloves. Their cleanliness belies a long history of treachery.",
     "icon": "a359",
     "armorSlot": "unknown",
@@ -22621,7 +22621,7 @@
   },
   {
     "id": "3569164653888760569",
-    "name": "Vile Conjurer''s Tunic",
+    "name": "Vile Conjurer's Tunic",
     "description": "The coat of a traveling seer, who delved too far into the fell arts of the clerics from Giranoth.",
     "icon": "a360",
     "armorSlot": "unknown",
@@ -23089,7 +23089,7 @@
   },
   {
     "id": "2124814627580598304",
-    "name": "Heavy Feather''s Nest",
+    "name": "Heavy Feather's Nest",
     "description": "So swift to strike and so firm of stance is the Heavy Feather that it is said the eggs shall never break.",
     "icon": "a363",
     "armorSlot": "unknown",
@@ -23558,7 +23558,7 @@
   {
     "id": "3884383916408405177",
     "name": "Wild Finch Crown",
-    "description": "The elegant crest of one of the Balak Taw''s elite breed of warriors.",
+    "description": "The elegant crest of one of the Balak Taw's elite breed of warriors.",
     "icon": "a366",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -24182,7 +24182,7 @@
   {
     "id": "666694396535078979",
     "name": "Royal Gloves",
-    "description": "White gloves woven of silk so fine that it surpasses the comfort of one''s own skin.",
+    "description": "White gloves woven of silk so fine that it surpasses the comfort of one's own skin.",
     "icon": "a370",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -24493,7 +24493,7 @@
   },
   {
     "id": "1420886277782906720",
-    "name": "False Oathkeeper''s Visage",
+    "name": "False Oathkeeper's Visage",
     "description": "One can only imagine what ancient battlefields and plagued monstrosities these eyes have gazed upon.",
     "icon": "a372",
     "armorSlot": "unknown",
@@ -24649,7 +24649,7 @@
   },
   {
     "id": "1777008617108270765",
-    "name": "Gladesman''s Trousers",
+    "name": "Gladesman's Trousers",
     "description": "A good pair of trousers offers protection against enemies, the elements, and knee-high critters.",
     "icon": "a373",
     "armorSlot": "unknown",
@@ -24805,7 +24805,7 @@
   },
   {
     "id": "3056693943612670147",
-    "name": "Gladesman''s Gloves ",
+    "name": "Gladesman's Gloves ",
     "description": "A worn pair of leather mitts that never seem to fit quite right.",
     "icon": "a374",
     "armorSlot": "unknown",
@@ -24961,8 +24961,8 @@
   },
   {
     "id": "3202998595782871424",
-    "name": "Gladesman''s Tunic",
-    "description": "An old duelist''s robe, saturated with the vague stench of moss and blood.",
+    "name": "Gladesman's Tunic",
+    "description": "An old duelist's robe, saturated with the vague stench of moss and blood.",
     "icon": "a375",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -25117,7 +25117,7 @@
   },
   {
     "id": "1266423690238257735",
-    "name": "Bolein Rebel''s Armor",
+    "name": "Bolein Rebel's Armor",
     "description": "Sometimes on the battlefield you meet your enemy. And sometimes you meet your destiny.",
     "icon": "a376",
     "armorSlot": "unknown",
@@ -25273,7 +25273,7 @@
   },
   {
     "id": "3540398148196568207",
-    "name": "Bolein Rebel''s Fists",
+    "name": "Bolein Rebel's Fists",
     "description": "We cannot conquer the past. But we can wield it to serve the future.",
     "icon": "a377",
     "armorSlot": "unknown",
@@ -25429,7 +25429,7 @@
   },
   {
     "id": "4515753179627809944",
-    "name": "Bolein Rebel''s Stance",
+    "name": "Bolein Rebel's Stance",
     "description": "The mark of a true leader is knowing when to stride into battle, and when to sit down and think.",
     "icon": "a378",
     "armorSlot": "unknown",
@@ -25898,7 +25898,7 @@
   {
     "id": "3526075471558172906",
     "name": "Torchborne Breeches",
-    "description": "Dank, fetid trousers that still bear a trace of their former owner''s sickly luminescence.",
+    "description": "Dank, fetid trousers that still bear a trace of their former owner's sickly luminescence.",
     "icon": "a381",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -26209,8 +26209,8 @@
   },
   {
     "id": "4333837654687801025",
-    "name": "Liar''s Gauntlets",
-    "description": "Always watch the hand you aren''t shaking.",
+    "name": "Liar's Gauntlets",
+    "description": "Always watch the hand you aren't shaking.",
     "icon": "a383",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -26365,8 +26365,8 @@
   },
   {
     "id": "433038512261088964",
-    "name": "Liar''s Trousers",
-    "description": "They''re worth more than you paid for them, honest.",
+    "name": "Liar's Trousers",
+    "description": "They're worth more than you paid for them, honest.",
     "icon": "a384",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -26989,7 +26989,7 @@
   },
   {
     "id": "1807860508062093536",
-    "name": "Seer''s Robes",
+    "name": "Seer's Robes",
     "description": "Drapings that may appear simple and ragged; but they are infused with dark purpose.",
     "icon": "a388",
     "armorSlot": "unknown",
@@ -27145,7 +27145,7 @@
   },
   {
     "id": "2677759329314879567",
-    "name": "Seer''s Hands",
+    "name": "Seer's Hands",
     "description": "Soft gloves that have been dipped in mold and bathed in the blackness of the night sky.",
     "icon": "a389",
     "armorSlot": "unknown",
@@ -27301,7 +27301,7 @@
   },
   {
     "id": "2615847618503593061",
-    "name": "Seer''s Cap",
+    "name": "Seer's Cap",
     "description": "A wide-brimmed hat of unknown provenance, steeped in fell magic.",
     "icon": "a390",
     "armorSlot": "unknown",
@@ -27457,7 +27457,7 @@
   },
   {
     "id": "4182524927675890005",
-    "name": "Seer''s Breeches",
+    "name": "Seer's Breeches",
     "description": "Lightweight pants that smell faintly of thick, wet earth.",
     "icon": "a391",
     "armorSlot": "unknown",
@@ -28237,7 +28237,7 @@
   },
   {
     "id": "4533863061155535045",
-    "name": "Broken Vow''s Mantle",
+    "name": "Broken Vow's Mantle",
     "description": "Adorned with blackened skulls, it seems that the judgment of its mysterious owner is always death.",
     "icon": "a396",
     "armorSlot": "unknown",
@@ -28393,7 +28393,7 @@
   },
   {
     "id": "8032368362680720",
-    "name": "Broken Vow''s Helm",
+    "name": "Broken Vow's Helm",
     "description": "These glowing eyes are a false moon, a deadly beckoning. What the candle says to the moth.",
     "icon": "a397",
     "armorSlot": "unknown",
@@ -28549,7 +28549,7 @@
   },
   {
     "id": "3798175015120894533",
-    "name": "Broken Vow''s Grasp",
+    "name": "Broken Vow's Grasp",
     "description": "Caked with soot and salt, did its former owner step from the sea or climb out of the bowels of the earth?",
     "icon": "a398",
     "armorSlot": "unknown",
@@ -28705,7 +28705,7 @@
   },
   {
     "id": "3784972025820721708",
-    "name": "Broken Vow''s Greaves",
+    "name": "Broken Vow's Greaves",
     "description": "These greaves match the bootprints left in the caved-in chests of Risen and Sacrament Guards alike.",
     "icon": "a399",
     "armorSlot": "unknown",
@@ -28861,7 +28861,7 @@
   },
   {
     "id": "3857438954078184193",
-    "name": "Grifkin''s Legs",
+    "name": "Grifkin's Legs",
     "description": "A rough-hewn pair of leggings designed to blur the line between animal and man.",
     "icon": "a400",
     "armorSlot": "unknown",
@@ -29017,7 +29017,7 @@
   },
   {
     "id": "4119040577377532750",
-    "name": "Grifkin''s Coat",
+    "name": "Grifkin's Coat",
     "description": "A thick, warm coat belonging to one of the deranged \"goat men\" of northern Sacra. (Sworn enemies of the Balak Taw.)",
     "icon": "a401",
     "armorSlot": "unknown",
@@ -29173,7 +29173,7 @@
   },
   {
     "id": "2185280680976610610",
-    "name": "Grifkin''s Horns",
+    "name": "Grifkin's Horns",
     "description": "It is rumored that to come of age, members of the Grifkin must kill a goat with their bare hands, and then live inside it for a week.",
     "icon": "a402",
     "armorSlot": "unknown",
@@ -29329,7 +29329,7 @@
   },
   {
     "id": "3042328914344027225",
-    "name": "Grifkin''s Mitts",
+    "name": "Grifkin's Mitts",
     "description": "For keeping the flesh warm in high mountain regions, nothing beats the fur of an Alpine Goat.",
     "icon": "a403",
     "armorSlot": "unknown",
@@ -30733,7 +30733,7 @@
   },
   {
     "id": "620315607499271456",
-    "name": "Knellap''s Comb",
+    "name": "Knellap's Comb",
     "description": "Defenders of Knellap fight with the pride of the cock, the patience of the hen, the fury of the flock.",
     "icon": "a412",
     "armorSlot": "unknown",
@@ -30889,7 +30889,7 @@
   },
   {
     "id": "2685865235728867948",
-    "name": "Knellap''s Talons",
+    "name": "Knellap's Talons",
     "description": "These gloves fight for justice, however misguided and deranged that justice might be.",
     "icon": "a413",
     "armorSlot": "unknown",
@@ -31045,8 +31045,8 @@
   },
   {
     "id": "3219981231465900977",
-    "name": "Knellap''s Puffery",
-    "description": "None seem able to find Knellap on any map or scroll, but don''t tell that to its defenders.",
+    "name": "Knellap's Puffery",
+    "description": "None seem able to find Knellap on any map or scroll, but don't tell that to its defenders.",
     "icon": "a414",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -31201,7 +31201,7 @@
   },
   {
     "id": "2538369578846021220",
-    "name": "Knellap''s March",
+    "name": "Knellap's March",
     "description": "Leggings meant for straddling a spit of land, planting a flag, and declaring it liberated.",
     "icon": "a415",
     "armorSlot": "unknown",
@@ -34165,7 +34165,7 @@
   },
   {
     "id": "3047621465283526053",
-    "name": "Apprentice''s Trousers",
+    "name": "Apprentice's Trousers",
     "description": "Leather trousers, washed infrequently. The pursuit of knowledge must not be interrupted.",
     "icon": "a434",
     "armorSlot": "unknown",
@@ -34321,7 +34321,7 @@
   },
   {
     "id": "4580451020375479875",
-    "name": "Apprentice''s Hat",
+    "name": "Apprentice's Hat",
     "description": "\"The flame of inspiration must be constantly tended.\" - Tir proverb",
     "icon": "a435",
     "armorSlot": "unknown",
@@ -34477,7 +34477,7 @@
   },
   {
     "id": "751049332676147175",
-    "name": "Apprentice''s Gloves",
+    "name": "Apprentice's Gloves",
     "description": "Soft gloves with some of the tips worn thin, from being licked to turn pages.",
     "icon": "a436",
     "armorSlot": "unknown",
@@ -34633,8 +34633,8 @@
   },
   {
     "id": "3321333090385620472",
-    "name": "Apprentice''s Coat",
-    "description": "An academic''s ensemble which primarily supports the carrying of as many books as possible.",
+    "name": "Apprentice's Coat",
+    "description": "An academic's ensemble which primarily supports the carrying of as many books as possible.",
     "icon": "a437",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -34789,7 +34789,7 @@
   },
   {
     "id": "3559779747080911097",
-    "name": "False Guardian''s Palms",
+    "name": "False Guardian's Palms",
     "description": "Gauntlets such as these litter Sacra - relics of an ancient war - daring only the most desperate to slip them on.",
     "icon": "a438",
     "armorSlot": "unknown",
@@ -34945,8 +34945,8 @@
   },
   {
     "id": "2651486619811288787",
-    "name": "False Guardian''s Greaves",
-    "description": "Some say that, late at night in Sacrament''s cemetery, you can hear the sound of thudding steps far below.",
+    "name": "False Guardian's Greaves",
+    "description": "Some say that, late at night in Sacrament's cemetery, you can hear the sound of thudding steps far below.",
     "icon": "a439",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -35101,7 +35101,7 @@
   },
   {
     "id": "2298261330432944707",
-    "name": "False Guardian''s Robe",
+    "name": "False Guardian's Robe",
     "description": "Those foolish or greedy enough to steal ancient Cerim armor find themselves trapped within their own tomb.",
     "icon": "a440",
     "armorSlot": "unknown",
@@ -35257,8 +35257,8 @@
   },
   {
     "id": "2425987966965339766",
-    "name": "False Guardian''s Helm",
-    "description": "It''s unknown if the poor souls trapped beneath the ancient helm are still alive, dead, or some horror in between.",
+    "name": "False Guardian's Helm",
+    "description": "It's unknown if the poor souls trapped beneath the ancient helm are still alive, dead, or some horror in between.",
     "icon": "a441",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -35414,7 +35414,7 @@
   {
     "id": "352967595560210787",
     "name": "Helm of the Primus",
-    "description": "It is said the plumage on the helm of a Primus comes from the rare pheasants that are bred in the king''s private garden.",
+    "description": "It is said the plumage on the helm of a Primus comes from the rare pheasants that are bred in the king's private garden.",
     "icon": "a442",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -35726,7 +35726,7 @@
   {
     "id": "4527433860024074243",
     "name": "Grip of the Primus",
-    "description": "The glove of a soldier knows only how to clutch a weapon. But the glove of a leader knows how to shake the enemy''s hand.",
+    "description": "The glove of a soldier knows only how to clutch a weapon. But the glove of a leader knows how to shake the enemy's hand.",
     "icon": "a444",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -36037,7 +36037,7 @@
   },
   {
     "id": "2243170160568637690",
-    "name": "Gilded Spearman''s Gauntlets",
+    "name": "Gilded Spearman's Gauntlets",
     "description": "A pair of hammered battle gloves, luxurious and impenetrable.",
     "icon": "a446",
     "armorSlot": "unknown",
@@ -36193,7 +36193,7 @@
   },
   {
     "id": "2697519523998159550",
-    "name": "Gilded Spearman''s Brace",
+    "name": "Gilded Spearman's Brace",
     "description": "Always tend to your armor, that the glint of the sun may blind your enemies. - Boroth, Arena Master",
     "icon": "a447",
     "armorSlot": "unknown",
@@ -36349,7 +36349,7 @@
   },
   {
     "id": "2907586900570509676",
-    "name": "Gilded Spearman''s Greaves",
+    "name": "Gilded Spearman's Greaves",
     "description": "Intimidating in battle, cumbersome for travel.",
     "icon": "a448",
     "armorSlot": "unknown",
@@ -36505,8 +36505,8 @@
   },
   {
     "id": "2761582641182128580",
-    "name": "Gilded Spearman''s Helm",
-    "description": "A powerful golden helmet that still reeks faintly of its former owner''s breath.",
+    "name": "Gilded Spearman's Helm",
+    "description": "A powerful golden helmet that still reeks faintly of its former owner's breath.",
     "icon": "a449",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -36661,7 +36661,7 @@
   },
   {
     "id": "1081703436960781731",
-    "name": "Master''s Greaves",
+    "name": "Master's Greaves",
     "description": "Leg guards belonging to a Lord of House Orland. Woe betide the thief who is caught wearing them.",
     "icon": "a450",
     "armorSlot": "unknown",
@@ -36817,7 +36817,7 @@
   },
   {
     "id": "1008496651223821334",
-    "name": "Master''s Cuffs",
+    "name": "Master's Cuffs",
     "description": "When the Lords of Eversol shake hands, it is said that the truth passes between their palms, even as their lips speak lies.",
     "icon": "a451",
     "armorSlot": "unknown",
@@ -37129,7 +37129,7 @@
   },
   {
     "id": "4269829919524900378",
-    "name": "The Caretaker''s Tatters",
+    "name": "The Caretaker's Tatters",
     "description": "The religious wrappings of the Dasha faithful, now malign and corrupted.",
     "icon": "a453",
     "armorSlot": "unknown",
@@ -37285,7 +37285,7 @@
   },
   {
     "id": "2081538091891083283",
-    "name": "The Caretaker''s Habit",
+    "name": "The Caretaker's Habit",
     "description": "The diseased rags of a former Dasha cleric.",
     "icon": "a454",
     "armorSlot": "unknown",
@@ -37441,7 +37441,7 @@
   },
   {
     "id": "2815959424901832496",
-    "name": "Lieutenant''s Helm",
+    "name": "Lieutenant's Helm",
     "description": "Those who wear the armor of Sacrament must pledge themselves to shore up her walls like iron, and fall upon her enemies like rain.",
     "icon": "a455",
     "armorSlot": "unknown",
@@ -38066,7 +38066,7 @@
   {
     "id": "2791636628832870889",
     "name": "Bone Hawk Pants",
-    "description": "\"There''s only so much land, but there''s always more air.\" --rumored Balak Taw proverb",
+    "description": "\"There's only so much land, but there's always more air.\" --rumored Balak Taw proverb",
     "icon": "a459",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -38221,7 +38221,7 @@
   },
   {
     "id": "4063546238635845948",
-    "name": "Mad Brambler''s Legs",
+    "name": "Mad Brambler's Legs",
     "description": "Travelers often remark that a Balak Taw warrior is as quiet and stealthy as a bird - and yet somehow as gratingly loud as one too.",
     "icon": "a460",
     "armorSlot": "unknown",
@@ -38533,7 +38533,7 @@
   },
   {
     "id": "1364706739199065113",
-    "name": "Mad Brambler''s Tuft",
+    "name": "Mad Brambler's Tuft",
     "description": "Where once was the head of a man, now shall be only plumage.",
     "icon": "a462",
     "armorSlot": "unknown",
@@ -39313,7 +39313,7 @@
   },
   {
     "id": "276866588432280015",
-    "name": "Reaper''s Shroud",
+    "name": "Reaper's Shroud",
     "description": "The black cloth of this death cult seems to swallow all light, even in the midst of the day.",
     "icon": "a467",
     "armorSlot": "unknown",
@@ -39469,7 +39469,7 @@
   },
   {
     "id": "1658323873479300534",
-    "name": "Reaper''s Footfalls",
+    "name": "Reaper's Footfalls",
     "description": "The Reapers move quiet as the grave, which is the one true home they seek to deliver us all to.",
     "icon": "a468",
     "armorSlot": "unknown",
@@ -39625,7 +39625,7 @@
   },
   {
     "id": "1323674437903108585",
-    "name": "Reaper''s Grimace",
+    "name": "Reaper's Grimace",
     "description": "The Reapers wear a mask of death - their god, their purpose, their gift to the world.",
     "icon": "a469",
     "armorSlot": "unknown",
@@ -39781,7 +39781,7 @@
   },
   {
     "id": "397767877797152109",
-    "name": "Reaper''s Clutch",
+    "name": "Reaper's Clutch",
     "description": "How many bodies have gone cold beneath the pitiless squeeze of these gloves?",
     "icon": "a470",
     "armorSlot": "unknown",
@@ -41809,7 +41809,7 @@
   },
   {
     "id": "1740653421258126757",
-    "name": "Wayfinder''s Shawl",
+    "name": "Wayfinder's Shawl",
     "description": "A fair cloak stitched with many hidden pockets; for inks, compasses, and collected secrets.",
     "icon": "a483",
     "armorSlot": "unknown",
@@ -41965,7 +41965,7 @@
   },
   {
     "id": "418383725273486894",
-    "name": "Wayfinder''s Touch",
+    "name": "Wayfinder's Touch",
     "description": "Half-fingered gloves stained with dust from every corner of Sacra.",
     "icon": "a484",
     "armorSlot": "unknown",
@@ -42121,7 +42121,7 @@
   },
   {
     "id": "3010438018885991958",
-    "name": "Wayfinder''s Path",
+    "name": "Wayfinder's Path",
     "description": "\"A map shows the way; a foot decides the truth.\" --Eron Plinthy, Cartographer of House Orland",
     "icon": "a485",
     "armorSlot": "unknown",
@@ -42277,7 +42277,7 @@
   },
   {
     "id": "937094963007262785",
-    "name": "Wayfinder''s Cap",
+    "name": "Wayfinder's Cap",
     "description": "An angular shroud stitched of heavy, pale cloth - to block out the sun during long survey missions.",
     "icon": "a486",
     "armorSlot": "unknown",
@@ -42433,7 +42433,7 @@
   },
   {
     "id": "2227824123511197274",
-    "name": "Snout Master''s Hood",
+    "name": "Snout Master's Hood",
     "description": "The eldest leaders of the Boarskin are said to see, and speak, entirely through the beasts on their bellies.",
     "icon": "a487",
     "armorSlot": "unknown",
@@ -42589,7 +42589,7 @@
   },
   {
     "id": "1850660744238609413",
-    "name": "Snout Master''s Feet",
+    "name": "Snout Master's Feet",
     "description": "Thick trousers made of hide, or flesh; it makes no difference to the Boarskin.",
     "icon": "a488",
     "armorSlot": "unknown",
@@ -42745,7 +42745,7 @@
   },
   {
     "id": "2305769958957602402",
-    "name": "Snout Master''s Cloak",
+    "name": "Snout Master's Cloak",
     "description": "Pride of the Boarskin. Enemy of the nostrils.",
     "icon": "a489",
     "armorSlot": "unknown",
@@ -42901,8 +42901,8 @@
   },
   {
     "id": "1072658821519392967",
-    "name": "Snout Master''s Gloves",
-    "description": "A pair of warrior''s gloves, coarse and tough on the outside, filled with soft grease on the inside.",
+    "name": "Snout Master's Gloves",
+    "description": "A pair of warrior's gloves, coarse and tough on the outside, filled with soft grease on the inside.",
     "icon": "a490",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -43058,7 +43058,7 @@
   {
     "id": "3230646986990715021",
     "name": "Carpenter Pants",
-    "description": "Linen pants traditionally worn by members of Sacrament''s Guild of Carpenters.",
+    "description": "Linen pants traditionally worn by members of Sacrament's Guild of Carpenters.",
     "icon": "a491",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -43213,8 +43213,8 @@
   },
   {
     "id": "834504839837636253",
-    "name": "Carpenter''s Tunic",
-    "description": "A linen shirt traditionally worn by members of Sacrament''s Guild of Carpenters.",
+    "name": "Carpenter's Tunic",
+    "description": "A linen shirt traditionally worn by members of Sacrament's Guild of Carpenters.",
     "icon": "a492",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -43837,7 +43837,7 @@
   },
   {
     "id": "3275129392047992611",
-    "name": "Rebel''s Run",
+    "name": "Rebel's Run",
     "description": "\"If your purpose is true, you will always find the wind at your back.\" - Dasha proverb",
     "icon": "a496",
     "armorSlot": "unknown",
@@ -43993,7 +43993,7 @@
   },
   {
     "id": "3961047140501818266",
-    "name": "Rebel''s Grip",
+    "name": "Rebel's Grip",
     "description": "A pair of simple leather gloves, no different from any others.",
     "icon": "a497",
     "armorSlot": "unknown",
@@ -44149,7 +44149,7 @@
   },
   {
     "id": "1948898366595620273",
-    "name": "Rebel''s Voice",
+    "name": "Rebel's Voice",
     "description": "A simple tunic, hand-stitched in Marin Village.",
     "icon": "a498",
     "armorSlot": "unknown",
@@ -44305,8 +44305,8 @@
   },
   {
     "id": "3115710925589485336",
-    "name": "Spearman''s Brace",
-    "description": "Sturdy, robust armor hammered in the forges of Eversol''s greatest smiths.",
+    "name": "Spearman's Brace",
+    "description": "Sturdy, robust armor hammered in the forges of Eversol's greatest smiths.",
     "icon": "a499",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -44461,7 +44461,7 @@
   },
   {
     "id": "2872387850316782267",
-    "name": "Spearman''s Helmet",
+    "name": "Spearman's Helmet",
     "description": "What it lacks in sight it makes up in raw strength. Forged from heavy iron.",
     "icon": "a500",
     "armorSlot": "unknown",
@@ -44617,7 +44617,7 @@
   },
   {
     "id": "2724914318470281408",
-    "name": "Spearman''s Leg Guards",
+    "name": "Spearman's Leg Guards",
     "description": "Your enemy may hear your steps a mile away, but they will be powerless to stop your coming.",
     "icon": "a501",
     "armorSlot": "unknown",
@@ -44773,7 +44773,7 @@
   },
   {
     "id": "4521747046865715976",
-    "name": "Spearman''s Gauntlets",
+    "name": "Spearman's Gauntlets",
     "description": "A pair of thick iron gloves, good for preventing injury and callouses.",
     "icon": "a502",
     "armorSlot": "unknown",
@@ -45553,7 +45553,7 @@
   },
   {
     "id": "3274953340519567081",
-    "name": "Mariner''s Rig",
+    "name": "Mariner's Rig",
     "description": "The shirt of a lawless sea dog, caked with salt and adventure.",
     "icon": "a507",
     "armorSlot": "unknown",
@@ -45709,8 +45709,8 @@
   },
   {
     "id": "917563555019626502",
-    "name": "Mariner''s Salt Wick",
-    "description": "A simple rag to keep the sea spray out of one''s hair. (Ineffective.)",
+    "name": "Mariner's Salt Wick",
+    "description": "A simple rag to keep the sea spray out of one's hair. (Ineffective.)",
     "icon": "a508",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -45865,7 +45865,7 @@
   },
   {
     "id": "3470531240861861871",
-    "name": "Mariner''s Sea Legs",
+    "name": "Mariner's Sea Legs",
     "description": "A pair of wide-legged trousers, to let the wind in and keep the smells out.",
     "icon": "a509",
     "armorSlot": "unknown",
@@ -46021,7 +46021,7 @@
   },
   {
     "id": "161134237623219289",
-    "name": "Conqueror''s Trousers",
+    "name": "Conqueror's Trousers",
     "description": "The pants of one who has heard the hush of the crowd, felt the dust of the arena, and tasted the blood of victory.",
     "icon": "a510",
     "armorSlot": "unknown",
@@ -46333,8 +46333,8 @@
   },
   {
     "id": "2770603171886142773",
-    "name": "Captain''s Sigil",
-    "description": "A suit of armor should be like a soldier''s backbone - rigid, stern, and unassailable.",
+    "name": "Captain's Sigil",
+    "description": "A suit of armor should be like a soldier's backbone - rigid, stern, and unassailable.",
     "icon": "a512",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -46489,8 +46489,8 @@
   },
   {
     "id": "1564939567364092599",
-    "name": "Captain''s Fists",
-    "description": "A soldier''s gauntlets are an extension of his hands. They are built for grasping and guiding the world to order. ",
+    "name": "Captain's Fists",
+    "description": "A soldier's gauntlets are an extension of his hands. They are built for grasping and guiding the world to order. ",
     "icon": "a513",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -46645,8 +46645,8 @@
   },
   {
     "id": "3947639040253677348",
-    "name": "Captain''s Helm",
-    "description": "The strength of a soldier''s helm is the difference between carrying out God''s work and meeting God in person.",
+    "name": "Captain's Helm",
+    "description": "The strength of a soldier's helm is the difference between carrying out God's work and meeting God in person.",
     "icon": "a514",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -46801,7 +46801,7 @@
   },
   {
     "id": "242745315631893945",
-    "name": "Captain''s Stride",
+    "name": "Captain's Stride",
     "description": "A soldier should always keep his boots firmly planted on the ground that he protects.",
     "icon": "a515",
     "armorSlot": "unknown",
@@ -47270,7 +47270,7 @@
   {
     "id": "560109655631502712",
     "name": "Crestfallen Knight Body Armor",
-    "description": "As rigid and unflinching as its former owner''s will.",
+    "description": "As rigid and unflinching as its former owner's will.",
     "icon": "a518",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -47738,7 +47738,7 @@
   {
     "id": "4119651207205560266",
     "name": "Stormwall Casque",
-    "description": "A helmet doesn''t just protect a head, it hides a soul. Drenched in darkness, any deed is made possible.",
+    "description": "A helmet doesn't just protect a head, it hides a soul. Drenched in darkness, any deed is made possible.",
     "icon": "a521",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -47894,7 +47894,7 @@
   {
     "id": "3989574434266764091",
     "name": "Stormwall Gauntlets",
-    "description": "The Stormwall take their name from Phalen''s great sea barrier. It holds back the ocean, the Stormwall hold back Phalen.",
+    "description": "The Stormwall take their name from Phalen's great sea barrier. It holds back the ocean, the Stormwall hold back Phalen.",
     "icon": "a522",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -48050,7 +48050,7 @@
   {
     "id": "3209265832726767377",
     "name": "Stormwall Breastplate",
-    "description": "\"Isn''t a group of rebels supposed to be dressed in rags and tatters?\" - Randolph, Captain of the Sacrament Guard",
+    "description": "\"Isn't a group of rebels supposed to be dressed in rags and tatters?\" - Randolph, Captain of the Sacrament Guard",
     "icon": "a523",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -48205,7 +48205,7 @@
   },
   {
     "id": "3840506314745742183",
-    "name": "Mangler''s Leggings",
+    "name": "Mangler's Leggings",
     "description": "These leggings resemble the Boarskin family tree - very few branches and some alarming gaps.",
     "icon": "a524",
     "armorSlot": "unknown",
@@ -48361,8 +48361,8 @@
   },
   {
     "id": "4296327113934115652",
-    "name": "Mangler''s Harness",
-    "description": "One hopes it''s woven from the clothes of Boarskin victims, as opposed to from their hides.",
+    "name": "Mangler's Harness",
+    "description": "One hopes it's woven from the clothes of Boarskin victims, as opposed to from their hides.",
     "icon": "a525",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -48517,8 +48517,8 @@
   },
   {
     "id": "258594556007825735",
-    "name": "Mangler''s Grasp",
-    "description": "Caked with dried blood, worn and stained and coarse. Make no mistake: these are butcher''s gloves.",
+    "name": "Mangler's Grasp",
+    "description": "Caked with dried blood, worn and stained and coarse. Make no mistake: these are butcher's gloves.",
     "icon": "a526",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -48673,7 +48673,7 @@
   },
   {
     "id": "4409742388991209190",
-    "name": "Mangler''s Tusk Helm",
+    "name": "Mangler's Tusk Helm",
     "description": "Perhaps the Boarskin wear such headdresses out of fondness for their porcine brothers. Perhaps they just ran out of human skulls.",
     "icon": "a527",
     "armorSlot": "unknown",
@@ -48829,7 +48829,7 @@
   },
   {
     "id": "770250893599790622",
-    "name": "Preacher''s Walk",
+    "name": "Preacher's Walk",
     "description": "If you were an inbred tribe of half-feral marauders, your pants would likely smell this way too.",
     "icon": "a528",
     "armorSlot": "unknown",
@@ -48985,7 +48985,7 @@
   },
   {
     "id": "3751943497133868388",
-    "name": "Preacher''s Gloves",
+    "name": "Preacher's Gloves",
     "description": "A litany of brutalities stitched down the length of each finger.",
     "icon": "a529",
     "armorSlot": "unknown",
@@ -49141,8 +49141,8 @@
   },
   {
     "id": "3051658311192284951",
-    "name": "Preacher''s Rags",
-    "description": "The Boarskin Preacher''s tunic is sewn from the hides of those who didn''t survive their \"sermon.\"",
+    "name": "Preacher's Rags",
+    "description": "The Boarskin Preacher's tunic is sewn from the hides of those who didn't survive their \"sermon.\"",
     "icon": "a530",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -49297,8 +49297,8 @@
   },
   {
     "id": "915130481668695355",
-    "name": "Preacher''s Helm",
-    "description": "The Boarskin don''t remove the arrows of those who almost brought them down. Perhaps a sign of respect, perhaps a taunt.",
+    "name": "Preacher's Helm",
+    "description": "The Boarskin don't remove the arrows of those who almost brought them down. Perhaps a sign of respect, perhaps a taunt.",
     "icon": "a531",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -49766,7 +49766,7 @@
   {
     "id": "3483535477590262121",
     "name": "Cleric Leggings",
-    "description": "These crimson leather trousers weren''t woven by mystics; but when you feel them you''ll think they were.",
+    "description": "These crimson leather trousers weren't woven by mystics; but when you feel them you'll think they were.",
     "icon": "a534",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -50077,7 +50077,7 @@
   },
   {
     "id": "1362742765559470251",
-    "name": "Bastion''s Stance",
+    "name": "Bastion's Stance",
     "description": "Heavy trousers, soaked with so much sweat and blood that they bend and creak like tree limbs",
     "icon": "a536",
     "armorSlot": "unknown",
@@ -50233,7 +50233,7 @@
   },
   {
     "id": "252416506473407782",
-    "name": "Bastion''s Glare",
+    "name": "Bastion's Glare",
     "description": "The demented helmet of a Risen warlord who has forgotten everything in life but the scent of battle.",
     "icon": "a537",
     "armorSlot": "unknown",
@@ -50389,8 +50389,8 @@
   },
   {
     "id": "1351847927474312041",
-    "name": "Bastion''s Bulwark",
-    "description": "The former war plate of one of the Risen''s most reviled champions. Said to weigh as much as normal suit of armor, with a man inside.",
+    "name": "Bastion's Bulwark",
+    "description": "The former war plate of one of the Risen's most reviled champions. Said to weigh as much as normal suit of armor, with a man inside.",
     "icon": "a538",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -50545,7 +50545,7 @@
   },
   {
     "id": "219132887319190359",
-    "name": "Bastion''s Vise",
+    "name": "Bastion's Vise",
     "description": "Coarse gloves for gripping heavy weapons, or the crumpled skulls of enemies.",
     "icon": "a539",
     "armorSlot": "unknown",
@@ -50702,7 +50702,7 @@
   {
     "id": "1736314196091965944",
     "name": "Tanth Harvester Greaves",
-    "description": "It''s said that the Knights of Tanth wear crimson so they always have somewhere to wipe their blades.",
+    "description": "It's said that the Knights of Tanth wear crimson so they always have somewhere to wipe their blades.",
     "icon": "a540",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -51014,7 +51014,7 @@
   {
     "id": "3929673892339231657",
     "name": "Tanth Harvester Helmet",
-    "description": "The crimson helm of a Tanth Harvester, the most feared of the island''s many assassins.",
+    "description": "The crimson helm of a Tanth Harvester, the most feared of the island's many assassins.",
     "icon": "a542",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -51326,7 +51326,7 @@
   {
     "id": "448697111584969863",
     "name": "Ironhand Tunic",
-    "description": "The Ironhand eschew protection for mobility - the best defense is a quick axe buried in an enemy''s skull.",
+    "description": "The Ironhand eschew protection for mobility - the best defense is a quick axe buried in an enemy's skull.",
     "icon": "a544",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -51482,7 +51482,7 @@
   {
     "id": "4115214322680762018",
     "name": "Ironhand Hood",
-    "description": "Nick a foe''s artery and you''ll understand why the Risen like to keep their hoods up.",
+    "description": "Nick a foe's artery and you'll understand why the Risen like to keep their hoods up.",
     "icon": "a545",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -51638,7 +51638,7 @@
   {
     "id": "1907973666261273643",
     "name": "Ironhand Leggings",
-    "description": "The more the mainland strips away Sacra''s dignity, the more its residents clothe themselves in the Risen''s colors.",
+    "description": "The more the mainland strips away Sacra's dignity, the more its residents clothe themselves in the Risen's colors.",
     "icon": "a546",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -51949,8 +51949,8 @@
   },
   {
     "id": "888716764143747827",
-    "name": "Bastard''s Cuirass",
-    "description": "It''s said the Boarskin believe themselves descendents of Kafron Bilsgard. Attempts at further questioning on the subject have gone poorly.",
+    "name": "Bastard's Cuirass",
+    "description": "It's said the Boarskin believe themselves descendents of Kafron Bilsgard. Attempts at further questioning on the subject have gone poorly.",
     "icon": "a548",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -52105,7 +52105,7 @@
   },
   {
     "id": "3219761636025948025",
-    "name": "Bastard''s Boar Helm",
+    "name": "Bastard's Boar Helm",
     "description": "Those who fear the dogs of war have never seen the pigs.",
     "icon": "a549",
     "armorSlot": "unknown",
@@ -52261,7 +52261,7 @@
   },
   {
     "id": "1308409282909379863",
-    "name": "Bastard''s Legs",
+    "name": "Bastard's Legs",
     "description": "Many travelers have hidden in the tall grass, watching in fear as these leggings stalk past.",
     "icon": "a550",
     "armorSlot": "unknown",
@@ -52417,7 +52417,7 @@
   },
   {
     "id": "4470196835527983988",
-    "name": "Bastard''s Grip",
+    "name": "Bastard's Grip",
     "description": "\"Every foe a feast.\" - Boarskin battle cry, meaning uncertain",
     "icon": "a551",
     "armorSlot": "unknown",
@@ -53197,7 +53197,7 @@
   },
   {
     "id": "1638060342305082764",
-    "name": "Falstead''s Wrath",
+    "name": "Falstead's Wrath",
     "description": "The body armor of the Risen Falstead. They say he forged the steel with his own teeth.",
     "icon": "a556",
     "armorSlot": "unknown",
@@ -53353,7 +53353,7 @@
   },
   {
     "id": "4424828190191983389",
-    "name": "Falstead''s Relief",
+    "name": "Falstead's Relief",
     "description": "The rough, durable leggings of the Falstead. Said to be woven with strands of his own leg hair.",
     "icon": "a557",
     "armorSlot": "unknown",
@@ -53509,7 +53509,7 @@
   },
   {
     "id": "2681276942240239503",
-    "name": "Falstead''s Burden",
+    "name": "Falstead's Burden",
     "description": "The helm of the great Falstead Darak, the warlord who would either unite the Risen - or destroy them.",
     "icon": "a558",
     "armorSlot": "unknown",
@@ -53665,7 +53665,7 @@
   },
   {
     "id": "4243586239886962076",
-    "name": "Falstead''s Reach",
+    "name": "Falstead's Reach",
     "description": "Heavy gauntlets worn by the Risen Falstead, though his palms were as coarse as any metal.",
     "icon": "a559",
     "armorSlot": "unknown",
@@ -53821,7 +53821,7 @@
   },
   {
     "id": "569638740873679569",
-    "name": "Bane''s Skull Helm",
+    "name": "Bane's Skull Helm",
     "description": "In the end, revolution often gives way to terror.",
     "icon": "a560",
     "armorSlot": "unknown",
@@ -53977,7 +53977,7 @@
   },
   {
     "id": "3656651229176829984",
-    "name": "Bane''s Crested Armor",
+    "name": "Bane's Crested Armor",
     "description": "Regal, tufted, and impenetrable. The body armor of a Risen Breaker who claimed the highest body count of anyone short of Darak himself.",
     "icon": "a561",
     "armorSlot": "unknown",
@@ -54133,8 +54133,8 @@
   },
   {
     "id": "2979127663073566622",
-    "name": "Bane''s Spiked Gloves",
-    "description": "It''s said that only two kinds of people ever shake hands with the Risen - living traitors and dead fools.",
+    "name": "Bane's Spiked Gloves",
+    "description": "It's said that only two kinds of people ever shake hands with the Risen - living traitors and dead fools.",
     "icon": "a562",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -54289,7 +54289,7 @@
   },
   {
     "id": "3610475636934476847",
-    "name": "Bane''s Coarse Legs",
+    "name": "Bane's Coarse Legs",
     "description": "Tough leather trousers, stitched together with thick strands of Alpine Goat hair.",
     "icon": "a563",
     "armorSlot": "unknown",
@@ -55226,7 +55226,7 @@
   {
     "id": "3843682649697803099",
     "name": "Risen Breaker Crest",
-    "description": "A helmet crested with dark feathers, for a Breaker''s axe swoops down upon their prey as swiftly as any eagle.",
+    "description": "A helmet crested with dark feathers, for a Breaker's axe swoops down upon their prey as swiftly as any eagle.",
     "icon": "a569",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -55382,7 +55382,7 @@
   {
     "id": "1156678240538640709",
     "name": "Risen Breaker Gauntlets",
-    "description": "They fit no pair of hands as neatly as they fit around an enemy''s throat.",
+    "description": "They fit no pair of hands as neatly as they fit around an enemy's throat.",
     "icon": "a570",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -55537,8 +55537,8 @@
   },
   {
     "id": "1962145636851451090",
-    "name": "Smithy''s Bottoms",
-    "description": "They say the trousers are the least important part of a smithy''s uniform… But try forging in a skirt.",
+    "name": "Smithy's Bottoms",
+    "description": "They say the trousers are the least important part of a smithy's uniform… But try forging in a skirt.",
     "icon": "a571",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -55693,7 +55693,7 @@
   },
   {
     "id": "3190658435373146188",
-    "name": "Smithy''s Mitts",
+    "name": "Smithy's Mitts",
     "description": "Thick working gloves, able to withstand high temperatures.",
     "icon": "a572",
     "armorSlot": "unknown",
@@ -55849,7 +55849,7 @@
   },
   {
     "id": "1683234161811084259",
-    "name": "Smithy''s Smock",
+    "name": "Smithy's Smock",
     "description": "A thick leather apron suited for hot, hard work around the forge.",
     "icon": "a573",
     "armorSlot": "unknown",
@@ -56005,7 +56005,7 @@
   },
   {
     "id": "3236893751525086690",
-    "name": "Pantler''s Apron",
+    "name": "Pantler's Apron",
     "description": "Never a war was won on an empty stomach!",
     "icon": "a574",
     "armorSlot": "unknown",
@@ -56161,8 +56161,8 @@
   },
   {
     "id": "3018886406628034888",
-    "name": "Pantler''s Cap",
-    "description": "Most noblemen presume such caps are strictly decorative; but a good chef knows they''re ideal for pastry storage.",
+    "name": "Pantler's Cap",
+    "description": "Most noblemen presume such caps are strictly decorative; but a good chef knows they're ideal for pastry storage.",
     "icon": "a575",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -56317,8 +56317,8 @@
   },
   {
     "id": "1662708593540634887",
-    "name": "Pantler''s Trousers",
-    "description": "Every taste that went into the soup, and many that didn''t, can be found smeared on these trousers.",
+    "name": "Pantler's Trousers",
+    "description": "Every taste that went into the soup, and many that didn't, can be found smeared on these trousers.",
     "icon": "a576",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -57254,7 +57254,7 @@
   {
     "id": "3921482032211303739",
     "name": "Crestfallen Archer Cap",
-    "description": "It matters less what lies inside an archer''s skull than what lies inside her quiver.",
+    "description": "It matters less what lies inside an archer's skull than what lies inside her quiver.",
     "icon": "a582",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -57565,7 +57565,7 @@
   },
   {
     "id": "3955494388193658019",
-    "name": "Druid''s Roots",
+    "name": "Druid's Roots",
     "description": "Leggings of unknown origin. Probably from the wooded isles beyond the Shattered Hand.",
     "icon": "a584",
     "armorSlot": "unknown",
@@ -57721,7 +57721,7 @@
   },
   {
     "id": "1813924877631444777",
-    "name": "Druid''s Touch",
+    "name": "Druid's Touch",
     "description": "Gloves made of wood and earth, molded by an ancient forest cult.",
     "icon": "a585",
     "armorSlot": "unknown",
@@ -57877,7 +57877,7 @@
   },
   {
     "id": "3349135848124536113",
-    "name": "Druid''s Cloak",
+    "name": "Druid's Cloak",
     "description": "A robe made of dappled light, likely woven by the timber druids of Myrfall.",
     "icon": "a586",
     "armorSlot": "unknown",
@@ -58033,7 +58033,7 @@
   },
   {
     "id": "2742252024618514868",
-    "name": "Druid''s Eye",
+    "name": "Druid's Eye",
     "description": "Who wears this helmet shall see beyond the now, into the age of trees.",
     "icon": "a587",
     "armorSlot": "unknown",
@@ -58189,7 +58189,7 @@
   },
   {
     "id": "4152606161832178919",
-    "name": "Fellhorn''s Tunic",
+    "name": "Fellhorn's Tunic",
     "description": "The battered but ornate armor of a Risen Fellhorn. All fall, only some rise!",
     "icon": "a588",
     "armorSlot": "unknown",
@@ -58345,7 +58345,7 @@
   },
   {
     "id": "4169413852950922811",
-    "name": "Fellhorn''s Hollow",
+    "name": "Fellhorn's Hollow",
     "description": "A formidable barricade of steel and cloth, as heavy as it is impractical.",
     "icon": "a589",
     "armorSlot": "unknown",
@@ -58501,8 +58501,8 @@
   },
   {
     "id": "858374321028515474",
-    "name": "Fellhorn''s Fist",
-    "description": "\"When shaking hands with the Risen, always watch the one that isn''t.\" - overheard in Havenport",
+    "name": "Fellhorn's Fist",
+    "description": "\"When shaking hands with the Risen, always watch the one that isn't.\" - overheard in Havenport",
     "icon": "a590",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -58657,7 +58657,7 @@
   },
   {
     "id": "2992819476751975983",
-    "name": "Fellhorn''s Stride",
+    "name": "Fellhorn's Stride",
     "description": "On its way to being armor, but not quite armor.",
     "icon": "a591",
     "armorSlot": "unknown",
@@ -59437,7 +59437,7 @@
   },
   {
     "id": "4023578682285296270",
-    "name": "Sailor''s Slops",
+    "name": "Sailor's Slops",
     "description": "A simple cotton shirt, favored by traders from the mainland.",
     "icon": "a596",
     "armorSlot": "unknown",
@@ -59593,7 +59593,7 @@
   },
   {
     "id": "4359717955927752648",
-    "name": "Sailor''s Bandana",
+    "name": "Sailor's Bandana",
     "description": "Take any cloth, fold it three ways, and you have this.",
     "icon": "a508",
     "armorSlot": "unknown",
@@ -59749,7 +59749,7 @@
   },
   {
     "id": "3802812385601291497",
-    "name": "Striped Sailor''s Braies",
+    "name": "Striped Sailor's Braies",
     "description": "More stylish than most rags, but rags nonetheless.",
     "icon": "a597",
     "armorSlot": "unknown",
@@ -60062,7 +60062,7 @@
   {
     "id": "1519544049332871491",
     "name": "Tanth Captain Armor",
-    "description": "The thick body armor of a ruthless mercenary from beyond Sacra''s shores.",
+    "description": "The thick body armor of a ruthless mercenary from beyond Sacra's shores.",
     "icon": "a599",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -60529,7 +60529,7 @@
   },
   {
     "id": "3543506169004449782",
-    "name": "Squire''s Attire",
+    "name": "Squire's Attire",
     "description": "The humble armor of a knight in training. Simple but effective protection.",
     "icon": "a602",
     "armorSlot": "unknown",
@@ -60685,7 +60685,7 @@
   },
   {
     "id": "1351292376003234241",
-    "name": "Squire''s Breeches",
+    "name": "Squire's Breeches",
     "description": "Simple leather trousers, of the type given to novice warriors.",
     "icon": "a603",
     "armorSlot": "unknown",
@@ -60841,7 +60841,7 @@
   },
   {
     "id": "3292680899898181913",
-    "name": "Squire''s Hands",
+    "name": "Squire's Hands",
     "description": "Light and nimble, these gloves protect the hand from slashing attacks.",
     "icon": "a604",
     "armorSlot": "unknown",
@@ -60997,8 +60997,8 @@
   },
   {
     "id": "926746321113170592",
-    "name": "Squire''s Helm",
-    "description": "An ornately encrusted helmet, forged by Sacrament''s longtime smithy Fillmore.",
+    "name": "Squire's Helm",
+    "description": "An ornately encrusted helmet, forged by Sacrament's longtime smithy Fillmore.",
     "icon": "a605",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -61153,7 +61153,7 @@
   },
   {
     "id": "1899604765090479007",
-    "name": "Conjurer''s Leather Gloves",
+    "name": "Conjurer's Leather Gloves",
     "description": "Simple yet elegant leather gloves, of a type favored by mystics and soothsayers from the mainland.",
     "icon": "a606",
     "armorSlot": "unknown",
@@ -61309,7 +61309,7 @@
   },
   {
     "id": "4125713562494560423",
-    "name": "Conjurer''s Head Wrap",
+    "name": "Conjurer's Head Wrap",
     "description": "When wrapped around the head it provides little protection but is excellent at wicking sweat.",
     "icon": "a607",
     "armorSlot": "unknown",
@@ -61465,7 +61465,7 @@
   },
   {
     "id": "292520682129224105",
-    "name": "Conjurer''s Trousers",
+    "name": "Conjurer's Trousers",
     "description": "Slim leather trousers, suitable for those more interested in posture and appearance than protection.",
     "icon": "a608",
     "armorSlot": "unknown",
@@ -61621,7 +61621,7 @@
   },
   {
     "id": "2221327133699629508",
-    "name": "Conjurer''s Tunic",
+    "name": "Conjurer's Tunic",
     "description": "The stylish leather coat of a traveling seer, likely of dubious integrity. No doubt it has had many owners.",
     "icon": "a609",
     "armorSlot": "unknown",
@@ -61777,8 +61777,8 @@
   },
   {
     "id": "663464337782421860",
-    "name": "Screamer''s Stalks",
-    "description": "The acidic swamps rot away the Nith''s legs, leaving only bone, splints of wood, and these shredded leggings.",
+    "name": "Screamer's Stalks",
+    "description": "The acidic swamps rot away the Nith's legs, leaving only bone, splints of wood, and these shredded leggings.",
     "icon": "a610",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -61933,8 +61933,8 @@
   },
   {
     "id": "221017124888772007",
-    "name": "Screamer''s Bone Helm",
-    "description": "Late at night the Orban Glades echo with the Nith''s guttural screams, reverberating within their masks of bone.",
+    "name": "Screamer's Bone Helm",
+    "description": "Late at night the Orban Glades echo with the Nith's guttural screams, reverberating within their masks of bone.",
     "icon": "a611",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -62089,8 +62089,8 @@
   },
   {
     "id": "806191602035593376",
-    "name": "Screamer''s Gloves",
-    "description": "For some, illness and rot is a slow creep. For the Screamer, it''s a blistering frenzy, a madness of decay.",
+    "name": "Screamer's Gloves",
+    "description": "For some, illness and rot is a slow creep. For the Screamer, it's a blistering frenzy, a madness of decay.",
     "icon": "a612",
     "armorSlot": "unknown",
     "material": "unknown",
@@ -62245,7 +62245,7 @@
   },
   {
     "id": "1661036001135443934",
-    "name": "Screamer''s Tatters",
+    "name": "Screamer's Tatters",
     "description": "Does some corner of their minds remember civil society, a reflex to wrap their bodies in these putrid rags?",
     "icon": "a613",
     "armorSlot": "unknown",
@@ -63961,8 +63961,8 @@
   },
   {
     "id": "205163951239427360",
-    "name": "Mariner''s Land Legs",
-    "description": "A pair of trousers dyed teal by design, and parched white by the ocean''s spray.",
+    "name": "Mariner's Land Legs",
+    "description": "A pair of trousers dyed teal by design, and parched white by the ocean's spray.",
     "icon": "a624",
     "armorSlot": "unknown",
     "material": "unknown",
