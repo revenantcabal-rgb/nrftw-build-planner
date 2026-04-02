@@ -54,9 +54,10 @@ const ATTRIBUTES = [
   { key: "equipLoad", label: "Equip Load", color: "text-gray-400", icon: "\uD83C\uDFCB" },
 ];
 
-const BASE_ATTRIBUTE_POINTS = 87; // Total points at level 30
-const MIN_ATTR = 1;
-const MAX_ATTR = 50; // Per-stat cap
+const BONUS_ATTRIBUTE_POINTS = 87; // Bonus points to distribute at level 30
+const BASE_PER_STAT = 10; // Each stat starts at 10 for free
+const MIN_ATTR = 10; // Can't go below base
+const MAX_ATTR = 99; // Per-stat cap
 
 export default function PlannerPage() {
   const [buildName, setBuildName] = useState("My Build");
@@ -81,11 +82,11 @@ export default function PlannerPage() {
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
 
-  const totalAttrPoints = useMemo(
-    () => Object.values(attrs).reduce((a, b) => a + b, 0),
+  const bonusPointsUsed = useMemo(
+    () => Object.values(attrs).reduce((sum, val) => sum + (val - BASE_PER_STAT), 0),
     [attrs]
   );
-  const remainingPoints = BASE_ATTRIBUTE_POINTS - totalAttrPoints;
+  const remainingPoints = BONUS_ATTRIBUTE_POINTS - bonusPointsUsed;
 
   // Is main hand a two-handed weapon?
   const isTwoHanded = slots.weapon?.handling === "two-handed";
@@ -205,8 +206,9 @@ export default function PlannerPage() {
     setAttrs((prev) => {
       const newVal = prev[key] + delta;
       if (newVal < MIN_ATTR || newVal > MAX_ATTR) return prev;
-      const newTotal = totalAttrPoints + delta;
-      if (newTotal > BASE_ATTRIBUTE_POINTS) return prev;
+      // Check bonus points budget
+      const newBonusUsed = bonusPointsUsed + delta;
+      if (newBonusUsed > BONUS_ATTRIBUTE_POINTS) return prev;
       return { ...prev, [key]: newVal };
     });
   }
@@ -263,7 +265,7 @@ export default function PlannerPage() {
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-sm font-bold text-text-gold uppercase tracking-wide">Attributes</h2>
             <span className={`text-sm font-bold ${remainingPoints < 0 ? "text-red-400" : remainingPoints === 0 ? "text-green-400" : "text-text-primary"}`}>
-              {totalAttrPoints} / {BASE_ATTRIBUTE_POINTS}
+              {remainingPoints} / {BONUS_ATTRIBUTE_POINTS}
             </span>
           </div>
 
@@ -299,7 +301,12 @@ export default function PlannerPage() {
 
           {remainingPoints > 0 && (
             <p className="text-xs text-text-secondary mt-3">
-              {remainingPoints} points remaining
+              {remainingPoints} bonus points remaining
+            </p>
+          )}
+          {remainingPoints === 0 && (
+            <p className="text-xs text-green-400/70 mt-3">
+              All points distributed
             </p>
           )}
         </div>
