@@ -93,6 +93,12 @@ function getItemSlotType(slotKey: string, item: ConfigItem): string {
 
 const MAX_UPGRADE = 16;
 
+// Enchantment slot limits per equipment type
+function getEnchantLimits(slotKey: string): { positive: number; downside: number } {
+  if (slotKey.startsWith("ring")) return { positive: 2, downside: 1 };
+  return { positive: 4, downside: 1 }; // weapons, armor, shields
+}
+
 // --- Component ---
 
 interface ItemConfigPanelProps {
@@ -134,14 +140,23 @@ export default function ItemConfigPanel({
   onRemoveItem,
   onClose,
 }: ItemConfigPanelProps) {
+  // Get enchantment limits for this slot type
+  const enchantLimits = getEnchantLimits(slotKey);
+  const totalEnchantSlots = enchantLimits.positive + enchantLimits.downside;
+
   // Normalize config - guard against old saved configs missing new fields
+  const defaultEnchants = Array(totalEnchantSlots).fill(null);
   const safeConfig: ItemConfig = {
     runes: config.runes || [null, null, null, null],
     facet: config.facet || null,
     gem: config.gem || null,
-    enchantments: config.enchantments || [null, null, null, null, null],
+    enchantments: config.enchantments?.slice(0, totalEnchantSlots) || defaultEnchants,
     upgradeLevel: config.upgradeLevel || 1,
   };
+  // Pad enchantments to correct length if short
+  while (safeConfig.enchantments.length < totalEnchantSlots) {
+    safeConfig.enchantments.push(null);
+  }
 
   const [activeRuneSlot, setActiveRuneSlot] = useState<number | null>(null);
   const [activeGemSlot, setActiveGemSlot] = useState(false);
@@ -428,11 +443,11 @@ export default function ItemConfigPanel({
             )}
           </Section>
 
-          {/* Enchantments - 4 positive + 1 downside */}
-          <Section title={`Enchantments (Max: 5)`} subtitle={`Exalted (${exaltedCount}/4)`}>
+          {/* Enchantments - dynamic positive + 1 downside */}
+          <Section title={`Enchantments (Max: ${totalEnchantSlots})`} subtitle={`Exalted (${exaltedCount}/${enchantLimits.positive})`}>
             <div className="space-y-2">
-              {/* 4 Positive enchantment slots */}
-              {safeConfig.enchantments.slice(0, 4).map((ench, i) => (
+              {/* Positive enchantment slots */}
+              {safeConfig.enchantments.slice(0, enchantLimits.positive).map((ench, i) => (
                 <EnchantSlot key={i} index={i} ench={ench} isDownside={false}
                   isActive={activeEnchantSlot === i}
                   onOpen={() => { setActiveEnchantSlot(i); setEnchantSearch(""); }}
@@ -454,11 +469,11 @@ export default function ItemConfigPanel({
               </div>
 
               {/* 1 Downside enchantment slot */}
-              <EnchantSlot index={4} ench={safeConfig.enchantments[4] || null} isDownside={true}
-                isActive={activeEnchantSlot === 4}
-                onOpen={() => { setActiveEnchantSlot(4); setEnchantSearch(""); }}
-                onClear={() => setEnchantment(4, null)}
-                onSelect={(e) => setEnchantment(4, e)}
+              <EnchantSlot index={enchantLimits.positive} ench={safeConfig.enchantments[enchantLimits.positive] || null} isDownside={true}
+                isActive={activeEnchantSlot === enchantLimits.positive}
+                onOpen={() => { setActiveEnchantSlot(enchantLimits.positive); setEnchantSearch(""); }}
+                onClear={() => setEnchantment(enchantLimits.positive, null)}
+                onSelect={(e) => setEnchantment(enchantLimits.positive, e)}
                 enchantSearch={enchantSearch}
                 onSearchChange={setEnchantSearch}
                 availableEnchants={
