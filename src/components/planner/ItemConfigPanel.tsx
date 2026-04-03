@@ -132,6 +132,15 @@ export default function ItemConfigPanel({
   onRemoveItem,
   onClose,
 }: ItemConfigPanelProps) {
+  // Normalize config - guard against old saved configs missing new fields
+  const safeConfig: ItemConfig = {
+    runes: config.runes || [null, null, null, null],
+    facet: config.facet || null,
+    gem: config.gem || null,
+    enchantments: config.enchantments || [null, null, null, null, null],
+    upgradeLevel: config.upgradeLevel || 1,
+  };
+
   const [activeRuneSlot, setActiveRuneSlot] = useState<number | null>(null);
   const [activeGemSlot, setActiveGemSlot] = useState(false);
   const [showFacetPicker, setShowFacetPicker] = useState(false);
@@ -149,7 +158,7 @@ export default function ItemConfigPanel({
     return allRunes
       .filter((r) => !r.isUtility)
       .filter((r) => {
-        if (r.compatibleClasses.length === 0) return true;
+        if (!r.compatibleClasses || r.compatibleClasses.length === 0) return true;
         return r.compatibleClasses.includes(item.weaponClass!);
       })
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -178,17 +187,17 @@ export default function ItemConfigPanel({
   // Groups already used by selected enchantments
   const usedGroups = useMemo(() => {
     const groups = new Set<string>();
-    config.enchantments.forEach((e) => {
+    safeConfig.enchantments.forEach((e) => {
       if (e?.group) groups.add(e.group);
     });
     return groups;
-  }, [config.enchantments]);
+  }, [safeConfig.enchantments]);
 
   // Enchantments available for a specific slot (excluding used groups)
   const availableEnchantments = useMemo(() => {
     const slotIndex = activeEnchantSlot;
     if (slotIndex === null) return [];
-    const currentEnchant = config.enchantments[slotIndex];
+    const currentEnchant = safeConfig.enchantments[slotIndex];
     const currentGroup = currentEnchant?.group;
 
     return slotEnchantments.filter((e) => {
@@ -198,7 +207,7 @@ export default function ItemConfigPanel({
       if (usedGroups.has(e.group)) return false;
       return true;
     });
-  }, [slotEnchantments, usedGroups, activeEnchantSlot, config.enchantments]);
+  }, [slotEnchantments, usedGroups, activeEnchantSlot, safeConfig.enchantments]);
 
   const filteredRunes = runeSearch
     ? compatibleRunes.filter((r) => r.name.toLowerCase().includes(runeSearch.toLowerCase()))
@@ -212,37 +221,37 @@ export default function ItemConfigPanel({
     ? availableEnchantments.filter((e) => e.description.toLowerCase().includes(enchantSearch.toLowerCase()))
     : availableEnchantments;
 
-  const selectedFacet = slotFacets.find((f) => f.name.toLowerCase() === config.facet);
+  const selectedFacet = slotFacets.find((f) => f.name.toLowerCase() === safeConfig.facet);
 
   // Count plagued (exalted) enchantments
-  const exaltedCount = config.enchantments.filter((e) => e?.rarity === "plagued").length;
+  const exaltedCount = safeConfig.enchantments.filter((e) => e?.rarity === "plagued").length;
 
   function setRune(i: number, rune: RuneData | null) {
-    const n = [...config.runes];
+    const n = [...safeConfig.runes];
     n[i] = rune;
-    onConfigChange({ ...config, runes: n });
+    onConfigChange({ ...safeConfig, runes: n });
     setActiveRuneSlot(null);
   }
 
   function setFacet(name: string | null) {
-    onConfigChange({ ...config, facet: name });
+    onConfigChange({ ...safeConfig, facet: name });
     setShowFacetPicker(false);
   }
 
   function setGem(gem: GemData | null) {
-    onConfigChange({ ...config, gem });
+    onConfigChange({ ...safeConfig, gem });
     setActiveGemSlot(false);
   }
 
   function setEnchantment(i: number, ench: EnchantData | null) {
-    const n = [...config.enchantments];
+    const n = [...safeConfig.enchantments];
     n[i] = ench;
-    onConfigChange({ ...config, enchantments: n });
+    onConfigChange({ ...safeConfig, enchantments: n });
     setActiveEnchantSlot(null);
   }
 
   function setUpgradeLevel(level: number) {
-    onConfigChange({ ...config, upgradeLevel: Math.max(1, Math.min(MAX_UPGRADE, level)) });
+    onConfigChange({ ...safeConfig, upgradeLevel: Math.max(1, Math.min(MAX_UPGRADE, level)) });
   }
 
   return (
@@ -271,10 +280,10 @@ export default function ItemConfigPanel({
           <div className="flex items-center justify-between">
             <span className="text-xs text-text-gold uppercase font-bold">Upgrade Level</span>
             <div className="flex items-center gap-2">
-              <button onClick={() => setUpgradeLevel(config.upgradeLevel - 1)}
+              <button onClick={() => setUpgradeLevel(safeConfig.upgradeLevel - 1)}
                 className="w-6 h-6 rounded bg-bg-card text-text-secondary hover:text-text-primary text-xs flex items-center justify-center">-</button>
-              <span className="w-8 text-center text-sm font-bold text-text-primary border border-border-subtle rounded px-1">{config.upgradeLevel}</span>
-              <button onClick={() => setUpgradeLevel(config.upgradeLevel + 1)}
+              <span className="w-8 text-center text-sm font-bold text-text-primary border border-border-subtle rounded px-1">{safeConfig.upgradeLevel}</span>
+              <button onClick={() => setUpgradeLevel(safeConfig.upgradeLevel + 1)}
                 className="w-6 h-6 rounded bg-bg-card text-text-secondary hover:text-text-primary text-xs flex items-center justify-center">+</button>
               <button onClick={() => setUpgradeLevel(MAX_UPGRADE)}
                 className="text-xs text-text-secondary hover:text-text-gold px-2 py-0.5 border border-border-subtle rounded">Max</button>
@@ -294,7 +303,7 @@ export default function ItemConfigPanel({
           {showWeaponRunes && (
             <Section title={`Runes (Max: 4)`} subtitle={`${compatibleRunes.length} compatible`}>
               <div className="grid grid-cols-2 gap-2">
-                {config.runes.map((rune, i) => (
+                {safeConfig.runes.map((rune, i) => (
                   <PickerSlot key={i} label="Add Rune" selected={rune ? rune.name : null} icon={rune?.icon}
                     isOpen={activeRuneSlot === i}
                     onOpen={() => { setActiveRuneSlot(i); setRuneSearch(""); }}
@@ -321,7 +330,7 @@ export default function ItemConfigPanel({
                 <button onClick={() => setFacet(null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic mb-1">None (clear)</button>
                 {slotFacets.map((f) => (
                   <button key={f.name + f.slot} onClick={() => setFacet(f.name.toLowerCase())}
-                    className={`w-full text-left px-3 py-2 hover:bg-bg-card-hover rounded transition-colors ${config.facet === f.name.toLowerCase() ? "bg-bg-card-hover" : ""}`}>
+                    className={`w-full text-left px-3 py-2 hover:bg-bg-card-hover rounded transition-colors ${safeConfig.facet === f.name.toLowerCase() ? "bg-bg-card-hover" : ""}`}>
                     <span className="text-sm text-text-primary font-medium">{f.name}</span>
                     <div className="text-xs mt-0.5 space-y-0.5">
                       {f.effects ? f.effects.map((eff, i) => (
@@ -396,9 +405,9 @@ export default function ItemConfigPanel({
               </div>
             ) : (
               <button onClick={() => { setActiveGemSlot(true); setGemSearch(""); }}
-                className={`w-full text-left p-3 rounded-lg border text-sm transition-colors ${config.gem ? "bg-bg-card border-border-subtle hover:border-accent-gold/40" : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"}`}>
-                {config.gem ? (
-                  <div className="flex items-center gap-2"><ItemIcon icon={config.gem.icon} size={20} /><span className="text-text-primary">{config.gem.name}</span></div>
+                className={`w-full text-left p-3 rounded-lg border text-sm transition-colors ${safeConfig.gem ? "bg-bg-card border-border-subtle hover:border-accent-gold/40" : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"}`}>
+                {safeConfig.gem ? (
+                  <div className="flex items-center gap-2"><ItemIcon icon={safeConfig.gem.icon} size={20} /><span className="text-text-primary">{safeConfig.gem.name}</span></div>
                 ) : (
                   <span className="text-text-secondary/50">+ Add Gem</span>
                 )}
@@ -409,7 +418,7 @@ export default function ItemConfigPanel({
           {/* Enchantments */}
           <Section title={`Enchantments (Max: 5)`} subtitle={`Exalted (${exaltedCount}/4)`}>
             <div className="space-y-2">
-              {config.enchantments.map((ench, i) => (
+              {safeConfig.enchantments.map((ench, i) => (
                 <div key={i}>
                   {activeEnchantSlot === i ? (
                     <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-60 overflow-y-auto">
@@ -417,8 +426,8 @@ export default function ItemConfigPanel({
                         className="w-full px-2 py-1 bg-bg-primary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
                       <button onClick={() => setEnchantment(i, null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">Clear</button>
                       {filteredEnchants.map((e, j) => {
-                        const isGroupBlocked = usedGroups.has(e.group) && config.enchantments[i]?.group !== e.group;
-                        const isExaltedBlocked = e.rarity === "plagued" && exaltedCount >= 4 && config.enchantments[i]?.rarity !== "plagued";
+                        const isGroupBlocked = usedGroups.has(e.group) && safeConfig.enchantments[i]?.group !== e.group;
+                        const isExaltedBlocked = e.rarity === "plagued" && exaltedCount >= 4 && safeConfig.enchantments[i]?.rarity !== "plagued";
                         const blocked = isGroupBlocked || isExaltedBlocked;
                         return (
                           <button key={j} onClick={() => !blocked && setEnchantment(i, e)} disabled={blocked}

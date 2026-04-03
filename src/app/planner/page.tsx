@@ -335,9 +335,9 @@ export default function PlannerPage() {
                   onClick={() => {
                     if (isBlocked) return;
                     if (item) {
-                      setConfigSlot(slot); // Open config for equipped item
+                      setConfigSlot(slot);
                     } else {
-                      setActiveSlot(slot); // Open picker for empty slot
+                      setActiveSlot(slot);
                     }
                   }}
                   disabled={isBlocked}
@@ -507,27 +507,29 @@ export default function PlannerPage() {
 
       {/* Item Config Panel */}
       {configSlot && slots[configSlot] && (
-        <ItemConfigPanel
-          item={slots[configSlot]!}
-          slotKey={configSlot}
-          slotLabel={EQUIP_SLOT_LABELS[configSlot]}
-          config={slotConfigs[configSlot] || defaultItemConfig()}
-          allRunes={runePool as { id: string; name: string; icon?: string; isUtility: boolean; compatibleClasses: number[] }[]}
-          allGems={gemPool}
-          allFacets={facetList}
-          allEnchantments={enchantList}
-          onConfigChange={(cfg) => setSlotConfigs((prev) => ({ ...prev, [configSlot]: cfg }))}
-          onChangeItem={() => {
-            setConfigSlot(null);
-            setActiveSlot(configSlot);
-          }}
-          onRemoveItem={() => {
-            setSlots((prev) => ({ ...prev, [configSlot]: null }));
-            setSlotConfigs((prev) => { const n = { ...prev }; delete n[configSlot]; return n; });
-            setConfigSlot(null);
-          }}
-          onClose={() => setConfigSlot(null)}
-        />
+        <ConfigErrorBoundary onClose={() => setConfigSlot(null)}>
+          <ItemConfigPanel
+            item={slots[configSlot]!}
+            slotKey={configSlot}
+            slotLabel={EQUIP_SLOT_LABELS[configSlot]}
+            config={slotConfigs[configSlot] || defaultItemConfig()}
+            allRunes={runePool as { id: string; name: string; icon?: string; isUtility: boolean; compatibleClasses: number[] }[]}
+            allGems={gemPool}
+            allFacets={facetList}
+            allEnchantments={enchantList}
+            onConfigChange={(cfg) => setSlotConfigs((prev) => ({ ...prev, [configSlot]: cfg }))}
+            onChangeItem={() => {
+              setConfigSlot(null);
+              setActiveSlot(configSlot);
+            }}
+            onRemoveItem={() => {
+              setSlots((prev) => ({ ...prev, [configSlot]: null }));
+              setSlotConfigs((prev) => { const n = { ...prev }; delete n[configSlot]; return n; });
+              setConfigSlot(null);
+            }}
+            onClose={() => setConfigSlot(null)}
+          />
+        </ConfigErrorBoundary>
       )}
     </div>
   );
@@ -548,4 +550,37 @@ function StatRow({
       <span className={`font-medium ${valueColor}`}>{value}</span>
     </div>
   );
+}
+
+// Error boundary to catch render errors in ItemConfigPanel
+import React from "react";
+class ConfigErrorBoundary extends React.Component<
+  { children: React.ReactNode; onClose: () => void },
+  { error: string | null }
+> {
+  constructor(props: { children: React.ReactNode; onClose: () => void }) {
+    super(props);
+    this.state = { error: null };
+  }
+  static getDerivedStateFromError(error: Error) {
+    return { error: error.message };
+  }
+  componentDidCatch(error: Error) {
+    console.error("ItemConfigPanel crash:", error);
+  }
+  render() {
+    if (this.state.error) {
+      return (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/70" onClick={this.props.onClose} />
+          <div className="relative bg-bg-secondary border border-red-500 rounded-lg p-6 max-w-md">
+            <h2 className="text-red-400 font-bold mb-2">Config Panel Error</h2>
+            <p className="text-text-secondary text-sm mb-4">{this.state.error}</p>
+            <button onClick={this.props.onClose} className="px-4 py-2 bg-accent-gold/20 text-text-gold rounded">Close</button>
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
 }
