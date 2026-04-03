@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { getWeapons, getArmors, getShields, getTrinkets, getRunes, getGems, formatWeaponType } from "@/lib/data";
 import { defaultItemConfig } from "@/components/planner/ItemConfigPanel";
+import { computeCharacterStats, getWeightClass } from "@/lib/stats";
 import { EQUIP_SLOT_LABELS, RARITY_TEXT } from "@/lib/constants";
 import { getBuildFromUrl, setBuildInUrl, type BuildState } from "@/lib/codec";
 import ItemPickerModal from "@/components/planner/ItemPickerModal";
@@ -76,6 +77,8 @@ export default function PlannerPage() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [facetList, setFacetList] = useState<any[]>([]);
   const [enchantList, setEnchantList] = useState<{ rarity: string; slot: string; group: string; description: string }[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [balanceConfig, setBalanceConfig] = useState<any>(null);
   const [utilityRunes, setUtilityRunes] = useState<(null | { id: string; name: string; icon?: string })[]>([null, null, null, null]);
   const [activeUtilitySlot, setActiveUtilitySlot] = useState<number | null>(null);
   const [utilitySearch, setUtilitySearch] = useState("");
@@ -95,6 +98,19 @@ export default function PlannerPage() {
   // Is main hand a two-handed weapon?
   const isTwoHanded = slots.weapon?.handling === "two-handed";
 
+  // Compute character stats from attributes + balance config
+  const charStats = useMemo(() => {
+    if (!balanceConfig) return { health: 100, stamina: 50, focus: 100, equipLoad: 100, staminaRegen: 35, critChance: 10, critDamage: 25 };
+    return computeCharacterStats(attrs, balanceConfig);
+  }, [attrs, balanceConfig]);
+
+  // Compute weight class
+  const weightClass = useMemo(() => {
+    // TODO: sum up equipped weight from all items
+    const equippedWeight = 0;
+    return getWeightClass(equippedWeight, charStats.equipLoad || 100, balanceConfig);
+  }, [charStats.equipLoad, balanceConfig]);
+
   // Clear offhand if weapon becomes two-handed
   useEffect(() => {
     if (isTwoHanded && slots.offhand) {
@@ -108,8 +124,9 @@ export default function PlannerPage() {
       getWeapons(), getArmors(), getShields(), getTrinkets(), getRunes(), getGems(),
       fetch('/data/facets-detailed.json').then(r => r.json()),
       fetch('/data/enchantments-list.json').then(r => r.json()),
+      fetch('/data/balance-config.json').then(r => r.json()),
     ]).then(
-      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants]) => {
+      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants, bc]) => {
         setItemPools({
           weapons: weapons as SlotItem[],
           armors: armors as SlotItem[],
@@ -120,6 +137,7 @@ export default function PlannerPage() {
         setGemPool((gems as { id: string; name: string; icon?: string }[]).filter(g => g.name).sort((a, b) => a.name.localeCompare(b.name)));
         setFacetList(facets);
         setEnchantList(enchants);
+        setBalanceConfig(bc);
         setLoading(false);
       }
     );
@@ -430,16 +448,13 @@ export default function PlannerPage() {
 
         {/* Right: Stat Summary */}
         <div className="space-y-4">
-          <div className="text-xs text-text-secondary/60 italic px-1">
-            Stats from attributes only. Equipment modifiers coming soon.
-          </div>
           {/* General */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">General</h3>
-            <StatRow label="Health" value={100 + (attrs.health - 10) * 10} />
-            <StatRow label="Stamina" value={50 + (attrs.stamina - 10) * 5} />
-            <StatRow label="Stamina Regen" value={(35 + (attrs.stamina - 10) * 0.5).toFixed(1)} />
-            <StatRow label="Focus" value={100 + (attrs.focus - 10) * 10} />
+            <StatRow label="Health" value={Math.round(charStats.health)} />
+            <StatRow label="Stamina" value={Math.round(charStats.stamina)} />
+            <StatRow label="Stamina Regen" value={charStats.staminaRegen} />
+            <StatRow label="Focus" value={Math.round(charStats.focus)} />
             <StatRow label="Focus Gain" value="100%" />
           </div>
 
@@ -457,9 +472,10 @@ export default function PlannerPage() {
           {/* Weight */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Weight</h3>
-            <StatRow label="Equipment Load" value={170 + (attrs.equipLoad - 10) * 5} />
+            <StatRow label="Equipment Load" value={Math.round(charStats.equipLoad)} />
             <StatRow label="Equipped Weight" value="0.0" />
-            <StatRow label="Weight Class" value="Fast (0%)" valueColor="text-green-400" />
+            <StatRow label="Weight Class" value={`${weightClass.name} (${Math.round(weightClass.ratio * 100)}%)`}
+              valueColor={weightClass.name === "Light" ? "text-green-400" : weightClass.name === "Medium" ? "text-yellow-400" : "text-red-400"} />
           </div>
 
           {/* Damage */}
@@ -483,8 +499,8 @@ export default function PlannerPage() {
           {/* Misc */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Miscellaneous</h3>
-            <StatRow label="Critical Damage Chance" value="0%" />
-            <StatRow label="Critical Damage" value="0%" />
+            <StatRow label="Critical Damage Chance" value={`${Math.round(charStats.critChance)}%`} />
+            <StatRow label="Critical Damage" value={`${Math.round(charStats.critDamage)}%`} />
             <StatRow label="Lifesteal" value="0%" />
             <StatRow label="Armor Penetration" value="0%" />
             <StatRow label="Thorns" value="0%" />

@@ -1,0 +1,5644 @@
+{
+  "2185984224149291330": {
+    "identifier": "2185984224149291330",
+    "upgradeLevels": [
+      {
+        "goldCost": 0,
+        "requiredItems": [
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 0,
+        "requiredItems": [
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 0,
+        "requiredItems": [
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 0,
+        "requiredItems": [
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "2135945745633877551": {
+    "identifier": "2135945745633877551",
+    "upgradeLevels": [
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3378753475824825250",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2340426941660951149",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "4591302650626891701",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3434498115415546163",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1824559763003114189",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "984109753140019582",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "50388397690294294",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "372844418974431906",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3007632164041505884",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "210125241162334235": {
+    "identifier": "210125241162334235",
+    "upgradeLevels": [
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3378753475824825250",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2340426941660951149",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "4591302650626891701",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3434498115415546163",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1824559763003114189",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "984109753140019582",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "50388397690294294",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "372844418974431906",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3007632164041505884",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "3973984177605476802": {
+    "identifier": "3973984177605476802",
+    "upgradeLevels": [
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3378753475824825250",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2340426941660951149",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "4591302650626891701",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3434498115415546163",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1824559763003114189",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "984109753140019582",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "50388397690294294",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "372844418974431906",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3007632164041505884",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "4106633873344393516": {
+    "identifier": "4106633873344393516",
+    "upgradeLevels": [
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 4
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 8
+          },
+          {
+            "requiredItem": "3378753475824825250",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2340426941660951149",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "604964661050114232",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3434498115415546163",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "753759426240132740",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "657806243605478168",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "89704338778105182",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "657806243605478168",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "3076976438414929417",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "657806243605478168",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "372844418974431906",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "657806243605478168",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "2430793436759048744",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "657806243605478168",
+            "requiredItemCount": 12
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 6
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "657806243605478168",
+            "requiredItemCount": 6
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "675527877852064813",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "657806243605478168",
+            "requiredItemCount": 6
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 800,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2245098455649632079",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "657806243605478168",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "4357901780144840981": {
+    "identifier": "4357901780144840981",
+    "upgradeLevels": [
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 4
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 8
+          },
+          {
+            "requiredItem": "3378753475824825250",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "2340426941660951149",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "4591302650626891701",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3434498115415546163",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "1824559763003114189",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "984109753140019582",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "50388397690294294",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "372844418974431906",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 300,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "3007632164041505884",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 12
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 6
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 6
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 6
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 400,
+        "requiredItems": [
+          {
+            "requiredItem": "176427120695416376",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 4
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "2361869739563867139": {
+    "identifier": "2361869739563867139",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "1301990749291772038": {
+    "identifier": "1301990749291772038",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "781715580313251050": {
+    "identifier": "781715580313251050",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "1022293945684232804": {
+    "identifier": "1022293945684232804",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "3282707343720933651": {
+    "identifier": "3282707343720933651",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "2597186866878807713": {
+    "identifier": "2597186866878807713",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "1173297981804764388": {
+    "identifier": "1173297981804764388",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "4259954974786831825": {
+    "identifier": "4259954974786831825",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3974438851954369268",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3603118581874915257",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1973276685780311532",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "3031669946969823002": {
+    "identifier": "3031669946969823002",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "2700930477758313049": {
+    "identifier": "2700930477758313049",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "330089307276301087": {
+    "identifier": "330089307276301087",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "4188668441673864636": {
+    "identifier": "4188668441673864636",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1197746815527012609",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "4542336912523491862",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3314621189567189497",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "4137918173333369162": {
+    "identifier": "4137918173333369162",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "3684480312702883406": {
+    "identifier": "3684480312702883406",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "2414057814789984066": {
+    "identifier": "2414057814789984066",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  },
+  "924710599480666244": {
+    "identifier": "924710599480666244",
+    "upgradeLevels": [
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 25,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 50,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 100,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 2
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "1515562358324235981",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3485584028029478409",
+            "requiredItemCount": 3
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 150,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "569441041420542515",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "2646259454170186187",
+            "requiredItemCount": 2
+          }
+        ],
+        "minutesToComplete": 0
+      },
+      {
+        "goldCost": 200,
+        "requiredItems": [
+          {
+            "requiredItem": "3850271380396010980",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "3501980573290754370",
+            "requiredItemCount": 1
+          },
+          {
+            "requiredItem": "937362113592786649",
+            "requiredItemCount": 1
+          }
+        ],
+        "minutesToComplete": 0
+      }
+    ]
+  }
+}
