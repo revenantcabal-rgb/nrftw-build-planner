@@ -1,0 +1,254 @@
+{
+  "3241637952516798338": {
+    "id": "3241637952516798338",
+    "name": "Eye of the Beholder",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "3827524238523909262": {
+    "id": "3827524238523909262",
+    "name": "Radiant Star",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "3687313682536072122": {
+    "id": "3687313682536072122",
+    "name": "Glimmering Bulwark",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "586080465818570705": {
+    "id": "586080465818570705",
+    "name": "Wooden Howler",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "3226119047046775701": {
+    "id": "3226119047046775701",
+    "name": "Bandit's Targe",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "716007893309524987": {
+    "id": "716007893309524987",
+    "name": "Wooden Shield",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "262179132767830823": {
+    "id": "262179132767830823",
+    "name": "Studded Buckler",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "1137650830908815361": {
+    "id": "1137650830908815361",
+    "name": "Mariner's Aegis",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "296920656543453729": {
+    "id": "296920656543453729",
+    "name": "Battered Buckler",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "1299812619040857079": {
+    "id": "1299812619040857079",
+    "name": "Round Shield",
+    "stats": {
+      "shieldArmor": 70,
+      "weight": 10,
+      "poiseDamageOnBlock": 25
+    }
+  },
+  "3610404380577629883": {
+    "id": "3610404380577629883",
+    "name": "Heraldic Crest Shield",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "1965415874973144194": {
+    "id": "1965415874973144194",
+    "name": "Risen Pavise",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "3932832076605574338": {
+    "id": "3932832076605574338",
+    "name": "Falstead's Barricade",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "3928386462322281541": {
+    "id": "3928386462322281541",
+    "name": "Oaken Tower",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "2183389373489760458": {
+    "id": "2183389373489760458",
+    "name": "Cerulean Hightower",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "4111953650720264422": {
+    "id": "4111953650720264422",
+    "name": "From the Ashes",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "1352881806123255822": {
+    "id": "1352881806123255822",
+    "name": "Rotwall",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "1632850062690958190": {
+    "id": "1632850062690958190",
+    "name": "Crimson Guard",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "2369208980780302270": {
+    "id": "2369208980780302270",
+    "name": "Serpentguard",
+    "stats": {
+      "shieldArmor": 280,
+      "weight": 40,
+      "poiseDamageOnBlock": 5
+    }
+  },
+  "2680065657251126726": {
+    "id": "2680065657251126726",
+    "name": "Scale of Justice",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  },
+  "2115566134291842841": {
+    "id": "2115566134291842841",
+    "name": "Arcane Sentinel Shield",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  },
+  "1427154195462893271": {
+    "id": "1427154195462893271",
+    "name": "Immortal Nest",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  },
+  "4482622850218053218": {
+    "id": "4482622850218053218",
+    "name": "Blazoned Rivershield",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  },
+  "2367177880487800923": {
+    "id": "2367177880487800923",
+    "name": "Barred Entry",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  },
+  "1003298344721033391": {
+    "id": "1003298344721033391",
+    "name": "Kite Shield",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  },
+  "2557665143025044970": {
+    "id": "2557665143025044970",
+    "name": "Azure Phoenix Shield",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  },
+  "3000207142235992474": {
+    "id": "3000207142235992474",
+    "name": "Heart's Desire",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  },
+  "2567803373724069960": {
+    "id": "2567803373724069960",
+    "name": "Bearheart Guard",
+    "stats": {
+      "shieldArmor": 140,
+      "weight": 20,
+      "poiseDamageOnBlock": 10
+    }
+  }
+}
