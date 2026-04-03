@@ -101,11 +101,24 @@ function getEnchantLimits(slotKey: string): { positive: number; downside: number
 
 // --- Component ---
 
+interface WeaponStats {
+  damage: number;
+  poiseDamage: number;
+  staminaCost: number;
+  focusGain: number;
+  durability?: number;
+  weight?: number;
+  critChance?: number;
+  critDamage?: number;
+  upgradeLevel?: number;
+}
+
 interface ItemConfigPanelProps {
   item: ConfigItem;
   slotKey: string;
   slotLabel: string;
   config: ItemConfig;
+  baseStats: WeaponStats | null;
   allRunes: RuneData[];
   allGems: GemData[];
   allFacets: FacetData[];
@@ -131,6 +144,7 @@ export default function ItemConfigPanel({
   slotKey,
   slotLabel,
   config,
+  baseStats,
   allRunes,
   allGems,
   allFacets,
@@ -315,6 +329,56 @@ export default function ItemConfigPanel({
             {item.damageType && <DetailRow label="Damage Type" value={item.damageType} />}
             {item.dropLevel && <DetailRow label="Drop Level" value={String(item.dropLevel)} />}
           </div>
+
+          {/* Base Stats */}
+          {baseStats && (
+            <Section title="Base Stats">
+              <div className="space-y-1">
+                {baseStats.damage > 0 && (
+                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
+                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-yellow-400">&#x2694;</span> Damage</span>
+                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.damage}</span>
+                  </div>
+                )}
+                {baseStats.poiseDamage > 0 && (
+                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
+                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-green-400">&#x25C6;</span> Poise Damage</span>
+                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.poiseDamage}</span>
+                  </div>
+                )}
+                {(baseStats.critChance || 0) > 0 && (
+                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
+                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-red-400">&#x2727;</span> Critical Damage Chance</span>
+                    <span className="text-text-primary font-bold"><span className="border border-border-subtle rounded px-2">{baseStats.critChance}</span> %</span>
+                  </div>
+                )}
+                {(baseStats.critDamage || 0) > 0 && (
+                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
+                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-red-400">&#x2727;</span> Critical Damage</span>
+                    <span className="text-text-primary font-bold"><span className="border border-border-subtle rounded px-2">{baseStats.critDamage}</span> %</span>
+                  </div>
+                )}
+                {baseStats.staminaCost > 0 && (
+                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
+                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-blue-400">&#x25A0;</span> Attack Stamina Cost</span>
+                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.staminaCost}</span>
+                  </div>
+                )}
+                {baseStats.focusGain > 0 && (
+                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
+                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-amber-400">&#x25C7;</span> Focus Gain On Hit</span>
+                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.focusGain}</span>
+                  </div>
+                )}
+                {(baseStats.weight || 0) > 0 && (
+                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
+                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-gray-400">&#x25B2;</span> Equipped Weight</span>
+                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.weight?.toFixed(1)}</span>
+                  </div>
+                )}
+              </div>
+            </Section>
+          )}
 
           {/* Runes - ONLY for weapons */}
           {showWeaponRunes && (

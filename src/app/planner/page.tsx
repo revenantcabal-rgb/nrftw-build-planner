@@ -79,6 +79,8 @@ export default function PlannerPage() {
   const [enchantList, setEnchantList] = useState<{ rarity: string; slot: string; group: string; description: string }[]>([]);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [balanceConfig, setBalanceConfig] = useState<any>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [weaponStatsDb, setWeaponStatsDb] = useState<Record<string, any>>({});
   const [utilityRunes, setUtilityRunes] = useState<(null | { id: string; name: string; icon?: string })[]>([null, null, null, null]);
   const [activeUtilitySlot, setActiveUtilitySlot] = useState<number | null>(null);
   const [utilitySearch, setUtilitySearch] = useState("");
@@ -125,8 +127,9 @@ export default function PlannerPage() {
       fetch('/data/facets-detailed.json').then(r => r.json()),
       fetch('/data/enchantments-list.json').then(r => r.json()),
       fetch('/data/balance-config.json').then(r => r.json()),
+      fetch('/data/weapon-computed-stats.json').then(r => r.json()),
     ]).then(
-      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants, bc]) => {
+      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants, bc, weaponStats]) => {
         setItemPools({
           weapons: weapons as SlotItem[],
           armors: armors as SlotItem[],
@@ -138,6 +141,7 @@ export default function PlannerPage() {
         setFacetList(facets);
         setEnchantList(enchants);
         setBalanceConfig(bc);
+        setWeaponStatsDb(weaponStats || {});
         setLoading(false);
       }
     );
@@ -529,6 +533,15 @@ export default function PlannerPage() {
             slotKey={configSlot}
             slotLabel={EQUIP_SLOT_LABELS[configSlot]}
             config={slotConfigs[configSlot] || defaultItemConfig()}
+            baseStats={(() => {
+              const item = slots[configSlot];
+              if (!item) return null;
+              const ws = weaponStatsDb[item.id];
+              if (ws?.stats) {
+                return { ...ws.stats, critChance: ws.critChance || 0, critDamage: ws.critDamage || 0 };
+              }
+              return null;
+            })()}
             allRunes={runePool as { id: string; name: string; icon?: string; isUtility: boolean; compatibleClasses: number[] }[]}
             allGems={gemPool}
             allFacets={facetList}
