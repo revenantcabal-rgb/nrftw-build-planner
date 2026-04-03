@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { getWeapons, getArmors, getShields, getTrinkets, getRunes, getGems, formatWeaponType } from "@/lib/data";
 import { defaultItemConfig } from "@/components/planner/ItemConfigPanel";
-import { computeCharacterStats, getWeightClass } from "@/lib/stats";
+import { computeCharacterStats, computeWeaponBaseStats, getWeightClass } from "@/lib/stats";
 import { collectAllModifiers, type StatModifiers } from "@/lib/modifiers";
 import { EQUIP_SLOT_LABELS, RARITY_TEXT } from "@/lib/constants";
 import { getBuildFromUrl, setBuildInUrl, type BuildState } from "@/lib/codec";
@@ -26,6 +26,8 @@ interface SlotItem {
   damageType?: string;
   dropLevel?: number;
   description?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  stats?: Record<string, any>;
 }
 
 type ItemPool = Record<string, SlotItem[]>;
@@ -82,6 +84,8 @@ export default function PlannerPage() {
   const [balanceConfig, setBalanceConfig] = useState<any>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [weaponStatsDb, setWeaponStatsDb] = useState<Record<string, any>>({});
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [weaponDefaultRunes, setWeaponDefaultRunes] = useState<Record<string, any[]>>({});
   const [utilityRunes, setUtilityRunes] = useState<(null | { id: string; name: string; icon?: string })[]>([null, null, null, null]);
   const [activeUtilitySlot, setActiveUtilitySlot] = useState<number | null>(null);
   const [utilitySearch, setUtilitySearch] = useState("");
@@ -140,15 +144,21 @@ export default function PlannerPage() {
       fetchOpt('/data/armor-computed-stats.json'),
       fetchOpt('/data/shield-computed-stats.json'),
       fetchOpt('/data/trinket-computed-stats.json'),
+      fetchOpt('/data/weapon-default-runes.json'),
     ]).then(
-      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants, bc, weaponStats, armorStats, shieldStats, trinketStats]) => {
+      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants, bc, weaponStats, armorStats, shieldStats, trinketStats, defaultRuneMap]) => {
         setItemPools({
           weapons: weapons as SlotItem[],
           armors: armors as SlotItem[],
           shields: shields as SlotItem[],
           trinkets: trinkets as SlotItem[],
         });
-        setRunePool((runes as { id: string; name: string; icon?: string; isUtility?: boolean; compatibleClasses?: number[] }[]).filter(r => r.name).sort((a, b) => a.name.localeCompare(b.name)));
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        setRunePool((runes as any[]).filter(r => r.name).map(r => ({
+          id: r.id, name: r.name, icon: r.icon,
+          isUtility: r.data?.utility || r.isUtility || false,
+          compatibleClasses: r.data?.compatibleClasses || r.compatibleClasses || [],
+        })).sort((a, b) => a.name.localeCompare(b.name)));
         setGemPool((gems as { id: string; name: string; icon?: string }[]).filter(g => g.name).sort((a, b) => a.name.localeCompare(b.name)));
         setFacetList(facets);
         setEnchantList(enchants);
@@ -156,6 +166,7 @@ export default function PlannerPage() {
         // Merge all item stats into one lookup: { [itemId]: { stats: {...} } }
         const mergedStats = { ...(weaponStats || {}), ...(armorStats || {}), ...(shieldStats || {}), ...(trinketStats || {}) };
         setWeaponStatsDb(mergedStats);
+        setWeaponDefaultRunes(defaultRuneMap || {});
         setLoading(false);
       }
     );
@@ -169,14 +180,35 @@ export default function PlannerPage() {
       setBuildName(saved.name || "My Build");
       const allItems = Object.values(itemPools).flat();
       const newSlots = { ...slots };
+      const newConfigs: Record<string, ReturnType<typeof defaultItemConfig>> = {};
       for (const slot of SLOT_ORDER) {
         const itemId = saved[slot];
         if (itemId) {
           const found = allItems.find((i) => i.id === itemId);
-          if (found) newSlots[slot] = found;
+          if (found) {
+            newSlots[slot] = found;
+            // Auto-populate default runes for weapon slots
+            const isWeapon = slot === "weapon" || (slot === "offhand" && found.weaponType && !found.shieldType);
+            if (isWeapon && weaponDefaultRunes[itemId]) {
+              const defaults = weaponDefaultRunes[itemId] as { runeId: string; runeName: string; runeIcon: string; isUtility?: boolean }[];
+              if (defaults.length > 0) {
+                const config = defaultItemConfig();
+                defaults.slice(0, 4).forEach((def, i) => {
+                  config.runes[i] = {
+                    id: def.runeId, name: def.runeName, icon: def.runeIcon,
+                    isUtility: def.isUtility || false, compatibleClasses: [],
+                  };
+                });
+                newConfigs[slot] = config;
+              }
+            }
+          }
         }
       }
       setSlots(newSlots);
+      if (Object.keys(newConfigs).length > 0) {
+        setSlotConfigs((prev) => ({ ...prev, ...newConfigs }));
+      }
       if (saved.attrs) {
         setAttrs((prev) => ({ ...prev, ...saved.attrs }));
       }
@@ -245,6 +277,31 @@ export default function PlannerPage() {
   function handleSelect(item: SlotItem) {
     if (!activeSlot) return;
     setSlots((prev) => ({ ...prev, [activeSlot]: item.id ? item : null }));
+
+    // Auto-populate default rune(s) for weapons
+    const isWeaponSlot = activeSlot === "weapon" || (activeSlot === "offhand" && item.weaponType && !item.shieldType);
+    if (isWeaponSlot && item.id && weaponDefaultRunes[item.id]) {
+      const defaults = weaponDefaultRunes[item.id] as { runeId: string; runeName: string; runeIcon: string; isUtility?: boolean }[];
+      if (defaults.length > 0) {
+        const config = slotConfigs[activeSlot] || defaultItemConfig();
+        const newRunes = [...config.runes];
+        // Fill rune slots with default runes (up to 4 max)
+        defaults.slice(0, 4).forEach((def, i) => {
+          newRunes[i] = {
+            id: def.runeId,
+            name: def.runeName,
+            icon: def.runeIcon,
+            isUtility: def.isUtility || false,
+            compatibleClasses: [],
+          };
+        });
+        setSlotConfigs((prev) => ({
+          ...prev,
+          [activeSlot]: { ...config, runes: newRunes },
+        }));
+      }
+    }
+
     setActiveSlot(null);
   }
 
@@ -299,43 +356,43 @@ export default function PlannerPage() {
         </button>
       </div>
 
-      {/* 3-Column Layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr_1fr] gap-6">
+      {/* Main Layout: Attributes | Equipment | Stats */}
+      <div className="grid grid-cols-1 lg:grid-cols-[260px_280px_1fr] gap-4">
         {/* Left: Character Attributes */}
-        <div className="bg-bg-card border border-border-subtle rounded-lg p-5">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-sm font-bold text-text-gold uppercase tracking-wide">Character Level</h2>
-            <span className="text-lg font-bold text-text-primary border border-border-subtle rounded px-3 py-0.5">30</span>
+        <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-xs font-bold text-text-gold uppercase tracking-wide">Character Level</h2>
+            <span className="text-sm font-bold text-text-primary border border-border-subtle rounded px-2 py-0.5">30</span>
           </div>
 
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-sm font-bold text-text-gold uppercase tracking-wide">Attributes</h2>
-            <span className={`text-sm font-bold ${remainingPoints < 0 ? "text-red-400" : remainingPoints === 0 ? "text-green-400" : "text-text-primary"}`}>
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-xs font-bold text-text-gold uppercase tracking-wide">Attributes</h2>
+            <span className={`text-xs font-bold ${remainingPoints < 0 ? "text-red-400" : remainingPoints === 0 ? "text-green-400" : "text-text-primary"}`}>
               {remainingPoints} / {BONUS_ATTRIBUTE_POINTS}
             </span>
           </div>
 
-          <div className="space-y-2">
+          <div className="space-y-1.5">
             {ATTRIBUTES.map((attr) => (
               <div key={attr.key} className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <span className="text-sm">{attr.icon}</span>
-                  <span className={`text-sm font-medium ${attr.color}`}>{attr.label}</span>
+                <div className="flex items-center gap-1.5">
+                  <span className="text-xs">{attr.icon}</span>
+                  <span className={`text-xs font-medium ${attr.color}`}>{attr.label}</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <button
                     onClick={() => handleAttrChange(attr.key, -1)}
-                    className="w-6 h-6 rounded bg-bg-secondary text-text-secondary hover:text-text-primary hover:bg-bg-card-hover text-xs flex items-center justify-center"
+                    className="w-5 h-5 rounded bg-bg-secondary text-text-secondary hover:text-text-primary hover:bg-bg-card-hover text-xs flex items-center justify-center"
                     disabled={attrs[attr.key] <= MIN_ATTR}
                   >
                     -
                   </button>
-                  <span className="w-8 text-center text-sm font-bold text-text-primary">
+                  <span className="w-7 text-center text-xs font-bold text-text-primary">
                     {attrs[attr.key]}
                   </span>
                   <button
                     onClick={() => handleAttrChange(attr.key, 1)}
-                    className="w-6 h-6 rounded bg-bg-secondary text-text-secondary hover:text-text-primary hover:bg-bg-card-hover text-xs flex items-center justify-center"
+                    className="w-5 h-5 rounded bg-bg-secondary text-text-secondary hover:text-text-primary hover:bg-bg-card-hover text-xs flex items-center justify-center"
                     disabled={attrs[attr.key] >= MAX_ATTR || remainingPoints <= 0}
                   >
                     +
@@ -346,90 +403,119 @@ export default function PlannerPage() {
           </div>
 
           {remainingPoints > 0 && (
-            <p className="text-xs text-text-secondary mt-3">
-              {remainingPoints} bonus points remaining
+            <p className="text-xs text-text-secondary mt-2">
+              {remainingPoints} pts remaining
             </p>
           )}
           {remainingPoints === 0 && (
-            <p className="text-xs text-green-400/70 mt-3">
+            <p className="text-xs text-green-400/70 mt-2">
               All points distributed
             </p>
           )}
         </div>
 
-        {/* Middle: Equipment Slots */}
-        <div className="bg-bg-card border border-border-subtle rounded-lg p-5">
-          <h2 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-4">Equipment</h2>
+        {/* Middle: Equipment Grid */}
+        <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
+          <h2 className="text-xs font-bold text-text-gold uppercase tracking-wide mb-3">Equipment</h2>
           <div className="space-y-2">
-            {SLOT_ORDER.map((slot) => {
-              const item = slots[slot];
-              const isBlocked = slot === "offhand" && isTwoHanded;
-
-              return (
-                <button
-                  key={slot}
-                  onClick={() => {
-                    if (isBlocked) return;
-                    if (item) {
-                      setConfigSlot(slot);
-                    } else {
-                      setActiveSlot(slot);
-                    }
-                  }}
-                  disabled={isBlocked}
-                  className={`w-full flex items-center gap-3 p-3 rounded-lg border text-left transition-all ${
-                    isBlocked
-                      ? "bg-bg-primary/50 border-border-subtle/30 opacity-40 cursor-not-allowed"
-                      : item
-                        ? "bg-bg-secondary border-accent-gold/30 hover:border-accent-gold/60"
-                        : "bg-bg-secondary/50 border-border-subtle border-dashed hover:border-accent-gold/40"
-                  }`}
-                >
-                  {item ? (
-                    <ItemIcon icon={item.icon} size={40} />
-                  ) : (
-                    <div className="w-10 h-10 rounded bg-bg-primary border border-border-subtle flex items-center justify-center text-text-secondary/30 shrink-0">
-                      +
-                    </div>
-                  )}
-                  <div className="min-w-0 flex-1">
-                    <div className="text-xs text-text-secondary uppercase tracking-wide">
-                      {EQUIP_SLOT_LABELS[slot]}
-                      {isBlocked && " (Two-Handed)"}
-                    </div>
-                    {item ? (
-                      <div className="flex items-center gap-2">
-                        <span className="text-sm font-semibold text-text-primary truncate">
-                          {item.name}
-                        </span>
-                        <span className={`text-xs font-semibold uppercase shrink-0 ${RARITY_TEXT[item.rarity || "common"]}`}>
-                          {item.rarity}
-                        </span>
-                      </div>
-                    ) : (
-                      <span className="text-sm text-text-secondary/50">
-                        {isBlocked ? "Blocked" : "Click to select"}
-                      </span>
-                    )}
-                  </div>
-                </button>
-              );
-            })}
+            {/* Weapon Row */}
+            <EquipRow
+              icon={"\u2694\uFE0F"}
+              label="Weapon"
+              slots={[
+                { slot: "weapon" as EquipSlot, item: slots.weapon, blocked: false },
+              ]}
+              subSlots={(() => {
+                const cfg = slotConfigs.weapon || defaultItemConfig();
+                return cfg.runes.slice(0, 3).map((r: { id: string; name: string; icon?: string } | null, i: number) => ({
+                  key: `w-rune-${i}`,
+                  item: r,
+                  onClick: () => slots.weapon && setConfigSlot("weapon"),
+                }));
+              })()}
+              onSlotClick={(slot) => {
+                if (slots[slot]) setConfigSlot(slot);
+                else setActiveSlot(slot);
+              }}
+            />
+            {/* Offhand Row */}
+            <EquipRow
+              icon={"\uD83D\uDEE1\uFE0F"}
+              label="Offhand"
+              slots={[
+                { slot: "offhand" as EquipSlot, item: slots.offhand, blocked: isTwoHanded },
+              ]}
+              subSlots={(() => {
+                if (isTwoHanded) return [];
+                const cfg = slotConfigs.offhand || defaultItemConfig();
+                return cfg.runes.slice(0, 3).map((r: { id: string; name: string; icon?: string } | null, i: number) => ({
+                  key: `o-rune-${i}`,
+                  item: r,
+                  onClick: () => slots.offhand && setConfigSlot("offhand"),
+                }));
+              })()}
+              onSlotClick={(slot) => {
+                if (isTwoHanded) return;
+                if (slots[slot]) setConfigSlot(slot);
+                else setActiveSlot(slot);
+              }}
+            />
+            {/* Head + Chest Row */}
+            <EquipRow
+              icon={"\uD83E\uDDE5"}
+              label="Armor"
+              slots={[
+                { slot: "head" as EquipSlot, item: slots.head, blocked: false },
+                { slot: "chest" as EquipSlot, item: slots.chest, blocked: false },
+              ]}
+              onSlotClick={(slot) => {
+                if (slots[slot]) setConfigSlot(slot);
+                else setActiveSlot(slot);
+              }}
+            />
+            {/* Hands + Legs Row */}
+            <EquipRow
+              icon={"\uD83E\uDDE4"}
+              label="Lower"
+              slots={[
+                { slot: "hands" as EquipSlot, item: slots.hands, blocked: false },
+                { slot: "legs" as EquipSlot, item: slots.legs, blocked: false },
+              ]}
+              onSlotClick={(slot) => {
+                if (slots[slot]) setConfigSlot(slot);
+                else setActiveSlot(slot);
+              }}
+            />
+            {/* Rings Row */}
+            <EquipRow
+              icon={"\uD83D\uDC8D"}
+              label="Rings"
+              slots={[
+                { slot: "ring1" as EquipSlot, item: slots.ring1, blocked: false },
+                { slot: "ring2" as EquipSlot, item: slots.ring2, blocked: false },
+                { slot: "ring3" as EquipSlot, item: slots.ring3, blocked: false },
+              ]}
+              onSlotClick={(slot) => {
+                if (slots[slot]) setConfigSlot(slot);
+                else setActiveSlot(slot);
+              }}
+            />
           </div>
 
           {/* Utility Runes */}
-          <div className="mt-4 pt-4 border-t border-border-subtle">
-            <h2 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Utility Runes (Max: 4)</h2>
-            <div className="grid grid-cols-2 gap-2">
+          <div className="mt-3 pt-3 border-t border-border-subtle">
+            <h2 className="text-xs font-bold text-text-gold uppercase tracking-wide mb-2">Utility Runes</h2>
+            <div className="flex items-center gap-1.5">
+              <span className="text-lg w-7 text-center shrink-0">{"\u2726"}</span>
               {utilityRunes.map((rune, i) => {
                 const isActive = activeUtilitySlot === i;
                 const utilityPool = runePool.filter(r => r.isUtility).filter(r =>
                   utilitySearch ? r.name.toLowerCase().includes(utilitySearch.toLowerCase()) : true
                 );
                 return (
-                  <div key={i}>
+                  <div key={i} className="relative">
                     {isActive ? (
-                      <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-40 overflow-y-auto">
+                      <div className="absolute top-0 left-0 z-20 bg-bg-card rounded-lg border border-accent-gold/40 p-2 w-48 max-h-48 overflow-y-auto shadow-lg">
                         <input type="text" placeholder="Search..." value={utilitySearch}
                           onChange={(e) => setUtilitySearch(e.target.value)} autoFocus
                           className="w-full px-2 py-1 bg-bg-primary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
@@ -438,25 +524,26 @@ export default function PlannerPage() {
                         {utilityPool.map(r => (
                           <button key={r.id} onClick={() => { setUtilityRunes(prev => { const n = [...prev]; n[i] = r; return n; }); setActiveUtilitySlot(null); }}
                             className="w-full text-left px-2 py-1 text-xs text-text-primary hover:bg-bg-card-hover rounded flex items-center gap-2">
-                            <ItemIcon icon={r.icon} size={18} /><span className="truncate">{r.name}</span>
+                            <ItemIcon icon={r.icon} size={16} /><span className="truncate">{r.name}</span>
                           </button>
                         ))}
                       </div>
-                    ) : (
-                      <button onClick={() => { setActiveUtilitySlot(i); setUtilitySearch(""); }}
-                        className={`w-full text-left p-2 rounded-lg border text-sm transition-colors ${
-                          rune ? "bg-bg-secondary border-border-subtle hover:border-accent-gold/40" : "bg-bg-secondary/50 border-border-subtle border-dashed hover:border-accent-gold/40"
-                        }`}>
-                        {rune ? (
-                          <div className="flex items-center gap-2">
-                            <ItemIcon icon={rune.icon} size={20} />
-                            <span className="text-xs text-text-primary truncate">{rune.name}</span>
-                          </div>
-                        ) : (
-                          <span className="text-xs text-text-secondary/50">+ Add Rune</span>
-                        )}
-                      </button>
-                    )}
+                    ) : null}
+                    <button
+                      onClick={() => { setActiveUtilitySlot(isActive ? null : i); setUtilitySearch(""); }}
+                      className={`w-11 h-11 rounded border flex items-center justify-center transition-colors ${
+                        rune
+                          ? "bg-bg-secondary border-border-subtle hover:border-accent-gold/40"
+                          : "bg-bg-primary/60 border-border-subtle/50 border-dashed hover:border-accent-gold/40"
+                      }`}
+                      title={rune ? rune.name : "Add utility rune"}
+                    >
+                      {rune ? (
+                        <ItemIcon icon={rune.icon} size={32} />
+                      ) : (
+                        <span className="text-text-secondary/30 text-sm">+</span>
+                      )}
+                    </button>
                   </div>
                 );
               })}
@@ -464,74 +551,77 @@ export default function PlannerPage() {
           </div>
         </div>
 
-        {/* Right: Stat Summary */}
-        <div className="space-y-4">
-          {/* General */}
-          <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
-            <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">General</h3>
-            <StatRow label="Health" value={Math.round(charStats.health)} bonus={equipMods.maxHealth} bonusSuffix="%" />
-            <StatRow label="Stamina" value={Math.round(charStats.stamina)} bonus={equipMods.maxStamina} bonusSuffix="%" />
-            <StatRow label="Stamina Regen" value={charStats.staminaRegen} bonus={equipMods.staminaRecovery} bonusSuffix="%" />
-            <StatRow label="Focus" value={Math.round(charStats.focus)} bonus={equipMods.maxFocus} bonusSuffix="%" />
-            <StatRow label="Focus Gain" value="100%" bonus={equipMods.focusGain} bonusSuffix="%" />
-          </div>
+        {/* Right: Stat Summary - Compact two-column grid */}
+        <div className="bg-bg-card border border-border-subtle rounded-lg p-4 self-start">
+          <h2 className="text-xs font-bold text-text-gold uppercase tracking-wide mb-3">Character Stats</h2>
+          <div className="grid grid-cols-2 gap-x-6 gap-y-3">
+            {/* General */}
+            <div>
+              <h3 className="text-[10px] font-bold text-text-gold uppercase tracking-wider mb-1 border-b border-border-subtle pb-1">General</h3>
+              <StatRowCompact label="Health" value={Math.round(charStats.health)} bonus={equipMods.maxHealth} bonusSuffix="%" />
+              <StatRowCompact label="Stamina" value={Math.round(charStats.stamina)} bonus={equipMods.maxStamina} bonusSuffix="%" />
+              <StatRowCompact label="Stam Regen" value={charStats.staminaRegen} bonus={equipMods.staminaRecovery} bonusSuffix="%" />
+              <StatRowCompact label="Focus" value={Math.round(charStats.focus)} bonus={equipMods.maxFocus} bonusSuffix="%" />
+              <StatRowCompact label="Focus Gain" value="100%" bonus={equipMods.focusGain} bonusSuffix="%" />
+            </div>
 
-          {/* Defense */}
-          <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
-            <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Defense</h3>
-            <StatRow label="Physical Defense" value={Math.round(equipMods.physicalResistance) || "0"} />
-            <StatRow label="Fire Defense" value={Math.round(equipMods.fireResistance + equipMods.elementalResistance) || "0"} />
-            <StatRow label="Ice Defense" value={Math.round(equipMods.iceResistance + equipMods.elementalResistance) || "0"} />
-            <StatRow label="Lightning Defense" value={Math.round(equipMods.lightningResistance + equipMods.elementalResistance) || "0"} />
-            <StatRow label="Plague Defense" value={Math.round(equipMods.plagueResistance + equipMods.elementalResistance) || "0"} />
-            <StatRow label="Damage Resistance" value={fmtPct(equipMods.damageResistance)} />
-            <StatRow label="Poise" value={Math.round(equipMods.poise) || "0"} />
-            <StatRow label="Stagger Resistance" value={fmtPct(equipMods.staggerResistance)} />
-          </div>
+            {/* Defense */}
+            <div>
+              <h3 className="text-[10px] font-bold text-text-gold uppercase tracking-wider mb-1 border-b border-border-subtle pb-1">Defense</h3>
+              <StatRowCompact label="Physical" value={Math.round(equipMods.physicalResistance) || "0"} />
+              <StatRowCompact label="Fire" value={Math.round(equipMods.fireResistance + equipMods.elementalResistance) || "0"} />
+              <StatRowCompact label="Ice" value={Math.round(equipMods.iceResistance + equipMods.elementalResistance) || "0"} />
+              <StatRowCompact label="Lightning" value={Math.round(equipMods.lightningResistance + equipMods.elementalResistance) || "0"} />
+              <StatRowCompact label="Plague" value={Math.round(equipMods.plagueResistance + equipMods.elementalResistance) || "0"} />
+              <StatRowCompact label="Dmg Resist" value={fmtPct(equipMods.damageResistance)} />
+              <StatRowCompact label="Poise" value={Math.round(equipMods.poise) || "0"} />
+              <StatRowCompact label="Stagger Res" value={fmtPct(equipMods.staggerResistance)} />
+            </div>
 
-          {/* Weight */}
-          <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
-            <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Weight</h3>
-            <StatRow label="Equipment Load" value={Math.round(charStats.equipLoad * (1 + equipMods.equipLoad / 100))} />
-            <StatRow label="Equipped Weight" value={equipMods.equippedWeight.toFixed(1)} />
-            <StatRow label="Weight Class" value={`${weightClass.name} (${Math.round(weightClass.ratio * 100)}%)`}
-              valueColor={weightClass.name === "Light" ? "text-green-400" : weightClass.name === "Medium" ? "text-yellow-400" : "text-red-400"} />
-          </div>
+            {/* Weight */}
+            <div>
+              <h3 className="text-[10px] font-bold text-text-gold uppercase tracking-wider mb-1 border-b border-border-subtle pb-1">Weight</h3>
+              <StatRowCompact label="Equip Load" value={Math.round(charStats.equipLoad * (1 + equipMods.equipLoad / 100))} />
+              <StatRowCompact label="Equipped" value={equipMods.equippedWeight.toFixed(1)} />
+              <StatRowCompact label="Class" value={`${weightClass.name} (${Math.round(weightClass.ratio * 100)}%)`}
+                valueColor={weightClass.name === "Light" ? "text-green-400" : weightClass.name === "Medium" ? "text-yellow-400" : "text-red-400"} />
+            </div>
 
-          {/* Damage */}
-          <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
-            <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Damage</h3>
-            <StatRow label="Damage" value={fmtPct(equipMods.damage + equipMods.attackDamage)} />
-            <StatRow label="Physical Damage" value={fmtPct(equipMods.physicalDamage)} />
-            <StatRow label="Fire Damage" value={fmtPct(equipMods.fireDamage)} />
-            <StatRow label="Ice Damage" value={fmtPct(equipMods.iceDamage)} />
-            <StatRow label="Lightning Damage" value={fmtPct(equipMods.lightningDamage)} />
-            <StatRow label="Plague Damage" value={fmtPct(equipMods.plagueDamage)} />
-            <StatRow label="Rune Damage" value={fmtPct(equipMods.runeDamage)} />
-            <StatRow label="Stagger Damage" value={fmtPct(equipMods.staggerDamage)} />
-          </div>
+            {/* Speed */}
+            <div>
+              <h3 className="text-[10px] font-bold text-text-gold uppercase tracking-wider mb-1 border-b border-border-subtle pb-1">Speed</h3>
+              <StatRowCompact label="Overall" value={fmtPct(equipMods.overallSpeed)} />
+              <StatRowCompact label="Movement" value={fmtPct(equipMods.movementSpeed)} />
+              <StatRowCompact label="Attack" value={fmtPct(equipMods.attackSpeed)} />
+            </div>
 
-          {/* Speed */}
-          <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
-            <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Speed</h3>
-            <StatRow label="Overall Speed" value={fmtPct(equipMods.overallSpeed)} />
-            <StatRow label="Movement Speed" value={fmtPct(equipMods.movementSpeed)} />
-            <StatRow label="Attack Speed" value={fmtPct(equipMods.attackSpeed)} />
-          </div>
+            {/* Damage */}
+            <div>
+              <h3 className="text-[10px] font-bold text-text-gold uppercase tracking-wider mb-1 border-b border-border-subtle pb-1">Damage</h3>
+              <StatRowCompact label="Damage" value={fmtPct(equipMods.damage + equipMods.attackDamage)} />
+              <StatRowCompact label="Physical" value={fmtPct(equipMods.physicalDamage)} />
+              <StatRowCompact label="Fire" value={fmtPct(equipMods.fireDamage)} />
+              <StatRowCompact label="Ice" value={fmtPct(equipMods.iceDamage)} />
+              <StatRowCompact label="Lightning" value={fmtPct(equipMods.lightningDamage)} />
+              <StatRowCompact label="Plague" value={fmtPct(equipMods.plagueDamage)} />
+              <StatRowCompact label="Rune" value={fmtPct(equipMods.runeDamage)} />
+              <StatRowCompact label="Stagger" value={fmtPct(equipMods.staggerDamage)} />
+            </div>
 
-          {/* Misc */}
-          <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
-            <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Miscellaneous</h3>
-            <StatRow label="Critical Damage Chance" value={`${Math.round(charStats.critChance + equipMods.critChance)}%`}
-              bonus={equipMods.critChance} bonusSuffix="%" />
-            <StatRow label="Critical Damage" value={`${Math.round(charStats.critDamage + equipMods.critDamage)}%`}
-              bonus={equipMods.critDamage} bonusSuffix="%" />
-            <StatRow label="Lifesteal" value={fmtPct(equipMods.lifesteal)} />
-            <StatRow label="Armor Penetration" value={fmtPct(equipMods.armorPenetration)} />
-            <StatRow label="Thorns" value={fmtPct(equipMods.thorns)} />
-            <StatRow label="Regainable Health" value={fmtPct(equipMods.regainableHealth)} />
-            <StatRow label="Barrier Gain" value={fmtPct(equipMods.barrierGain)} />
-            <StatRow label="Healing" value={fmtPct(equipMods.healing)} />
+            {/* Miscellaneous */}
+            <div>
+              <h3 className="text-[10px] font-bold text-text-gold uppercase tracking-wider mb-1 border-b border-border-subtle pb-1">Miscellaneous</h3>
+              <StatRowCompact label="Crit Chance" value={`${Math.round(charStats.critChance + equipMods.critChance)}%`}
+                bonus={equipMods.critChance} bonusSuffix="%" />
+              <StatRowCompact label="Crit Damage" value={`${Math.round(charStats.critDamage + equipMods.critDamage)}%`}
+                bonus={equipMods.critDamage} bonusSuffix="%" />
+              <StatRowCompact label="Lifesteal" value={fmtPct(equipMods.lifesteal)} />
+              <StatRowCompact label="Armor Pen" value={fmtPct(equipMods.armorPenetration)} />
+              <StatRowCompact label="Thorns" value={fmtPct(equipMods.thorns)} />
+              <StatRowCompact label="Regain HP" value={fmtPct(equipMods.regainableHealth)} />
+              <StatRowCompact label="Barrier" value={fmtPct(equipMods.barrierGain)} />
+              <StatRowCompact label="Healing" value={fmtPct(equipMods.healing)} />
+            </div>
           </div>
         </div>
       </div>
@@ -558,6 +648,30 @@ export default function PlannerPage() {
             baseStats={(() => {
               const item = slots[configSlot];
               if (!item) return null;
+              const cfg = slotConfigs[configSlot] || defaultItemConfig();
+              const upgradeLevel = cfg.upgradeLevel || 1;
+
+              // For weapons: compute stats dynamically from balance config (damage scales with upgrade level)
+              if (item.weaponClass && balanceConfig) {
+                const allItems = Object.values(itemPools).flat();
+                const rawWeapon = allItems.find(w => w.id === item.id);
+                const scrapedWs = weaponStatsDb[item.id];
+                const scrapedStats = scrapedWs?.stats || {};
+                const scrapedFallback = {
+                  poiseDamage: scrapedStats.poiseDamage || 0,
+                  staminaCost: scrapedStats.staminaCost || 0,
+                };
+                const computed = computeWeaponBaseStats(
+                  item.weaponClass,
+                  (rawWeapon as SlotItem)?.stats || {},
+                  upgradeLevel,
+                  balanceConfig,
+                  scrapedFallback,
+                );
+                return computed;
+              }
+
+              // For armor/shields/trinkets: use scraped stats (no upgrade scaling)
               const ws = weaponStatsDb[item.id];
               if (ws?.stats) {
                 return { ...ws.stats, critChance: ws.critChance || ws.stats.critChance || 0, critDamage: ws.critDamage || ws.stats.critDamage || 0 };
@@ -582,6 +696,96 @@ export default function PlannerPage() {
           />
         </ConfigErrorBoundary>
       )}
+    </div>
+  );
+}
+
+/** Equipment row: icon label + square item slots + optional sub-slots (runes/gems) */
+function EquipRow({
+  icon,
+  label,
+  slots: slotDefs,
+  subSlots,
+  onSlotClick,
+}: {
+  icon: string;
+  label: string;
+  slots: { slot: EquipSlot; item: SlotItem | null; blocked: boolean }[];
+  subSlots?: { key: string; item: { name: string; icon?: string } | null; onClick: () => void }[];
+  onSlotClick: (slot: EquipSlot) => void;
+}) {
+  return (
+    <div className="flex items-center gap-1.5">
+      <span className="text-lg w-7 text-center shrink-0" title={label}>{icon}</span>
+      {slotDefs.map(({ slot, item, blocked }) => (
+        <button
+          key={slot}
+          onClick={() => !blocked && onSlotClick(slot)}
+          disabled={blocked}
+          className={`w-11 h-11 rounded border flex items-center justify-center transition-colors shrink-0 ${
+            blocked
+              ? "bg-bg-primary/30 border-border-subtle/20 opacity-30 cursor-not-allowed"
+              : item
+                ? "bg-bg-secondary border-accent-gold/30 hover:border-accent-gold/60"
+                : "bg-bg-primary/60 border-border-subtle/50 border-dashed hover:border-accent-gold/40"
+          }`}
+          title={item ? item.name : EQUIP_SLOT_LABELS[slot]}
+        >
+          {item ? (
+            <ItemIcon icon={item.icon} size={32} />
+          ) : (
+            <span className="text-text-secondary/30 text-sm">+</span>
+          )}
+        </button>
+      ))}
+      {subSlots && subSlots.map((sub) => (
+        <button
+          key={sub.key}
+          onClick={sub.onClick}
+          className={`w-11 h-11 rounded border flex items-center justify-center transition-colors shrink-0 ${
+            sub.item
+              ? "bg-bg-secondary border-border-subtle/60 hover:border-accent-gold/40"
+              : "bg-bg-primary/40 border-border-subtle/30 border-dashed hover:border-accent-gold/30"
+          }`}
+          title={sub.item ? sub.item.name : "Empty slot"}
+        >
+          {sub.item ? (
+            <ItemIcon icon={sub.item.icon} size={24} />
+          ) : (
+            <span className="text-text-secondary/20 text-xs">+</span>
+          )}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/** Compact stat row for the two-column stat panel */
+function StatRowCompact({
+  label,
+  value,
+  valueColor = "text-text-primary",
+  bonus,
+  bonusSuffix,
+}: {
+  label: string;
+  value: string | number;
+  valueColor?: string;
+  bonus?: number;
+  bonusSuffix?: string;
+}) {
+  const hasBonus = bonus !== undefined && bonus !== 0;
+  return (
+    <div className="flex justify-between py-0.5 text-xs leading-tight">
+      <span className="text-text-secondary truncate mr-1">{label}</span>
+      <span className={`font-medium whitespace-nowrap ${valueColor}`}>
+        {value}
+        {hasBonus && (
+          <span className={`ml-0.5 text-[10px] ${bonus! > 0 ? "text-green-400" : "text-red-400"}`}>
+            ({bonus! > 0 ? "+" : ""}{Math.round(bonus! * 10) / 10}{bonusSuffix || ""})
+          </span>
+        )}
+      </span>
     </div>
   );
 }

@@ -141,13 +141,22 @@ async function main() {
       id, name: t(s.name), description: t(s.description), data: s.data
     }));
 
-    return { weapons, armors, shields, trinkets, enchantments, runes, gems, food, armorSets, translations };
+    // Weapon-to-Actions mapping (default runes per weapon)
+    // db.weaponToActions maps weapon IDs to their default action IDs
+    let weaponToActions = {};
+    try {
+      if (db.weaponToActions) {
+        weaponToActions = JSON.parse(JSON.stringify(db.weaponToActions));
+      }
+    } catch (e) { /* ignore */ }
+
+    return { weapons, armors, shields, trinkets, enchantments, runes, gems, food, armorSets, translations, weaponToActions };
   });
 
   // Save each category
   const categories = [
     'weapons', 'armors', 'shields', 'trinkets',
-    'enchantments', 'runes', 'gems', 'food', 'armorSets', 'translations'
+    'enchantments', 'runes', 'gems', 'food', 'armorSets', 'translations', 'weaponToActions'
   ];
 
   for (const cat of categories) {

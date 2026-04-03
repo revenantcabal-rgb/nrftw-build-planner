@@ -91,55 +91,103 @@ export function computeCharacterStats(
 }
 
 /**
+ * Weapon class -> coreStatModifiers index mapping.
+ * Maps game weaponClass IDs to the index used in balance config's weapon.coreStatModifiers.
+ */
+const WEAPON_CLASS_MAP: Record<number, number> = {
+  1:5, 2:19, 3:20, 4:18, 5:11, 6:17, 7:8, 8:7, 9:16, 10:15,
+  12:28, 13:25, 14:29, 15:24, 16:27, 17:30, 18:22, 19:6, 21:26,
+  22:9, 23:12, 24:14, 25:13, 26:33,
+};
+
+/**
+ * Stat index -> display name mapping for weapons.
+ * Verified indices: 0=damage, 3=focusGain, 4=weight, 5=durability, 11=critChance, 12=critDamage.
+ * Indices 2 (poise) and stamina cost don't match the formula - use scraped values for those.
+ */
+const WEAPON_COMPUTED_STATS: Record<number, string> = {
+  0: "damage",       // Physical Damage (scales with upgrade level)
+  3: "focusGain",    // Focus Gain On Hit
+  4: "weight",       // Equipped Weight
+  5: "durability",   // Durability
+  11: "critChance",  // Critical Damage Chance (percentage)
+  12: "critDamage",  // Critical Damage (percentage)
+};
+
+/**
  * Compute weapon base stats at a given upgrade level.
- * Uses the weapon's baseAttributes and the balance config's scaling curves.
+ *
+ * Formula: stat = coreStatScaling[i].value * itemMod[i][2] * classTypeMod[i][2]
+ * Damage growth: damage += coreStatScaling[0].value * itemMod[0][2] * (upgradeLevel - 1)
+ *
+ * Stats where the formula is verified: damage, focusGain, weight, durability, critChance, critDamage.
+ * Poise damage and stamina cost use fallback scraped values (formula unknown).
+ *
+ * @param weaponClass - the weapon's class ID (e.g. 3 for great_club)
+ * @param itemStats - the weapon's itemCoreStatsModifiers (5-element arrays keyed by stat index)
+ * @param upgradeLevel - the current upgrade level (1-16)
+ * @param balanceConfig - the full balance config
+ * @param scrapedFallback - optional scraped stats to fill in poise damage and stamina cost
  */
 export function computeWeaponBaseStats(
-  baseAttributes: number,
+  weaponClass: number,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  itemStats: Record<string, number[]>,
   upgradeLevel: number,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  balanceConfig: any
+  balanceConfig: any,
+  scrapedFallback?: Record<string, number>,
 ): Record<string, number> {
   const stats: Record<string, number> = {};
-  if (!balanceConfig?.weapon?.coreStatScaling) return stats;
-
-  const WEAPON_STAT_NAMES: Record<string, string> = {
-    "0": "damage",
-    "1": "poiseDamage",
-    "2": "staminaCost",
-    "3": "critChance",
-    "4": "focusGain",
-    "5": "critDamage",
-    "11": "weight",
-  };
+  if (!balanceConfig?.weapon?.coreStatScaling) return scrapedFallback || stats;
 
   const scaling = balanceConfig.weapon.coreStatScaling;
+  const classModIdx = WEAPON_CLASS_MAP[weaponClass];
+  const classMods = classModIdx !== undefined
+    ? balanceConfig.weapon.coreStatModifiers?.[classModIdx]
+    : null;
 
-  Object.entries(scaling).forEach(([statIdx, config]: [string, unknown]) => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const cfg = config as any;
-    const name = WEAPON_STAT_NAMES[statIdx];
-    if (!name) return;
+  for (const [statIdxStr, cfg] of Object.entries(scaling) as [string, { value: number; growth: number; percentageStat?: boolean }][]) {
+    const statIdx = parseInt(statIdxStr);
+    const name = WEAPON_COMPUTED_STATS[statIdx];
+    if (!name) continue;
 
-    let value = cfg.value * baseAttributes;
+    const itemMod = itemStats?.[statIdxStr]?.[2] ?? 0;
+    const classBase = classMods?.[statIdxStr]?.[2] ?? 1;
 
-    // Apply growth from upgrade level
-    if (cfg.percentageGrowthCurve?.keys?.length > 0) {
-      const growthMult = interpolateCurve(cfg.percentageGrowthCurve, upgradeLevel);
-      value *= (1 + growthMult);
+    // Base value at level 1
+    let value = cfg.value * itemMod * classBase;
+
+    // Damage (stat 0) scales with upgrade level
+    if (statIdx === 0 && upgradeLevel > 1) {
+      value += cfg.value * itemMod * (upgradeLevel - 1);
     }
 
-    // Apply fixed growth per level
-    if (cfg.growth) {
-      value += cfg.growth * (upgradeLevel - 1);
-    }
-
-    if (cfg.percentageStat) {
-      stats[name] = Math.round(value * 100) / 100;
+    // Format: percentage stats display differently
+    if (statIdx === 11) {
+      // critChance: raw ~0.1 → display as 10%
+      value = Math.round(value * 1000) / 10;
+    } else if (statIdx === 12) {
+      // critDamage: raw 1 → display as 100%
+      value = Math.round(value * 100);
     } else {
-      stats[name] = Math.round(value * 10) / 10;
+      value = Math.round(value * 10) / 10;
     }
-  });
+
+    if (value !== 0) {
+      stats[name] = value;
+    }
+  }
+
+  // Fill in poise damage and stamina cost from scraped fallback (formula unknown)
+  if (scrapedFallback) {
+    if (scrapedFallback.poiseDamage && !stats.poiseDamage) {
+      stats.poiseDamage = scrapedFallback.poiseDamage;
+    }
+    if (scrapedFallback.staminaCost && !stats.staminaCost) {
+      stats.staminaCost = scrapedFallback.staminaCost;
+    }
+  }
 
   return stats;
 }

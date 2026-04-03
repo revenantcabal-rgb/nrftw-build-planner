@@ -1,0 +1,1662 @@
+{
+  "3608165049900514443": [
+    {
+      "runeId": "3556948302666992264",
+      "runeName": "Arrowstorm",
+      "runeIcon": "r640",
+      "isUtility": false
+    }
+  ],
+  "1023863541289577995": [
+    {
+      "runeId": "1481467222710748843",
+      "runeName": "Fire Arrow",
+      "runeIcon": "r650",
+      "isUtility": false
+    },
+    {
+      "runeId": "2853707695375046197",
+      "runeName": "Ice Arrow",
+      "runeIcon": "r649",
+      "isUtility": false
+    },
+    {
+      "runeId": "3836894979821062611",
+      "runeName": "Lightning Arrow",
+      "runeIcon": "r651",
+      "isUtility": false
+    },
+    {
+      "runeId": "539951032608170406",
+      "runeName": "Plague Arrow",
+      "runeIcon": "r648",
+      "isUtility": false
+    }
+  ],
+  "3177677691800265354": [
+    {
+      "runeId": "4456264942046730699",
+      "runeName": "Glideburst",
+      "runeIcon": "r638",
+      "isUtility": false
+    }
+  ],
+  "3353145543610220699": [
+    {
+      "runeId": "3691420496886696812",
+      "runeName": "Knockout Shot",
+      "runeIcon": "r643",
+      "isUtility": false
+    }
+  ],
+  "2382908920760145906": [
+    {
+      "runeId": "617950209181311744",
+      "runeName": "Evasive Shot",
+      "runeIcon": "r641",
+      "isUtility": false
+    }
+  ],
+  "3153112072731643007": [
+    {
+      "runeId": "392280132282628150",
+      "runeName": "Skyburst Volley",
+      "runeIcon": "r642",
+      "isUtility": false
+    }
+  ],
+  "3705989024610824162": [
+    {
+      "runeId": "2763692554067775263",
+      "runeName": "Flipkick Burst",
+      "runeIcon": "r637",
+      "isUtility": false
+    }
+  ],
+  "1023879036496948721": [
+    {
+      "runeId": "138555972444505268",
+      "runeName": "Retreating Trimshot",
+      "runeIcon": "r634",
+      "isUtility": false
+    }
+  ],
+  "911301351710787022": [
+    {
+      "runeId": "3094817568735432197",
+      "runeName": "Multi Shot",
+      "runeIcon": "r639",
+      "isUtility": false
+    }
+  ],
+  "4501034379633562415": [
+    {
+      "runeId": "443391528640002819",
+      "runeName": "Skyfall Shot",
+      "runeIcon": "r635",
+      "isUtility": false
+    }
+  ],
+  "2676242541433478477": [
+    {
+      "runeId": "1090365689567110154",
+      "runeName": "Skybreaker",
+      "runeIcon": "r646",
+      "isUtility": false
+    }
+  ],
+  "3301862767214754735": [
+    {
+      "runeId": "1099963329955884554",
+      "runeName": "Cone Shot",
+      "runeIcon": "r644",
+      "isUtility": false
+    }
+  ],
+  "1289451532481028892": [
+    {
+      "runeId": "1574666801752383586",
+      "runeName": "Multi Spin",
+      "runeIcon": "r669",
+      "isUtility": false
+    }
+  ],
+  "1830109395211169065": [
+    {
+      "runeId": "3878500112507168971",
+      "runeName": "Spin Crush",
+      "runeIcon": "r675",
+      "isUtility": false
+    }
+  ],
+  "2420738658677331486": [
+    {
+      "runeId": "4269898584950211047",
+      "runeName": "Flame Sweep",
+      "runeIcon": "r713",
+      "isUtility": false
+    },
+    {
+      "runeId": "2671463997427338343",
+      "runeName": "Inferno",
+      "runeIcon": "r712",
+      "isUtility": false
+    }
+  ],
+  "1951725185939991016": [
+    {
+      "runeId": "3702709351022502030",
+      "runeName": "Rotwheel",
+      "runeIcon": "r693",
+      "isUtility": false
+    },
+    {
+      "runeId": "634668158925611751",
+      "runeName": "Pestilence",
+      "runeIcon": "r696",
+      "isUtility": false
+    }
+  ],
+  "3770003861085251896": [
+    {
+      "runeId": "1019982021738449010",
+      "runeName": "Homing Frost",
+      "runeIcon": "r702",
+      "isUtility": false
+    },
+    {
+      "runeId": "374603350845669260",
+      "runeName": "Frost Stream",
+      "runeIcon": "r707",
+      "isUtility": false
+    }
+  ],
+  "622683068586762824": [
+    {
+      "runeId": "794310646847301587",
+      "runeName": "Fire Wave",
+      "runeIcon": "r710",
+      "isUtility": false
+    },
+    {
+      "runeId": "3940142870750105669",
+      "runeName": "Hellfire",
+      "runeIcon": "r714",
+      "isUtility": false
+    }
+  ],
+  "4372377222561405503": [
+    {
+      "runeId": "2666546497694042576",
+      "runeName": "Plague Breath",
+      "runeIcon": "r694",
+      "isUtility": false
+    },
+    {
+      "runeId": "1664670425809726081",
+      "runeName": "Plague Nova",
+      "runeIcon": "r691",
+      "isUtility": false
+    }
+  ],
+  "2851290687391839549": [
+    {
+      "runeId": "4512811323975887056",
+      "runeName": "Fireball",
+      "runeIcon": "r711",
+      "isUtility": false
+    },
+    {
+      "runeId": "601475074917651680",
+      "runeName": "Fire Nova",
+      "runeIcon": "r709",
+      "isUtility": false
+    }
+  ],
+  "804758895252150240": [
+    {
+      "runeId": "1956971790203917072",
+      "runeName": "Spark",
+      "runeIcon": "r698",
+      "isUtility": false
+    },
+    {
+      "runeId": "3435652393484893420",
+      "runeName": "Shock Nova",
+      "runeIcon": "r697",
+      "isUtility": false
+    },
+    {
+      "runeId": "2187886175109117056",
+      "runeName": "Thunderstrike",
+      "runeIcon": "r701",
+      "isUtility": false
+    }
+  ],
+  "663141184411472710": [
+    {
+      "runeId": "2074319938338630530",
+      "runeName": "Chain Lightning",
+      "runeIcon": "r700",
+      "isUtility": false
+    },
+    {
+      "runeId": "3903849283299422194",
+      "runeName": "Lightning Sweep",
+      "runeIcon": "r699",
+      "isUtility": false
+    }
+  ],
+  "3044636054273618990": [
+    {
+      "runeId": "2489435915531023210",
+      "runeName": "Ice Sweep",
+      "runeIcon": "r706",
+      "isUtility": false
+    },
+    {
+      "runeId": "1718634230081929161",
+      "runeName": "Glacial Spike",
+      "runeIcon": "r708",
+      "isUtility": false
+    },
+    {
+      "runeId": "3986588637982542586",
+      "runeName": "Hail",
+      "runeIcon": "r704",
+      "isUtility": false
+    },
+    {
+      "runeId": "1742791377702654896",
+      "runeName": "Blink",
+      "runeIcon": "r762",
+      "isUtility": true
+    }
+  ],
+  "2390614373992292558": [
+    {
+      "runeId": "3649368061764522275",
+      "runeName": "Icebolt",
+      "runeIcon": "r705",
+      "isUtility": false
+    },
+    {
+      "runeId": "1054724863233781168",
+      "runeName": "Frost Nova",
+      "runeIcon": "r703",
+      "isUtility": false
+    }
+  ],
+  "3379989419003507189": [
+    {
+      "runeId": "1484698989144894896",
+      "runeName": "Plague Sweep",
+      "runeIcon": "r695",
+      "isUtility": false
+    },
+    {
+      "runeId": "2455613907772917541",
+      "runeName": "Plague Wave",
+      "runeIcon": "r692",
+      "isUtility": false
+    }
+  ],
+  "3203039669243719294": [
+    {
+      "runeId": "3726417958434299470",
+      "runeName": "Juggle Strike",
+      "runeIcon": "r665",
+      "isUtility": false
+    }
+  ],
+  "1549446748423506485": [
+    {
+      "runeId": "4157409531145223832",
+      "runeName": "Cold Enchantment",
+      "runeIcon": "r751",
+      "isUtility": true
+    }
+  ],
+  "3959451171090235309": [
+    {
+      "runeId": "1128433911572682166",
+      "runeName": "Whirlwind",
+      "runeIcon": "r676",
+      "isUtility": false
+    }
+  ],
+  "457264233710956550": [
+    {
+      "runeId": "841940324454559628",
+      "runeName": "Limit Break",
+      "runeIcon": "r667",
+      "isUtility": false
+    }
+  ],
+  "1549944345393048836": [
+    {
+      "runeId": "218542788009739065",
+      "runeName": "Wallbreaker",
+      "runeIcon": "r661",
+      "isUtility": false
+    }
+  ],
+  "1803458902118588703": [
+    {
+      "runeId": "704992378633742206",
+      "runeName": "Tremor Slam",
+      "runeIcon": "r662",
+      "isUtility": false
+    }
+  ],
+  "1718703032196161524": [
+    {
+      "runeId": "3675049373013426272",
+      "runeName": "Berserk Flurry",
+      "runeIcon": "r655",
+      "isUtility": false
+    },
+    {
+      "runeId": "814650376550364149",
+      "runeName": "Slashing Spin",
+      "runeIcon": "r652",
+      "isUtility": false
+    },
+    {
+      "runeId": "2917299912740972188",
+      "runeName": "Scream",
+      "runeIcon": "r757",
+      "isUtility": true
+    },
+    {
+      "runeId": "4227377370616330604",
+      "runeName": "Thorns",
+      "runeIcon": "r758",
+      "isUtility": true
+    }
+  ],
+  "304145319589842573": [
+    {
+      "runeId": "3508484839297653716",
+      "runeName": "Pestilent Recoil",
+      "runeIcon": "r683",
+      "isUtility": false
+    }
+  ],
+  "2507593859999045271": [
+    {
+      "runeId": "4204779299360104716",
+      "runeName": "Fire Swipe",
+      "runeIcon": "r688",
+      "isUtility": false
+    }
+  ],
+  "1519088681411431713": [
+    {
+      "runeId": "2888749868516503482",
+      "runeName": "Ground Slam",
+      "runeIcon": "r663",
+      "isUtility": false
+    }
+  ],
+  "646476660609601900": [
+    {
+      "runeId": "814650376550364149",
+      "runeName": "Slashing Spin",
+      "runeIcon": "r652",
+      "isUtility": false
+    }
+  ],
+  "4038138760236720226": [
+    {
+      "runeId": "929121537033461728",
+      "runeName": "Knockdown Swirl",
+      "runeIcon": "r679",
+      "isUtility": false
+    }
+  ],
+  "2641479164185925814": [
+    {
+      "runeId": "4222099060750969381",
+      "runeName": "Cyclone Swipe",
+      "runeIcon": "r678",
+      "isUtility": false
+    }
+  ],
+  "565551180463263339": [
+    {
+      "runeId": "3390279225550455836",
+      "runeName": "Reap",
+      "runeIcon": "r671",
+      "isUtility": false
+    }
+  ],
+  "1248413328891240530": [
+    {
+      "runeId": "4103902768908944322",
+      "runeName": "Rip and Tear",
+      "runeIcon": "r668",
+      "isUtility": false
+    }
+  ],
+  "468728574275496416": [
+    {
+      "runeId": "3182104791921662487",
+      "runeName": "Frenzied Cleave",
+      "runeIcon": "r657",
+      "isUtility": false
+    }
+  ],
+  "197220393489928266": [
+    {
+      "runeId": "753408585776860336",
+      "runeName": "Seismic Crush",
+      "runeIcon": "r682",
+      "isUtility": false
+    }
+  ],
+  "73591681747770995": [
+    {
+      "runeId": "1712998916135215305",
+      "runeName": "Crushing Quad",
+      "runeIcon": "r672",
+      "isUtility": false
+    },
+    {
+      "runeId": "2791569348451033727",
+      "runeName": "Pole Flurry",
+      "runeIcon": "r670",
+      "isUtility": false
+    },
+    {
+      "runeId": "1128433911572682166",
+      "runeName": "Whirlwind",
+      "runeIcon": "r676",
+      "isUtility": false
+    },
+    {
+      "runeId": "129188487361991509",
+      "runeName": "Berserk Strike",
+      "runeIcon": "r674",
+      "isUtility": false
+    }
+  ],
+  "389221922459539149": [
+    {
+      "runeId": "3873937807161689394",
+      "runeName": "Stamina Wellspring",
+      "runeIcon": "r746",
+      "isUtility": true
+    }
+  ],
+  "1583566813548195743": [
+    {
+      "runeId": "1924769126166654810",
+      "runeName": "Crushing Slam",
+      "runeIcon": "r660",
+      "isUtility": false
+    }
+  ],
+  "3373349906113071313": [
+    {
+      "runeId": "2626979379833238540",
+      "runeName": "Crushing Triple",
+      "runeIcon": "r666",
+      "isUtility": false
+    }
+  ],
+  "1821191525510132216": [
+    {
+      "runeId": "3651878267677701264",
+      "runeName": "Spiral Crash",
+      "runeIcon": "r664",
+      "isUtility": false
+    }
+  ],
+  "2466263575822227387": [
+    {
+      "runeId": "3029836232358642539",
+      "runeName": "Raging Spiral",
+      "runeIcon": "r659",
+      "isUtility": false
+    }
+  ],
+  "1940601525081790518": [
+    {
+      "runeId": "1364834338666705101",
+      "runeName": "Relentless Cleave",
+      "runeIcon": "r653",
+      "isUtility": false
+    }
+  ],
+  "1967531629606450569": [
+    {
+      "runeId": "4036179364219279753",
+      "runeName": "Breaker Thrust",
+      "runeIcon": "r681",
+      "isUtility": false
+    }
+  ],
+  "3401185876640704353": [
+    {
+      "runeId": "2080508781185032061",
+      "runeName": "Plague Crush",
+      "runeIcon": "r684",
+      "isUtility": false
+    }
+  ],
+  "2390264336664021275": [
+    {
+      "runeId": "812099702074107846",
+      "runeName": "Lightning Assault",
+      "runeIcon": "r685",
+      "isUtility": false
+    }
+  ],
+  "4111682373665215796": [
+    {
+      "runeId": "2188721048531478025",
+      "runeName": "Ice Ram",
+      "runeIcon": "r686",
+      "isUtility": false
+    }
+  ],
+  "311202831175338465": [
+    {
+      "runeId": "1726463966800115133",
+      "runeName": "Fire Whirlwind",
+      "runeIcon": "r687",
+      "isUtility": false
+    }
+  ],
+  "3339056522444723531": [
+    {
+      "runeId": "4001092589228091029",
+      "runeName": "Dodge Slamdown",
+      "runeIcon": "r658",
+      "isUtility": false
+    }
+  ],
+  "930136801098882912": [
+    {
+      "runeId": "4061366242536873511",
+      "runeName": "Fire Slam",
+      "runeIcon": "r690",
+      "isUtility": false
+    }
+  ],
+  "3290724524066410904": [
+    {
+      "runeId": "2279133602367080094",
+      "runeName": "Berserk Slam",
+      "runeIcon": "r677",
+      "isUtility": false
+    }
+  ],
+  "4220696937069008185": [
+    {
+      "runeId": "3515340168008169334",
+      "runeName": "Double Crush",
+      "runeIcon": "r654",
+      "isUtility": false
+    }
+  ],
+  "3531758029158791863": [
+    {
+      "runeId": "1824564621170827697",
+      "runeName": "Balance Smash",
+      "runeIcon": "r673",
+      "isUtility": false
+    }
+  ],
+  "3895635661094988027": [
+    {
+      "runeId": "129188487361991509",
+      "runeName": "Berserk Strike",
+      "runeIcon": "r674",
+      "isUtility": false
+    }
+  ],
+  "515194947731975707": [
+    {
+      "runeId": "3617657274445286388",
+      "runeName": "Crushing Uppercut",
+      "runeIcon": "r680",
+      "isUtility": false
+    },
+    {
+      "runeId": "1726463966800115133",
+      "runeName": "Fire Whirlwind",
+      "runeIcon": "r687",
+      "isUtility": false
+    },
+    {
+      "runeId": "146444484429326508",
+      "runeName": "Eruption",
+      "runeIcon": "r689",
+      "isUtility": false
+    },
+    {
+      "runeId": "2260878218614060253",
+      "runeName": "Channel",
+      "runeIcon": "r761",
+      "isUtility": true
+    }
+  ],
+  "1736831975839430577": [
+    {
+      "runeId": "146444484429326508",
+      "runeName": "Eruption",
+      "runeIcon": "r689",
+      "isUtility": false
+    }
+  ],
+  "600985550077647324": [
+    {
+      "runeId": "2596197552556439934",
+      "runeName": "Tornado Strike",
+      "runeIcon": "r795",
+      "isUtility": false
+    }
+  ],
+  "4535256375045761712": [
+    {
+      "runeId": "1448350270845819527",
+      "runeName": "Plague Strike",
+      "runeIcon": "r811",
+      "isUtility": false
+    }
+  ],
+  "2296482949214244542": [
+    {
+      "runeId": "1814186842605273977",
+      "runeName": "Blazing Rupture",
+      "runeIcon": "r829",
+      "isUtility": false
+    }
+  ],
+  "316810545775258337": [
+    {
+      "runeId": "2262150894464831015",
+      "runeName": "Crushing Flurry",
+      "runeIcon": "r805",
+      "isUtility": false
+    }
+  ],
+  "379399373590859": [
+    {
+      "runeId": "2363314447143686857",
+      "runeName": "Brutal Reprise",
+      "runeIcon": "r798",
+      "isUtility": false
+    }
+  ],
+  "627634660893852200": [
+    {
+      "runeId": "1043286239091734599",
+      "runeName": "Kick Slash",
+      "runeIcon": "r656",
+      "isUtility": false
+    }
+  ],
+  "4251470804837549341": [
+    {
+      "runeId": "3008237909744556927",
+      "runeName": "Fire Whirl",
+      "runeIcon": "r832",
+      "isUtility": false
+    }
+  ],
+  "1558135172378036248": [
+    {
+      "runeId": "1756380779171026231",
+      "runeName": "Twirl Dash",
+      "runeIcon": "r794",
+      "isUtility": false
+    }
+  ],
+  "3826051451315813769": [
+    {
+      "runeId": "3473320420304048833",
+      "runeName": "Lightning Spin",
+      "runeIcon": "r820",
+      "isUtility": false
+    }
+  ],
+  "999922168482564701": [
+    {
+      "runeId": "698707283948532789",
+      "runeName": "Ice Throw",
+      "runeIcon": "r825",
+      "isUtility": false
+    }
+  ],
+  "3594955709376663371": [
+    {
+      "runeId": "1860754212066836256",
+      "runeName": "Slashing Pirouette",
+      "runeIcon": "r800",
+      "isUtility": false
+    }
+  ],
+  "2253280023696096389": [
+    {
+      "runeId": "4489701882038050855",
+      "runeName": "Lightning Throw",
+      "runeIcon": "r821",
+      "isUtility": false
+    }
+  ],
+  "1788458085206239222": [
+    {
+      "runeId": "2996101457835571940",
+      "runeName": "Slashing Flurry",
+      "runeIcon": "r789",
+      "isUtility": false
+    }
+  ],
+  "901790500784149911": [
+    {
+      "runeId": "1516103055673977465",
+      "runeName": "Lightning Flurry",
+      "runeIcon": "r819",
+      "isUtility": false
+    }
+  ],
+  "4515573433040410258": [
+    {
+      "runeId": "4052539030505690582",
+      "runeName": "Thrust",
+      "runeIcon": "r802",
+      "isUtility": false
+    }
+  ],
+  "3135745083252785824": [
+    {
+      "runeId": "1473467590320876346",
+      "runeName": "Lightning Whirl",
+      "runeIcon": "r823",
+      "isUtility": false
+    }
+  ],
+  "3805452435047506019": [
+    {
+      "runeId": "65426943683162514",
+      "runeName": "Surge Slash",
+      "runeIcon": "r796",
+      "isUtility": false
+    }
+  ],
+  "639516259255668083": [
+    {
+      "runeId": "2388271367670244372",
+      "runeName": "Slashing Dash",
+      "runeIcon": "r781",
+      "isUtility": false
+    }
+  ],
+  "1704751983988405258": [
+    {
+      "runeId": "788655136485454550",
+      "runeName": "Whirl",
+      "runeIcon": "r780",
+      "isUtility": false
+    }
+  ],
+  "2995162763598855681": [
+    {
+      "runeId": "282563936940270555",
+      "runeName": "Fire Dash",
+      "runeIcon": "r828",
+      "isUtility": false
+    }
+  ],
+  "982731936155127218": [
+    {
+      "runeId": "1316641276213448040",
+      "runeName": "Throw Axe",
+      "runeIcon": "r771",
+      "isUtility": false
+    }
+  ],
+  "1991866744408325423": [
+    {
+      "runeId": "4044466393876037244",
+      "runeName": "Throw",
+      "runeIcon": "r807",
+      "isUtility": false
+    }
+  ],
+  "2552761798494154874": [
+    {
+      "runeId": "930723931439290273",
+      "runeName": "Plague Enchantment",
+      "runeIcon": "r752",
+      "isUtility": true
+    }
+  ],
+  "4005662424140827647": [
+    {
+      "runeId": "4254505191939584460",
+      "runeName": "Advancing Flurry",
+      "runeIcon": "r803",
+      "isUtility": false
+    }
+  ],
+  "3631387061348855637": [
+    {
+      "runeId": "1520279887957779325",
+      "runeName": "Taunt Strike",
+      "runeIcon": "r788",
+      "isUtility": false
+    }
+  ],
+  "1569898541171169046": [
+    {
+      "runeId": "4166545306945562110",
+      "runeName": "Frost Strike",
+      "runeIcon": "r826",
+      "isUtility": false
+    }
+  ],
+  "2666466125973412499": [
+    {
+      "runeId": "4324691228874446864",
+      "runeName": "Wild Rush",
+      "runeIcon": "r849",
+      "isUtility": false
+    }
+  ],
+  "1442414760766785657": [
+    {
+      "runeId": "4237850986028055582",
+      "runeName": "Piercing Dash",
+      "runeIcon": "r791",
+      "isUtility": false
+    }
+  ],
+  "3220022798894100568": [
+    {
+      "runeId": "607345046513636181",
+      "runeName": "Lightning Slam",
+      "runeIcon": "r818",
+      "isUtility": false
+    },
+    {
+      "runeId": "588068954941947977",
+      "runeName": "Electric Enchantment",
+      "runeIcon": "r750",
+      "isUtility": true
+    },
+    {
+      "runeId": "3710791040413979071",
+      "runeName": "Piercing Dodge",
+      "runeIcon": "r851",
+      "isUtility": false
+    },
+    {
+      "runeId": "1742791377702654896",
+      "runeName": "Blink",
+      "runeIcon": "r762",
+      "isUtility": true
+    }
+  ],
+  "1077853873548481283": [
+    {
+      "runeId": "4439453227947616454",
+      "runeName": "Frost Dash",
+      "runeIcon": "r824",
+      "isUtility": false
+    }
+  ],
+  "1985442680644053848": [
+    {
+      "runeId": "3716769456665212619",
+      "runeName": "Fierce Dash",
+      "runeIcon": "r785",
+      "isUtility": false
+    }
+  ],
+  "267148156067985240": [
+    {
+      "runeId": "2864285922429248429",
+      "runeName": "Ice Whirl",
+      "runeIcon": "r827",
+      "isUtility": false
+    }
+  ],
+  "3404782350267293380": [
+    {
+      "runeId": "3524997825263527493",
+      "runeName": "Crush",
+      "runeIcon": "r777",
+      "isUtility": false
+    }
+  ],
+  "695462746213477186": [
+    {
+      "runeId": "4426701845280104389",
+      "runeName": "Gyro Slash",
+      "runeIcon": "r787",
+      "isUtility": false
+    }
+  ],
+  "400537420489606684": [
+    {
+      "runeId": "3521637318283462458",
+      "runeName": "Twirl Spin",
+      "runeIcon": "r804",
+      "isUtility": false
+    }
+  ],
+  "3153019909887610531": [
+    {
+      "runeId": "1107339288305693906",
+      "runeName": "Plague Dash",
+      "runeIcon": "r812",
+      "isUtility": false
+    }
+  ],
+  "210126444413164284": [
+    {
+      "runeId": "4541316365676769348",
+      "runeName": "Damage Surge",
+      "runeIcon": "r749",
+      "isUtility": true
+    }
+  ],
+  "3950237475393754292": [
+    {
+      "runeId": "489401182082572326",
+      "runeName": "Lightning Dash",
+      "runeIcon": "r817",
+      "isUtility": false
+    },
+    {
+      "runeId": "929121537033461728",
+      "runeName": "Knockdown Swirl",
+      "runeIcon": "r679",
+      "isUtility": false
+    },
+    {
+      "runeId": "3390279225550455836",
+      "runeName": "Reap",
+      "runeIcon": "r671",
+      "isUtility": false
+    },
+    {
+      "runeId": "4438847146502021167",
+      "runeName": "Pulse of Health",
+      "runeIcon": "r748",
+      "isUtility": true
+    }
+  ],
+  "2963734542609082228": [
+    {
+      "runeId": "4567976376074138840",
+      "runeName": "Leap",
+      "runeIcon": "r790",
+      "isUtility": false
+    }
+  ],
+  "1912329725715842378": [
+    {
+      "runeId": "4307813597606695670",
+      "runeName": "Circular",
+      "runeIcon": "r776",
+      "isUtility": false
+    }
+  ],
+  "2848412716860606663": [
+    {
+      "runeId": "1810186561623857851",
+      "runeName": "Trinity Barrage",
+      "runeIcon": "r784",
+      "isUtility": false
+    }
+  ],
+  "1691304765198801029": [
+    {
+      "runeId": "2103212074874791279",
+      "runeName": "Whirlstep Strike",
+      "runeIcon": "r779",
+      "isUtility": false
+    }
+  ],
+  "1983783651005226550": [
+    {
+      "runeId": "2831857259389369472",
+      "runeName": "Charge Strike",
+      "runeIcon": "r786",
+      "isUtility": false
+    }
+  ],
+  "4410110109858048500": [
+    {
+      "runeId": "4487192392230842766",
+      "runeName": "Fire Throw",
+      "runeIcon": "r831",
+      "isUtility": false
+    }
+  ],
+  "2327501130015145929": [
+    {
+      "runeId": "4602480535412336098",
+      "runeName": "Lightning Leap",
+      "runeIcon": "r726",
+      "isUtility": false
+    },
+    {
+      "runeId": "2316423121768618750",
+      "runeName": "Lightning Storm",
+      "runeIcon": "r724",
+      "isUtility": false
+    }
+  ],
+  "1547984352862856452": [
+    {
+      "runeId": "3703645397189368459",
+      "runeName": "Fire Walk",
+      "runeIcon": "r743",
+      "isUtility": false
+    },
+    {
+      "runeId": "2547111481554953330",
+      "runeName": "Spin Strike",
+      "runeIcon": "r739",
+      "isUtility": false
+    }
+  ],
+  "4360494222496306584": [
+    {
+      "runeId": "1737564386904892761",
+      "runeName": "Plague Column",
+      "runeIcon": "r717",
+      "isUtility": false
+    },
+    {
+      "runeId": "22596299149777396",
+      "runeName": "Plague Splatter",
+      "runeIcon": "r722",
+      "isUtility": false
+    }
+  ],
+  "2775273968311624122": [
+    {
+      "runeId": "709973357846815709",
+      "runeName": "Fire Dart",
+      "runeIcon": "r741",
+      "isUtility": false
+    },
+    {
+      "runeId": "572392739616368446",
+      "runeName": "Fire Blast",
+      "runeIcon": "r742",
+      "isUtility": false
+    }
+  ],
+  "3719926253827151294": [
+    {
+      "runeId": "4274751935171471981",
+      "runeName": "Frost Step",
+      "runeIcon": "r735",
+      "isUtility": false
+    }
+  ],
+  "4373528406122011112": [
+    {
+      "runeId": "2421605026892017886",
+      "runeName": "Plague Burst",
+      "runeIcon": "r716",
+      "isUtility": false
+    },
+    {
+      "runeId": "786219389980323126",
+      "runeName": "Plague Launch",
+      "runeIcon": "r719",
+      "isUtility": false
+    }
+  ],
+  "1190709945458790507": [
+    {
+      "runeId": "595798154631475079",
+      "runeName": "Fire Burst",
+      "runeIcon": "r737",
+      "isUtility": false
+    },
+    {
+      "runeId": "4444598686857872115",
+      "runeName": "Converging Flame",
+      "runeIcon": "r740",
+      "isUtility": false
+    }
+  ],
+  "3890920774866275586": [
+    {
+      "runeId": "2782121935303112175",
+      "runeName": "Lightning Dart",
+      "runeIcon": "r729",
+      "isUtility": false
+    },
+    {
+      "runeId": "2950113389815706885",
+      "runeName": "Lightning Blast",
+      "runeIcon": "r730",
+      "isUtility": false
+    }
+  ],
+  "4292325459385536380": [
+    {
+      "runeId": "842114256804780839",
+      "runeName": "Charged Bolt",
+      "runeIcon": "r728",
+      "isUtility": false
+    },
+    {
+      "runeId": "2547772680830564449",
+      "runeName": "Static",
+      "runeIcon": "r725",
+      "isUtility": false
+    },
+    {
+      "runeId": "2970991005909960498",
+      "runeName": "Lightning Bolt",
+      "runeIcon": "r731",
+      "isUtility": false
+    }
+  ],
+  "1714223753714851782": [
+    {
+      "runeId": "200644451955564175",
+      "runeName": "Lightning Barrage",
+      "runeIcon": "r727",
+      "isUtility": false
+    },
+    {
+      "runeId": "880649867087343128",
+      "runeName": "Lightning Flash",
+      "runeIcon": "r723",
+      "isUtility": false
+    }
+  ],
+  "4460305322098538210": [
+    {
+      "runeId": "562810352442823424",
+      "runeName": "Fire Wall",
+      "runeIcon": "r738",
+      "isUtility": false
+    },
+    {
+      "runeId": "3409714389760517357",
+      "runeName": "Armageddon",
+      "runeIcon": "r744",
+      "isUtility": false
+    }
+  ],
+  "1268549502703359459": [
+    {
+      "runeId": "1490193915641213403",
+      "runeName": "Frost Needles",
+      "runeIcon": "r732",
+      "isUtility": false
+    },
+    {
+      "runeId": "2544515215235534857",
+      "runeName": "Frigid Arc",
+      "runeIcon": "r733",
+      "isUtility": false
+    }
+  ],
+  "1361160479575459491": [
+    {
+      "runeId": "1878252786236610881",
+      "runeName": "Plague Barrage",
+      "runeIcon": "r718",
+      "isUtility": false
+    },
+    {
+      "runeId": "2135718195121958454",
+      "runeName": "Plague Explosion",
+      "runeIcon": "r715",
+      "isUtility": false
+    }
+  ],
+  "3292037304464943861": [
+    {
+      "runeId": "2355168337068596188",
+      "runeName": "Ice Dart",
+      "runeIcon": "r736",
+      "isUtility": false
+    },
+    {
+      "runeId": "2500324970914093171",
+      "runeName": "Cold Sling",
+      "runeIcon": "r734",
+      "isUtility": false
+    }
+  ],
+  "3001415172944996431": [
+    {
+      "runeId": "1394509430782869597",
+      "runeName": "Plague Dart",
+      "runeIcon": "r720",
+      "isUtility": false
+    },
+    {
+      "runeId": "948892358145475312",
+      "runeName": "Plague Smite",
+      "runeIcon": "r721",
+      "isUtility": false
+    }
+  ],
+  "1774200840389439599": [
+    {
+      "runeId": "588068954941947977",
+      "runeName": "Electric Enchantment",
+      "runeIcon": "r750",
+      "isUtility": true
+    }
+  ],
+  "231897934933291761": [
+    {
+      "runeId": "3820994722620289270",
+      "runeName": "Spin",
+      "runeIcon": "r809",
+      "isUtility": false
+    }
+  ],
+  "730902323742250293": [
+    {
+      "runeId": "3552281628650500396",
+      "runeName": "Slamdown",
+      "runeIcon": "r797",
+      "isUtility": false
+    }
+  ],
+  "948075017379076618": [
+    {
+      "runeId": "2670213990180711386",
+      "runeName": "Triple Swipe",
+      "runeIcon": "r778",
+      "isUtility": false
+    },
+    {
+      "runeId": "1043286239091734599",
+      "runeName": "Kick Slash",
+      "runeIcon": "r656",
+      "isUtility": false
+    },
+    {
+      "runeId": "1924769126166654810",
+      "runeName": "Crushing Slam",
+      "runeIcon": "r660",
+      "isUtility": false
+    },
+    {
+      "runeId": "4541316365676769348",
+      "runeName": "Damage Surge",
+      "runeIcon": "r749",
+      "isUtility": true
+    }
+  ],
+  "1760259951179828482": [
+    {
+      "runeId": "2935435245331159393",
+      "runeName": "Stormpiercer",
+      "runeIcon": "r816",
+      "isUtility": false
+    }
+  ],
+  "3050563823469747899": [
+    {
+      "runeId": "2196518769019081783",
+      "runeName": "Slashing Dodge",
+      "runeIcon": "r806",
+      "isUtility": false
+    }
+  ],
+  "3074627182686137065": [
+    {
+      "runeId": "2308152468943957299",
+      "runeName": "Double Spin",
+      "runeIcon": "r775",
+      "isUtility": false
+    }
+  ],
+  "2082843073072630743": [
+    {
+      "runeId": "3804848180700462754",
+      "runeName": "Evasive Strike",
+      "runeIcon": "r808",
+      "isUtility": false
+    }
+  ],
+  "2007123158224043520": [
+    {
+      "runeId": "1277454977354197546",
+      "runeName": "Jump Cut",
+      "runeIcon": "r792",
+      "isUtility": false
+    }
+  ],
+  "3259805795598341325": [
+    {
+      "runeId": "4367213926817392495",
+      "runeName": "Heat Enchantment",
+      "runeIcon": "r753",
+      "isUtility": true
+    }
+  ],
+  "2708626935495085138": [
+    {
+      "runeId": "2010979579140854357",
+      "runeName": "Overrun",
+      "runeIcon": "r793",
+      "isUtility": false
+    }
+  ],
+  "2891418159663963189": [
+    {
+      "runeId": "1433654253657884953",
+      "runeName": "Evasive Pierce",
+      "runeIcon": "r801",
+      "isUtility": false
+    }
+  ],
+  "1865036539131107735": [
+    {
+      "runeId": "2764278540284420231",
+      "runeName": "Plague Throw",
+      "runeIcon": "r813",
+      "isUtility": false
+    }
+  ],
+  "4419242716635288751": [
+    {
+      "runeId": "3269044447633057371",
+      "runeName": "Air Dodge",
+      "runeIcon": "r799",
+      "isUtility": false
+    }
+  ],
+  "1706978434911508381": [
+    {
+      "runeId": "17845796907495789",
+      "runeName": "Shock Strike",
+      "runeIcon": "r822",
+      "isUtility": false
+    }
+  ],
+  "423079541508086085": [
+    {
+      "runeId": "3196031151234938533",
+      "runeName": "Piercing Spin",
+      "runeIcon": "r810",
+      "isUtility": false
+    },
+    {
+      "runeId": "3061021514271308809",
+      "runeName": "Piercing Flurry",
+      "runeIcon": "r782",
+      "isUtility": false
+    },
+    {
+      "runeId": "2260878218614060253",
+      "runeName": "Channel",
+      "runeIcon": "r761",
+      "isUtility": true
+    },
+    {
+      "runeId": "4438847146502021167",
+      "runeName": "Pulse of Health",
+      "runeIcon": "r748",
+      "isUtility": true
+    }
+  ],
+  "3218729480081295004": [
+    {
+      "runeId": "3061021514271308809",
+      "runeName": "Piercing Flurry",
+      "runeIcon": "r782",
+      "isUtility": false
+    }
+  ],
+  "2598143532762398579": [
+    {
+      "runeId": "1510491183592993679",
+      "runeName": "Evasive Swing",
+      "runeIcon": "r783",
+      "isUtility": false
+    }
+  ],
+  "3824734634523281862": [
+    {
+      "runeId": "2215298957383522801",
+      "runeName": "Plague Swirl",
+      "runeIcon": "r814",
+      "isUtility": false
+    }
+  ],
+  "2214693326029893710": [
+    {
+      "runeId": "1826788492681128282",
+      "runeName": "Fire Flurry",
+      "runeIcon": "r830",
+      "isUtility": false
+    }
+  ],
+  "1575516722160757798": [
+    {
+      "runeId": "2505170993073346572",
+      "runeName": "Plague Whirl",
+      "runeIcon": "r815",
+      "isUtility": false
+    },
+    {
+      "runeId": "1277454977354197546",
+      "runeName": "Jump Cut",
+      "runeIcon": "r792",
+      "isUtility": false
+    },
+    {
+      "runeId": "2388271367670244372",
+      "runeName": "Slashing Dash",
+      "runeIcon": "r781",
+      "isUtility": false
+    },
+    {
+      "runeId": "1756380779171026231",
+      "runeName": "Twirl Dash",
+      "runeIcon": "r794",
+      "isUtility": false
+    }
+  ],
+  "98486518596493540": [
+    {
+      "runeId": "1851837574400786201",
+      "runeName": "Recoil Strike",
+      "runeIcon": "r836",
+      "isUtility": false
+    }
+  ],
+  "3228342987845246761": [
+    {
+      "runeId": "4209072087672005962",
+      "runeName": "Skyfall Smash",
+      "runeIcon": "r842",
+      "isUtility": false
+    }
+  ],
+  "1494748677527998372": [
+    {
+      "runeId": "1125468942664125583",
+      "runeName": "Rising Fang",
+      "runeIcon": "r845",
+      "isUtility": false
+    }
+  ],
+  "730649138231830651": [
+    {
+      "runeId": "1325603179561069768",
+      "runeName": "Breakrush",
+      "runeIcon": "r834",
+      "isUtility": false
+    }
+  ],
+  "4008560343105315002": [
+    {
+      "runeId": "616969157055433712",
+      "runeName": "Tremor Wave",
+      "runeIcon": "r840",
+      "isUtility": false
+    }
+  ],
+  "2917265454818029008": [
+    {
+      "runeId": "4124272060944119733",
+      "runeName": "Tempest Kick",
+      "runeIcon": "r838",
+      "isUtility": false
+    }
+  ],
+  "3373960239179827072": [
+    {
+      "runeId": "14421685511696412",
+      "runeName": "Buster Rift",
+      "runeIcon": "r841",
+      "isUtility": false
+    }
+  ],
+  "1587667062448988113": [
+    {
+      "runeId": "4440236429854153732",
+      "runeName": "Dragonfly Kick",
+      "runeIcon": "r835",
+      "isUtility": false
+    }
+  ],
+  "2382106236773060700": [
+    {
+      "runeId": "2697887544261217621",
+      "runeName": "Plague Retch",
+      "runeIcon": "r843",
+      "isUtility": false
+    }
+  ],
+  "2386385602694888332": [
+    {
+      "runeId": "4370172606529549591",
+      "runeName": "Drive Break",
+      "runeIcon": "r837",
+      "isUtility": false
+    }
+  ],
+  "3733057570642613240": [
+    {
+      "runeId": "1707388295500007111",
+      "runeName": "Cyclone Kick",
+      "runeIcon": "r839",
+      "isUtility": false
+    }
+  ],
+  "2093358184819734015": [
+    {
+      "runeId": "1851837574400786201",
+      "runeName": "Recoil Strike",
+      "runeIcon": "r836",
+      "isUtility": false
+    }
+  ],
+  "2207445515709382301": [
+    {
+      "runeId": "4086555725753371914",
+      "runeName": "Bare Knuckle",
+      "runeIcon": "r833",
+      "isUtility": false
+    },
+    {
+      "runeId": "4209072087672005962",
+      "runeName": "Skyfall Smash",
+      "runeIcon": "r842",
+      "isUtility": false
+    },
+    {
+      "runeId": "616969157055433712",
+      "runeName": "Tremor Wave",
+      "runeIcon": "r840",
+      "isUtility": false
+    },
+    {
+      "runeId": "969122126482669651",
+      "runeName": "Focus Halo",
+      "runeIcon": "r745",
+      "isUtility": true
+    }
+  ],
+  "2635424158047053292": [
+    {
+      "runeId": "3209590727690784563",
+      "runeName": "Spirit Burst",
+      "runeIcon": "r844",
+      "isUtility": false
+    }
+  ],
+  "3255943684902281669": [
+    {
+      "runeId": "4427128079373407389",
+      "runeName": "Tornado Spin",
+      "runeIcon": "r846",
+      "isUtility": false
+    },
+    {
+      "runeId": "2131101195751376953",
+      "runeName": "Dual Flurry",
+      "runeIcon": "r853",
+      "isUtility": false
+    },
+    {
+      "runeId": "2917299912740972188",
+      "runeName": "Scream",
+      "runeIcon": "r757",
+      "isUtility": true
+    },
+    {
+      "runeId": "3655060827570716740",
+      "runeName": "Poise Shield",
+      "runeIcon": "r747",
+      "isUtility": true
+    }
+  ],
+  "1029814847506162097": [
+    {
+      "runeId": "4322302990844201726",
+      "runeName": "Dashing Stab",
+      "runeIcon": "r848",
+      "isUtility": false
+    }
+  ],
+  "2015248703842407367": [
+    {
+      "runeId": "3118406044295730004",
+      "runeName": "Dual Breaker",
+      "runeIcon": "r850",
+      "isUtility": false
+    }
+  ],
+  "2958893223366543108": [
+    {
+      "runeId": "843664983293995359",
+      "runeName": "Dual Slash",
+      "runeIcon": "r852",
+      "isUtility": false
+    }
+  ],
+  "3544621973185388107": [
+    {
+      "runeId": "3450687068571509517",
+      "runeName": "Lightning Claw",
+      "runeIcon": "r854",
+      "isUtility": false
+    }
+  ]
+}
