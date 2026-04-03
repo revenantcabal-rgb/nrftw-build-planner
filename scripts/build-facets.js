@@ -1,0 +1,167 @@
+const fs = require('fs');
+
+const facets = [
+  // WEAPON FACETS
+  { name: "Quick", slot: "weapon", effects: [
+    { stat: "Attack Speed", value: "+10%", type: "Increased", positive: true },
+    { stat: "Damage", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Nimble", slot: "weapon", effects: [
+    { stat: "Stamina Cost", value: "-10%", type: "Increased", positive: true },
+    { stat: "Focus Gain", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Keen", slot: "weapon", effects: [
+    { stat: "Critical Damage Chance", value: "+5%", type: "Added", positive: true },
+    { stat: "Poise Damage", value: "-20%", type: "Increased", positive: false }
+  ]},
+  { name: "Razor", slot: "weapon", effects: [
+    { stat: "Critical Damage Chance", value: "+5%", type: "Added", positive: true },
+    { stat: "Durability", value: "-50%", type: "More", positive: false }
+  ]},
+  { name: "Sharp", slot: "weapon", effects: [
+    { stat: "Critical Damage", value: "+30%", type: "Added", positive: true },
+    { stat: "Damage", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Reliable", slot: "weapon", effects: [
+    { stat: "Damage", value: "+10%", type: "Increased", positive: true },
+    { stat: "Poise Damage", value: "+10%", type: "Increased", positive: true },
+    { stat: "Critical Damage Chance", value: "Removed", type: "Special", positive: false }
+  ]},
+  { name: "Heavy", slot: "weapon", effects: [
+    { stat: "Damage", value: "+10%", type: "Increased", positive: true },
+    { stat: "Attack Stamina Cost", value: "+25%", type: "Increased", positive: false }
+  ]},
+  { name: "Mundane", slot: "weapon", effects: [
+    { stat: "Damage", value: "+10%", type: "Increased", positive: true },
+    { stat: "Focus Gain On Hit", value: "-20%", type: "Increased", positive: false }
+  ]},
+  { name: "Clumsy", slot: "weapon", effects: [
+    { stat: "Damage", value: "+10%", type: "Increased", positive: true },
+    { stat: "Attack Speed", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Durable", slot: "weapon", effects: [
+    { stat: "Durability", value: "+75", type: "Added", positive: true },
+    { stat: "Focus Gain On Hit", value: "-20%", type: "Increased", positive: false }
+  ]},
+  { name: "Ritualistic", slot: "weapon", effects: [
+    { stat: "Focus Gain On Hit", value: "+20%", type: "Increased", positive: true },
+    { stat: "Attack Stamina Cost", value: "+25%", type: "Increased", positive: false }
+  ]},
+  { name: "Blunt", slot: "weapon", effects: [
+    { stat: "Poise Damage", value: "+20%", type: "Increased", positive: true },
+    { stat: "Focus Gain On Hit", value: "-20%", type: "Increased", positive: false }
+  ]},
+  { name: "Indestructible", slot: "weapon", effects: [
+    { stat: "Indestructible", value: "", type: "Special", positive: true },
+    { stat: "Durability", value: "-90%", type: "More", positive: false }
+  ]},
+  { name: "Flaming", slot: "weapon", effects: [
+    { stat: "Fire", value: "", type: "Infusion", positive: true },
+    { stat: "Damage", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Frigid", slot: "weapon", effects: [
+    { stat: "Cold", value: "", type: "Infusion", positive: true },
+    { stat: "Damage", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Voltaic", slot: "weapon", effects: [
+    { stat: "Lightning", value: "", type: "Infusion", positive: true },
+    { stat: "Damage", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Festering", slot: "weapon", effects: [
+    { stat: "Plague", value: "", type: "Infusion", positive: true },
+    { stat: "Damage", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Regular", slot: "weapon", effects: [
+    { stat: "No Change", value: "", type: "Special", positive: true }
+  ]},
+
+  // GENERAL ARMOR FACETS (head, chest, hands, legs)
+  { name: "Bulky", slot: "armor", effects: [
+    { stat: "Armor", value: "+5", type: "Added", positive: true },
+    { stat: "Poise", value: "-1", type: "Added", positive: false }
+  ]},
+  { name: "Dense", slot: "armor", effects: [
+    { stat: "Armor", value: "+5", type: "Added", positive: true },
+    { stat: "Equipped Weight", value: "+5", type: "Added", positive: false }
+  ]},
+  { name: "Indestructible", slot: "armor", effects: [
+    { stat: "Indestructible", value: "", type: "Special", positive: true },
+    { stat: "Durability", value: "-90%", type: "More", positive: false }
+  ]},
+  { name: "Durable", slot: "armor", effects: [
+    { stat: "Durability", value: "+75", type: "Added", positive: true },
+    { stat: "Focus Gain", value: "-10%", type: "Increased", positive: false }
+  ]},
+  { name: "Fireproof", slot: "armor", effects: [
+    { stat: "Fire Damage Taken", value: "-10%", type: "More", positive: true },
+    { stat: "Equipped Weight", value: "+5", type: "Added", positive: false }
+  ]},
+  { name: "Frostwoven", slot: "armor", effects: [
+    { stat: "Ice Damage Taken", value: "-10%", type: "More", positive: true },
+    { stat: "Equipped Weight", value: "+5", type: "Added", positive: false }
+  ]},
+  { name: "Insulated", slot: "armor", effects: [
+    { stat: "Lightning Damage Taken", value: "-10%", type: "More", positive: true },
+    { stat: "Equipped Weight", value: "+5", type: "Added", positive: false }
+  ]},
+  { name: "Purified", slot: "armor", effects: [
+    { stat: "Plague Damage Taken", value: "-10%", type: "More", positive: true },
+    { stat: "Equipped Weight", value: "+5", type: "Added", positive: false }
+  ]},
+  { name: "Mystic", slot: "armor", effects: [
+    { stat: "Focus Gain", value: "+10%", type: "Increased", positive: true },
+    { stat: "Stamina Regen", value: "-20%", type: "Increased", positive: false }
+  ]},
+  { name: "Stable", slot: "armor", effects: [
+    { stat: "Poise", value: "+2", type: "Added", positive: true },
+    { stat: "Stamina Regen", value: "-20%", type: "Increased", positive: false }
+  ]},
+  { name: "Agile", slot: "armor", effects: [
+    { stat: "Stamina Regen", value: "+20%", type: "Increased", positive: true },
+    { stat: "Focus Gain", value: "-20%", type: "Increased", positive: false }
+  ]},
+
+  // LEGS-ONLY FACET
+  { name: "Frantic", slot: "legs", effects: [
+    { stat: "Movement Speed", value: "+10%", type: "Increased", positive: true },
+    { stat: "Stamina Regen", value: "-20%", type: "Increased", positive: false }
+  ]},
+
+  // GLOVES-ONLY FACET
+  { name: "Rapid", slot: "gloves", effects: [
+    { stat: "Attack Speed", value: "+10%", type: "Increased", positive: true },
+    { stat: "Stamina Regen", value: "-20%", type: "Increased", positive: false }
+  ]},
+
+  // SHIELD FACETS
+  { name: "Dense", slot: "shield", effects: [
+    { stat: "Shield Armor", value: "+20", type: "Added", positive: true },
+    { stat: "Equipped Weight", value: "+5", type: "Added", positive: false }
+  ]},
+  { name: "Meditative", slot: "shield", effects: [
+    { stat: "Focus Gain On Block", value: "+5", type: "Added", positive: true },
+    { stat: "Poise Damage On Block", value: "-5", type: "Added", positive: false }
+  ]},
+  { name: "Durable", slot: "shield", effects: [
+    { stat: "Durability", value: "+75", type: "Added", positive: true },
+    { stat: "Focus Gain On Block", value: "-5", type: "Added", positive: false }
+  ]},
+  { name: "Blunt", slot: "shield", effects: [
+    { stat: "Poise Damage On Block", value: "+10", type: "Added", positive: true },
+    { stat: "Focus Gain On Block", value: "-5", type: "Added", positive: false }
+  ]},
+  { name: "Indestructible", slot: "shield", effects: [
+    { stat: "Indestructible", value: "", type: "Special", positive: true },
+    { stat: "Durability", value: "-90%", type: "More", positive: false }
+  ]},
+];
+
+fs.writeFileSync('public/data/facets-detailed.json', JSON.stringify(facets, null, 2));
+console.log('Saved ' + facets.length + ' facets with detailed stats');
+console.log('By slot:', JSON.stringify({
+  weapon: facets.filter(f => f.slot === 'weapon').length,
+  armor: facets.filter(f => f.slot === 'armor').length,
+  legs: facets.filter(f => f.slot === 'legs').length,
+  gloves: facets.filter(f => f.slot === 'gloves').length,
+  shield: facets.filter(f => f.slot === 'shield').length,
+}));

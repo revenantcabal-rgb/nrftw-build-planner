@@ -73,7 +73,8 @@ export default function PlannerPage() {
   const [itemPools, setItemPools] = useState<ItemPool>({});
   const [runePool, setRunePool] = useState<{ id: string; name: string; icon?: string; isUtility?: boolean; compatibleClasses?: number[] }[]>([]);
   const [gemPool, setGemPool] = useState<{ id: string; name: string; icon?: string }[]>([]);
-  const [facetList, setFacetList] = useState<{ name: string; upside: string; downside: string; slot: string }[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [facetList, setFacetList] = useState<any[]>([]);
   const [enchantList, setEnchantList] = useState<{ rarity: string; slot: string; group: string; description: string }[]>([]);
   const [utilityRunes, setUtilityRunes] = useState<(null | { id: string; name: string; icon?: string })[]>([null, null, null, null]);
   const [activeUtilitySlot, setActiveUtilitySlot] = useState<number | null>(null);
@@ -105,7 +106,7 @@ export default function PlannerPage() {
   useEffect(() => {
     Promise.all([
       getWeapons(), getArmors(), getShields(), getTrinkets(), getRunes(), getGems(),
-      fetch('/data/facets-list.json').then(r => r.json()),
+      fetch('/data/facets-detailed.json').then(r => r.json()),
       fetch('/data/enchantments-list.json').then(r => r.json()),
     ]).then(
       ([weapons, armors, shields, trinkets, runes, gems, facets, enchants]) => {

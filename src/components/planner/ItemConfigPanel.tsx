@@ -36,11 +36,20 @@ interface GemData {
   icon?: string;
 }
 
+interface FacetEffect {
+  stat: string;
+  value: string;
+  type: string;
+  positive: boolean;
+}
+
 interface FacetData {
   name: string;
-  upside: string;
-  downside: string;
   slot: string;
+  effects: FacetEffect[];
+  // Legacy fields for old data format
+  upside?: string;
+  downside?: string;
 }
 
 interface EnchantData {
@@ -146,12 +155,18 @@ export default function ItemConfigPanel({
       .sort((a, b) => a.name.localeCompare(b.name));
   }, [allRunes, item.weaponClass, showWeaponRunes]);
 
-  // Filter facets by slot type (weapon vs armor)
+  // Filter facets by slot type with proper slot-specific logic
   const slotFacets = useMemo(() => {
     const isWeapon = itemSlotType === "weapon" || itemSlotType === "bow";
+    if (isWeapon) return allFacets.filter((f) => f.slot === "weapon" || f.slot === "weapons");
+    if (itemSlotType === "shield") return allFacets.filter((f) => f.slot === "shield");
+    // Armor slots: get general armor facets + slot-specific
+    // legs gets armor + "legs", gloves gets armor + "gloves"
     return allFacets.filter((f) => {
-      if (isWeapon) return f.slot === "weapons";
-      return f.slot === "armor";
+      if (f.slot === "armor") return true;
+      if (f.slot === "legs" && itemSlotType === "pants") return true;
+      if (f.slot === "gloves" && itemSlotType === "gloves") return true;
+      return false;
     });
   }, [allFacets, itemSlotType]);
 
@@ -305,14 +320,28 @@ export default function ItemConfigPanel({
               <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-60 overflow-y-auto">
                 <button onClick={() => setFacet(null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic mb-1">None (clear)</button>
                 {slotFacets.map((f) => (
-                  <button key={f.name} onClick={() => setFacet(f.name.toLowerCase())}
+                  <button key={f.name + f.slot} onClick={() => setFacet(f.name.toLowerCase())}
                     className={`w-full text-left px-3 py-2 hover:bg-bg-card-hover rounded transition-colors ${config.facet === f.name.toLowerCase() ? "bg-bg-card-hover" : ""}`}>
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm text-text-primary font-medium">{f.name}</span>
-                    </div>
-                    <div className="text-xs mt-0.5">
-                      <span className="text-green-400">[Stat] {f.upside}</span>
-                      {f.downside && <span className="text-red-400 ml-2">[Stat] {f.downside}</span>}
+                    <span className="text-sm text-text-primary font-medium">{f.name}</span>
+                    <div className="text-xs mt-0.5 space-y-0.5">
+                      {f.effects ? f.effects.map((eff, i) => (
+                        <div key={i}>
+                          {eff.type === "Infusion" ? (
+                            <span className="text-blue-400">[Infusion] {eff.stat}</span>
+                          ) : eff.type === "Special" ? (
+                            <span className={eff.positive ? "text-yellow-400" : "text-red-400"}>[Special] {eff.stat} {eff.value}</span>
+                          ) : (
+                            <span className={eff.positive ? "text-green-400" : "text-red-400"}>
+                              [Stat] {eff.value} {eff.stat} ({eff.type})
+                            </span>
+                          )}
+                        </div>
+                      )) : (
+                        <>
+                          {f.upside && <span className="text-green-400">[Stat] {f.upside}</span>}
+                          {f.downside && <span className="text-red-400 ml-2">[Stat] {f.downside}</span>}
+                        </>
+                      )}
                     </div>
                   </button>
                 ))}
@@ -323,9 +352,25 @@ export default function ItemConfigPanel({
                 {selectedFacet ? (
                   <div>
                     <span className="text-text-primary font-medium">{selectedFacet.name}</span>
-                    <div className="text-xs mt-0.5">
-                      <span className="text-green-400">[Stat] {selectedFacet.upside}</span>
-                      {selectedFacet.downside && <span className="text-red-400 ml-2">[Stat] {selectedFacet.downside}</span>}
+                    <div className="text-xs mt-0.5 space-y-0.5">
+                      {selectedFacet.effects ? selectedFacet.effects.map((eff, i) => (
+                        <div key={i}>
+                          {eff.type === "Infusion" ? (
+                            <span className="text-blue-400">[Infusion] {eff.stat}</span>
+                          ) : eff.type === "Special" ? (
+                            <span className={eff.positive ? "text-yellow-400" : "text-red-400"}>[Special] {eff.stat} {eff.value}</span>
+                          ) : (
+                            <span className={eff.positive ? "text-green-400" : "text-red-400"}>
+                              [Stat] {eff.value} {eff.stat} ({eff.type})
+                            </span>
+                          )}
+                        </div>
+                      )) : (
+                        <>
+                          {selectedFacet.upside && <div className="text-green-400">[Stat] {selectedFacet.upside}</div>}
+                          {selectedFacet.downside && <div className="text-red-400">[Stat] {selectedFacet.downside}</div>}
+                        </>
+                      )}
                     </div>
                   </div>
                 ) : (
