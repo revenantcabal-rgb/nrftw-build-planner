@@ -103,15 +103,27 @@ function getEnchantLimits(slotKey: string): { positive: number; downside: number
 
 // --- Component ---
 
-interface WeaponStats {
-  damage: number;
-  poiseDamage: number;
-  staminaCost: number;
-  focusGain: number;
-  durability?: number;
-  weight?: number;
+interface BaseStats {
+  // Weapon stats
+  damage?: number;
+  poiseDamage?: number;
+  staminaCost?: number;
+  focusGain?: number;
   critChance?: number;
   critDamage?: number;
+  // Armor/shield stats
+  physicalDefense?: number;
+  fireDefense?: number;
+  iceDefense?: number;
+  lightningDefense?: number;
+  holyDefense?: number;
+  plagueDefense?: number;
+  poise?: number;
+  shieldArmor?: number;
+  poiseDamageOnBlock?: number;
+  // Common
+  durability?: number;
+  weight?: number;
   upgradeLevel?: number;
 }
 
@@ -120,7 +132,7 @@ interface ItemConfigPanelProps {
   slotKey: string;
   slotLabel: string;
   config: ItemConfig;
-  baseStats: WeaponStats | null;
+  baseStats: BaseStats | null;
   allRunes: RuneData[];
   allGems: GemData[];
   allFacets: FacetData[];
@@ -356,47 +368,60 @@ export default function ItemConfigPanel({
           {baseStats && (
             <Section title="Base Stats">
               <div className="space-y-1">
-                {baseStats.damage > 0 && (
-                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
-                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-yellow-400">&#x2694;</span> Damage</span>
-                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.damage}</span>
-                  </div>
+                {/* Weapon stats */}
+                {(baseStats.damage || 0) > 0 && (
+                  <BaseStatRow icon="&#x2694;" iconColor="text-yellow-400" label="Damage" value={baseStats.damage!} />
                 )}
-                {baseStats.poiseDamage > 0 && (
-                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
-                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-green-400">&#x25C6;</span> Poise Damage</span>
-                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.poiseDamage}</span>
-                  </div>
+                {(baseStats.poiseDamage || 0) > 0 && (
+                  <BaseStatRow icon="&#x25C6;" iconColor="text-green-400" label="Poise Damage" value={baseStats.poiseDamage!} />
                 )}
                 {(baseStats.critChance || 0) > 0 && (
-                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
-                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-red-400">&#x2727;</span> Critical Damage Chance</span>
-                    <span className="text-text-primary font-bold"><span className="border border-border-subtle rounded px-2">{baseStats.critChance}</span> %</span>
-                  </div>
+                  <BaseStatRow icon="&#x2727;" iconColor="text-red-400" label="Critical Damage Chance" value={baseStats.critChance!} suffix=" %" />
                 )}
                 {(baseStats.critDamage || 0) > 0 && (
-                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
-                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-red-400">&#x2727;</span> Critical Damage</span>
-                    <span className="text-text-primary font-bold"><span className="border border-border-subtle rounded px-2">{baseStats.critDamage}</span> %</span>
-                  </div>
+                  <BaseStatRow icon="&#x2727;" iconColor="text-red-400" label="Critical Damage" value={baseStats.critDamage!} suffix=" %" />
                 )}
-                {baseStats.staminaCost > 0 && (
-                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
-                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-blue-400">&#x25A0;</span> Attack Stamina Cost</span>
-                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.staminaCost}</span>
-                  </div>
+                {(baseStats.staminaCost || 0) > 0 && (
+                  <BaseStatRow icon="&#x25A0;" iconColor="text-blue-400" label="Attack Stamina Cost" value={baseStats.staminaCost!} />
                 )}
-                {baseStats.focusGain > 0 && (
-                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
-                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-amber-400">&#x25C7;</span> Focus Gain On Hit</span>
-                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.focusGain}</span>
-                  </div>
+                {(baseStats.focusGain || 0) > 0 && (
+                  <BaseStatRow icon="&#x25C7;" iconColor="text-amber-400" label="Focus Gain On Hit" value={baseStats.focusGain!} />
+                )}
+                {/* Shield stats */}
+                {(baseStats.shieldArmor || 0) > 0 && (
+                  <BaseStatRow icon="&#x1F6E1;" iconColor="text-blue-300" label="Shield Armor" value={baseStats.shieldArmor!} />
+                )}
+                {(baseStats.poiseDamageOnBlock || 0) > 0 && (
+                  <BaseStatRow icon="&#x25C6;" iconColor="text-green-400" label="Poise Damage On Block" value={baseStats.poiseDamageOnBlock!} />
+                )}
+                {/* Armor defense stats */}
+                {(baseStats.physicalDefense || 0) > 0 && (
+                  <BaseStatRow icon="&#x1F6E1;" iconColor="text-gray-300" label="Physical Defense" value={baseStats.physicalDefense!} />
+                )}
+                {(baseStats.fireDefense || 0) > 0 && (
+                  <BaseStatRow icon="&#x1F525;" iconColor="text-orange-400" label="Fire Defense" value={baseStats.fireDefense!} />
+                )}
+                {(baseStats.iceDefense || 0) > 0 && (
+                  <BaseStatRow icon="&#x2744;" iconColor="text-cyan-400" label="Ice Defense" value={baseStats.iceDefense!} />
+                )}
+                {(baseStats.lightningDefense || 0) > 0 && (
+                  <BaseStatRow icon="&#x26A1;" iconColor="text-yellow-300" label="Lightning Defense" value={baseStats.lightningDefense!} />
+                )}
+                {(baseStats.holyDefense || 0) > 0 && (
+                  <BaseStatRow icon="&#x271E;" iconColor="text-purple-400" label="Holy Defense" value={baseStats.holyDefense!} />
+                )}
+                {(baseStats.plagueDefense || 0) > 0 && (
+                  <BaseStatRow icon="&#x2623;" iconColor="text-green-500" label="Plague Defense" value={baseStats.plagueDefense!} />
+                )}
+                {(baseStats.poise || 0) > 0 && (
+                  <BaseStatRow icon="&#x25C6;" iconColor="text-blue-400" label="Poise" value={baseStats.poise!} />
+                )}
+                {/* Common stats */}
+                {(baseStats.durability || 0) > 0 && (
+                  <BaseStatRow icon="&#x2B50;" iconColor="text-yellow-500" label="Durability" value={baseStats.durability!} />
                 )}
                 {(baseStats.weight || 0) > 0 && (
-                  <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
-                    <span className="text-text-secondary flex items-center gap-1.5"><span className="text-gray-400">&#x25B2;</span> Equipped Weight</span>
-                    <span className="text-text-primary font-bold border border-border-subtle rounded px-2">{baseStats.weight?.toFixed(1)}</span>
-                  </div>
+                  <BaseStatRow icon="&#x25B2;" iconColor="text-gray-400" label="Equipped Weight" value={Number(baseStats.weight!.toFixed(1))} />
                 )}
               </div>
             </Section>
@@ -586,6 +611,21 @@ export default function ItemConfigPanel({
 }
 
 // --- Sub-components ---
+
+function BaseStatRow({ icon, iconColor, label, value, suffix }: { icon: string; iconColor: string; label: string; value: number; suffix?: string }) {
+  return (
+    <div className="flex justify-between py-1 px-2 bg-bg-card rounded text-sm">
+      <span className="text-text-secondary flex items-center gap-1.5">
+        <span className={iconColor} dangerouslySetInnerHTML={{ __html: icon }} />
+        {label}
+      </span>
+      <span className="text-text-primary font-bold">
+        <span className="border border-border-subtle rounded px-2">{value}</span>
+        {suffix || ""}
+      </span>
+    </div>
+  );
+}
 
 function Section({ title, subtitle, children }: { title: string; subtitle?: string; children: React.ReactNode }) {
   return (

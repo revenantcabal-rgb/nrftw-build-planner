@@ -254,16 +254,31 @@ export function collectAllModifiers(
     if (!item) continue;
     const config = slotConfigs[slotKey];
     if (!config) {
-      // Still add weight from weapon base stats
+      // Still add weight and defense from base stats even without config
       const ws = weaponStatsDb[item.id];
-      if (ws?.stats?.weight) mods.equippedWeight += ws.stats.weight;
+      if (ws?.stats) {
+        if (ws.stats.weight) mods.equippedWeight += ws.stats.weight;
+        if (ws.stats.physicalDefense) mods.physicalResistance += ws.stats.physicalDefense;
+        if (ws.stats.fireDefense) mods.fireResistance += ws.stats.fireDefense;
+        if (ws.stats.iceDefense) mods.iceResistance += ws.stats.iceDefense;
+        if (ws.stats.lightningDefense) mods.lightningResistance += ws.stats.lightningDefense;
+        if (ws.stats.plagueDefense) mods.plagueResistance += ws.stats.plagueDefense;
+        if (ws.stats.poise) mods.poise += ws.stats.poise;
+      }
       continue;
     }
 
-    // 1. Add weapon/item base stats (weight)
+    // 1. Add item base stats (weight + armor defenses)
     const ws = weaponStatsDb[item.id];
-    if (ws?.stats?.weight) {
-      mods.equippedWeight += ws.stats.weight;
+    if (ws?.stats) {
+      if (ws.stats.weight) mods.equippedWeight += ws.stats.weight;
+      // Armor defense values are flat additions
+      if (ws.stats.physicalDefense) mods.physicalResistance += ws.stats.physicalDefense;
+      if (ws.stats.fireDefense) mods.fireResistance += ws.stats.fireDefense;
+      if (ws.stats.iceDefense) mods.iceResistance += ws.stats.iceDefense;
+      if (ws.stats.lightningDefense) mods.lightningResistance += ws.stats.lightningDefense;
+      if (ws.stats.plagueDefense) mods.plagueResistance += ws.stats.plagueDefense;
+      if (ws.stats.poise) mods.poise += ws.stats.poise;
     }
 
     // 2. Apply facet effects

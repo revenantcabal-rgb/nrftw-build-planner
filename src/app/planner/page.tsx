@@ -128,14 +128,20 @@ export default function PlannerPage() {
 
   // Load all item data
   useEffect(() => {
+    // Helper: fetch JSON, return {} on failure (armor/shield/trinket stats may not exist yet)
+    const fetchOpt = (url: string) => fetch(url).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+
     Promise.all([
       getWeapons(), getArmors(), getShields(), getTrinkets(), getRunes(), getGems(),
       fetch('/data/facets-detailed.json').then(r => r.json()),
       fetch('/data/enchantments-list.json').then(r => r.json()),
       fetch('/data/balance-config.json').then(r => r.json()),
       fetch('/data/weapon-computed-stats.json').then(r => r.json()),
+      fetchOpt('/data/armor-computed-stats.json'),
+      fetchOpt('/data/shield-computed-stats.json'),
+      fetchOpt('/data/trinket-computed-stats.json'),
     ]).then(
-      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants, bc, weaponStats]) => {
+      ([weapons, armors, shields, trinkets, runes, gems, facets, enchants, bc, weaponStats, armorStats, shieldStats, trinketStats]) => {
         setItemPools({
           weapons: weapons as SlotItem[],
           armors: armors as SlotItem[],
@@ -147,7 +153,9 @@ export default function PlannerPage() {
         setFacetList(facets);
         setEnchantList(enchants);
         setBalanceConfig(bc);
-        setWeaponStatsDb(weaponStats || {});
+        // Merge all item stats into one lookup: { [itemId]: { stats: {...} } }
+        const mergedStats = { ...(weaponStats || {}), ...(armorStats || {}), ...(shieldStats || {}), ...(trinketStats || {}) };
+        setWeaponStatsDb(mergedStats);
         setLoading(false);
       }
     );
@@ -471,13 +479,13 @@ export default function PlannerPage() {
           {/* Defense */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Defense</h3>
-            <StatRow label="Physical Resistance" value={fmtPct(equipMods.physicalResistance)} />
-            <StatRow label="Fire Resistance" value={fmtPct(equipMods.fireResistance + equipMods.elementalResistance)} />
-            <StatRow label="Ice Resistance" value={fmtPct(equipMods.iceResistance + equipMods.elementalResistance)} />
-            <StatRow label="Lightning Resistance" value={fmtPct(equipMods.lightningResistance + equipMods.elementalResistance)} />
-            <StatRow label="Plague Resistance" value={fmtPct(equipMods.plagueResistance + equipMods.elementalResistance)} />
+            <StatRow label="Physical Defense" value={Math.round(equipMods.physicalResistance) || "0"} />
+            <StatRow label="Fire Defense" value={Math.round(equipMods.fireResistance + equipMods.elementalResistance) || "0"} />
+            <StatRow label="Ice Defense" value={Math.round(equipMods.iceResistance + equipMods.elementalResistance) || "0"} />
+            <StatRow label="Lightning Defense" value={Math.round(equipMods.lightningResistance + equipMods.elementalResistance) || "0"} />
+            <StatRow label="Plague Defense" value={Math.round(equipMods.plagueResistance + equipMods.elementalResistance) || "0"} />
             <StatRow label="Damage Resistance" value={fmtPct(equipMods.damageResistance)} />
-            <StatRow label="Poise" value={equipMods.poise || "0"} />
+            <StatRow label="Poise" value={Math.round(equipMods.poise) || "0"} />
             <StatRow label="Stagger Resistance" value={fmtPct(equipMods.staggerResistance)} />
           </div>
 
@@ -552,7 +560,7 @@ export default function PlannerPage() {
               if (!item) return null;
               const ws = weaponStatsDb[item.id];
               if (ws?.stats) {
-                return { ...ws.stats, critChance: ws.critChance || 0, critDamage: ws.critDamage || 0 };
+                return { ...ws.stats, critChance: ws.critChance || ws.stats.critChance || 0, critDamage: ws.critDamage || ws.stats.critDamage || 0 };
               }
               return null;
             })()}
