@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 import { getWeapons, getArmors, getShields, getTrinkets, getRunes, getGems, formatWeaponType } from "@/lib/data";
 import { defaultItemConfig } from "@/components/planner/ItemConfigPanel";
 import { computeCharacterStats, getWeightClass } from "@/lib/stats";
+import { collectAllModifiers, type StatModifiers } from "@/lib/modifiers";
 import { EQUIP_SLOT_LABELS, RARITY_TEXT } from "@/lib/constants";
 import { getBuildFromUrl, setBuildInUrl, type BuildState } from "@/lib/codec";
 import ItemPickerModal from "@/components/planner/ItemPickerModal";
@@ -106,12 +107,17 @@ export default function PlannerPage() {
     return computeCharacterStats(attrs, balanceConfig);
   }, [attrs, balanceConfig]);
 
-  // Compute weight class
+  // Compute equipment modifiers from facets, enchantments, gems
+  const equipMods = useMemo(() => {
+    return collectAllModifiers(slots, slotConfigs, facetList, weaponStatsDb);
+  }, [slots, slotConfigs, facetList, weaponStatsDb]);
+
+  // Compute weight class using real equipped weight
   const weightClass = useMemo(() => {
-    // TODO: sum up equipped weight from all items
-    const equippedWeight = 0;
-    return getWeightClass(equippedWeight, charStats.equipLoad || 100, balanceConfig);
-  }, [charStats.equipLoad, balanceConfig]);
+    const equippedWeight = equipMods.equippedWeight;
+    const totalEquipLoad = (charStats.equipLoad || 100) * (1 + equipMods.equipLoad / 100);
+    return getWeightClass(equippedWeight, totalEquipLoad, balanceConfig);
+  }, [charStats.equipLoad, equipMods.equippedWeight, equipMods.equipLoad, balanceConfig]);
 
   // Clear offhand if weapon becomes two-handed
   useEffect(() => {
@@ -455,29 +461,31 @@ export default function PlannerPage() {
           {/* General */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">General</h3>
-            <StatRow label="Health" value={Math.round(charStats.health)} />
-            <StatRow label="Stamina" value={Math.round(charStats.stamina)} />
-            <StatRow label="Stamina Regen" value={charStats.staminaRegen} />
-            <StatRow label="Focus" value={Math.round(charStats.focus)} />
-            <StatRow label="Focus Gain" value="100%" />
+            <StatRow label="Health" value={Math.round(charStats.health)} bonus={equipMods.maxHealth} bonusSuffix="%" />
+            <StatRow label="Stamina" value={Math.round(charStats.stamina)} bonus={equipMods.maxStamina} bonusSuffix="%" />
+            <StatRow label="Stamina Regen" value={charStats.staminaRegen} bonus={equipMods.staminaRecovery} bonusSuffix="%" />
+            <StatRow label="Focus" value={Math.round(charStats.focus)} bonus={equipMods.maxFocus} bonusSuffix="%" />
+            <StatRow label="Focus Gain" value="100%" bonus={equipMods.focusGain} bonusSuffix="%" />
           </div>
 
           {/* Defense */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Defense</h3>
-            <StatRow label="Physical Resistance" value="0%" />
-            <StatRow label="Fire Resistance" value="0%" />
-            <StatRow label="Ice Resistance" value="0%" />
-            <StatRow label="Lightning Resistance" value="0%" />
-            <StatRow label="Plague Resistance" value="0%" />
-            <StatRow label="Poise" value="0" />
+            <StatRow label="Physical Resistance" value={fmtPct(equipMods.physicalResistance)} />
+            <StatRow label="Fire Resistance" value={fmtPct(equipMods.fireResistance + equipMods.elementalResistance)} />
+            <StatRow label="Ice Resistance" value={fmtPct(equipMods.iceResistance + equipMods.elementalResistance)} />
+            <StatRow label="Lightning Resistance" value={fmtPct(equipMods.lightningResistance + equipMods.elementalResistance)} />
+            <StatRow label="Plague Resistance" value={fmtPct(equipMods.plagueResistance + equipMods.elementalResistance)} />
+            <StatRow label="Damage Resistance" value={fmtPct(equipMods.damageResistance)} />
+            <StatRow label="Poise" value={equipMods.poise || "0"} />
+            <StatRow label="Stagger Resistance" value={fmtPct(equipMods.staggerResistance)} />
           </div>
 
           {/* Weight */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Weight</h3>
-            <StatRow label="Equipment Load" value={Math.round(charStats.equipLoad)} />
-            <StatRow label="Equipped Weight" value="0.0" />
+            <StatRow label="Equipment Load" value={Math.round(charStats.equipLoad * (1 + equipMods.equipLoad / 100))} />
+            <StatRow label="Equipped Weight" value={equipMods.equippedWeight.toFixed(1)} />
             <StatRow label="Weight Class" value={`${weightClass.name} (${Math.round(weightClass.ratio * 100)}%)`}
               valueColor={weightClass.name === "Light" ? "text-green-400" : weightClass.name === "Medium" ? "text-yellow-400" : "text-red-400"} />
           </div>
@@ -485,31 +493,37 @@ export default function PlannerPage() {
           {/* Damage */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Damage</h3>
-            <StatRow label="Physical Damage" value="0%" />
-            <StatRow label="Fire Damage" value="0%" />
-            <StatRow label="Ice Damage" value="0%" />
-            <StatRow label="Lightning Damage" value="0%" />
-            <StatRow label="Plague Damage" value="0%" />
+            <StatRow label="Damage" value={fmtPct(equipMods.damage + equipMods.attackDamage)} />
+            <StatRow label="Physical Damage" value={fmtPct(equipMods.physicalDamage)} />
+            <StatRow label="Fire Damage" value={fmtPct(equipMods.fireDamage)} />
+            <StatRow label="Ice Damage" value={fmtPct(equipMods.iceDamage)} />
+            <StatRow label="Lightning Damage" value={fmtPct(equipMods.lightningDamage)} />
+            <StatRow label="Plague Damage" value={fmtPct(equipMods.plagueDamage)} />
+            <StatRow label="Rune Damage" value={fmtPct(equipMods.runeDamage)} />
+            <StatRow label="Stagger Damage" value={fmtPct(equipMods.staggerDamage)} />
           </div>
 
           {/* Speed */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Speed</h3>
-            <StatRow label="Speed" value="0%" />
-            <StatRow label="Movement Speed" value="0%" />
-            <StatRow label="Attack Speed" value="0%" />
+            <StatRow label="Overall Speed" value={fmtPct(equipMods.overallSpeed)} />
+            <StatRow label="Movement Speed" value={fmtPct(equipMods.movementSpeed)} />
+            <StatRow label="Attack Speed" value={fmtPct(equipMods.attackSpeed)} />
           </div>
 
           {/* Misc */}
           <div className="bg-bg-card border border-border-subtle rounded-lg p-4">
             <h3 className="text-sm font-bold text-text-gold uppercase tracking-wide mb-3">Miscellaneous</h3>
-            <StatRow label="Critical Damage Chance" value={`${Math.round(charStats.critChance)}%`} />
-            <StatRow label="Critical Damage" value={`${Math.round(charStats.critDamage)}%`} />
-            <StatRow label="Lifesteal" value="0%" />
-            <StatRow label="Armor Penetration" value="0%" />
-            <StatRow label="Thorns" value="0%" />
-            <StatRow label="Regainable Health" value="0%" />
-            <StatRow label="Barrier Gain" value="0%" />
+            <StatRow label="Critical Damage Chance" value={`${Math.round(charStats.critChance + equipMods.critChance)}%`}
+              bonus={equipMods.critChance} bonusSuffix="%" />
+            <StatRow label="Critical Damage" value={`${Math.round(charStats.critDamage + equipMods.critDamage)}%`}
+              bonus={equipMods.critDamage} bonusSuffix="%" />
+            <StatRow label="Lifesteal" value={fmtPct(equipMods.lifesteal)} />
+            <StatRow label="Armor Penetration" value={fmtPct(equipMods.armorPenetration)} />
+            <StatRow label="Thorns" value={fmtPct(equipMods.thorns)} />
+            <StatRow label="Regainable Health" value={fmtPct(equipMods.regainableHealth)} />
+            <StatRow label="Barrier Gain" value={fmtPct(equipMods.barrierGain)} />
+            <StatRow label="Healing" value={fmtPct(equipMods.healing)} />
           </div>
         </div>
       </div>
@@ -564,19 +578,37 @@ export default function PlannerPage() {
   );
 }
 
+function fmtPct(value: number): string {
+  if (value === 0) return "0%";
+  const sign = value > 0 ? "+" : "";
+  return `${sign}${Math.round(value * 10) / 10}%`;
+}
+
 function StatRow({
   label,
   value,
   valueColor = "text-text-primary",
+  bonus,
+  bonusSuffix,
 }: {
   label: string;
   value: string | number;
   valueColor?: string;
+  bonus?: number;
+  bonusSuffix?: string;
 }) {
+  const hasBonus = bonus !== undefined && bonus !== 0;
   return (
     <div className="flex justify-between py-1 text-sm">
       <span className="text-text-secondary">{label}</span>
-      <span className={`font-medium ${valueColor}`}>{value}</span>
+      <span className={`font-medium ${valueColor}`}>
+        {value}
+        {hasBonus && (
+          <span className={`ml-1 text-xs ${bonus! > 0 ? "text-green-400" : "text-red-400"}`}>
+            ({bonus! > 0 ? "+" : ""}{Math.round(bonus! * 10) / 10}{bonusSuffix || ""})
+          </span>
+        )}
+      </span>
     </div>
   );
 }

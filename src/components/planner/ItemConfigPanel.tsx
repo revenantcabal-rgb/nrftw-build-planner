@@ -3,6 +3,7 @@
 import { useState, useMemo, useEffect } from "react";
 import ItemIcon from "@/components/items/ItemIcon";
 import { RARITY_TEXT } from "@/lib/constants";
+import { parseEnchantmentRange } from "@/lib/modifiers";
 import type { Rarity } from "@/lib/types";
 
 // --- Types ---
@@ -66,6 +67,7 @@ export interface ItemConfig {
   facet: string | null;
   gem: GemData | null;
   enchantments: (EnchantData | null)[];
+  enchantmentValues?: (number | null)[];
   upgradeLevel: number;
 }
 
@@ -135,6 +137,7 @@ export function defaultItemConfig(): ItemConfig {
     facet: null,
     gem: null,
     enchantments: [null, null, null, null, null],
+    enchantmentValues: [null, null, null, null, null],
     upgradeLevel: 1,
   };
 }
@@ -160,16 +163,21 @@ export default function ItemConfigPanel({
 
   // Normalize config - guard against old saved configs missing new fields
   const defaultEnchants = Array(totalEnchantSlots).fill(null);
+  const defaultEnchantValues = Array(totalEnchantSlots).fill(null);
   const safeConfig: ItemConfig = {
     runes: config.runes || [null, null, null, null],
     facet: config.facet || null,
     gem: config.gem || null,
     enchantments: config.enchantments?.slice(0, totalEnchantSlots) || defaultEnchants,
+    enchantmentValues: config.enchantmentValues?.slice(0, totalEnchantSlots) || defaultEnchantValues,
     upgradeLevel: config.upgradeLevel || 1,
   };
   // Pad enchantments to correct length if short
   while (safeConfig.enchantments.length < totalEnchantSlots) {
     safeConfig.enchantments.push(null);
+  }
+  while ((safeConfig.enchantmentValues?.length || 0) < totalEnchantSlots) {
+    safeConfig.enchantmentValues!.push(null);
   }
 
   const [activeRuneSlot, setActiveRuneSlot] = useState<number | null>(null);
@@ -277,8 +285,22 @@ export default function ItemConfigPanel({
   function setEnchantment(i: number, ench: EnchantData | null) {
     const n = [...safeConfig.enchantments];
     n[i] = ench;
-    onConfigChange({ ...safeConfig, enchantments: n });
+    const v = [...(safeConfig.enchantmentValues || [])];
+    if (ench) {
+      // Parse the range and default to max value
+      const parsed = parseEnchantmentRange(ench.description);
+      v[i] = parsed ? parsed.max : null;
+    } else {
+      v[i] = null;
+    }
+    onConfigChange({ ...safeConfig, enchantments: n, enchantmentValues: v });
     setActiveEnchantSlot(null);
+  }
+
+  function setEnchantmentValue(i: number, value: number) {
+    const v = [...(safeConfig.enchantmentValues || [])];
+    v[i] = value;
+    onConfigChange({ ...safeConfig, enchantmentValues: v });
   }
 
   function setUpgradeLevel(level: number) {
@@ -524,6 +546,8 @@ export default function ItemConfigPanel({
                   currentGroup={safeConfig.enchantments[i]?.group}
                   exaltedCount={exaltedCount}
                   currentIsExalted={safeConfig.enchantments[i]?.rarity === "plagued"}
+                  enchantValue={safeConfig.enchantmentValues?.[i] ?? null}
+                  onValueChange={(v) => setEnchantmentValue(i, v)}
                 />
               ))}
 
@@ -550,6 +574,8 @@ export default function ItemConfigPanel({
                 currentGroup={undefined}
                 exaltedCount={0}
                 currentIsExalted={false}
+                enchantValue={safeConfig.enchantmentValues?.[enchantLimits.positive] ?? null}
+                onValueChange={(v) => setEnchantmentValue(enchantLimits.positive, v)}
               />
             </div>
           </Section>
@@ -609,7 +635,7 @@ function PickerSlot({ label, selected, icon, isOpen, onOpen, onClear, onClose, c
   );
 }
 
-function EnchantSlot({ index, ench, isDownside, isActive, onOpen, onClear, onSelect, enchantSearch, onSearchChange, availableEnchants, usedGroups, currentGroup, exaltedCount, currentIsExalted }: {
+function EnchantSlot({ index, ench, isDownside, isActive, onOpen, onClear, onSelect, enchantSearch, onSearchChange, availableEnchants, usedGroups, currentGroup, exaltedCount, currentIsExalted, enchantValue, onValueChange }: {
   index: number;
   ench: EnchantData | null;
   isDownside: boolean;
@@ -624,6 +650,8 @@ function EnchantSlot({ index, ench, isDownside, isActive, onOpen, onClear, onSel
   currentGroup: string | undefined;
   exaltedCount: number;
   currentIsExalted: boolean;
+  enchantValue: number | null;
+  onValueChange: (v: number) => void;
 }) {
   if (isActive) {
     return (
@@ -650,24 +678,67 @@ function EnchantSlot({ index, ench, isDownside, isActive, onOpen, onClear, onSel
     );
   }
 
+  // Parse the enchantment to get range for editable value
+  const parsed = ench ? parseEnchantmentRange(ench.description) : null;
+  const hasRange = parsed && parsed.min !== parsed.max;
+
+  // Build display text with editable value replacing the range
+  function renderEnchantText() {
+    if (!ench) return null;
+    if (!parsed || !hasRange) {
+      return <span className={`text-xs ${isDownside ? "text-red-300" : "text-text-primary"}`}>{ench.description}</span>;
+    }
+    // Replace the "X%-Y%" range in description with an input
+    const rangeStr = `${parsed.min}${parsed.isPercent ? "%" : ""}-${parsed.max}${parsed.isPercent ? "%" : ""}`;
+    const parts = ench.description.split(rangeStr);
+    if (parts.length < 2) {
+      return <span className={`text-xs ${isDownside ? "text-red-300" : "text-text-primary"}`}>{ench.description}</span>;
+    }
+    const currentVal = enchantValue ?? parsed.max;
+    return (
+      <span className={`text-xs ${isDownside ? "text-red-300" : "text-text-primary"} inline-flex items-center gap-0.5 flex-wrap`}>
+        {parts[0]}
+        <input
+          type="number"
+          value={currentVal}
+          min={parsed.min}
+          max={parsed.max}
+          step={parsed.isPercent && parsed.max <= 10 ? 1 : 1}
+          onClick={(e) => e.stopPropagation()}
+          onChange={(e) => {
+            const v = parseFloat(e.target.value);
+            if (!isNaN(v)) {
+              onValueChange(Math.min(parsed.max, Math.max(parsed.min, v)));
+            }
+          }}
+          className="w-10 text-center bg-bg-primary border border-accent-gold/40 rounded px-0.5 py-0 text-xs font-bold text-accent-gold focus:outline-none focus:border-accent-gold"
+        />
+        {parsed.isPercent ? "%" : ""}
+        {parts[1]}
+      </span>
+    );
+  }
+
   return (
-    <button onClick={onOpen}
+    <div onClick={!ench ? onOpen : undefined}
       className={`w-full text-left p-2.5 rounded-lg border text-sm transition-colors ${
         ench
-          ? isDownside ? "bg-red-900/20 border-red-400/30 hover:border-red-400/60" : "bg-bg-card border-border-subtle hover:border-accent-gold/40"
-          : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"
+          ? isDownside ? "bg-red-900/20 border-red-400/30" : "bg-bg-card border-border-subtle"
+          : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40 cursor-pointer"
       }`}>
       {ench ? (
         <div className="flex items-center gap-2">
           <span className={`w-2 h-2 rounded-full shrink-0 ${isDownside ? "bg-red-400" : ench.rarity === "plagued" ? "bg-rarity-exalted" : "bg-rarity-rare"}`} />
-          <span className={`text-xs ${isDownside ? "text-red-300" : "text-text-primary"}`}>{ench.description}</span>
-          {!isDownside && <span className="text-[10px] text-text-secondary/50 ml-auto shrink-0">[{ench.group}]</span>}
+          <div className="flex-1 min-w-0">{renderEnchantText()}</div>
+          {!isDownside && <span className="text-[10px] text-text-secondary/50 shrink-0">[{ench.group}]</span>}
+          <button onClick={(e) => { e.stopPropagation(); onOpen(); }} className="text-[10px] text-text-secondary hover:text-accent-gold shrink-0 px-1">&#x270E;</button>
+          <button onClick={(e) => { e.stopPropagation(); onClear(); }} className="text-[10px] text-red-400/50 hover:text-red-400 shrink-0 px-1">&#x2715;</button>
         </div>
       ) : (
         <span className={`text-xs ${isDownside ? "text-red-400/50" : "text-text-secondary/50"}`}>
           + Add {isDownside ? "Downside" : "Enchantment"}
         </span>
       )}
-    </button>
+    </div>
   );
 }
