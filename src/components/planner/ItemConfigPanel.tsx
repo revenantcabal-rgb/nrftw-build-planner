@@ -34,6 +34,8 @@ interface GemData {
   id: string;
   name: string;
   icon?: string;
+  effects?: string[];
+  description?: string;
 }
 
 interface FacetEffect {
@@ -398,8 +400,14 @@ export default function ItemConfigPanel({
                 <button onClick={() => setGem(null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">Clear</button>
                 {filteredGems.map((g) => (
                   <button key={g.id} onClick={() => setGem(g)}
-                    className="w-full text-left px-2 py-1 text-xs text-text-primary hover:bg-bg-card-hover rounded flex items-center gap-2">
-                    <ItemIcon icon={g.icon} size={18} /><span className="truncate">{g.name}</span>
+                    className="w-full text-left px-2 py-1.5 text-xs hover:bg-bg-card-hover rounded">
+                    <div className="flex items-center gap-2">
+                      <ItemIcon icon={g.icon} size={18} />
+                      <span className="text-text-primary truncate font-medium">{g.name}</span>
+                    </div>
+                    {g.effects && g.effects.length > 0 && (
+                      <div className="ml-7 mt-0.5 text-[10px] text-green-400/80">{g.effects[0]}</div>
+                    )}
                   </button>
                 ))}
               </div>
@@ -407,7 +415,12 @@ export default function ItemConfigPanel({
               <button onClick={() => { setActiveGemSlot(true); setGemSearch(""); }}
                 className={`w-full text-left p-3 rounded-lg border text-sm transition-colors ${safeConfig.gem ? "bg-bg-card border-border-subtle hover:border-accent-gold/40" : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"}`}>
                 {safeConfig.gem ? (
-                  <div className="flex items-center gap-2"><ItemIcon icon={safeConfig.gem.icon} size={20} /><span className="text-text-primary">{safeConfig.gem.name}</span></div>
+                  <div>
+                    <div className="flex items-center gap-2"><ItemIcon icon={safeConfig.gem.icon} size={20} /><span className="text-text-primary font-medium">{safeConfig.gem.name}</span></div>
+                    {safeConfig.gem.effects && safeConfig.gem.effects.length > 0 && (
+                      <div className="text-xs text-green-400 mt-1 ml-7">{safeConfig.gem.effects[0]}</div>
+                    )}
+                  </div>
                 ) : (
                   <span className="text-text-secondary/50">+ Add Gem</span>
                 )}
@@ -415,48 +428,50 @@ export default function ItemConfigPanel({
             )}
           </Section>
 
-          {/* Enchantments */}
+          {/* Enchantments - 4 positive + 1 downside */}
           <Section title={`Enchantments (Max: 5)`} subtitle={`Exalted (${exaltedCount}/4)`}>
             <div className="space-y-2">
-              {safeConfig.enchantments.map((ench, i) => (
-                <div key={i}>
-                  {activeEnchantSlot === i ? (
-                    <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-60 overflow-y-auto">
-                      <input type="text" placeholder="Search enchantments..." value={enchantSearch} onChange={(e) => setEnchantSearch(e.target.value)} autoFocus
-                        className="w-full px-2 py-1 bg-bg-primary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
-                      <button onClick={() => setEnchantment(i, null)} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">Clear</button>
-                      {filteredEnchants.map((e, j) => {
-                        const isGroupBlocked = usedGroups.has(e.group) && safeConfig.enchantments[i]?.group !== e.group;
-                        const isExaltedBlocked = e.rarity === "plagued" && exaltedCount >= 4 && safeConfig.enchantments[i]?.rarity !== "plagued";
-                        const blocked = isGroupBlocked || isExaltedBlocked;
-                        return (
-                          <button key={j} onClick={() => !blocked && setEnchantment(i, e)} disabled={blocked}
-                            className={`w-full text-left px-2 py-1.5 rounded text-xs transition-colors ${blocked ? "opacity-30 cursor-not-allowed" : "hover:bg-bg-card-hover"}`}>
-                            <div className="flex items-center gap-2">
-                              <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${e.rarity === "plagued" ? "bg-rarity-exalted" : "bg-rarity-rare"}`} />
-                              <span className="text-text-primary">{e.description}</span>
-                            </div>
-                            <span className="text-text-secondary/50 ml-4 text-[10px]">[{e.group}]</span>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  ) : (
-                    <button onClick={() => { setActiveEnchantSlot(i); setEnchantSearch(""); }}
-                      className={`w-full text-left p-2.5 rounded-lg border text-sm transition-colors ${ench ? "bg-bg-card border-border-subtle hover:border-accent-gold/40" : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"}`}>
-                      {ench ? (
-                        <div className="flex items-center gap-2">
-                          <span className={`w-2 h-2 rounded-full shrink-0 ${ench.rarity === "plagued" ? "bg-rarity-exalted" : "bg-rarity-rare"}`} />
-                          <span className="text-xs text-text-primary">{ench.description}</span>
-                          <span className="text-[10px] text-text-secondary/50 ml-auto shrink-0">[{ench.group}]</span>
-                        </div>
-                      ) : (
-                        <span className="text-xs text-text-secondary/50">+ Add Enchantment</span>
-                      )}
-                    </button>
-                  )}
-                </div>
+              {/* 4 Positive enchantment slots */}
+              {safeConfig.enchantments.slice(0, 4).map((ench, i) => (
+                <EnchantSlot key={i} index={i} ench={ench} isDownside={false}
+                  isActive={activeEnchantSlot === i}
+                  onOpen={() => { setActiveEnchantSlot(i); setEnchantSearch(""); }}
+                  onClear={() => setEnchantment(i, null)}
+                  onSelect={(e) => setEnchantment(i, e)}
+                  enchantSearch={enchantSearch}
+                  onSearchChange={setEnchantSearch}
+                  availableEnchants={filteredEnchants.filter(e => e.rarity !== "downsides")}
+                  usedGroups={usedGroups}
+                  currentGroup={safeConfig.enchantments[i]?.group}
+                  exaltedCount={exaltedCount}
+                  currentIsExalted={safeConfig.enchantments[i]?.rarity === "plagued"}
+                />
               ))}
+
+              {/* Divider */}
+              <div className="border-t border-border-subtle pt-2 mt-2">
+                <div className="text-[10px] text-red-400/60 uppercase tracking-wide mb-1">Downside (5th slot)</div>
+              </div>
+
+              {/* 1 Downside enchantment slot */}
+              <EnchantSlot index={4} ench={safeConfig.enchantments[4] || null} isDownside={true}
+                isActive={activeEnchantSlot === 4}
+                onOpen={() => { setActiveEnchantSlot(4); setEnchantSearch(""); }}
+                onClear={() => setEnchantment(4, null)}
+                onSelect={(e) => setEnchantment(4, e)}
+                enchantSearch={enchantSearch}
+                onSearchChange={setEnchantSearch}
+                availableEnchants={
+                  (enchantSearch
+                    ? slotEnchantments.filter(e => e.rarity === "downsides" && e.description.toLowerCase().includes(enchantSearch.toLowerCase()))
+                    : slotEnchantments.filter(e => e.rarity === "downsides")
+                  )
+                }
+                usedGroups={new Set()}
+                currentGroup={undefined}
+                exaltedCount={0}
+                currentIsExalted={false}
+              />
             </div>
           </Section>
         </div>
@@ -510,6 +525,69 @@ function PickerSlot({ label, selected, icon, isOpen, onOpen, onClear, onClose, c
         </div>
       ) : (
         <span className="text-xs text-text-secondary/50">+ {label}</span>
+      )}
+    </button>
+  );
+}
+
+function EnchantSlot({ index, ench, isDownside, isActive, onOpen, onClear, onSelect, enchantSearch, onSearchChange, availableEnchants, usedGroups, currentGroup, exaltedCount, currentIsExalted }: {
+  index: number;
+  ench: EnchantData | null;
+  isDownside: boolean;
+  isActive: boolean;
+  onOpen: () => void;
+  onClear: () => void;
+  onSelect: (e: EnchantData) => void;
+  enchantSearch: string;
+  onSearchChange: (v: string) => void;
+  availableEnchants: EnchantData[];
+  usedGroups: Set<string>;
+  currentGroup: string | undefined;
+  exaltedCount: number;
+  currentIsExalted: boolean;
+}) {
+  if (isActive) {
+    return (
+      <div className="bg-bg-card rounded-lg border border-accent-gold/40 p-2 max-h-60 overflow-y-auto">
+        <input type="text" placeholder="Search enchantments..." value={enchantSearch} onChange={(e) => onSearchChange(e.target.value)} autoFocus
+          className="w-full px-2 py-1 bg-bg-primary border border-border-subtle rounded text-xs text-text-primary mb-1 focus:outline-none" />
+        <button onClick={onClear} className="w-full text-left px-2 py-1 text-xs text-text-secondary hover:bg-bg-card-hover rounded italic">Clear</button>
+        {availableEnchants.map((e, j) => {
+          const isGroupBlocked = !isDownside && usedGroups.has(e.group) && currentGroup !== e.group;
+          const isExaltedBlocked = !isDownside && e.rarity === "plagued" && exaltedCount >= 4 && !currentIsExalted;
+          const blocked = isGroupBlocked || isExaltedBlocked;
+          return (
+            <button key={j} onClick={() => !blocked && onSelect(e)} disabled={blocked}
+              className={`w-full text-left px-2 py-1.5 rounded text-xs transition-colors ${blocked ? "opacity-30 cursor-not-allowed" : "hover:bg-bg-card-hover"}`}>
+              <div className="flex items-center gap-2">
+                <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${isDownside ? "bg-red-400" : e.rarity === "plagued" ? "bg-rarity-exalted" : "bg-rarity-rare"}`} />
+                <span className={isDownside ? "text-red-300" : "text-text-primary"}>{e.description}</span>
+              </div>
+              {!isDownside && <span className="text-text-secondary/50 ml-4 text-[10px]">[{e.group}]</span>}
+            </button>
+          );
+        })}
+      </div>
+    );
+  }
+
+  return (
+    <button onClick={onOpen}
+      className={`w-full text-left p-2.5 rounded-lg border text-sm transition-colors ${
+        ench
+          ? isDownside ? "bg-red-900/20 border-red-400/30 hover:border-red-400/60" : "bg-bg-card border-border-subtle hover:border-accent-gold/40"
+          : "bg-bg-card/50 border-border-subtle border-dashed hover:border-accent-gold/40"
+      }`}>
+      {ench ? (
+        <div className="flex items-center gap-2">
+          <span className={`w-2 h-2 rounded-full shrink-0 ${isDownside ? "bg-red-400" : ench.rarity === "plagued" ? "bg-rarity-exalted" : "bg-rarity-rare"}`} />
+          <span className={`text-xs ${isDownside ? "text-red-300" : "text-text-primary"}`}>{ench.description}</span>
+          {!isDownside && <span className="text-[10px] text-text-secondary/50 ml-auto shrink-0">[{ench.group}]</span>}
+        </div>
+      ) : (
+        <span className={`text-xs ${isDownside ? "text-red-400/50" : "text-text-secondary/50"}`}>
+          + Add {isDownside ? "Downside" : "Enchantment"}
+        </span>
       )}
     </button>
   );

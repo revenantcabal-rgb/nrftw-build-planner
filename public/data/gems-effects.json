@@ -1,0 +1,275 @@
+[
+  {
+    "id": "3309518401243604794",
+    "name": "Chipped Amethyst",
+    "effects": [
+      "Gain  Plague Infusion",
+      "Deal 15%  Plague Damage on Block",
+      "Enchantment Power increased by 20% if it's the only elemental Gem",
+      "Enchantment Power increased by 20% if it's the only elemental Gem",
+      "Enchantment Power increased by 20% if it's the only elemental Gem",
+      "Enchantment Power increased by 20% if it's the only elemental Gem"
+    ],
+    "href": "/db/gems/3309518401243604794"
+  },
+  {
+    "id": "3468961015894704486",
+    "name": "Chipped Black Pearl",
+    "effects": [
+      "Enchantment Power increased by 40% at Low Health",
+      "Enchantment Power increased by 40% at Low Health",
+      "Enchantment Power increased by 40% at Low Health",
+      "Enchantment Power increased by 40% at Low Health",
+      "Enchantment Power increased by 40% at Low Health",
+      "Enchantment Power increased by 40% at Low Health"
+    ],
+    "href": "/db/gems/3468961015894704486"
+  },
+  {
+    "id": "2723586631354824235",
+    "name": "Chipped Blood Stone",
+    "effects": [
+      "Gain 10%  Lifesteal",
+      "Gain 8%  Lifesteal",
+      "Gain 20%  Regainable Health",
+      "Gain 20%  Regainable Health",
+      "Gain 20%  Regainable Health",
+      "Gain 25%  Regainable Health"
+    ],
+    "href": "/db/gems/2723586631354824235"
+  },
+  {
+    "id": "2825364970668741043",
+    "name": "Chipped Diamond",
+    "effects": [],
+    "href": "/db/gems/2825364970668741043"
+  },
+  {
+    "id": "2048554267325085923",
+    "name": "Chipped Dianite",
+    "effects": [],
+    "href": "/db/gems/2048554267325085923"
+  },
+  {
+    "id": "3681256810326729351",
+    "name": "Chipped Emerald",
+    "effects": [],
+    "href": "/db/gems/3681256810326729351"
+  },
+  {
+    "id": "2707064685416276085",
+    "name": "Chipped Granite",
+    "effects": [],
+    "href": "/db/gems/2707064685416276085"
+  },
+  {
+    "id": "994150335710522137",
+    "name": "Chipped Jade",
+    "effects": [],
+    "href": "/db/gems/994150335710522137"
+  },
+  {
+    "id": "79543393030588856",
+    "name": "Chipped Jewel",
+    "effects": [],
+    "href": "/db/gems/79543393030588856"
+  },
+  {
+    "id": "2330777079347888372",
+    "name": "Chipped Marble",
+    "effects": [],
+    "href": "/db/gems/2330777079347888372"
+  },
+  {
+    "id": "402303035105344293",
+    "name": "Chipped Meteorite",
+    "effects": [],
+    "href": "/db/gems/402303035105344293"
+  },
+  {
+    "id": "2862022067196058174",
+    "name": "Chipped Moon Stone",
+    "effects": [],
+    "href": "/db/gems/2862022067196058174"
+  },
+  {
+    "id": "2735561799846330604",
+    "name": "Chipped Quartz",
+    "effects": [],
+    "href": "/db/gems/2735561799846330604"
+  },
+  {
+    "id": "3187871656023379566",
+    "name": "Chipped Ruby",
+    "effects": [],
+    "href": "/db/gems/3187871656023379566"
+  },
+  {
+    "id": "1269306428342547616",
+    "name": "Chipped Sapphire",
+    "effects": [],
+    "href": "/db/gems/1269306428342547616"
+  },
+  {
+    "id": "2945949552161393074",
+    "name": "Chipped Shield Emblem",
+    "effects": [],
+    "href": "/db/gems/2945949552161393074"
+  },
+  {
+    "id": "4080977350168865337",
+    "name": "Chipped Spike",
+    "effects": [],
+    "href": "/db/gems/4080977350168865337"
+  },
+  {
+    "id": "114142808936367436",
+    "name": "Chipped Topaz",
+    "effects": [],
+    "href": "/db/gems/114142808936367436"
+  },
+  {
+    "id": "2773338231326825262",
+    "name": "Medium Skull",
+    "effects": [],
+    "href": "/db/gems/2773338231326825262"
+  },
+  {
+    "id": "206083998685700718",
+    "name": "Mottled Amethyst",
+    "effects": [],
+    "href": "/db/gems/206083998685700718"
+  },
+  {
+    "id": "615858493199977727",
+    "name": "Mottled Black Pearl",
+    "effects": [],
+    "href": "/db/gems/615858493199977727"
+  },
+  {
+    "id": "4534125204586717504",
+    "name": "Mottled Blood Stone",
+    "effects": [],
+    "href": "/db/gems/4534125204586717504"
+  },
+  {
+    "id": "3280555658014278183",
+    "name": "Mottled Diamond",
+    "effects": [],
+    "href": "/db/gems/3280555658014278183"
+  },
+  {
+    "id": "454208163797452614",
+    "name": "Mottled Dianite",
+    "effects": [],
+    "href": "/db/gems/454208163797452614"
+  },
+  {
+    "id": "2640926775338220803",
+    "name": "Mottled Emerald",
+    "effects": [],
+    "href": "/db/gems/2640926775338220803"
+  },
+  {
+    "id": "1115869939666077150",
+    "name": "Mottled Fang",
+    "effects": [],
+    "href": "/db/gems/1115869939666077150"
+  },
+  {
+    "id": "3757540824998934065",
+    "name": "Mottled Feather",
+    "effects": [],
+    "href": "/db/gems/3757540824998934065"
+  },
+  {
+    "id": "2880778102785673664",
+    "name": "Mottled Granite",
+    "effects": [],
+    "href": "/db/gems/2880778102785673664"
+  },
+  {
+    "id": "4420616226298857783",
+    "name": "Mottled Jade",
+    "effects": [],
+    "href": "/db/gems/4420616226298857783"
+  },
+  {
+    "id": "533322098818691501",
+    "name": "Mottled Jewel",
+    "effects": [],
+    "href": "/db/gems/533322098818691501"
+  },
+  {
+    "id": "1326706488000359489",
+    "name": "Mottled Marble",
+    "effects": [],
+    "href": "/db/gems/1326706488000359489"
+  },
+  {
+    "id": "2291772681299188761",
+    "name": "Mottled Meteorite",
+    "effects": [],
+    "href": "/db/gems/2291772681299188761"
+  },
+  {
+    "id": "4046087583196257739",
+    "name": "Mottled Moon Stone",
+    "effects": [],
+    "href": "/db/gems/4046087583196257739"
+  },
+  {
+    "id": "2128332953717762977",
+    "name": "Mottled Quartz",
+    "effects": [],
+    "href": "/db/gems/2128332953717762977"
+  },
+  {
+    "id": "2071496264251315353",
+    "name": "Mottled Ruby",
+    "effects": [],
+    "href": "/db/gems/2071496264251315353"
+  },
+  {
+    "id": "2222609349130386545",
+    "name": "Mottled Sapphire",
+    "effects": [],
+    "href": "/db/gems/2222609349130386545"
+  },
+  {
+    "id": "1332005863549342815",
+    "name": "Mottled Shield Emblem",
+    "effects": [],
+    "href": "/db/gems/1332005863549342815"
+  },
+  {
+    "id": "3416366013415042330",
+    "name": "Mottled Spike",
+    "effects": [],
+    "href": "/db/gems/3416366013415042330"
+  },
+  {
+    "id": "2585957416119043746",
+    "name": "Mottled Topaz",
+    "effects": [],
+    "href": "/db/gems/2585957416119043746"
+  },
+  {
+    "id": "1295494016809672370",
+    "name": "Small Skull",
+    "effects": [],
+    "href": "/db/gems/1295494016809672370"
+  },
+  {
+    "id": "61995666478825046",
+    "name": "Tiny Fang",
+    "effects": [],
+    "href": "/db/gems/61995666478825046"
+  },
+  {
+    "id": "2973054046766731971",
+    "name": "Tiny Feather",
+    "effects": [],
+    "href": "/db/gems/2973054046766731971"
+  }
+]
