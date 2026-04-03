@@ -159,8 +159,10 @@ export function computeWeaponBaseStats(
     let value = cfg.value * itemMod * classBase;
 
     // Damage (stat 0) scales with upgrade level
+    // Growth per level = base / 5 = (cfg.value * itemMod * classBase) / 5
     if (statIdx === 0 && upgradeLevel > 1) {
-      value += cfg.value * itemMod * (upgradeLevel - 1);
+      const growthPerLevel = cfg.value * itemMod * classBase / 5;
+      value += growthPerLevel * (upgradeLevel - 1);
     }
 
     // Format: percentage stats display differently
